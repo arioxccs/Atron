@@ -168,9 +168,9 @@
             Teste.AutoSize = true;
             Teste.Location = new Point(239, 158);
             Teste.Name = "Teste";
-            Teste.Size = new Size(44, 15);
+            Teste.Size = new Size(67, 15);
             Teste.TabIndex = 0;
-            Teste.Text = "Testess";
+            Teste.Text = "Testessasds";
             Teste.Click += Teste_Click;
             // 
             // FrmEstoquePrincipal
