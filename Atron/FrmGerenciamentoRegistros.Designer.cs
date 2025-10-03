@@ -48,18 +48,18 @@
             // lbl_GerenciamentodeRegistros
             // 
             lbl_GerenciamentodeRegistros.AutoSize = true;
-            lbl_GerenciamentodeRegistros.Font = new Font("Bebas Neue", 51.75F, FontStyle.Underline, GraphicsUnit.Point, 0);
+            lbl_GerenciamentodeRegistros.Font = new Font("Microsoft Sans Serif", 51.75F, FontStyle.Underline, GraphicsUnit.Point, 0);
             lbl_GerenciamentodeRegistros.ForeColor = Color.FromArgb(255, 122, 0);
             lbl_GerenciamentodeRegistros.Location = new Point(12, 18);
             lbl_GerenciamentodeRegistros.Name = "lbl_GerenciamentodeRegistros";
-            lbl_GerenciamentodeRegistros.Size = new Size(684, 90);
+            lbl_GerenciamentodeRegistros.Size = new Size(908, 79);
             lbl_GerenciamentodeRegistros.TabIndex = 0;
             lbl_GerenciamentodeRegistros.Text = "Gerenciamento de Registros";
             // 
             // button1
             // 
             button1.BackColor = Color.FromArgb(75, 193, 196);
-            button1.Font = new Font("Bebas Neue", 50.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.Font = new Font("Microsoft Sans Serif", 50.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.White;
             button1.Image = (Image)resources.GetObject("button1.Image");
             button1.ImageAlign = ContentAlignment.BottomRight;
@@ -75,7 +75,7 @@
             // button2
             // 
             button2.BackColor = Color.FromArgb(194, 91, 184);
-            button2.Font = new Font("Bebas Neue", 50.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button2.Font = new Font("Microsoft Sans Serif", 50.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button2.ForeColor = Color.White;
             button2.Image = (Image)resources.GetObject("button2.Image");
             button2.ImageAlign = ContentAlignment.BottomRight;
@@ -92,7 +92,7 @@
             // button3
             // 
             button3.BackColor = Color.FromArgb(91, 103, 194);
-            button3.Font = new Font("Bebas Neue", 39.7499924F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button3.Font = new Font("Microsoft Sans Serif", 39.7499924F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button3.ForeColor = Color.White;
             button3.Image = (Image)resources.GetObject("button3.Image");
             button3.ImageAlign = ContentAlignment.BottomRight;
@@ -108,11 +108,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Roboto Medium", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(10, 53, 87);
             label1.Location = new Point(50, 458);
             label1.Name = "label1";
-            label1.Size = new Size(452, 38);
+            label1.Size = new Size(454, 37);
             label1.TabIndex = 4;
             label1.Text = "Entradas no estoque recente";
             // 
@@ -140,11 +140,11 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Roboto Medium", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Microsoft Sans Serif", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(255, 122, 0);
             label2.Location = new Point(16, 16);
             label2.Name = "label2";
-            label2.Size = new Size(229, 39);
+            label2.Size = new Size(227, 38);
             label2.TabIndex = 0;
             label2.Text = "Camisa Preta";
             label2.Click += label2_Click;
@@ -174,13 +174,13 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Font = new Font("Roboto Medium", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.Font = new Font("Microsoft Sans Serif", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ForeColor = Color.FromArgb(255, 122, 0);
             label6.Location = new Point(15, 16);
             label6.Name = "label6";
-            label6.Size = new Size(229, 39);
+            label6.Size = new Size(237, 38);
             label6.TabIndex = 0;
-            label6.Text = "Camisa Preta";
+            label6.Text = "Camisa Pretta";
             // 
             // label5
             // 
