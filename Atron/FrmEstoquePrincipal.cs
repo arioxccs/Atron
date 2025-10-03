@@ -53,5 +53,10 @@ namespace Atron
             ActiveButton(btn_RegistrarMenu);
             FormShow(new FrmGerenciamentoRegistros());
         }
+
+        private void Teste_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

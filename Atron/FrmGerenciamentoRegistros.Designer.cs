@@ -178,9 +178,10 @@
             label6.ForeColor = Color.FromArgb(255, 122, 0);
             label6.Location = new Point(15, 16);
             label6.Name = "label6";
-            label6.Size = new Size(237, 38);
+            label6.Size = new Size(227, 38);
             label6.TabIndex = 0;
-            label6.Text = "Camisa Pretta";
+            label6.Text = "Camisa Preta";
+            label6.Click += label6_Click;
             // 
             // label5
             // 

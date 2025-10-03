@@ -38,9 +38,11 @@
             pictureBox2 = new PictureBox();
             panel2 = new Panel();
             panelForm = new Panel();
+            Teste = new Label();
             panel_MenuEstoque.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            panelForm.SuspendLayout();
             SuspendLayout();
             // 
             // panel_MenuEstoque
@@ -62,7 +64,7 @@
             btn_HistoricoMenu.FlatAppearance.BorderSize = 0;
             btn_HistoricoMenu.FlatAppearance.MouseOverBackColor = Color.FromArgb(137, 81, 41);
             btn_HistoricoMenu.FlatStyle = FlatStyle.Flat;
-            btn_HistoricoMenu.Font = new Font("Lato", 11.25F);
+            btn_HistoricoMenu.Font = new Font("Microsoft Sans Serif", 11.25F);
             btn_HistoricoMenu.ForeColor = Color.White;
             btn_HistoricoMenu.Image = (Image)resources.GetObject("btn_HistoricoMenu.Image");
             btn_HistoricoMenu.Location = new Point(12, 258);
@@ -80,7 +82,7 @@
             btn_PedidosMenu.FlatAppearance.BorderSize = 0;
             btn_PedidosMenu.FlatAppearance.MouseOverBackColor = Color.FromArgb(137, 81, 41);
             btn_PedidosMenu.FlatStyle = FlatStyle.Flat;
-            btn_PedidosMenu.Font = new Font("Lato", 11.25F);
+            btn_PedidosMenu.Font = new Font("Microsoft Sans Serif", 11.25F);
             btn_PedidosMenu.ForeColor = Color.White;
             btn_PedidosMenu.Image = (Image)resources.GetObject("btn_PedidosMenu.Image");
             btn_PedidosMenu.Location = new Point(12, 184);
@@ -97,7 +99,7 @@
             btn_ConsultarMenu.FlatAppearance.BorderSize = 0;
             btn_ConsultarMenu.FlatAppearance.MouseOverBackColor = Color.FromArgb(137, 81, 41);
             btn_ConsultarMenu.FlatStyle = FlatStyle.Flat;
-            btn_ConsultarMenu.Font = new Font("Lato", 11.25F);
+            btn_ConsultarMenu.Font = new Font("Microsoft Sans Serif", 11.25F);
             btn_ConsultarMenu.ForeColor = Color.White;
             btn_ConsultarMenu.Image = (Image)resources.GetObject("btn_ConsultarMenu.Image");
             btn_ConsultarMenu.Location = new Point(12, 110);
@@ -114,7 +116,7 @@
             btn_RegistrarMenu.FlatAppearance.BorderSize = 0;
             btn_RegistrarMenu.FlatAppearance.MouseOverBackColor = Color.FromArgb(137, 81, 41);
             btn_RegistrarMenu.FlatStyle = FlatStyle.Flat;
-            btn_RegistrarMenu.Font = new Font("Lato", 11.25F);
+            btn_RegistrarMenu.Font = new Font("Microsoft Sans Serif", 11.25F);
             btn_RegistrarMenu.ForeColor = Color.White;
             btn_RegistrarMenu.Image = (Image)resources.GetObject("btn_RegistrarMenu.Image");
             btn_RegistrarMenu.Location = new Point(12, 36);
@@ -155,10 +157,21 @@
             // 
             // panelForm
             // 
+            panelForm.Controls.Add(Teste);
             panelForm.Location = new Point(115, 63);
             panelForm.Name = "panelForm";
             panelForm.Size = new Size(1312, 827);
             panelForm.TabIndex = 3;
+            // 
+            // Teste
+            // 
+            Teste.AutoSize = true;
+            Teste.Location = new Point(239, 158);
+            Teste.Name = "Teste";
+            Teste.Size = new Size(67, 15);
+            Teste.TabIndex = 0;
+            Teste.Text = "Testessasds";
+            Teste.Click += Teste_Click;
             // 
             // FrmEstoquePrincipal
             // 
@@ -174,6 +187,8 @@
             panel_MenuEstoque.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            panelForm.ResumeLayout(false);
+            panelForm.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -188,5 +203,6 @@
         private PictureBox pictureBox2;
         private Panel panel2;
         private Panel panelForm;
+        private Label Teste;
     }
 }
