@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atron", "Atron\Atron.csproj", "{6FC46EBC-4BF6-4E00-9CC8-8F09EE2C4F3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{86024AB5-9E2E-4906-AA93-23F19EC5C7A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FC46EBC-4BF6-4E00-9CC8-8F09EE2C4F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FC46EBC-4BF6-4E00-9CC8-8F09EE2C4F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FC46EBC-4BF6-4E00-9CC8-8F09EE2C4F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FC46EBC-4BF6-4E00-9CC8-8F09EE2C4F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
