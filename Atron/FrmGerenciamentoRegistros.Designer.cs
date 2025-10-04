@@ -47,23 +47,23 @@
             label8 = new Label();
             label9 = new Label();
             panel4 = new Panel();
-            label10 = new Label();
-            label11 = new Label();
             panel5 = new Panel();
             label12 = new Label();
             label13 = new Label();
+            label10 = new Label();
+            label11 = new Label();
             panel6 = new Panel();
-            label14 = new Label();
-            label15 = new Label();
             panel7 = new Panel();
             label16 = new Label();
             label17 = new Label();
+            label14 = new Label();
+            label15 = new Label();
             panel8 = new Panel();
-            label18 = new Label();
-            label19 = new Label();
             panel9 = new Panel();
             label20 = new Label();
             label21 = new Label();
+            label18 = new Label();
+            label19 = new Label();
             panel10 = new Panel();
             label22 = new Label();
             label23 = new Label();
@@ -177,6 +177,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = SystemColors.Control;
             label2.Font = new Font("Microsoft Sans Serif", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(255, 122, 0);
             label2.Location = new Point(13, 16);
@@ -295,28 +296,6 @@
             panel4.Size = new Size(250, 95);
             panel4.TabIndex = 9;
             // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label10.ForeColor = Color.FromArgb(99, 131, 157);
-            label10.Location = new Point(18, 61);
-            label10.Name = "label10";
-            label10.Size = new Size(92, 14);
-            label10.TabIndex = 2;
-            label10.Text = "Marca: Adidas";
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label11.ForeColor = Color.FromArgb(255, 122, 0);
-            label11.Location = new Point(18, 16);
-            label11.Name = "label11";
-            label11.Size = new Size(204, 33);
-            label11.TabIndex = 0;
-            label11.Text = "Camisa Preta";
-            // 
             // panel5
             // 
             panel5.BorderStyle = BorderStyle.FixedSingle;
@@ -349,6 +328,28 @@
             label13.TabIndex = 0;
             label13.Text = "Corda de PVC";
             // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label10.ForeColor = Color.FromArgb(99, 131, 157);
+            label10.Location = new Point(18, 61);
+            label10.Name = "label10";
+            label10.Size = new Size(92, 14);
+            label10.TabIndex = 2;
+            label10.Text = "Marca: Adidas";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label11.ForeColor = Color.FromArgb(255, 122, 0);
+            label11.Location = new Point(18, 16);
+            label11.Name = "label11";
+            label11.Size = new Size(204, 33);
+            label11.TabIndex = 0;
+            label11.Text = "Camisa Preta";
+            // 
             // panel6
             // 
             panel6.BorderStyle = BorderStyle.FixedSingle;
@@ -359,28 +360,6 @@
             panel6.Name = "panel6";
             panel6.Size = new Size(250, 95);
             panel6.TabIndex = 10;
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label14.ForeColor = Color.FromArgb(99, 131, 157);
-            label14.Location = new Point(18, 61);
-            label14.Name = "label14";
-            label14.Size = new Size(92, 14);
-            label14.TabIndex = 2;
-            label14.Text = "Marca: Adidas";
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label15.ForeColor = Color.FromArgb(255, 122, 0);
-            label15.Location = new Point(18, 16);
-            label15.Name = "label15";
-            label15.Size = new Size(204, 33);
-            label15.TabIndex = 0;
-            label15.Text = "Camisa Preta";
             // 
             // panel7
             // 
@@ -414,6 +393,28 @@
             label17.TabIndex = 0;
             label17.Text = "Corda de PVC";
             // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label14.ForeColor = Color.FromArgb(99, 131, 157);
+            label14.Location = new Point(18, 61);
+            label14.Name = "label14";
+            label14.Size = new Size(92, 14);
+            label14.TabIndex = 2;
+            label14.Text = "Marca: Adidas";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label15.ForeColor = Color.FromArgb(255, 122, 0);
+            label15.Location = new Point(18, 16);
+            label15.Name = "label15";
+            label15.Size = new Size(204, 33);
+            label15.TabIndex = 0;
+            label15.Text = "Camisa Preta";
+            // 
             // panel8
             // 
             panel8.BorderStyle = BorderStyle.FixedSingle;
@@ -424,28 +425,6 @@
             panel8.Name = "panel8";
             panel8.Size = new Size(250, 95);
             panel8.TabIndex = 11;
-            // 
-            // label18
-            // 
-            label18.AutoSize = true;
-            label18.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label18.ForeColor = Color.FromArgb(99, 131, 157);
-            label18.Location = new Point(18, 61);
-            label18.Name = "label18";
-            label18.Size = new Size(92, 14);
-            label18.TabIndex = 2;
-            label18.Text = "Marca: Adidas";
-            // 
-            // label19
-            // 
-            label19.AutoSize = true;
-            label19.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label19.ForeColor = Color.FromArgb(255, 122, 0);
-            label19.Location = new Point(18, 16);
-            label19.Name = "label19";
-            label19.Size = new Size(204, 33);
-            label19.TabIndex = 0;
-            label19.Text = "Camisa Preta";
             // 
             // panel9
             // 
@@ -478,6 +457,28 @@
             label21.Size = new Size(213, 33);
             label21.TabIndex = 0;
             label21.Text = "Corda de PVC";
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Font = new Font("Arial Rounded MT Bold", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label18.ForeColor = Color.FromArgb(99, 131, 157);
+            label18.Location = new Point(18, 61);
+            label18.Name = "label18";
+            label18.Size = new Size(92, 14);
+            label18.TabIndex = 2;
+            label18.Text = "Marca: Adidas";
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label19.ForeColor = Color.FromArgb(255, 122, 0);
+            label19.Location = new Point(18, 16);
+            label19.Name = "label19";
+            label19.Size = new Size(204, 33);
+            label19.TabIndex = 0;
+            label19.Text = "Camisa Preta";
             // 
             // panel10
             // 
