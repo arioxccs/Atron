@@ -19,7 +19,8 @@ namespace Atron
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            FrmGerenciamentoRegistros FrmGerenciamentoRegistros = new FrmGerenciamentoRegistros();
+            FrmGerenciamentoRegistros.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

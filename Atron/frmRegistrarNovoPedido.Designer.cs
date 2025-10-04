@@ -67,6 +67,7 @@
             pnlCancelado = new Panel();
             rbtnCancelado = new RadioButton();
             label4 = new Label();
+            panel1 = new Panel();
             pnlSolicitado.SuspendLayout();
             pnlAguardandoAprovacao.SuspendLayout();
             pnlAprovado.SuspendLayout();
@@ -78,11 +79,11 @@
             // lblRegistrarNovoPedido
             // 
             lblRegistrarNovoPedido.AutoSize = true;
-            lblRegistrarNovoPedido.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Underline, GraphicsUnit.Point, 0);
+            lblRegistrarNovoPedido.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblRegistrarNovoPedido.ForeColor = Color.FromArgb(255, 122, 0);
-            lblRegistrarNovoPedido.Location = new Point(172, 43);
+            lblRegistrarNovoPedido.Location = new Point(202, 28);
             lblRegistrarNovoPedido.Name = "lblRegistrarNovoPedido";
-            lblRegistrarNovoPedido.Size = new Size(435, 37);
+            lblRegistrarNovoPedido.Size = new Size(373, 31);
             lblRegistrarNovoPedido.TabIndex = 0;
             lblRegistrarNovoPedido.Text = "REGISTRAR NOVO PEDIDO";
             lblRegistrarNovoPedido.TextAlign = ContentAlignment.MiddleCenter;
@@ -90,7 +91,7 @@
             // txtFornecedor
             // 
             txtFornecedor.BackColor = Color.FromArgb(255, 180, 100);
-            txtFornecedor.ForeColor = SystemColors.WindowFrame;
+            txtFornecedor.ForeColor = Color.Black;
             txtFornecedor.Location = new Point(68, 117);
             txtFornecedor.Name = "txtFornecedor";
             txtFornecedor.Size = new Size(213, 23);
@@ -202,6 +203,7 @@
             // txtCodFornecedor
             // 
             txtCodFornecedor.BackColor = Color.FromArgb(255, 180, 100);
+            txtCodFornecedor.ForeColor = Color.Black;
             txtCodFornecedor.Location = new Point(299, 117);
             txtCodFornecedor.Name = "txtCodFornecedor";
             txtCodFornecedor.Size = new Size(100, 23);
@@ -220,6 +222,7 @@
             // textBox3
             // 
             textBox3.BackColor = Color.FromArgb(255, 180, 100);
+            textBox3.ForeColor = Color.Black;
             textBox3.Location = new Point(68, 307);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(331, 23);
@@ -238,6 +241,7 @@
             // txtFormaPag
             // 
             txtFormaPag.BackColor = Color.FromArgb(255, 180, 100);
+            txtFormaPag.ForeColor = Color.Black;
             txtFormaPag.Location = new Point(68, 257);
             txtFormaPag.Name = "txtFormaPag";
             txtFormaPag.Size = new Size(213, 23);
@@ -266,6 +270,7 @@
             // txtBox
             // 
             txtBox.BackColor = Color.FromArgb(255, 180, 100);
+            txtBox.ForeColor = Color.Black;
             txtBox.Location = new Point(437, 117);
             txtBox.Name = "txtBox";
             txtBox.Size = new Size(222, 23);
@@ -274,6 +279,7 @@
             // mktDataChegada
             // 
             mktDataChegada.BackColor = Color.FromArgb(255, 180, 100);
+            mktDataChegada.ForeColor = Color.Black;
             mktDataChegada.Location = new Point(68, 214);
             mktDataChegada.Mask = "00/00/0000";
             mktDataChegada.Name = "mktDataChegada";
@@ -283,6 +289,7 @@
             // cbxSelecionarProdutos
             // 
             cbxSelecionarProdutos.BackColor = Color.FromArgb(255, 180, 100);
+            cbxSelecionarProdutos.ForeColor = Color.Black;
             cbxSelecionarProdutos.FormattingEnabled = true;
             cbxSelecionarProdutos.Location = new Point(68, 161);
             cbxSelecionarProdutos.Name = "cbxSelecionarProdutos";
@@ -461,11 +468,20 @@
             label4.Size = new Size(0, 15);
             label4.TabIndex = 40;
             // 
+            // panel1
+            // 
+            panel1.BackColor = Color.FromArgb(224, 224, 224);
+            panel1.Location = new Point(190, 72);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(400, 2);
+            panel1.TabIndex = 41;
+            // 
             // frmRegistrarNovoPedido
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(panel1);
             Controls.Add(label4);
             Controls.Add(pnlCancelado);
             Controls.Add(pnlEntregue);
@@ -501,6 +517,7 @@
             Controls.Add(lblRegistrarNovoPedido);
             Name = "frmRegistrarNovoPedido";
             Text = "frmRegistrarNovoPedido";
+            WindowState = FormWindowState.Maximized;
             Load += frmRegistrarNovoPedido_Load;
             pnlSolicitado.ResumeLayout(false);
             pnlSolicitado.PerformLayout();
@@ -559,5 +576,6 @@
         private Panel pnlCancelado;
         private RadioButton rbtnCancelado;
         private Label label4;
+        private Panel panel1;
     }
 }

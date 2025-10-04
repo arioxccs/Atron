@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.DataFormats;
 
 namespace Atron
 {
@@ -39,12 +40,14 @@ namespace Atron
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            frmRegistrarNovoPedido frmRegistrarNovoPedido = new frmRegistrarNovoPedido();
+            frmRegistrarNovoPedido.Show();
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            frmRegistrarNovoPedido frmRegistrarNovoPedido = new frmRegistrarNovoPedido();
+            frmRegistrarNovoPedido.Show();
         }
     }
 }
