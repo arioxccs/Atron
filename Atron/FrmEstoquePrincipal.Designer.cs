@@ -38,11 +38,9 @@
             pictureBox2 = new PictureBox();
             panel2 = new Panel();
             panelForm = new Panel();
-            Teste = new Label();
             panel_MenuEstoque.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            panelForm.SuspendLayout();
             SuspendLayout();
             // 
             // panel_MenuEstoque
@@ -157,21 +155,10 @@
             // 
             // panelForm
             // 
-            panelForm.Controls.Add(Teste);
             panelForm.Location = new Point(115, 63);
             panelForm.Name = "panelForm";
             panelForm.Size = new Size(1312, 827);
             panelForm.TabIndex = 3;
-            // 
-            // Teste
-            // 
-            Teste.AutoSize = true;
-            Teste.Location = new Point(239, 158);
-            Teste.Name = "Teste";
-            Teste.Size = new Size(67, 15);
-            Teste.TabIndex = 0;
-            Teste.Text = "Testessasds";
-            Teste.Click += Teste_Click;
             // 
             // FrmEstoquePrincipal
             // 
@@ -187,8 +174,6 @@
             panel_MenuEstoque.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            panelForm.ResumeLayout(false);
-            panelForm.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -203,6 +188,5 @@
         private PictureBox pictureBox2;
         private Panel panel2;
         private Panel panelForm;
-        private Label Teste;
     }
 }
