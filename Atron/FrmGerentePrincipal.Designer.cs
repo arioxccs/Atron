@@ -30,16 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGerentePrincipal));
             pictureBox2 = new PictureBox();
-            panel_MenuEstoque = new Panel();
+            panel_MenuGerente = new Panel();
+            panel1 = new Panel();
+            btn_pedidosMenuGerente = new Button();
+            btn_ClienteMenuGerente = new Button();
             btn_DespesasMenuGerente = new Button();
             btn_FuncionariosMenuGerente = new Button();
             btn_EstoqueMenuGerente = new Button();
             btn_VendasMenuGerente = new Button();
             pictureBox1 = new PictureBox();
-            btn_ClienteMenuGerente = new Button();
-            btn_pedidosMenuGerente = new Button();
+            panelGerente = new Panel();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            panel_MenuEstoque.SuspendLayout();
+            panel_MenuGerente.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -56,20 +58,63 @@
             pictureBox2.TabIndex = 4;
             pictureBox2.TabStop = false;
             // 
-            // panel_MenuEstoque
+            // panel_MenuGerente
             // 
-            panel_MenuEstoque.BackColor = Color.FromArgb(255, 179, 92);
-            panel_MenuEstoque.Controls.Add(btn_pedidosMenuGerente);
-            panel_MenuEstoque.Controls.Add(btn_ClienteMenuGerente);
-            panel_MenuEstoque.Controls.Add(btn_DespesasMenuGerente);
-            panel_MenuEstoque.Controls.Add(btn_FuncionariosMenuGerente);
-            panel_MenuEstoque.Controls.Add(btn_EstoqueMenuGerente);
-            panel_MenuEstoque.Controls.Add(btn_VendasMenuGerente);
-            panel_MenuEstoque.Controls.Add(pictureBox1);
-            panel_MenuEstoque.Location = new Point(0, 61);
-            panel_MenuEstoque.Name = "panel_MenuEstoque";
-            panel_MenuEstoque.Size = new Size(120, 830);
-            panel_MenuEstoque.TabIndex = 3;
+            panel_MenuGerente.BackColor = Color.FromArgb(255, 179, 92);
+            panel_MenuGerente.Controls.Add(panel1);
+            panel_MenuGerente.Controls.Add(btn_pedidosMenuGerente);
+            panel_MenuGerente.Controls.Add(btn_ClienteMenuGerente);
+            panel_MenuGerente.Controls.Add(btn_DespesasMenuGerente);
+            panel_MenuGerente.Controls.Add(btn_FuncionariosMenuGerente);
+            panel_MenuGerente.Controls.Add(btn_EstoqueMenuGerente);
+            panel_MenuGerente.Controls.Add(btn_VendasMenuGerente);
+            panel_MenuGerente.Controls.Add(pictureBox1);
+            panel_MenuGerente.Location = new Point(0, 61);
+            panel_MenuGerente.Name = "panel_MenuGerente";
+            panel_MenuGerente.Size = new Size(120, 830);
+            panel_MenuGerente.TabIndex = 3;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.White;
+            panel1.Location = new Point(123, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1312, 827);
+            panel1.TabIndex = 5;
+            // 
+            // btn_pedidosMenuGerente
+            // 
+            btn_pedidosMenuGerente.BackColor = Color.FromArgb(255, 179, 92);
+            btn_pedidosMenuGerente.FlatAppearance.BorderSize = 0;
+            btn_pedidosMenuGerente.FlatAppearance.MouseOverBackColor = Color.FromArgb(137, 81, 41);
+            btn_pedidosMenuGerente.FlatStyle = FlatStyle.Flat;
+            btn_pedidosMenuGerente.Font = new Font("Microsoft Sans Serif", 11.25F);
+            btn_pedidosMenuGerente.ForeColor = Color.White;
+            btn_pedidosMenuGerente.Image = (Image)resources.GetObject("btn_pedidosMenuGerente.Image");
+            btn_pedidosMenuGerente.Location = new Point(12, 406);
+            btn_pedidosMenuGerente.Name = "btn_pedidosMenuGerente";
+            btn_pedidosMenuGerente.Size = new Size(94, 68);
+            btn_pedidosMenuGerente.TabIndex = 9;
+            btn_pedidosMenuGerente.Text = "Pedidos";
+            btn_pedidosMenuGerente.TextImageRelation = TextImageRelation.ImageAboveText;
+            btn_pedidosMenuGerente.UseVisualStyleBackColor = false;
+            // 
+            // btn_ClienteMenuGerente
+            // 
+            btn_ClienteMenuGerente.BackColor = Color.FromArgb(255, 179, 92);
+            btn_ClienteMenuGerente.FlatAppearance.BorderSize = 0;
+            btn_ClienteMenuGerente.FlatAppearance.MouseOverBackColor = Color.FromArgb(137, 81, 41);
+            btn_ClienteMenuGerente.FlatStyle = FlatStyle.Flat;
+            btn_ClienteMenuGerente.Font = new Font("Microsoft Sans Serif", 11.25F);
+            btn_ClienteMenuGerente.ForeColor = Color.White;
+            btn_ClienteMenuGerente.Image = (Image)resources.GetObject("btn_ClienteMenuGerente.Image");
+            btn_ClienteMenuGerente.Location = new Point(12, 332);
+            btn_ClienteMenuGerente.Name = "btn_ClienteMenuGerente";
+            btn_ClienteMenuGerente.Size = new Size(94, 68);
+            btn_ClienteMenuGerente.TabIndex = 8;
+            btn_ClienteMenuGerente.Text = "Clientes";
+            btn_ClienteMenuGerente.TextImageRelation = TextImageRelation.ImageAboveText;
+            btn_ClienteMenuGerente.UseVisualStyleBackColor = false;
             // 
             // btn_DespesasMenuGerente
             // 
@@ -147,51 +192,27 @@
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
             // 
-            // btn_ClienteMenuGerente
+            // panelGerente
             // 
-            btn_ClienteMenuGerente.BackColor = Color.FromArgb(255, 179, 92);
-            btn_ClienteMenuGerente.FlatAppearance.BorderSize = 0;
-            btn_ClienteMenuGerente.FlatAppearance.MouseOverBackColor = Color.FromArgb(137, 81, 41);
-            btn_ClienteMenuGerente.FlatStyle = FlatStyle.Flat;
-            btn_ClienteMenuGerente.Font = new Font("Microsoft Sans Serif", 11.25F);
-            btn_ClienteMenuGerente.ForeColor = Color.White;
-            btn_ClienteMenuGerente.Image = (Image)resources.GetObject("btn_ClienteMenuGerente.Image");
-            btn_ClienteMenuGerente.Location = new Point(12, 332);
-            btn_ClienteMenuGerente.Name = "btn_ClienteMenuGerente";
-            btn_ClienteMenuGerente.Size = new Size(94, 68);
-            btn_ClienteMenuGerente.TabIndex = 8;
-            btn_ClienteMenuGerente.Text = "Clientes";
-            btn_ClienteMenuGerente.TextImageRelation = TextImageRelation.ImageAboveText;
-            btn_ClienteMenuGerente.UseVisualStyleBackColor = false;
-            // 
-            // btn_pedidosMenuGerente
-            // 
-            btn_pedidosMenuGerente.BackColor = Color.FromArgb(255, 179, 92);
-            btn_pedidosMenuGerente.FlatAppearance.BorderSize = 0;
-            btn_pedidosMenuGerente.FlatAppearance.MouseOverBackColor = Color.FromArgb(137, 81, 41);
-            btn_pedidosMenuGerente.FlatStyle = FlatStyle.Flat;
-            btn_pedidosMenuGerente.Font = new Font("Microsoft Sans Serif", 11.25F);
-            btn_pedidosMenuGerente.ForeColor = Color.White;
-            btn_pedidosMenuGerente.Image = (Image)resources.GetObject("btn_pedidosMenuGerente.Image");
-            btn_pedidosMenuGerente.Location = new Point(12, 406);
-            btn_pedidosMenuGerente.Name = "btn_pedidosMenuGerente";
-            btn_pedidosMenuGerente.Size = new Size(94, 68);
-            btn_pedidosMenuGerente.TabIndex = 9;
-            btn_pedidosMenuGerente.Text = "Pedidos";
-            btn_pedidosMenuGerente.TextImageRelation = TextImageRelation.ImageAboveText;
-            btn_pedidosMenuGerente.UseVisualStyleBackColor = false;
+            panelGerente.BackColor = Color.White;
+            panelGerente.Location = new Point(120, 64);
+            panelGerente.Name = "panelGerente";
+            panelGerente.Size = new Size(1312, 827);
+            panelGerente.TabIndex = 5;
             // 
             // FrmGerentePrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1424, 891);
+            Controls.Add(panelGerente);
             Controls.Add(pictureBox2);
-            Controls.Add(panel_MenuEstoque);
+            Controls.Add(panel_MenuGerente);
             Name = "FrmGerentePrincipal";
             Text = "FrmGerentePrincipal";
+            Load += FrmGerentePrincipal_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            panel_MenuEstoque.ResumeLayout(false);
+            panel_MenuGerente.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
@@ -199,7 +220,7 @@
         #endregion
 
         private PictureBox pictureBox2;
-        private Panel panel_MenuEstoque;
+        private Panel panel_MenuGerente;
         private Button btn_DespesasMenuGerente;
         private Button btn_FuncionariosMenuGerente;
         private Button btn_EstoqueMenuGerente;
@@ -207,5 +228,7 @@
         private PictureBox pictureBox1;
         private Button btn_pedidosMenuGerente;
         private Button btn_ClienteMenuGerente;
+        private Panel panel1;
+        private Panel panelGerente;
     }
 }

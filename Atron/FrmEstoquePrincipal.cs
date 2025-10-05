@@ -23,7 +23,7 @@ namespace Atron
             ActiveFormClose();
             frmAtivo = frm;
             frm.TopLevel = false;
-            panelForm.Controls.Add(frm);
+            panelGerente.Controls.Add(frm);
             frm.BringToFront();
             frm.Show();
 

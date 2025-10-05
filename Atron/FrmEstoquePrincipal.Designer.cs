@@ -37,7 +37,7 @@
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             panel2 = new Panel();
-            panelForm = new Panel();
+            panelGerente = new Panel();
             panel_MenuEstoque.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -154,20 +154,20 @@
             panel2.Size = new Size(1312, 827);
             panel2.TabIndex = 3;
             // 
-            // panelForm
+            // panelGerente
             // 
-            panelForm.BackColor = Color.White;
-            panelForm.Location = new Point(115, 63);
-            panelForm.Name = "panelForm";
-            panelForm.Size = new Size(1312, 827);
-            panelForm.TabIndex = 3;
+            panelGerente.BackColor = Color.White;
+            panelGerente.Location = new Point(115, 63);
+            panelGerente.Name = "panelGerente";
+            panelGerente.Size = new Size(1312, 827);
+            panelGerente.TabIndex = 3;
             // 
             // FrmEstoquePrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1424, 891);
-            Controls.Add(panelForm);
+            Controls.Add(panelGerente);
             Controls.Add(panel2);
             Controls.Add(pictureBox2);
             Controls.Add(panel_MenuEstoque);
@@ -189,6 +189,6 @@
         private Button btn_PedidosMenuEstoque;
         private PictureBox pictureBox2;
         private Panel panel2;
-        private Panel panelForm;
+        private Panel panelGerente;
     }
 }

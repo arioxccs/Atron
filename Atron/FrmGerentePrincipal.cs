@@ -12,9 +12,40 @@ namespace Atron
 {
     public partial class FrmGerentePrincipal : Form
     {
+        private Form frmAtivo;
         public FrmGerentePrincipal()
         {
             InitializeComponent();
+        }
+
+        private void FormShow(Form frm)
+        {
+            ActiveFormClose();
+            frmAtivo = frm;
+            frm.TopLevel = false;
+            panelGerente.Controls.Add(frm);
+            frm.BringToFront();
+            frm.Show();
+
+        }
+
+        private void ActiveFormClose()
+        {
+            if (frmAtivo != null)
+                frmAtivo.Close();
+        }
+
+        private void ActiveButton(Button frmAtivo)
+        {
+            foreach (Control ctrl in panel_MenuGerente.Controls)
+                ctrl.BackColor = Color.FromArgb(255, 151, 54);
+
+            frmAtivo.BackColor = Color.FromArgb(137, 81, 41);
+        }
+
+        private void FrmGerentePrincipal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
