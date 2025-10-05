@@ -50,7 +50,7 @@ namespace Atron
 
         private void btn_RegistrarMenu_Click(object sender, EventArgs e)
         {
-            ActiveButton(btn_RegistrarMenu);
+            ActiveButton(btn_RegistrarMenuEstoque);
             FormShow(new FrmGerenciamentoRegistros());
         }
 
