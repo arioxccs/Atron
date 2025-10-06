@@ -51,7 +51,7 @@
             mktDataChegada = new MaskedTextBox();
             cbxSelecionarProdutos = new ComboBox();
             btnMais = new Button();
-            button2 = new Button();
+            btnRegistraPedido = new Button();
             label1 = new Label();
             label3 = new Label();
             rbtnSolicitado = new RadioButton();
@@ -79,11 +79,11 @@
             // lblRegistrarNovoPedido
             // 
             lblRegistrarNovoPedido.AutoSize = true;
-            lblRegistrarNovoPedido.Font = new Font("Microsoft Sans Serif", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblRegistrarNovoPedido.Font = new Font("Bebas Neue", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblRegistrarNovoPedido.ForeColor = Color.FromArgb(255, 122, 0);
-            lblRegistrarNovoPedido.Location = new Point(202, 28);
+            lblRegistrarNovoPedido.Location = new Point(299, 19);
             lblRegistrarNovoPedido.Name = "lblRegistrarNovoPedido";
-            lblRegistrarNovoPedido.Size = new Size(373, 31);
+            lblRegistrarNovoPedido.Size = new Size(215, 35);
             lblRegistrarNovoPedido.TabIndex = 0;
             lblRegistrarNovoPedido.Text = "REGISTRAR NOVO PEDIDO";
             lblRegistrarNovoPedido.TextAlign = ContentAlignment.MiddleCenter;
@@ -100,62 +100,66 @@
             // lblFornecedor
             // 
             lblFornecedor.AutoSize = true;
-            lblFornecedor.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblFornecedor.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblFornecedor.ForeColor = Color.FromArgb(42, 97, 141);
             lblFornecedor.Location = new Point(68, 99);
             lblFornecedor.Name = "lblFornecedor";
-            lblFornecedor.Size = new Size(70, 15);
+            lblFornecedor.Size = new Size(71, 14);
             lblFornecedor.TabIndex = 2;
             lblFornecedor.Text = "Fornecedor:";
             // 
             // label2
             // 
             label2.AutoSize = true;
+            label2.Font = new Font("Roboto", 9F);
             label2.ForeColor = Color.FromArgb(42, 97, 141);
-            label2.Location = new Point(68, 196);
+            label2.Location = new Point(68, 193);
             label2.Name = "label2";
-            label2.Size = new Size(100, 15);
+            label2.Size = new Size(104, 14);
             label2.TabIndex = 3;
             label2.Text = "Data de Chegada:";
             // 
             // lblFormaPag
             // 
             lblFormaPag.AutoSize = true;
+            lblFormaPag.Font = new Font("Roboto", 9F);
             lblFormaPag.ForeColor = Color.FromArgb(42, 97, 141);
             lblFormaPag.Location = new Point(68, 239);
             lblFormaPag.Name = "lblFormaPag";
-            lblFormaPag.Size = new Size(124, 15);
+            lblFormaPag.Size = new Size(129, 14);
             lblFormaPag.TabIndex = 4;
             lblFormaPag.Text = "Forma de Pagamento:";
             // 
             // lblObs
             // 
             lblObs.AutoSize = true;
+            lblObs.Font = new Font("Roboto", 9F);
             lblObs.ForeColor = Color.FromArgb(42, 97, 141);
-            lblObs.Location = new Point(68, 289);
+            lblObs.Location = new Point(68, 288);
             lblObs.Name = "lblObs";
-            lblObs.Size = new Size(77, 15);
+            lblObs.Size = new Size(79, 14);
             lblObs.TabIndex = 5;
             lblObs.Text = "Observações:";
             // 
             // label5
             // 
             label5.AutoSize = true;
+            label5.Font = new Font("Roboto", 9F);
             label5.ForeColor = Color.FromArgb(42, 97, 141);
-            label5.Location = new Point(437, 99);
+            label5.Location = new Point(437, 100);
             label5.Name = "label5";
-            label5.Size = new Size(54, 15);
+            label5.Size = new Size(55, 14);
             label5.TabIndex = 6;
             label5.Text = "Imagem:";
             // 
             // lblStatusPedido
             // 
             lblStatusPedido.AutoSize = true;
-            lblStatusPedido.Font = new Font("Segoe UI", 9F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
+            lblStatusPedido.Font = new Font("Roboto", 9F);
             lblStatusPedido.ForeColor = Color.FromArgb(255, 122, 0);
             lblStatusPedido.Location = new Point(437, 161);
             lblStatusPedido.Name = "lblStatusPedido";
-            lblStatusPedido.Size = new Size(138, 15);
+            lblStatusPedido.Size = new Size(138, 14);
             lblStatusPedido.TabIndex = 7;
             lblStatusPedido.Text = "Status Inicial do Pedido:";
             lblStatusPedido.Click += label6_Click;
@@ -163,40 +167,44 @@
             // lblSolicitado
             // 
             lblSolicitado.AutoSize = true;
+            lblSolicitado.Font = new Font("Roboto", 9F);
             lblSolicitado.ForeColor = Color.FromArgb(42, 97, 141);
             lblSolicitado.Location = new Point(486, 195);
             lblSolicitado.Name = "lblSolicitado";
-            lblSolicitado.Size = new Size(59, 15);
+            lblSolicitado.Size = new Size(61, 14);
             lblSolicitado.TabIndex = 9;
             lblSolicitado.Text = "Solicitado";
             // 
             // lblSelecionarProdutos
             // 
             lblSelecionarProdutos.AutoSize = true;
+            lblSelecionarProdutos.Font = new Font("Roboto", 9F);
             lblSelecionarProdutos.ForeColor = Color.FromArgb(42, 97, 141);
-            lblSelecionarProdutos.Location = new Point(68, 143);
+            lblSelecionarProdutos.Location = new Point(68, 144);
             lblSelecionarProdutos.Name = "lblSelecionarProdutos";
-            lblSelecionarProdutos.Size = new Size(115, 15);
+            lblSelecionarProdutos.Size = new Size(119, 14);
             lblSelecionarProdutos.TabIndex = 10;
             lblSelecionarProdutos.Text = "Selecionar Produtos:";
             // 
             // lblCodFornecedor
             // 
             lblCodFornecedor.AutoSize = true;
+            lblCodFornecedor.Font = new Font("Roboto", 9F);
             lblCodFornecedor.ForeColor = Color.FromArgb(42, 97, 141);
-            lblCodFornecedor.Location = new Point(299, 99);
+            lblCodFornecedor.Location = new Point(299, 100);
             lblCodFornecedor.Name = "lblCodFornecedor";
-            lblCodFornecedor.Size = new Size(129, 15);
+            lblCodFornecedor.Size = new Size(130, 14);
             lblCodFornecedor.TabIndex = 11;
             lblCodFornecedor.Text = "Código do Fornecedor:";
             // 
             // lblAguardandoAprov
             // 
             lblAguardandoAprov.AutoSize = true;
+            lblAguardandoAprov.Font = new Font("Roboto", 9F);
             lblAguardandoAprov.ForeColor = Color.FromArgb(42, 97, 141);
             lblAguardandoAprov.Location = new Point(486, 218);
             lblAguardandoAprov.Name = "lblAguardandoAprov";
-            lblAguardandoAprov.Size = new Size(131, 15);
+            lblAguardandoAprov.Size = new Size(136, 14);
             lblAguardandoAprov.TabIndex = 13;
             lblAguardandoAprov.Text = "Aguardando aprovação";
             // 
@@ -212,10 +220,11 @@
             // lblEmAndamento
             // 
             lblEmAndamento.AutoSize = true;
+            lblEmAndamento.Font = new Font("Roboto", 9F);
             lblEmAndamento.ForeColor = Color.FromArgb(42, 97, 141);
             lblEmAndamento.Location = new Point(486, 265);
             lblEmAndamento.Name = "lblEmAndamento";
-            lblEmAndamento.Size = new Size(88, 15);
+            lblEmAndamento.Size = new Size(91, 14);
             lblEmAndamento.TabIndex = 15;
             lblEmAndamento.Text = "Em andamento";
             // 
@@ -231,10 +240,11 @@
             // lblAprovado
             // 
             lblAprovado.AutoSize = true;
+            lblAprovado.Font = new Font("Roboto", 9F);
             lblAprovado.ForeColor = Color.FromArgb(42, 97, 141);
             lblAprovado.Location = new Point(486, 240);
             lblAprovado.Name = "lblAprovado";
-            lblAprovado.Size = new Size(59, 15);
+            lblAprovado.Size = new Size(60, 14);
             lblAprovado.TabIndex = 17;
             lblAprovado.Text = "Aprovado";
             // 
@@ -242,7 +252,7 @@
             // 
             txtFormaPag.BackColor = Color.FromArgb(255, 180, 100);
             txtFormaPag.ForeColor = Color.Black;
-            txtFormaPag.Location = new Point(68, 257);
+            txtFormaPag.Location = new Point(68, 258);
             txtFormaPag.Name = "txtFormaPag";
             txtFormaPag.Size = new Size(213, 23);
             txtFormaPag.TabIndex = 16;
@@ -250,22 +260,25 @@
             // lblEntregue
             // 
             lblEntregue.AutoSize = true;
+            lblEntregue.Font = new Font("Roboto", 9F);
             lblEntregue.ForeColor = Color.FromArgb(42, 97, 141);
             lblEntregue.Location = new Point(486, 288);
             lblEntregue.Name = "lblEntregue";
-            lblEntregue.Size = new Size(54, 15);
+            lblEntregue.Size = new Size(55, 14);
             lblEntregue.TabIndex = 19;
             lblEntregue.Text = "Entregue";
             // 
             // lblCancelado
             // 
             lblCancelado.AutoSize = true;
+            lblCancelado.Font = new Font("Roboto", 9F);
             lblCancelado.ForeColor = Color.FromArgb(42, 97, 141);
-            lblCancelado.Location = new Point(486, 308);
+            lblCancelado.Location = new Point(486, 312);
             lblCancelado.Name = "lblCancelado";
-            lblCancelado.Size = new Size(63, 15);
+            lblCancelado.Size = new Size(65, 14);
             lblCancelado.TabIndex = 21;
             lblCancelado.Text = "Cancelado";
+            lblCancelado.Click += lblCancelado_Click;
             // 
             // txtBox
             // 
@@ -280,7 +293,7 @@
             // 
             mktDataChegada.BackColor = Color.FromArgb(255, 180, 100);
             mktDataChegada.ForeColor = Color.Black;
-            mktDataChegada.Location = new Point(68, 214);
+            mktDataChegada.Location = new Point(68, 209);
             mktDataChegada.Mask = "00/00/0000";
             mktDataChegada.Name = "mktDataChegada";
             mktDataChegada.Size = new Size(100, 23);
@@ -309,19 +322,19 @@
             btnMais.UseVisualStyleBackColor = false;
             btnMais.Click += button1_Click;
             // 
-            // button2
+            // btnRegistraPedido
             // 
-            button2.BackColor = Color.FromArgb(255, 180, 100);
-            button2.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.ForeColor = Color.White;
-            button2.Location = new Point(660, 377);
-            button2.Name = "button2";
-            button2.Size = new Size(95, 47);
-            button2.TabIndex = 32;
-            button2.Text = "Registrar Pedido";
-            button2.TextAlign = ContentAlignment.MiddleLeft;
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            btnRegistraPedido.BackColor = Color.FromArgb(255, 180, 100);
+            btnRegistraPedido.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnRegistraPedido.ForeColor = Color.White;
+            btnRegistraPedido.Location = new Point(660, 377);
+            btnRegistraPedido.Name = "btnRegistraPedido";
+            btnRegistraPedido.Size = new Size(95, 47);
+            btnRegistraPedido.TabIndex = 32;
+            btnRegistraPedido.Text = "Registrar Pedido";
+            btnRegistraPedido.TextAlign = ContentAlignment.MiddleLeft;
+            btnRegistraPedido.UseVisualStyleBackColor = false;
+            btnRegistraPedido.Click += button2_Click;
             // 
             // label1
             // 
@@ -490,7 +503,7 @@
             Controls.Add(pnlAguardandoAprovacao);
             Controls.Add(label3);
             Controls.Add(label1);
-            Controls.Add(button2);
+            Controls.Add(btnRegistraPedido);
             Controls.Add(pnlSolicitado);
             Controls.Add(btnMais);
             Controls.Add(cbxSelecionarProdutos);
@@ -560,7 +573,7 @@
         private MaskedTextBox mktDataChegada;
         private ComboBox cbxSelecionarProdutos;
         private Button btnMais;
-        private Button button2;
+        private Button btnRegistraPedido;
         private Label label1;
         private Label label3;
         private RadioButton rbtnSolicitado;
