@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGerentePrincipal));
             pictureBox2 = new PictureBox();
             panel_MenuGerente = new Panel();
+            panelEstoque = new Panel();
+            panelGerente = new Panel();
             panel1 = new Panel();
             btn_pedidosMenuGerente = new Button();
             btn_ClienteMenuGerente = new Button();
@@ -39,7 +41,7 @@
             btn_EstoqueMenuGerente = new Button();
             btn_VendasMenuGerente = new Button();
             pictureBox1 = new PictureBox();
-            panelGerente = new Panel();
+            panel2 = new Panel();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel_MenuGerente.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -61,6 +63,8 @@
             // panel_MenuGerente
             // 
             panel_MenuGerente.BackColor = Color.FromArgb(255, 179, 92);
+            panel_MenuGerente.Controls.Add(panelEstoque);
+            panel_MenuGerente.Controls.Add(panelGerente);
             panel_MenuGerente.Controls.Add(panel1);
             panel_MenuGerente.Controls.Add(btn_pedidosMenuGerente);
             panel_MenuGerente.Controls.Add(btn_ClienteMenuGerente);
@@ -73,6 +77,22 @@
             panel_MenuGerente.Name = "panel_MenuGerente";
             panel_MenuGerente.Size = new Size(120, 830);
             panel_MenuGerente.TabIndex = 3;
+            // 
+            // panelEstoque
+            // 
+            panelEstoque.BackColor = Color.White;
+            panelEstoque.Location = new Point(120, 3);
+            panelEstoque.Name = "panelEstoque";
+            panelEstoque.Size = new Size(1312, 827);
+            panelEstoque.TabIndex = 5;
+            // 
+            // panelGerente
+            // 
+            panelGerente.BackColor = Color.White;
+            panelGerente.Location = new Point(120, 0);
+            panelGerente.Name = "panelGerente";
+            panelGerente.Size = new Size(1312, 827);
+            panelGerente.TabIndex = 5;
             // 
             // panel1
             // 
@@ -183,6 +203,7 @@
             btn_VendasMenuGerente.Text = "Vendas";
             btn_VendasMenuGerente.TextImageRelation = TextImageRelation.ImageAboveText;
             btn_VendasMenuGerente.UseVisualStyleBackColor = false;
+            btn_VendasMenuGerente.Click += btn_VendasMenuGerente_Click;
             // 
             // pictureBox1
             // 
@@ -192,20 +213,19 @@
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
             // 
-            // panelGerente
+            // panel2
             // 
-            panelGerente.BackColor = Color.White;
-            panelGerente.Location = new Point(120, 64);
-            panelGerente.Name = "panelGerente";
-            panelGerente.Size = new Size(1312, 827);
-            panelGerente.TabIndex = 5;
+            panel2.Location = new Point(120, 64);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1312, 827);
+            panel2.TabIndex = 5;
             // 
             // FrmGerentePrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1424, 891);
-            Controls.Add(panelGerente);
+            Controls.Add(panel2);
             Controls.Add(pictureBox2);
             Controls.Add(panel_MenuGerente);
             Name = "FrmGerentePrincipal";
@@ -230,5 +250,7 @@
         private Button btn_ClienteMenuGerente;
         private Panel panel1;
         private Panel panelGerente;
+        private Panel panelEstoque;
+        private Panel panel2;
     }
 }

@@ -23,7 +23,7 @@ namespace Atron
             ActiveFormClose();
             frmAtivo = frm;
             frm.TopLevel = false;
-            panelGerente.Controls.Add(frm);
+            panelEstoque.Controls.Add(frm);
             frm.BringToFront();
             frm.Show();
 
@@ -55,6 +55,11 @@ namespace Atron
         }
 
         private void Teste_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmEstoquePrincipal_Load(object sender, EventArgs e)
         {
 
         }

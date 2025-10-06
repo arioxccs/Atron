@@ -12,18 +12,20 @@ namespace Atron
 {
     public partial class FrmGerentePrincipal : Form
     {
-        private Form frmAtivo;
+        
         public FrmGerentePrincipal()
         {
             InitializeComponent();
         }
+
+        private Form frmAtivo;
 
         private void FormShow(Form frm)
         {
             ActiveFormClose();
             frmAtivo = frm;
             frm.TopLevel = false;
-            panelGerente.Controls.Add(frm);
+            panel2.Controls.Add(frm);
             frm.BringToFront();
             frm.Show();
 
@@ -46,6 +48,12 @@ namespace Atron
         private void FrmGerentePrincipal_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_VendasMenuGerente_Click(object sender, EventArgs e)
+        {
+            ActiveButton(btn_VendasMenuGerente);
+            FormShow(new FrmResumoVendas());
         }
     }
 }
