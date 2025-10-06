@@ -66,7 +66,7 @@
             txt_CodigoLogin.BackColor = Color.White;
             txt_CodigoLogin.Font = new Font("Lato", 23.9999962F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txt_CodigoLogin.ForeColor = Color.Black;
-            txt_CodigoLogin.Location = new Point(265, 324);
+            txt_CodigoLogin.Location = new Point(265, 333);
             txt_CodigoLogin.Name = "txt_CodigoLogin";
             txt_CodigoLogin.PlaceholderText = "  Código";
             txt_CodigoLogin.Size = new Size(826, 46);
