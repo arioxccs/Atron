@@ -20,7 +20,8 @@ namespace Atron
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            frmRegistrarNovoProduto frmRegistrarNovoProduto = new frmRegistrarNovoProduto();
+            frmRegistrarNovoProduto.Show();
         }
 
         private void label2_Click(object sender, EventArgs e)
