@@ -81,7 +81,7 @@
             lblRegistrarNovoPedido.AutoSize = true;
             lblRegistrarNovoPedido.Font = new Font("Bebas Neue", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblRegistrarNovoPedido.ForeColor = Color.FromArgb(255, 122, 0);
-            lblRegistrarNovoPedido.Location = new Point(299, 19);
+            lblRegistrarNovoPedido.Location = new Point(299, 34);
             lblRegistrarNovoPedido.Name = "lblRegistrarNovoPedido";
             lblRegistrarNovoPedido.Size = new Size(215, 35);
             lblRegistrarNovoPedido.TabIndex = 0;
