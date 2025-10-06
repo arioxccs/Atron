@@ -16,5 +16,15 @@ namespace Atron
         {
             InitializeComponent();
         }
+
+        private void txtNomeProduto_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmRegistrarEntradaNoEstoque_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
