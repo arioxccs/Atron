@@ -47,5 +47,11 @@ namespace Atron
         {
 
         }
+
+        private void btn_EstoqueMenuGerente_Click(object sender, EventArgs e)
+        {
+            ActiveButton(btn_EstoqueMenuGerente);
+            FormShow(new FrmEstoqueGerente());
+        }
     }
 }
