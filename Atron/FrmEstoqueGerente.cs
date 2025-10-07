@@ -36,5 +36,16 @@ namespace Atron
         {
 
         }
+
+        private void panel_ProdutoEstoque_Paint(object sender, PaintEventArgs e)
+        {
+
+
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            new FrmPopupProdutoEstoque().ShowDialog();
+        }
     }
 }

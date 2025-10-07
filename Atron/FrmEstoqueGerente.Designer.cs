@@ -281,6 +281,7 @@
             panel_ProdutoEstoque.Name = "panel_ProdutoEstoque";
             panel_ProdutoEstoque.Size = new Size(360, 111);
             panel_ProdutoEstoque.TabIndex = 16;
+            panel_ProdutoEstoque.Paint += panel_ProdutoEstoque_Paint;
             // 
             // btn_maisInformacoes
             // 
@@ -302,6 +303,7 @@
             pictureBox5.Size = new Size(94, 97);
             pictureBox5.TabIndex = 17;
             pictureBox5.TabStop = false;
+            pictureBox5.Click += pictureBox5_Click;
             // 
             // lbl_QtdeProduto
             // 
