@@ -173,6 +173,7 @@
             Controls.Add(panel_MenuEstoque);
             Name = "FrmEstoquePrincipal";
             Text = "GerenciamentoRegisttro";
+            Load += FrmEstoquePrincipal_Load;
             panel_MenuEstoque.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

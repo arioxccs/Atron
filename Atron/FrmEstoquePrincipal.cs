@@ -58,5 +58,10 @@ namespace Atron
         {
 
         }
+
+        private void FrmEstoquePrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
