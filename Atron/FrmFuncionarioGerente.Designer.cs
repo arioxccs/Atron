@@ -67,6 +67,7 @@
             btn_CadastrarFuncionario.Text = "Cadastrar Funcionário";
             btn_CadastrarFuncionario.TextAlign = ContentAlignment.MiddleLeft;
             btn_CadastrarFuncionario.UseVisualStyleBackColor = false;
+            btn_CadastrarFuncionario.Click += btn_CadastrarFuncionario_Click;
             // 
             // maskedTextBox1
             // 
