@@ -38,7 +38,7 @@ namespace Atron
         private void ActiveButton(Button frmAtivo)
         {
             foreach (Control ctrl in panel_MenuEstoque.Controls)
-                ctrl.BackColor = Color.FromArgb(255, 151, 54);
+                ctrl.BackColor = Color.FromArgb(255, 179, 92);
 
             frmAtivo.BackColor = Color.FromArgb(137, 81, 41);
         }
