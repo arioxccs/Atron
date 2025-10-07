@@ -24,21 +24,31 @@ namespace Atron
 
         private void btn_CadastrarFuncionario_Click(object sender, EventArgs e)
         {
-           
-            // Cria a nova tela
-            FrmFichaFuncionario novaTela = new FrmFichaFuncionario();
 
-            // Pega o formulário pai (FrmGerentePrincipal)
-            FrmGerentePrincipal formPai = (FrmGerentePrincipal)this.ParentForm;
+            // Cria a nova tela
+            FrmCadastroFuncionario frmCadastroFuncionario = new FrmCadastroFuncionario();
+
+            // Pega o formulário principal (FrmGerentePrincipal)
+            FrmGerentePrincipal frmPrincipal = (FrmGerentePrincipal)this.ParentForm;
 
             // Limpa o painel e adiciona a nova tela
-            formPai.Controls["panelGerente"].Controls.Clear();
+            frmPrincipal.Controls["panelGerente"].Controls.Clear();
 
-            novaTela.TopLevel = false;
-            formPai.Controls["panelGerente"].Controls.Add(novaTela);
-            novaTela.Show();
- 
+            frmCadastroFuncionario.TopLevel = false;
+            frmPrincipal.Controls["panelGerente"].Controls.Add(frmCadastroFuncionario);
+            frmCadastroFuncionario.Show();
 
+
+        }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+            FrmFuncionarioGerente frmFuncionarioGerente = new FrmFuncionarioGerente();
+            FrmGerentePrincipal frmPrincipal = (FrmGerentePrincipal)this.ParentForm;
+            frmPrincipal.Controls["panelGerente"].Controls.Clear();
+            frmFuncionarioGerente.TopLevel = false;
+            frmPrincipal.Controls["panelGerente"].Controls.Add(frmFuncionarioGerente);
+            frmFuncionarioGerente.Show();
+        }
     }
-}
 }

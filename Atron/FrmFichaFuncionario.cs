@@ -19,15 +19,10 @@ namespace Atron
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Cria a nova tela
+            
             FrmFuncionarioGerente frmFuncionarioGerente = new FrmFuncionarioGerente();
-
-            // Pega o formulário pai (FrmGerentePrincipal)
             FrmGerentePrincipal frmPrincipal = (FrmGerentePrincipal)this.ParentForm;
-
-            // Limpa o painel e adiciona a nova tela
             frmPrincipal.Controls["panelGerente"].Controls.Clear();
-
             frmFuncionarioGerente.TopLevel = false;
             frmPrincipal.Controls["panelGerente"].Controls.Add(frmFuncionarioGerente);
             frmFuncionarioGerente.Show();

@@ -31,6 +31,9 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmFichaFuncionario));
             btn_Voltar = new Button();
             panel1 = new Panel();
+            lbl_HorarioTabalho = new Label();
+            lbl_HorasMensaisR = new Label();
+            lbl_HorasMensaisT = new Label();
             lbl_FormaPagamentoR = new Label();
             lbl_FormaPagamentoT = new Label();
             lbl_SalarioR = new Label();
@@ -56,9 +59,10 @@
             lbl_NomeFuncionarioT = new Label();
             pictureBox1 = new PictureBox();
             lbl_FichaFuncionarioTitulo = new Label();
-            lbl_HorasMensaisR = new Label();
-            lbl_HorasMensaisT = new Label();
-            lbl_HorarioTabalho = new Label();
+            label1 = new Label();
+            label2 = new Label();
+            lbl_CodFuncionario = new Label();
+            lbl_Cod = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -80,6 +84,10 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(94, 135, 225);
+            panel1.Controls.Add(label1);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(lbl_CodFuncionario);
+            panel1.Controls.Add(lbl_Cod);
             panel1.Controls.Add(lbl_HorarioTabalho);
             panel1.Controls.Add(lbl_HorasMensaisR);
             panel1.Controls.Add(lbl_HorasMensaisT);
@@ -112,6 +120,39 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1200, 740);
             panel1.TabIndex = 1;
+            // 
+            // lbl_HorarioTabalho
+            // 
+            lbl_HorarioTabalho.AutoSize = true;
+            lbl_HorarioTabalho.Font = new Font("ST-Komsomol", 57.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_HorarioTabalho.ForeColor = Color.White;
+            lbl_HorarioTabalho.Location = new Point(308, 518);
+            lbl_HorarioTabalho.Name = "lbl_HorarioTabalho";
+            lbl_HorarioTabalho.Size = new Size(643, 124);
+            lbl_HorarioTabalho.TabIndex = 27;
+            lbl_HorarioTabalho.Text = "Horário de Trabalho";
+            // 
+            // lbl_HorasMensaisR
+            // 
+            lbl_HorasMensaisR.AutoSize = true;
+            lbl_HorasMensaisR.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_HorasMensaisR.ForeColor = Color.White;
+            lbl_HorasMensaisR.Location = new Point(1010, 412);
+            lbl_HorasMensaisR.Name = "lbl_HorasMensaisR";
+            lbl_HorasMensaisR.Size = new Size(67, 33);
+            lbl_HorasMensaisR.TabIndex = 26;
+            lbl_HorasMensaisR.Text = "20H";
+            // 
+            // lbl_HorasMensaisT
+            // 
+            lbl_HorasMensaisT.AutoSize = true;
+            lbl_HorasMensaisT.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_HorasMensaisT.ForeColor = Color.White;
+            lbl_HorasMensaisT.Location = new Point(795, 401);
+            lbl_HorasMensaisT.Name = "lbl_HorasMensaisT";
+            lbl_HorasMensaisT.Size = new Size(224, 52);
+            lbl_HorasMensaisT.TabIndex = 25;
+            lbl_HorasMensaisT.Text = "Horas Mensais:";
             // 
             // lbl_FormaPagamentoR
             // 
@@ -385,47 +426,60 @@
             lbl_FichaFuncionarioTitulo.TabIndex = 0;
             lbl_FichaFuncionarioTitulo.Text = "Ficha de Funcionario";
             // 
-            // lbl_HorasMensaisR
+            // label1
             // 
-            lbl_HorasMensaisR.AutoSize = true;
-            lbl_HorasMensaisR.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_HorasMensaisR.ForeColor = Color.White;
-            lbl_HorasMensaisR.Location = new Point(1010, 412);
-            lbl_HorasMensaisR.Name = "lbl_HorasMensaisR";
-            lbl_HorasMensaisR.Size = new Size(67, 33);
-            lbl_HorasMensaisR.TabIndex = 26;
-            lbl_HorasMensaisR.Text = "20H";
+            label1.AutoSize = true;
+            label1.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(166, 526);
+            label1.Name = "label1";
+            label1.Size = new Size(47, 33);
+            label1.TabIndex = 31;
+            label1.Text = "11";
             // 
-            // lbl_HorasMensaisT
+            // label2
             // 
-            lbl_HorasMensaisT.AutoSize = true;
-            lbl_HorasMensaisT.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_HorasMensaisT.ForeColor = Color.White;
-            lbl_HorasMensaisT.Location = new Point(795, 401);
-            lbl_HorasMensaisT.Name = "lbl_HorasMensaisT";
-            lbl_HorasMensaisT.Size = new Size(224, 52);
-            lbl_HorasMensaisT.TabIndex = 25;
-            lbl_HorasMensaisT.Text = "Horas Mensais:";
+            label2.AutoSize = true;
+            label2.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(62, 518);
+            label2.Name = "label2";
+            label2.RightToLeft = RightToLeft.No;
+            label2.Size = new Size(110, 52);
+            label2.TabIndex = 30;
+            label2.Text = "Senha:";
             // 
-            // lbl_HorarioTabalho
+            // lbl_CodFuncionario
             // 
-            lbl_HorarioTabalho.AutoSize = true;
-            lbl_HorarioTabalho.Font = new Font("ST-Komsomol", 57.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_HorarioTabalho.ForeColor = Color.White;
-            lbl_HorarioTabalho.Location = new Point(308, 518);
-            lbl_HorarioTabalho.Name = "lbl_HorarioTabalho";
-            lbl_HorarioTabalho.Size = new Size(643, 124);
-            lbl_HorarioTabalho.TabIndex = 27;
-            lbl_HorarioTabalho.Text = "Horário de Trabalho";
+            lbl_CodFuncionario.AutoSize = true;
+            lbl_CodFuncionario.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_CodFuncionario.ForeColor = Color.White;
+            lbl_CodFuncionario.Location = new Point(170, 473);
+            lbl_CodFuncionario.Name = "lbl_CodFuncionario";
+            lbl_CodFuncionario.Size = new Size(47, 33);
+            lbl_CodFuncionario.TabIndex = 29;
+            lbl_CodFuncionario.Text = "00";
+            // 
+            // lbl_Cod
+            // 
+            lbl_Cod.AutoSize = true;
+            lbl_Cod.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_Cod.ForeColor = Color.White;
+            lbl_Cod.Location = new Point(62, 466);
+            lbl_Cod.Name = "lbl_Cod";
+            lbl_Cod.Size = new Size(117, 52);
+            lbl_Cod.TabIndex = 28;
+            lbl_Cod.Text = "Código:";
             // 
             // FrmFichaFuncionario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1280, 749);
+            ClientSize = new Size(1296, 788);
             Controls.Add(panel1);
             Controls.Add(btn_Voltar);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "FrmFichaFuncionario";
             Text = "FrmFichaFuncionario";
             panel1.ResumeLayout(false);
@@ -467,5 +521,9 @@
         private Label lbl_HorarioTabalho;
         private Label lbl_HorasMensaisR;
         private Label lbl_HorasMensaisT;
+        private Label label1;
+        private Label label2;
+        private Label lbl_CodFuncionario;
+        private Label lbl_Cod;
     }
 }

@@ -80,6 +80,7 @@
             maskedTextBox1.Size = new Size(1120, 43);
             maskedTextBox1.TabIndex = 2;
             maskedTextBox1.Text = "   Pesquise um funcionário";
+            maskedTextBox1.MaskInputRejected += maskedTextBox1_MaskInputRejected;
             // 
             // tb_funcionarios
             // 
