@@ -187,6 +187,7 @@
             btn_EstoqueMenuGerente.Text = "Estoque";
             btn_EstoqueMenuGerente.TextImageRelation = TextImageRelation.ImageAboveText;
             btn_EstoqueMenuGerente.UseVisualStyleBackColor = false;
+            btn_EstoqueMenuGerente.Click += btn_EstoqueMenuGerente_Click;
             // 
             // btn_VendasMenuGerente
             // 
