@@ -43,7 +43,7 @@
             label4 = new Label();
             textBox7 = new TextBox();
             label5 = new Label();
-            button1 = new Button();
+            btn_cadastrar = new Button();
             SuspendLayout();
             // 
             // lbl_CadastrarDespesa
@@ -51,7 +51,7 @@
             lbl_CadastrarDespesa.AutoSize = true;
             lbl_CadastrarDespesa.BackColor = SystemColors.Control;
             lbl_CadastrarDespesa.Font = new Font("ST-Komsomol", 57.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_CadastrarDespesa.ForeColor = Color.FromArgb(14, 41, 184);
+            lbl_CadastrarDespesa.ForeColor = Color.FromArgb(9, 28, 128);
             lbl_CadastrarDespesa.Location = new Point(344, -23);
             lbl_CadastrarDespesa.Name = "lbl_CadastrarDespesa";
             lbl_CadastrarDespesa.Size = new Size(632, 124);
@@ -206,26 +206,27 @@
             label5.TabIndex = 13;
             label5.Text = "Onde Pagar";
             // 
-            // button1
+            // btn_cadastrar
             // 
-            button1.BackColor = Color.FromArgb(9, 28, 128);
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Bebas Neue", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(1060, 691);
-            button1.Name = "button1";
-            button1.Size = new Size(205, 36);
-            button1.TabIndex = 15;
-            button1.Text = "Repor Estoque";
-            button1.UseVisualStyleBackColor = false;
+            btn_cadastrar.BackColor = Color.FromArgb(9, 28, 128);
+            btn_cadastrar.FlatAppearance.BorderSize = 0;
+            btn_cadastrar.FlatStyle = FlatStyle.Flat;
+            btn_cadastrar.Font = new Font("Bebas Neue", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btn_cadastrar.ForeColor = Color.White;
+            btn_cadastrar.Location = new Point(1060, 691);
+            btn_cadastrar.Name = "btn_cadastrar";
+            btn_cadastrar.Size = new Size(205, 36);
+            btn_cadastrar.TabIndex = 15;
+            btn_cadastrar.Text = "Cadastrar";
+            btn_cadastrar.UseVisualStyleBackColor = false;
+            btn_cadastrar.Click += btn_cadastrar_Click;
             // 
             // FrmCadastroDespesaGerente
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1296, 788);
-            Controls.Add(button1);
+            Controls.Add(btn_cadastrar);
             Controls.Add(textBox7);
             Controls.Add(label5);
             Controls.Add(textBox6);
@@ -265,6 +266,6 @@
         private Label label4;
         private TextBox textBox7;
         private Label label5;
-        private Button button1;
+        private Button btn_cadastrar;
     }
 }

@@ -46,7 +46,7 @@
             lbl_DespesaAtrasada = new Label();
             lbl_DespesaAtrasadaValor = new Label();
             lbl_DespesaAtrasadaTitulo = new Label();
-            panel1 = new Panel();
+            panelDespesa = new Panel();
             lbl_FormaPgtoDespesa = new Label();
             pictureBox3 = new PictureBox();
             lbl_FormaPagamento = new Label();
@@ -54,11 +54,12 @@
             lbl_NomeDespesa = new Label();
             lbl_DataDespesa = new Label();
             pictureBox1 = new PictureBox();
+            btn_PagarDespesa = new Button();
             panelDespesaTotal.SuspendLayout();
             panelDespesaPaga.SuspendLayout();
             panelDespesaPendente.SuspendLayout();
             panelpanelDespesaAtrasada.SuspendLayout();
-            panel1.SuspendLayout();
+            panelDespesa.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -253,26 +254,28 @@
             lbl_DespesaAtrasadaTitulo.Text = "Atrasadas";
             lbl_DespesaAtrasadaTitulo.Click += lbl_DespesaAtrasadaTitulo_Click;
             // 
-            // panel1
+            // panelDespesa
             // 
-            panel1.BackColor = Color.FromArgb(247, 193, 143);
-            panel1.Controls.Add(lbl_FormaPgtoDespesa);
-            panel1.Controls.Add(pictureBox3);
-            panel1.Controls.Add(lbl_FormaPagamento);
-            panel1.Controls.Add(pictureBox2);
-            panel1.Controls.Add(lbl_NomeDespesa);
-            panel1.Controls.Add(lbl_DataDespesa);
-            panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(60, 514);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1190, 80);
-            panel1.TabIndex = 9;
+            panelDespesa.BackColor = Color.FromArgb(247, 193, 143);
+            panelDespesa.Controls.Add(btn_PagarDespesa);
+            panelDespesa.Controls.Add(lbl_FormaPgtoDespesa);
+            panelDespesa.Controls.Add(pictureBox3);
+            panelDespesa.Controls.Add(lbl_FormaPagamento);
+            panelDespesa.Controls.Add(pictureBox2);
+            panelDespesa.Controls.Add(lbl_NomeDespesa);
+            panelDespesa.Controls.Add(lbl_DataDespesa);
+            panelDespesa.Controls.Add(pictureBox1);
+            panelDespesa.Location = new Point(60, 514);
+            panelDespesa.Name = "panelDespesa";
+            panelDespesa.Size = new Size(1190, 80);
+            panelDespesa.TabIndex = 9;
+            panelDespesa.Paint += panel1_Paint_1;
             // 
             // lbl_FormaPgtoDespesa
             // 
             lbl_FormaPgtoDespesa.AutoSize = true;
             lbl_FormaPgtoDespesa.Font = new Font("Lato", 24.75F);
-            lbl_FormaPgtoDespesa.Location = new Point(1037, 21);
+            lbl_FormaPgtoDespesa.Location = new Point(849, 21);
             lbl_FormaPgtoDespesa.Name = "lbl_FormaPgtoDespesa";
             lbl_FormaPgtoDespesa.Size = new Size(114, 40);
             lbl_FormaPgtoDespesa.TabIndex = 6;
@@ -281,7 +284,7 @@
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(989, 0);
+            pictureBox3.Location = new Point(833, -12);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(10, 92);
             pictureBox3.TabIndex = 5;
@@ -291,20 +294,22 @@
             // 
             lbl_FormaPagamento.AutoSize = true;
             lbl_FormaPagamento.Font = new Font("Lato", 24.75F);
-            lbl_FormaPagamento.Location = new Point(881, 21);
+            lbl_FormaPagamento.Location = new Point(743, 21);
             lbl_FormaPagamento.Name = "lbl_FormaPagamento";
             lbl_FormaPagamento.Size = new Size(84, 40);
             lbl_FormaPagamento.TabIndex = 4;
             lbl_FormaPagamento.Text = "Pgto";
+            lbl_FormaPagamento.Click += lbl_FormaPagamento_Click;
             // 
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(843, 0);
+            pictureBox2.Location = new Point(710, 0);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(10, 92);
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // lbl_NomeDespesa
             // 
@@ -335,13 +340,27 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
+            // btn_PagarDespesa
+            // 
+            btn_PagarDespesa.BackColor = Color.FromArgb(14, 41, 184);
+            btn_PagarDespesa.FlatStyle = FlatStyle.Flat;
+            btn_PagarDespesa.Font = new Font("Lato", 11.9999981F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btn_PagarDespesa.ForeColor = Color.White;
+            btn_PagarDespesa.Location = new Point(1028, 21);
+            btn_PagarDespesa.Name = "btn_PagarDespesa";
+            btn_PagarDespesa.Size = new Size(140, 44);
+            btn_PagarDespesa.TabIndex = 7;
+            btn_PagarDespesa.Text = "Pagar";
+            btn_PagarDespesa.UseVisualStyleBackColor = false;
+            btn_PagarDespesa.Click += btn_PagarDespesa_Click;
+            // 
             // FrmDespesasGerente
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1296, 788);
-            Controls.Add(panel1);
+            Controls.Add(panelDespesa);
             Controls.Add(lbl_DespesaAtrasadaTitulo);
             Controls.Add(panelpanelDespesaAtrasada);
             Controls.Add(panelDespesaPendente);
@@ -363,8 +382,8 @@
             panelDespesaPendente.PerformLayout();
             panelpanelDespesaAtrasada.ResumeLayout(false);
             panelpanelDespesaAtrasada.PerformLayout();
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            panelDespesa.ResumeLayout(false);
+            panelDespesa.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -391,7 +410,7 @@
         private Label lbl_DespesaAtrasada;
         private Label lbl_DespesaAtrasadaValor;
         private Label lbl_DespesaAtrasadaTitulo;
-        private Panel panel1;
+        private Panel panelDespesa;
         private PictureBox pictureBox1;
         private Label lbl_FormaPgtoDespesa;
         private PictureBox pictureBox3;
@@ -399,5 +418,6 @@
         private PictureBox pictureBox2;
         private Label lbl_NomeDespesa;
         private Label lbl_DataDespesa;
+        private Button btn_PagarDespesa;
     }
 }

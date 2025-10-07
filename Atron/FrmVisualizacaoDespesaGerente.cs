@@ -10,19 +10,24 @@ using System.Windows.Forms;
 
 namespace Atron
 {
-    public partial class FrmCadastroDespesaGerente : Form
+    public partial class FrmVisualizacaoDespesaGerente : Form
     {
-        public FrmCadastroDespesaGerente()
+        public FrmVisualizacaoDespesaGerente()
         {
             InitializeComponent();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            FrmDespesasGerente TelaAberta = new FrmDespesasGerente();
+            FrmGerentePrincipal frmPrincipal = (FrmGerentePrincipal)this.ParentForm;
+            frmPrincipal.Controls["panel2"].Controls.Clear();
+            TelaAberta.TopLevel = false;
+            frmPrincipal.Controls["panel2"].Controls.Add(TelaAberta);
+            TelaAberta.Show();
         }
 
-        private void btn_cadastrar_Click(object sender, EventArgs e)
+        private void btn_PagoDespesa_Click(object sender, EventArgs e)
         {
             FrmDespesasGerente TelaAberta = new FrmDespesasGerente();
             FrmGerentePrincipal frmPrincipal = (FrmGerentePrincipal)this.ParentForm;

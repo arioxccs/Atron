@@ -41,5 +41,30 @@ namespace Atron
             frmPrincipal.Controls["panel2"].Controls.Add(TelaAberta);
             TelaAberta.Show();
         }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_FormaPagamento_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_PagarDespesa_Click(object sender, EventArgs e)
+        {
+            FrmVisualizacaoDespesaGerente TelaAberta = new FrmVisualizacaoDespesaGerente();
+            FrmGerentePrincipal frmPrincipal = (FrmGerentePrincipal)this.ParentForm;
+            frmPrincipal.Controls["panel2"].Controls.Clear();
+            TelaAberta.TopLevel = false;
+            frmPrincipal.Controls["panel2"].Controls.Add(TelaAberta);
+            TelaAberta.Show();
+        }
     }
 }
