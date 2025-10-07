@@ -152,6 +152,7 @@
             btn_DespesasMenuGerente.Text = "Despesas";
             btn_DespesasMenuGerente.TextImageRelation = TextImageRelation.ImageAboveText;
             btn_DespesasMenuGerente.UseVisualStyleBackColor = false;
+            btn_DespesasMenuGerente.Click += btn_DespesasMenuGerente_Click;
             // 
             // btn_FuncionariosMenuGerente
             // 

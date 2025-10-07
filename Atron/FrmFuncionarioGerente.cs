@@ -32,10 +32,10 @@ namespace Atron
             FrmGerentePrincipal frmPrincipal = (FrmGerentePrincipal)this.ParentForm;
 
             // Limpa o painel e adiciona a nova tela
-            frmPrincipal.Controls["panelGerente"].Controls.Clear();
+            frmPrincipal.Controls["panel2"].Controls.Clear();
 
             frmCadastroFuncionario.TopLevel = false;
-            frmPrincipal.Controls["panelGerente"].Controls.Add(frmCadastroFuncionario);
+            frmPrincipal.Controls["panel2"].Controls.Add(frmCadastroFuncionario);
             frmCadastroFuncionario.Show();
 
 
@@ -50,9 +50,9 @@ namespace Atron
         {
             FrmFuncionarioGerente frmFuncionarioGerente = new FrmFuncionarioGerente();
             FrmGerentePrincipal frmPrincipal = (FrmGerentePrincipal)this.ParentForm;
-            frmPrincipal.Controls["panelGerente"].Controls.Clear();
+            frmPrincipal.Controls["panel2"].Controls.Clear();
             frmFuncionarioGerente.TopLevel = false;
-            frmPrincipal.Controls["panelGerente"].Controls.Add(frmFuncionarioGerente);
+            frmPrincipal.Controls["panel2"].Controls.Add(frmFuncionarioGerente);
             frmFuncionarioGerente.Show();
         }
     }

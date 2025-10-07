@@ -12,7 +12,7 @@ namespace Atron
 {
     public partial class FrmGerentePrincipal : Form
     {
-        
+
         public FrmGerentePrincipal()
         {
             InitializeComponent();
@@ -40,7 +40,7 @@ namespace Atron
         private void ActiveButton(Button frmAtivo)
         {
             foreach (Control ctrl in panel_MenuGerente.Controls)
-                ctrl.BackColor = Color.FromArgb(255, 151, 54);
+                ctrl.BackColor = Color.FromArgb(255, 179, 92);
 
             frmAtivo.BackColor = Color.FromArgb(137, 81, 41);
         }
@@ -54,6 +54,24 @@ namespace Atron
         {
             ActiveButton(btn_VendasMenuGerente);
             FormShow(new FrmResumoVendas());
+        }
+
+        private void btn_EstoqueMenuGerente_Click(object sender, EventArgs e)
+        {
+            ActiveButton(btn_EstoqueMenuGerente);
+            FormShow(new FrmEstoqueGerente());
+        }
+
+        private void btn_FuncionariosMenuGerente_Click(object sender, EventArgs e)
+        {
+            ActiveButton(btn_FuncionariosMenuGerente);
+            FormShow(new FrmFuncionarioGerente());
+        }
+
+        private void btn_DespesasMenuGerente_Click(object sender, EventArgs e)
+        {
+            ActiveButton(btn_DespesasMenuGerente);
+            FormShow(new FrmDespesasGerente());
         }
     }
 }

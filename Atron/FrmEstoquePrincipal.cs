@@ -35,12 +35,12 @@ namespace Atron
                 frmAtivo.Close();
         }
 
-        private void ActiveButton(Button frmAtivo)
-        {
+        private void ActiveButton(Button btnAtivo)
+        { 
             foreach (Control ctrl in panel_MenuEstoque.Controls)
                 ctrl.BackColor = Color.FromArgb(255, 179, 92);
 
-            frmAtivo.BackColor = Color.FromArgb(137, 81, 41);
+            btnAtivo.BackColor = Color.FromArgb(137, 81, 41);
         }
 
         private void button3_Click(object sender, EventArgs e)
