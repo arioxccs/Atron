@@ -361,3 +361,8 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Atron/frmEntradaNoEstoque.cs
+/Atron/frmEntradaNoEstoque.Designer.cs
+/Atron/frmEntradaNoEstoque.resx
+/Atron/frmEntradaNoEstoque.Designer.cs
+/Atron/frmEntradaNoEstoque.Designer.cs
