@@ -206,8 +206,8 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(lbl_GerenciamentodeRegistros);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "FrmGerenciamentoRegistros";
-            Text = "FrmGerenciamentoRegistros";
             panel_entradaNoEstoque.ResumeLayout(false);
             panel_entradaNoEstoque.PerformLayout();
             panel1.ResumeLayout(false);
