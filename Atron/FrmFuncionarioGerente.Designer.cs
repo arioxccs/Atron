@@ -52,6 +52,7 @@
             lbl_Funcionario.Size = new Size(379, 111);
             lbl_Funcionario.TabIndex = 0;
             lbl_Funcionario.Text = "Funcionários";
+            lbl_Funcionario.Click += lbl_Funcionario_Click;
             // 
             // btn_CadastrarFuncionario
             // 

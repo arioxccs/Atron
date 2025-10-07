@@ -19,13 +19,18 @@ namespace Atron
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
             FrmFuncionarioGerente frmFuncionarioGerente = new FrmFuncionarioGerente();
             FrmGerentePrincipal frmPrincipal = (FrmGerentePrincipal)this.ParentForm;
             frmPrincipal.Controls["panelGerente"].Controls.Clear();
             frmFuncionarioGerente.TopLevel = false;
             frmPrincipal.Controls["panelGerente"].Controls.Add(frmFuncionarioGerente);
             frmFuncionarioGerente.Show();
+
+        }
+
+        private void FrmFichaFuncionario_Load(object sender, EventArgs e)
+        {
 
         }
     }

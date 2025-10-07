@@ -43,6 +43,11 @@ namespace Atron
 
         private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
         {
+            
+        }
+
+        private void lbl_Funcionario_Click(object sender, EventArgs e)
+        {
             FrmFuncionarioGerente frmFuncionarioGerente = new FrmFuncionarioGerente();
             FrmGerentePrincipal frmPrincipal = (FrmGerentePrincipal)this.ParentForm;
             frmPrincipal.Controls["panelGerente"].Controls.Clear();

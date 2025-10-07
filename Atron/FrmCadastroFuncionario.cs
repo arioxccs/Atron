@@ -16,5 +16,15 @@ namespace Atron
         {
             InitializeComponent();
         }
+
+        private void btn_Voltar_Click(object sender, EventArgs e)
+        {
+            FrmFuncionarioGerente frmFuncionarioGerente = new FrmFuncionarioGerente();
+            FrmGerentePrincipal frmPrincipal = (FrmGerentePrincipal)this.ParentForm;
+            frmPrincipal.Controls["panelGerente"].Controls.Clear();
+            frmFuncionarioGerente.TopLevel = false;
+            frmPrincipal.Controls["panelGerente"].Controls.Add(frmFuncionarioGerente);
+            frmFuncionarioGerente.Show();
+        }
     }
 }

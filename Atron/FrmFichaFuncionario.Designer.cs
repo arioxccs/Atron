@@ -30,7 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmFichaFuncionario));
             btn_Voltar = new Button();
-            panel1 = new Panel();
+            panelFichaFuncionario = new Panel();
+            label1 = new Label();
+            label2 = new Label();
+            lbl_CodFuncionario = new Label();
+            lbl_Cod = new Label();
             lbl_HorarioTabalho = new Label();
             lbl_HorasMensaisR = new Label();
             lbl_HorasMensaisT = new Label();
@@ -59,11 +63,7 @@
             lbl_NomeFuncionarioT = new Label();
             pictureBox1 = new PictureBox();
             lbl_FichaFuncionarioTitulo = new Label();
-            label1 = new Label();
-            label2 = new Label();
-            lbl_CodFuncionario = new Label();
-            lbl_Cod = new Label();
-            panel1.SuspendLayout();
+            panelFichaFuncionario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -81,45 +81,90 @@
             btn_Voltar.UseVisualStyleBackColor = false;
             btn_Voltar.Click += button1_Click;
             // 
-            // panel1
+            // panelFichaFuncionario
             // 
-            panel1.BackColor = Color.FromArgb(94, 135, 225);
-            panel1.Controls.Add(label1);
-            panel1.Controls.Add(label2);
-            panel1.Controls.Add(lbl_CodFuncionario);
-            panel1.Controls.Add(lbl_Cod);
-            panel1.Controls.Add(lbl_HorarioTabalho);
-            panel1.Controls.Add(lbl_HorasMensaisR);
-            panel1.Controls.Add(lbl_HorasMensaisT);
-            panel1.Controls.Add(lbl_FormaPagamentoR);
-            panel1.Controls.Add(lbl_FormaPagamentoT);
-            panel1.Controls.Add(lbl_SalarioR);
-            panel1.Controls.Add(lbl_SalarioT);
-            panel1.Controls.Add(lbl_DataAdmissaoR);
-            panel1.Controls.Add(lbl_DataAdmissão);
-            panel1.Controls.Add(lbl_StatusR);
-            panel1.Controls.Add(lbl_StatusT);
-            panel1.Controls.Add(lbl_FuncaoR);
-            panel1.Controls.Add(lbl_FuncaoT);
-            panel1.Controls.Add(pictureBox2);
-            panel1.Controls.Add(lbl_ContatoR);
-            panel1.Controls.Add(lbl_ContatoT);
-            panel1.Controls.Add(lbl_EnderecoR);
-            panel1.Controls.Add(lbl_EnderecoT);
-            panel1.Controls.Add(lbl_NascimentoR);
-            panel1.Controls.Add(lbl_NascimentoT);
-            panel1.Controls.Add(lbl_RGR);
-            panel1.Controls.Add(lbl_RGT);
-            panel1.Controls.Add(lbl_CPFR);
-            panel1.Controls.Add(lbl_CPFT);
-            panel1.Controls.Add(lbl_NomeFuncionarioR);
-            panel1.Controls.Add(lbl_NomeFuncionarioT);
-            panel1.Controls.Add(pictureBox1);
-            panel1.Controls.Add(lbl_FichaFuncionarioTitulo);
-            panel1.Location = new Point(57, 12);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1200, 740);
-            panel1.TabIndex = 1;
+            panelFichaFuncionario.BackColor = Color.FromArgb(94, 135, 225);
+            panelFichaFuncionario.Controls.Add(label1);
+            panelFichaFuncionario.Controls.Add(label2);
+            panelFichaFuncionario.Controls.Add(lbl_CodFuncionario);
+            panelFichaFuncionario.Controls.Add(lbl_Cod);
+            panelFichaFuncionario.Controls.Add(lbl_HorarioTabalho);
+            panelFichaFuncionario.Controls.Add(lbl_HorasMensaisR);
+            panelFichaFuncionario.Controls.Add(lbl_HorasMensaisT);
+            panelFichaFuncionario.Controls.Add(lbl_FormaPagamentoR);
+            panelFichaFuncionario.Controls.Add(lbl_FormaPagamentoT);
+            panelFichaFuncionario.Controls.Add(lbl_SalarioR);
+            panelFichaFuncionario.Controls.Add(lbl_SalarioT);
+            panelFichaFuncionario.Controls.Add(lbl_DataAdmissaoR);
+            panelFichaFuncionario.Controls.Add(lbl_DataAdmissão);
+            panelFichaFuncionario.Controls.Add(lbl_StatusR);
+            panelFichaFuncionario.Controls.Add(lbl_StatusT);
+            panelFichaFuncionario.Controls.Add(lbl_FuncaoR);
+            panelFichaFuncionario.Controls.Add(lbl_FuncaoT);
+            panelFichaFuncionario.Controls.Add(pictureBox2);
+            panelFichaFuncionario.Controls.Add(lbl_ContatoR);
+            panelFichaFuncionario.Controls.Add(lbl_ContatoT);
+            panelFichaFuncionario.Controls.Add(lbl_EnderecoR);
+            panelFichaFuncionario.Controls.Add(lbl_EnderecoT);
+            panelFichaFuncionario.Controls.Add(lbl_NascimentoR);
+            panelFichaFuncionario.Controls.Add(lbl_NascimentoT);
+            panelFichaFuncionario.Controls.Add(lbl_RGR);
+            panelFichaFuncionario.Controls.Add(lbl_RGT);
+            panelFichaFuncionario.Controls.Add(lbl_CPFR);
+            panelFichaFuncionario.Controls.Add(lbl_CPFT);
+            panelFichaFuncionario.Controls.Add(lbl_NomeFuncionarioR);
+            panelFichaFuncionario.Controls.Add(lbl_NomeFuncionarioT);
+            panelFichaFuncionario.Controls.Add(pictureBox1);
+            panelFichaFuncionario.Controls.Add(lbl_FichaFuncionarioTitulo);
+            panelFichaFuncionario.Location = new Point(57, 12);
+            panelFichaFuncionario.Name = "panelFichaFuncionario";
+            panelFichaFuncionario.Size = new Size(1200, 740);
+            panelFichaFuncionario.TabIndex = 1;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(166, 526);
+            label1.Name = "label1";
+            label1.Size = new Size(47, 33);
+            label1.TabIndex = 31;
+            label1.Text = "11";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(62, 518);
+            label2.Name = "label2";
+            label2.RightToLeft = RightToLeft.No;
+            label2.Size = new Size(110, 52);
+            label2.TabIndex = 30;
+            label2.Text = "Senha:";
+            // 
+            // lbl_CodFuncionario
+            // 
+            lbl_CodFuncionario.AutoSize = true;
+            lbl_CodFuncionario.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_CodFuncionario.ForeColor = Color.White;
+            lbl_CodFuncionario.Location = new Point(170, 473);
+            lbl_CodFuncionario.Name = "lbl_CodFuncionario";
+            lbl_CodFuncionario.Size = new Size(47, 33);
+            lbl_CodFuncionario.TabIndex = 29;
+            lbl_CodFuncionario.Text = "00";
+            // 
+            // lbl_Cod
+            // 
+            lbl_Cod.AutoSize = true;
+            lbl_Cod.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_Cod.ForeColor = Color.White;
+            lbl_Cod.Location = new Point(62, 466);
+            lbl_Cod.Name = "lbl_Cod";
+            lbl_Cod.Size = new Size(117, 52);
+            lbl_Cod.TabIndex = 28;
+            lbl_Cod.Text = "Código:";
             // 
             // lbl_HorarioTabalho
             // 
@@ -426,64 +471,20 @@
             lbl_FichaFuncionarioTitulo.TabIndex = 0;
             lbl_FichaFuncionarioTitulo.Text = "Ficha de Funcionario";
             // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(166, 526);
-            label1.Name = "label1";
-            label1.Size = new Size(47, 33);
-            label1.TabIndex = 31;
-            label1.Text = "11";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(62, 518);
-            label2.Name = "label2";
-            label2.RightToLeft = RightToLeft.No;
-            label2.Size = new Size(110, 52);
-            label2.TabIndex = 30;
-            label2.Text = "Senha:";
-            // 
-            // lbl_CodFuncionario
-            // 
-            lbl_CodFuncionario.AutoSize = true;
-            lbl_CodFuncionario.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_CodFuncionario.ForeColor = Color.White;
-            lbl_CodFuncionario.Location = new Point(170, 473);
-            lbl_CodFuncionario.Name = "lbl_CodFuncionario";
-            lbl_CodFuncionario.Size = new Size(47, 33);
-            lbl_CodFuncionario.TabIndex = 29;
-            lbl_CodFuncionario.Text = "00";
-            // 
-            // lbl_Cod
-            // 
-            lbl_Cod.AutoSize = true;
-            lbl_Cod.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_Cod.ForeColor = Color.White;
-            lbl_Cod.Location = new Point(62, 466);
-            lbl_Cod.Name = "lbl_Cod";
-            lbl_Cod.Size = new Size(117, 52);
-            lbl_Cod.TabIndex = 28;
-            lbl_Cod.Text = "Código:";
-            // 
             // FrmFichaFuncionario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1296, 788);
-            Controls.Add(panel1);
+            Controls.Add(panelFichaFuncionario);
             Controls.Add(btn_Voltar);
             FormBorderStyle = FormBorderStyle.None;
             Name = "FrmFichaFuncionario";
             Text = "FrmFichaFuncionario";
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            Load += FrmFichaFuncionario_Load;
+            panelFichaFuncionario.ResumeLayout(false);
+            panelFichaFuncionario.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
@@ -492,7 +493,7 @@
         #endregion
 
         private Button btn_Voltar;
-        private Panel panel1;
+        private Panel panelFichaFuncionario;
         private Label lbl_FichaFuncionarioTitulo;
         private PictureBox pictureBox1;
         private Label lbl_ContatoR;
