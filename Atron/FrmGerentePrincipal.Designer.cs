@@ -169,6 +169,7 @@
             btn_FuncionariosMenuGerente.Text = "Pedido";
             btn_FuncionariosMenuGerente.TextImageRelation = TextImageRelation.ImageAboveText;
             btn_FuncionariosMenuGerente.UseVisualStyleBackColor = false;
+            btn_FuncionariosMenuGerente.Click += btn_FuncionariosMenuGerente_Click;
             // 
             // btn_EstoqueMenuGerente
             // 
