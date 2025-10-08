@@ -52,5 +52,15 @@ namespace Atron
         {
             new FrmPopupProdutoEstoque().ShowDialog();
         }
+
+        private void btn_CadastrarProduto_Click(object sender, EventArgs e)
+        {
+            FrmCadastrarProdutoGerente TelaAberta = new FrmCadastrarProdutoGerente();
+            FrmGerentePrincipal frmPrincipal = (FrmGerentePrincipal)this.ParentForm;
+            frmPrincipal.Controls["panel2"].Controls.Clear();
+            TelaAberta.TopLevel = false;
+            frmPrincipal.Controls["panel2"].Controls.Add(TelaAberta);
+            TelaAberta.Show();
+        }
     }
 }

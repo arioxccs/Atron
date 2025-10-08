@@ -149,6 +149,7 @@
             btn_CadastrarProduto.TabIndex = 4;
             btn_CadastrarProduto.Text = "Cadastrar Produto";
             btn_CadastrarProduto.UseVisualStyleBackColor = false;
+            btn_CadastrarProduto.Click += btn_CadastrarProduto_Click;
             // 
             // btn_CadastrarFornecedor
             // 
