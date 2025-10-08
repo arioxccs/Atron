@@ -10,26 +10,26 @@ using System.Windows.Forms;
 
 namespace Atron
 {
-    public partial class FrmPedidoGerente : Form
+    public partial class FrmPedidoReativacaoGerente : Form
     {
-        public FrmPedidoGerente()
+        public FrmPedidoReativacaoGerente()
         {
             InitializeComponent();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        private void btn_Reativar_Click(object sender, EventArgs e)
         {
-            
+            this.Close();
         }
 
-        private void btn_PedidoReativacao_Click(object sender, EventArgs e)
+        private void btn_Negar_Click(object sender, EventArgs e)
         {
-            new FrmPedidoReativacaoGerente().ShowDialog();
+            this.Close();
         }
     }
 }

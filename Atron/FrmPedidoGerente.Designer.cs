@@ -32,6 +32,7 @@
             lbl_PedidosTitulo = new Label();
             lbl_PedidosReativacao = new Label();
             panelPedidoReativacao = new Panel();
+            btn_PedidoReativacao = new Button();
             lbl_ValorPedidoReativacao = new Label();
             lbl_QtdePedidoReativacao = new Label();
             lbl_CorPedidoReativacao = new Label();
@@ -49,6 +50,7 @@
             lbl_NomeProduto = new Label();
             lbl_Pedido = new Label();
             panelPedidoCancelado = new Panel();
+            btn_PedidoCancelado = new Button();
             lbl_ValorPedidoCancelado = new Label();
             lbl_QtdePedidoCancelado = new Label();
             lbl_CorPedidoCancelado = new Label();
@@ -57,8 +59,6 @@
             lbl_CancelamentoPedidoCancelado = new Label();
             lbl_NomePedidoCancelado = new Label();
             lbl_PedidoCancelado = new Label();
-            btn_PedidoReativacao = new Button();
-            btn_PedidoCancelado = new Button();
             panelPedidoReativacao.SuspendLayout();
             panel_ProdutoEstoque.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
@@ -105,6 +105,19 @@
             panelPedidoReativacao.Size = new Size(425, 158);
             panelPedidoReativacao.TabIndex = 4;
             panelPedidoReativacao.Paint += panel1_Paint;
+            // 
+            // btn_PedidoReativacao
+            // 
+            btn_PedidoReativacao.BackColor = Color.White;
+            btn_PedidoReativacao.FlatAppearance.BorderSize = 0;
+            btn_PedidoReativacao.FlatStyle = FlatStyle.Flat;
+            btn_PedidoReativacao.Image = (Image)resources.GetObject("btn_PedidoReativacao.Image");
+            btn_PedidoReativacao.Location = new Point(395, 3);
+            btn_PedidoReativacao.Name = "btn_PedidoReativacao";
+            btn_PedidoReativacao.Size = new Size(30, 30);
+            btn_PedidoReativacao.TabIndex = 19;
+            btn_PedidoReativacao.UseVisualStyleBackColor = false;
+            btn_PedidoReativacao.Click += btn_PedidoReativacao_Click;
             // 
             // lbl_ValorPedidoReativacao
             // 
@@ -301,6 +314,18 @@
             panelPedidoCancelado.TabIndex = 20;
             panelPedidoCancelado.Paint += panel2_Paint;
             // 
+            // btn_PedidoCancelado
+            // 
+            btn_PedidoCancelado.BackColor = Color.White;
+            btn_PedidoCancelado.FlatAppearance.BorderSize = 0;
+            btn_PedidoCancelado.FlatStyle = FlatStyle.Flat;
+            btn_PedidoCancelado.Image = (Image)resources.GetObject("btn_PedidoCancelado.Image");
+            btn_PedidoCancelado.Location = new Point(392, 3);
+            btn_PedidoCancelado.Name = "btn_PedidoCancelado";
+            btn_PedidoCancelado.Size = new Size(30, 30);
+            btn_PedidoCancelado.TabIndex = 19;
+            btn_PedidoCancelado.UseVisualStyleBackColor = false;
+            // 
             // lbl_ValorPedidoCancelado
             // 
             lbl_ValorPedidoCancelado.AutoSize = true;
@@ -388,30 +413,6 @@
             lbl_PedidoCancelado.Size = new Size(453, 87);
             lbl_PedidoCancelado.TabIndex = 19;
             lbl_PedidoCancelado.Text = "Pedido Cancelados";
-            // 
-            // btn_PedidoReativacao
-            // 
-            btn_PedidoReativacao.BackColor = Color.White;
-            btn_PedidoReativacao.FlatAppearance.BorderSize = 0;
-            btn_PedidoReativacao.FlatStyle = FlatStyle.Flat;
-            btn_PedidoReativacao.Image = (Image)resources.GetObject("btn_PedidoReativacao.Image");
-            btn_PedidoReativacao.Location = new Point(395, 3);
-            btn_PedidoReativacao.Name = "btn_PedidoReativacao";
-            btn_PedidoReativacao.Size = new Size(30, 30);
-            btn_PedidoReativacao.TabIndex = 19;
-            btn_PedidoReativacao.UseVisualStyleBackColor = false;
-            // 
-            // btn_PedidoCancelado
-            // 
-            btn_PedidoCancelado.BackColor = Color.White;
-            btn_PedidoCancelado.FlatAppearance.BorderSize = 0;
-            btn_PedidoCancelado.FlatStyle = FlatStyle.Flat;
-            btn_PedidoCancelado.Image = (Image)resources.GetObject("btn_PedidoCancelado.Image");
-            btn_PedidoCancelado.Location = new Point(392, 3);
-            btn_PedidoCancelado.Name = "btn_PedidoCancelado";
-            btn_PedidoCancelado.Size = new Size(30, 30);
-            btn_PedidoCancelado.TabIndex = 19;
-            btn_PedidoCancelado.UseVisualStyleBackColor = false;
             // 
             // FrmPedidoGerente
             // 
