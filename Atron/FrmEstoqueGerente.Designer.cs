@@ -166,6 +166,7 @@
             btn_CadastrarFornecedor.Text = "Cadastrar Fornecedor";
             btn_CadastrarFornecedor.TextAlign = ContentAlignment.MiddleRight;
             btn_CadastrarFornecedor.UseVisualStyleBackColor = false;
+            btn_CadastrarFornecedor.Click += btn_CadastrarFornecedor_Click;
             // 
             // btn_EntradaEstoque
             // 

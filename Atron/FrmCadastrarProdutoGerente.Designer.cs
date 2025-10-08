@@ -82,7 +82,7 @@
             // lbl_CadastrarDespesa
             // 
             lbl_CadastrarDespesa.AutoSize = true;
-            lbl_CadastrarDespesa.BackColor = SystemColors.Control;
+            lbl_CadastrarDespesa.BackColor = Color.White;
             lbl_CadastrarDespesa.Font = new Font("ST-Komsomol", 57.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_CadastrarDespesa.ForeColor = Color.FromArgb(9, 28, 128);
             lbl_CadastrarDespesa.Location = new Point(352, -29);
@@ -363,6 +363,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
             ClientSize = new Size(1312, 827);
             Controls.Add(lbl_ImgProduto);
             Controls.Add(btn_Salvar);
