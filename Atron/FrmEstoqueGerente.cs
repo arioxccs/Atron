@@ -72,5 +72,15 @@ namespace Atron
             frmPrincipal.Controls["panel2"].Controls.Add(TelaAberta);
             TelaAberta.Show();
         }
+
+        private void btn_EntradaEstoque_Click(object sender, EventArgs e)
+        {
+            FrmEntradaEstoqueGerente TelaAberta = new FrmEntradaEstoqueGerente();
+            FrmGerentePrincipal frmPrincipal = (FrmGerentePrincipal)this.ParentForm;
+            frmPrincipal.Controls["panel2"].Controls.Clear();
+            TelaAberta.TopLevel = false;
+            frmPrincipal.Controls["panel2"].Controls.Add(TelaAberta);
+            TelaAberta.Show();
+        }
     }
 }

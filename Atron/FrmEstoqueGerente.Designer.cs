@@ -182,6 +182,7 @@
             btn_EntradaEstoque.TabIndex = 6;
             btn_EntradaEstoque.Text = "Entrada no Estoque";
             btn_EntradaEstoque.UseVisualStyleBackColor = false;
+            btn_EntradaEstoque.Click += btn_EntradaEstoque_Click;
             // 
             // lbl_NiveisEstoque
             // 
