@@ -73,5 +73,11 @@ namespace Atron
             ActiveButton(btn_DespesasMenuGerente);
             FormShow(new FrmDespesasGerente());
         }
+
+        private void btn_pedidosMenuGerente_Click(object sender, EventArgs e)
+        {
+            ActiveButton(btn_pedidosMenuGerente);
+            FormShow(new FrmPedidoGerente());
+        }
     }
 }

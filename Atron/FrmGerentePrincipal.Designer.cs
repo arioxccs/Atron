@@ -118,6 +118,7 @@
             btn_pedidosMenuGerente.Text = "Pedidos";
             btn_pedidosMenuGerente.TextImageRelation = TextImageRelation.ImageAboveText;
             btn_pedidosMenuGerente.UseVisualStyleBackColor = false;
+            btn_pedidosMenuGerente.Click += btn_pedidosMenuGerente_Click;
             // 
             // btn_ClienteMenuGerente
             // 
@@ -163,11 +164,11 @@
             btn_FuncionariosMenuGerente.Font = new Font("Microsoft Sans Serif", 11.25F);
             btn_FuncionariosMenuGerente.ForeColor = Color.White;
             btn_FuncionariosMenuGerente.Image = (Image)resources.GetObject("btn_FuncionariosMenuGerente.Image");
-            btn_FuncionariosMenuGerente.Location = new Point(12, 184);
+            btn_FuncionariosMenuGerente.Location = new Point(11, 184);
             btn_FuncionariosMenuGerente.Name = "btn_FuncionariosMenuGerente";
-            btn_FuncionariosMenuGerente.Size = new Size(94, 68);
+            btn_FuncionariosMenuGerente.Size = new Size(103, 68);
             btn_FuncionariosMenuGerente.TabIndex = 6;
-            btn_FuncionariosMenuGerente.Text = "Pedido";
+            btn_FuncionariosMenuGerente.Text = "Funcionários";
             btn_FuncionariosMenuGerente.TextImageRelation = TextImageRelation.ImageAboveText;
             btn_FuncionariosMenuGerente.UseVisualStyleBackColor = false;
             btn_FuncionariosMenuGerente.Click += btn_FuncionariosMenuGerente_Click;
