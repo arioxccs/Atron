@@ -36,5 +36,10 @@ namespace Atron
         {
             new FrmPedidosRecentesGerente().ShowDialog();
         }
+
+        private void btn_PedidoCancelado_Click(object sender, EventArgs e)
+        {
+            new FrmPedidosCanceladosGerente().ShowDialog();
+        }
     }
 }

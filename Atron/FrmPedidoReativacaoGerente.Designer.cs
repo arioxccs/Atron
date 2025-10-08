@@ -215,7 +215,7 @@
             panelMotivoCancelamento.Controls.Add(lbl_MotivoCancelamento);
             panelMotivoCancelamento.Controls.Add(lbl_MotivoCancelamentoTitulo);
             panelMotivoCancelamento.Controls.Add(label8);
-            panelMotivoCancelamento.Location = new Point(150, 290);
+            panelMotivoCancelamento.Location = new Point(210, 294);
             panelMotivoCancelamento.Name = "panelMotivoCancelamento";
             panelMotivoCancelamento.Size = new Size(576, 76);
             panelMotivoCancelamento.TabIndex = 14;
@@ -249,7 +249,7 @@
             lbl_DataCancelamentoPedido.AutoSize = true;
             lbl_DataCancelamentoPedido.Font = new Font("Lato", 11.9999981F);
             lbl_DataCancelamentoPedido.ForeColor = Color.FromArgb(147, 147, 147);
-            lbl_DataCancelamentoPedido.Location = new Point(416, 388);
+            lbl_DataCancelamentoPedido.Location = new Point(476, 392);
             lbl_DataCancelamentoPedido.Name = "lbl_DataCancelamentoPedido";
             lbl_DataCancelamentoPedido.Size = new Size(93, 19);
             lbl_DataCancelamentoPedido.TabIndex = 18;
@@ -260,7 +260,7 @@
             lbl_CancelamentoPedido.AutoSize = true;
             lbl_CancelamentoPedido.Font = new Font("Lato", 11.9999981F);
             lbl_CancelamentoPedido.ForeColor = Color.FromArgb(26, 76, 117);
-            lbl_CancelamentoPedido.Location = new Point(416, 369);
+            lbl_CancelamentoPedido.Location = new Point(476, 373);
             lbl_CancelamentoPedido.Name = "lbl_CancelamentoPedido";
             lbl_CancelamentoPedido.Size = new Size(166, 19);
             lbl_CancelamentoPedido.TabIndex = 17;
@@ -271,7 +271,7 @@
             lbl_DataSolicitacaoReativacao.AutoSize = true;
             lbl_DataSolicitacaoReativacao.Font = new Font("Lato", 11.9999981F);
             lbl_DataSolicitacaoReativacao.ForeColor = Color.FromArgb(147, 147, 147);
-            lbl_DataSolicitacaoReativacao.Location = new Point(298, 388);
+            lbl_DataSolicitacaoReativacao.Location = new Point(358, 392);
             lbl_DataSolicitacaoReativacao.Name = "lbl_DataSolicitacaoReativacao";
             lbl_DataSolicitacaoReativacao.Size = new Size(93, 19);
             lbl_DataSolicitacaoReativacao.TabIndex = 16;
@@ -282,7 +282,7 @@
             lbl_SolicitacaoReativacao.AutoSize = true;
             lbl_SolicitacaoReativacao.Font = new Font("Lato", 11.9999981F);
             lbl_SolicitacaoReativacao.ForeColor = Color.FromArgb(26, 76, 117);
-            lbl_SolicitacaoReativacao.Location = new Point(255, 369);
+            lbl_SolicitacaoReativacao.Location = new Point(315, 373);
             lbl_SolicitacaoReativacao.Name = "lbl_SolicitacaoReativacao";
             lbl_SolicitacaoReativacao.Size = new Size(140, 19);
             lbl_SolicitacaoReativacao.TabIndex = 15;
@@ -315,7 +315,7 @@
             btn_Reativar.FlatStyle = FlatStyle.Flat;
             btn_Reativar.Font = new Font("Lato", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btn_Reativar.ForeColor = Color.White;
-            btn_Reativar.Location = new Point(256, 428);
+            btn_Reativar.Location = new Point(316, 432);
             btn_Reativar.Name = "btn_Reativar";
             btn_Reativar.Size = new Size(166, 37);
             btn_Reativar.TabIndex = 21;
@@ -329,7 +329,7 @@
             btn_Negar.FlatStyle = FlatStyle.Flat;
             btn_Negar.Font = new Font("Lato", 15F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btn_Negar.ForeColor = Color.White;
-            btn_Negar.Location = new Point(432, 428);
+            btn_Negar.Location = new Point(492, 432);
             btn_Negar.Name = "btn_Negar";
             btn_Negar.Size = new Size(166, 37);
             btn_Negar.TabIndex = 22;

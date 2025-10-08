@@ -326,6 +326,7 @@
             btn_PedidoCancelado.Size = new Size(30, 30);
             btn_PedidoCancelado.TabIndex = 19;
             btn_PedidoCancelado.UseVisualStyleBackColor = false;
+            btn_PedidoCancelado.Click += btn_PedidoCancelado_Click;
             // 
             // lbl_ValorPedidoCancelado
             // 
