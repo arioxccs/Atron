@@ -243,6 +243,7 @@
             btn_Pedido.Size = new Size(30, 30);
             btn_Pedido.TabIndex = 18;
             btn_Pedido.UseVisualStyleBackColor = false;
+            btn_Pedido.Click += btn_Pedido_Click;
             // 
             // pictureBox5
             // 

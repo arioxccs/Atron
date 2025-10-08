@@ -24,12 +24,17 @@ namespace Atron
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
-            
+
         }
 
         private void btn_PedidoReativacao_Click(object sender, EventArgs e)
         {
             new FrmPedidoReativacaoGerente().ShowDialog();
+        }
+
+        private void btn_Pedido_Click(object sender, EventArgs e)
+        {
+            new FrmPedidosRecentesGerente().ShowDialog();
         }
     }
 }
