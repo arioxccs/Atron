@@ -136,6 +136,7 @@
             btn_ClienteMenuGerente.Text = "Clientes";
             btn_ClienteMenuGerente.TextImageRelation = TextImageRelation.ImageAboveText;
             btn_ClienteMenuGerente.UseVisualStyleBackColor = false;
+            btn_ClienteMenuGerente.Click += btn_ClienteMenuGerente_Click;
             // 
             // btn_DespesasMenuGerente
             // 
