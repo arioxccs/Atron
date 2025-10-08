@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             dataGridView1 = new DataGridView();
-            label1 = new Label();
             Nome = new DataGridViewTextBoxColumn();
             Código = new DataGridViewTextBoxColumn();
             CPF = new DataGridViewTextBoxColumn();
             Contato = new DataGridViewTextBoxColumn();
+            label1 = new Label();
             btn_Visualizar = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -47,17 +47,6 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(1233, 644);
             dataGridView1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("ST-Komsomol", 80.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.FromArgb(14, 41, 184);
-            label1.Location = new Point(442, -65);
-            label1.Name = "label1";
-            label1.Size = new Size(439, 172);
-            label1.TabIndex = 1;
-            label1.Text = "Clientes";
             // 
             // Nome
             // 
@@ -79,6 +68,17 @@
             Contato.HeaderText = "Contato";
             Contato.Name = "Contato";
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("ST-Komsomol", 80.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.FromArgb(14, 41, 184);
+            label1.Location = new Point(442, -65);
+            label1.Name = "label1";
+            label1.Size = new Size(439, 172);
+            label1.TabIndex = 1;
+            label1.Text = "Clientes";
+            // 
             // btn_Visualizar
             // 
             btn_Visualizar.BackColor = Color.FromArgb(14, 41, 184);
@@ -91,6 +91,7 @@
             btn_Visualizar.TabIndex = 8;
             btn_Visualizar.Text = "Visualizar";
             btn_Visualizar.UseVisualStyleBackColor = false;
+            btn_Visualizar.Click += btn_Visualizar_Click;
             // 
             // FrmClientesGerente
             // 

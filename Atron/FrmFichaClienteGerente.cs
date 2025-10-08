@@ -10,16 +10,21 @@ using System.Windows.Forms;
 
 namespace Atron
 {
-    public partial class FrmClientesGerente : Form
+    public partial class FrmFichaClienteGerente : Form
     {
-        public FrmClientesGerente()
+        public FrmFichaClienteGerente()
         {
             InitializeComponent();
         }
 
-        private void btn_Visualizar_Click(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            FrmFichaClienteGerente TelaAberta= new FrmFichaClienteGerente();
+
+        }
+
+        private void btn_Voltar_Click(object sender, EventArgs e)
+        {
+            FrmClientesGerente TelaAberta = new FrmClientesGerente();
             FrmGerentePrincipal frmPrincipal = (FrmGerentePrincipal)this.ParentForm;
             frmPrincipal.Controls["panel2"].Controls.Clear();
             TelaAberta.TopLevel = false;

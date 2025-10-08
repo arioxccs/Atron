@@ -129,4 +129,17 @@
   <metadata name="Contato.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_Voltar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAAVVJREFUaEPtmElKBEEQRZ/jCTyICC7EaePWs7gRcac7V4K3VBTFAVGc+VAJxSdr
+        VV1tJMSDDwX9KSIjIyIrG5IkSZJkGlaAC+AMWPIfo7MMXAE/wFe3iAU3RWWxy7yC/+2k5xM3RmQVuOwF
+        XnQDbLo5Gsq8gu9nXroF1t0cDdW8ysYz/wBsuTkamjalYfvBXwMbbo6IN2zJfPjgy5z3slHNhy+b/pzv
+        B69pE75ha3Neum9hVOac/y+G5vwbcAisTajRDM156QN4nFijqTXsPDWa8+6T2F88L41GlxEtorYLn8Dd
+        xJoJuoxoEd+2gHfgoOuTqTQzNEZr5aQDbM/NUSnl5KX0BOy4OTK1nXhucSe8J5oqp9ITXk4vwLabI1Mr
+        J11odt0YlaFzoqlFDJ0Tr8C+m6OS50QkfCf0zXTspsj0zwndGY5a+nO3UHritMXgkyRJkjb4AxlKCTAH
+        BPkNAAAAAElFTkSuQmCC
+</value>
+  </data>
 </root>
