@@ -69,110 +69,110 @@
             // lbl_PopUpNomeProduto
             // 
             lbl_PopUpNomeProduto.AutoSize = true;
-            lbl_PopUpNomeProduto.Font = new Font("Lato", 33.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_PopUpNomeProduto.Font = new Font("Microsoft Sans Serif", 33.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_PopUpNomeProduto.ForeColor = Color.White;
             lbl_PopUpNomeProduto.Location = new Point(350, 24);
             lbl_PopUpNomeProduto.Name = "lbl_PopUpNomeProduto";
-            lbl_PopUpNomeProduto.Size = new Size(186, 54);
+            lbl_PopUpNomeProduto.Size = new Size(180, 52);
             lbl_PopUpNomeProduto.TabIndex = 0;
             lbl_PopUpNomeProduto.Text = "Produto";
             // 
             // lbl_UltimaRespPop
             // 
             lbl_UltimaRespPop.AutoSize = true;
-            lbl_UltimaRespPop.Font = new Font("Lato", 26.25F, FontStyle.Underline);
+            lbl_UltimaRespPop.Font = new Font("Microsoft Sans Serif", 26.25F, FontStyle.Underline);
             lbl_UltimaRespPop.ForeColor = Color.FromArgb(255, 122, 0);
             lbl_UltimaRespPop.Location = new Point(12, 483);
             lbl_UltimaRespPop.Name = "lbl_UltimaRespPop";
-            lbl_UltimaRespPop.Size = new Size(285, 42);
+            lbl_UltimaRespPop.Size = new Size(287, 39);
             lbl_UltimaRespPop.TabIndex = 2;
             lbl_UltimaRespPop.Text = "Última reposicão:";
             // 
             // lbl_CodFornecedorPop
             // 
             lbl_CodFornecedorPop.AutoSize = true;
-            lbl_CodFornecedorPop.Font = new Font("Lato", 26.25F, FontStyle.Underline);
+            lbl_CodFornecedorPop.Font = new Font("Microsoft Sans Serif", 26.25F, FontStyle.Underline);
             lbl_CodFornecedorPop.ForeColor = Color.FromArgb(255, 122, 0);
             lbl_CodFornecedorPop.Location = new Point(12, 422);
             lbl_CodFornecedorPop.Name = "lbl_CodFornecedorPop";
-            lbl_CodFornecedorPop.Size = new Size(319, 42);
+            lbl_CodFornecedorPop.Size = new Size(322, 39);
             lbl_CodFornecedorPop.TabIndex = 3;
             lbl_CodFornecedorPop.Text = "Código Fornecedor:";
             // 
             // lbl_MarcaPop
             // 
             lbl_MarcaPop.AutoSize = true;
-            lbl_MarcaPop.Font = new Font("Lato", 26.25F, FontStyle.Underline);
+            lbl_MarcaPop.Font = new Font("Microsoft Sans Serif", 26.25F, FontStyle.Underline);
             lbl_MarcaPop.ForeColor = Color.FromArgb(255, 122, 0);
             lbl_MarcaPop.Location = new Point(368, 181);
             lbl_MarcaPop.Name = "lbl_MarcaPop";
-            lbl_MarcaPop.Size = new Size(125, 42);
+            lbl_MarcaPop.Size = new Size(124, 39);
             lbl_MarcaPop.TabIndex = 4;
             lbl_MarcaPop.Text = "Marca:";
             // 
             // lbl_FornecedorPop
             // 
             lbl_FornecedorPop.AutoSize = true;
-            lbl_FornecedorPop.Font = new Font("Lato", 26.25F, FontStyle.Underline);
+            lbl_FornecedorPop.Font = new Font("Microsoft Sans Serif", 26.25F, FontStyle.Underline);
             lbl_FornecedorPop.ForeColor = Color.FromArgb(255, 122, 0);
             lbl_FornecedorPop.Location = new Point(394, 423);
             lbl_FornecedorPop.Name = "lbl_FornecedorPop";
-            lbl_FornecedorPop.Size = new Size(203, 42);
+            lbl_FornecedorPop.Size = new Size(204, 39);
             lbl_FornecedorPop.TabIndex = 5;
             lbl_FornecedorPop.Text = "Fornecedor:";
             // 
             // lbl_QtdeMinPop
             // 
             lbl_QtdeMinPop.AutoSize = true;
-            lbl_QtdeMinPop.Font = new Font("Lato", 26.25F, FontStyle.Underline);
+            lbl_QtdeMinPop.Font = new Font("Microsoft Sans Serif", 26.25F, FontStyle.Underline);
             lbl_QtdeMinPop.ForeColor = Color.FromArgb(255, 122, 0);
             lbl_QtdeMinPop.Location = new Point(12, 362);
             lbl_QtdeMinPop.Name = "lbl_QtdeMinPop";
-            lbl_QtdeMinPop.Size = new Size(545, 42);
+            lbl_QtdeMinPop.Size = new Size(549, 39);
             lbl_QtdeMinPop.TabIndex = 6;
             lbl_QtdeMinPop.Text = "Quantidade mínima recomendada:";
             // 
             // lbl_QtdeTpop
             // 
             lbl_QtdeTpop.AutoSize = true;
-            lbl_QtdeTpop.Font = new Font("Lato", 26.25F, FontStyle.Underline);
+            lbl_QtdeTpop.Font = new Font("Microsoft Sans Serif", 26.25F, FontStyle.Underline);
             lbl_QtdeTpop.ForeColor = Color.FromArgb(255, 122, 0);
             lbl_QtdeTpop.Location = new Point(12, 301);
             lbl_QtdeTpop.Name = "lbl_QtdeTpop";
-            lbl_QtdeTpop.Size = new Size(209, 42);
+            lbl_QtdeTpop.Size = new Size(205, 39);
             lbl_QtdeTpop.TabIndex = 7;
             lbl_QtdeTpop.Text = "Quantidade:";
             // 
             // lbl_CategoriaTPop
             // 
             lbl_CategoriaTPop.AutoSize = true;
-            lbl_CategoriaTPop.Font = new Font("Lato", 26.25F, FontStyle.Underline);
+            lbl_CategoriaTPop.Font = new Font("Microsoft Sans Serif", 26.25F, FontStyle.Underline);
             lbl_CategoriaTPop.ForeColor = Color.FromArgb(255, 122, 0);
             lbl_CategoriaTPop.Location = new Point(12, 240);
             lbl_CategoriaTPop.Name = "lbl_CategoriaTPop";
-            lbl_CategoriaTPop.Size = new Size(178, 42);
+            lbl_CategoriaTPop.Size = new Size(177, 39);
             lbl_CategoriaTPop.TabIndex = 8;
             lbl_CategoriaTPop.Text = "Categoria:";
             // 
             // lbl_NomeProdutoTpop
             // 
             lbl_NomeProdutoTpop.AutoSize = true;
-            lbl_NomeProdutoTpop.Font = new Font("Lato", 26.25F, FontStyle.Underline);
+            lbl_NomeProdutoTpop.Font = new Font("Microsoft Sans Serif", 26.25F, FontStyle.Underline);
             lbl_NomeProdutoTpop.ForeColor = Color.FromArgb(255, 122, 0);
             lbl_NomeProdutoTpop.Location = new Point(12, 181);
             lbl_NomeProdutoTpop.Name = "lbl_NomeProdutoTpop";
-            lbl_NomeProdutoTpop.Size = new Size(152, 42);
+            lbl_NomeProdutoTpop.Size = new Size(148, 39);
             lbl_NomeProdutoTpop.TabIndex = 9;
             lbl_NomeProdutoTpop.Text = "Produto:";
             // 
             // lbl_CodProdutoTPop
             // 
             lbl_CodProdutoTPop.AutoSize = true;
-            lbl_CodProdutoTPop.Font = new Font("Lato", 26.25F, FontStyle.Underline);
+            lbl_CodProdutoTPop.Font = new Font("Microsoft Sans Serif", 26.25F, FontStyle.Underline);
             lbl_CodProdutoTPop.ForeColor = Color.FromArgb(255, 122, 0);
             lbl_CodProdutoTPop.Location = new Point(12, 123);
             lbl_CodProdutoTPop.Name = "lbl_CodProdutoTPop";
-            lbl_CodProdutoTPop.Size = new Size(299, 42);
+            lbl_CodProdutoTPop.Size = new Size(301, 39);
             lbl_CodProdutoTPop.TabIndex = 10;
             lbl_CodProdutoTPop.Text = "Código do Poduto:";
             lbl_CodProdutoTPop.Click += label1_Click_1;
@@ -213,11 +213,11 @@
             // lbl_CodProdutoRPop
             // 
             lbl_CodProdutoRPop.AutoSize = true;
-            lbl_CodProdutoRPop.Font = new Font("Lato", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_CodProdutoRPop.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_CodProdutoRPop.ForeColor = Color.FromArgb(147, 147, 147);
             lbl_CodProdutoRPop.Location = new Point(308, 129);
             lbl_CodProdutoRPop.Name = "lbl_CodProdutoRPop";
-            lbl_CodProdutoRPop.Size = new Size(32, 35);
+            lbl_CodProdutoRPop.Size = new Size(31, 33);
             lbl_CodProdutoRPop.TabIndex = 15;
             lbl_CodProdutoRPop.Text = "1";
             lbl_CodProdutoRPop.Click += label2_Click;
@@ -225,88 +225,88 @@
             // lbl_MarcaRpop
             // 
             lbl_MarcaRpop.AutoSize = true;
-            lbl_MarcaRpop.Font = new Font("Lato", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_MarcaRpop.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_MarcaRpop.ForeColor = Color.FromArgb(147, 147, 147);
             lbl_MarcaRpop.Location = new Point(499, 188);
             lbl_MarcaRpop.Name = "lbl_MarcaRpop";
-            lbl_MarcaRpop.Size = new Size(98, 35);
+            lbl_MarcaRpop.Size = new Size(96, 33);
             lbl_MarcaRpop.TabIndex = 16;
             lbl_MarcaRpop.Text = "Marca";
             // 
             // lbl_NomeProdutoRPop
             // 
             lbl_NomeProdutoRPop.AutoSize = true;
-            lbl_NomeProdutoRPop.Font = new Font("Lato", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_NomeProdutoRPop.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_NomeProdutoRPop.ForeColor = Color.FromArgb(147, 147, 147);
             lbl_NomeProdutoRPop.Location = new Point(160, 188);
             lbl_NomeProdutoRPop.Name = "lbl_NomeProdutoRPop";
-            lbl_NomeProdutoRPop.Size = new Size(120, 35);
+            lbl_NomeProdutoRPop.Size = new Size(116, 33);
             lbl_NomeProdutoRPop.TabIndex = 17;
             lbl_NomeProdutoRPop.Text = "Produto";
             // 
             // lbl_CategoriaRPop
             // 
             lbl_CategoriaRPop.AutoSize = true;
-            lbl_CategoriaRPop.Font = new Font("Lato", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_CategoriaRPop.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_CategoriaRPop.ForeColor = Color.FromArgb(147, 147, 147);
             lbl_CategoriaRPop.Location = new Point(196, 246);
             lbl_CategoriaRPop.Name = "lbl_CategoriaRPop";
-            lbl_CategoriaRPop.Size = new Size(141, 35);
+            lbl_CategoriaRPop.Size = new Size(141, 33);
             lbl_CategoriaRPop.TabIndex = 18;
             lbl_CategoriaRPop.Text = "Categoria";
             // 
             // lbl_QtdeRPop
             // 
             lbl_QtdeRPop.AutoSize = true;
-            lbl_QtdeRPop.Font = new Font("Lato", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_QtdeRPop.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_QtdeRPop.ForeColor = Color.FromArgb(147, 147, 147);
             lbl_QtdeRPop.Location = new Point(214, 307);
             lbl_QtdeRPop.Name = "lbl_QtdeRPop";
-            lbl_QtdeRPop.Size = new Size(49, 35);
+            lbl_QtdeRPop.Size = new Size(47, 33);
             lbl_QtdeRPop.TabIndex = 19;
             lbl_QtdeRPop.Text = "10";
             // 
             // lbl_QtdeMinRPop
             // 
             lbl_QtdeMinRPop.AutoSize = true;
-            lbl_QtdeMinRPop.Font = new Font("Lato", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_QtdeMinRPop.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_QtdeMinRPop.ForeColor = Color.FromArgb(147, 147, 147);
             lbl_QtdeMinRPop.Location = new Point(553, 369);
             lbl_QtdeMinRPop.Name = "lbl_QtdeMinRPop";
-            lbl_QtdeMinRPop.Size = new Size(32, 35);
+            lbl_QtdeMinRPop.Size = new Size(31, 33);
             lbl_QtdeMinRPop.TabIndex = 21;
             lbl_QtdeMinRPop.Text = "2";
             // 
             // lbl_CodFornecedorRpop
             // 
             lbl_CodFornecedorRpop.AutoSize = true;
-            lbl_CodFornecedorRpop.Font = new Font("Lato", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_CodFornecedorRpop.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_CodFornecedorRpop.ForeColor = Color.FromArgb(147, 147, 147);
             lbl_CodFornecedorRpop.Location = new Point(324, 428);
             lbl_CodFornecedorRpop.Name = "lbl_CodFornecedorRpop";
-            lbl_CodFornecedorRpop.Size = new Size(32, 35);
+            lbl_CodFornecedorRpop.Size = new Size(31, 33);
             lbl_CodFornecedorRpop.TabIndex = 22;
             lbl_CodFornecedorRpop.Text = "2";
             // 
             // lbl_FornecedorRPop
             // 
             lbl_FornecedorRPop.AutoSize = true;
-            lbl_FornecedorRPop.Font = new Font("Lato", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_FornecedorRPop.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_FornecedorRPop.ForeColor = Color.FromArgb(147, 147, 147);
             lbl_FornecedorRPop.Location = new Point(594, 429);
             lbl_FornecedorRPop.Name = "lbl_FornecedorRPop";
-            lbl_FornecedorRPop.Size = new Size(162, 35);
+            lbl_FornecedorRPop.Size = new Size(164, 33);
             lbl_FornecedorRPop.TabIndex = 23;
             lbl_FornecedorRPop.Text = "Fornecedor";
             // 
             // lbl_UltimaRespRpop
             // 
             lbl_UltimaRespRpop.AutoSize = true;
-            lbl_UltimaRespRpop.Font = new Font("Lato", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_UltimaRespRpop.Font = new Font("Microsoft Sans Serif", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_UltimaRespRpop.ForeColor = Color.FromArgb(147, 147, 147);
             lbl_UltimaRespRpop.Location = new Point(303, 490);
             lbl_UltimaRespRpop.Name = "lbl_UltimaRespRpop";
-            lbl_UltimaRespRpop.Size = new Size(173, 35);
+            lbl_UltimaRespRpop.Size = new Size(159, 33);
             lbl_UltimaRespRpop.TabIndex = 24;
             lbl_UltimaRespRpop.Text = "01/01/2025";
             // 
@@ -341,7 +341,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "FrmPopupProdutoEstoque";
             StartPosition = FormStartPosition.CenterParent;
-            Text = "FrmPopupProdutoEstoque";
+            Text = "S";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pic_ProdutoPop).EndInit();
