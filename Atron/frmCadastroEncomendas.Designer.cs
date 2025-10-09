@@ -49,6 +49,17 @@
             panel1.SuspendLayout();
             SuspendLayout();
             // 
+            // lblTitulo2
+            // 
+            lblTitulo2.AutoSize = true;
+            lblTitulo2.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Pixel);
+            lblTitulo2.ForeColor = Color.FromArgb(121, 121, 121);
+            lblTitulo2.Location = new Point(27, 19);
+            lblTitulo2.Name = "lblTitulo2";
+            lblTitulo2.Size = new Size(186, 38);
+            lblTitulo2.TabIndex = 3;
+            lblTitulo2.Text = "BAIXA NO ESTOQUE";
+            // 
             // pnlFundo
             // 
             pnlFundo.BackColor = Color.FromArgb(9, 28, 128);
@@ -104,6 +115,7 @@
             btnConfirmar.TabIndex = 16;
             btnConfirmar.Text = "Confirmar";
             btnConfirmar.UseVisualStyleBackColor = false;
+            btnConfirmar.Click += btnConfirmar_Click;
             // 
             // llbAdicionarVenda
             // 
@@ -218,17 +230,6 @@
             cmbCliente.Size = new Size(707, 46);
             cmbCliente.TabIndex = 6;
             cmbCliente.Text = "    CLIENTE";
-            // 
-            // lblTitulo2
-            // 
-            lblTitulo2.AutoSize = true;
-            lblTitulo2.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Pixel);
-            lblTitulo2.ForeColor = Color.FromArgb(121, 121, 121);
-            lblTitulo2.Location = new Point(27, 19);
-            lblTitulo2.Name = "lblTitulo2";
-            lblTitulo2.Size = new Size(186, 38);
-            lblTitulo2.TabIndex = 3;
-            lblTitulo2.Text = "BAIXA NO ESTOQUE";
             // 
             // lblTitulo1
             // 

@@ -127,6 +127,7 @@
             picButtonMaisProdutos.SizeMode = PictureBoxSizeMode.StretchImage;
             picButtonMaisProdutos.TabIndex = 24;
             picButtonMaisProdutos.TabStop = false;
+            picButtonMaisProdutos.Click += picButtonMaisProdutos_Click;
             // 
             // label6
             // 
@@ -511,6 +512,7 @@
             button1.TabIndex = 9;
             button1.Text = "Finalizar Venda";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // btnCancelar
             // 
@@ -523,6 +525,7 @@
             btnCancelar.TabIndex = 10;
             btnCancelar.Text = "Cancelar a venda";
             btnCancelar.UseVisualStyleBackColor = false;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // frmCarrinho
             // 

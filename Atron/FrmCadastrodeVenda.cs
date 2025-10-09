@@ -21,5 +21,23 @@ namespace Atron
         {
 
         }
+
+        private void llbAdicionarVenda_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            FrmCadastro2Vendas frmCadastro2Vendas = new FrmCadastro2Vendas();
+            frmCadastro2Vendas.ShowDialog();
+        }
+
+        private void btnConfirmar_Click(object sender, EventArgs e)
+        {
+            frmCarrinho frmCarrinho = new frmCarrinho();
+            frmCarrinho.ShowDialog();
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            frmPopUpConfirmarCancelamento frmPopUpConfirmarCancelamento = new frmPopUpConfirmarCancelamento();
+            frmPopUpConfirmarCancelamento.Show();
+        }
     }
 }

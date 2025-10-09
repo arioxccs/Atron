@@ -21,5 +21,25 @@ namespace Atron
         {
 
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btnConfirmar_Click(object sender, EventArgs e)
+        {
+            int char1 = int.Parse(txtCaractere1.Text);
+            if (char1== 1)
+            {
+                frmMenuFecharCaixa frmMenuFecharCaixa = new frmMenuFecharCaixa();
+                frmMenuFecharCaixa.ShowDialog();
+            }
+            else
+            {
+                frmAvisoSenhaIncorreta frmAvisoSenhaIncorreta = new frmAvisoSenhaIncorreta();
+                frmAvisoSenhaIncorreta.Show();
+            }
+        }
     }
 }

@@ -16,5 +16,17 @@ namespace Atron
         {
             InitializeComponent();
         }
+
+        private void pnlFundo_Paint(object sender, PaintEventArgs e)
+        {
+            frmPopUpDetalhesProduto frmPopUpDetalhesProduto = new frmPopUpDetalhesProduto();
+            frmPopUpDetalhesProduto.Show();
+        }
+
+        private void picVoltar_Click(object sender, EventArgs e)
+        {
+            frmBuscaProduto frmBuscaProduto = new frmBuscaProduto();
+            frmBuscaProduto.ShowDialog();
+        }
     }
 }

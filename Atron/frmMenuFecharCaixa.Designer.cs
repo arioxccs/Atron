@@ -119,6 +119,7 @@
             pctAbrirCaixa.SizeMode = PictureBoxSizeMode.Zoom;
             pctAbrirCaixa.TabIndex = 3;
             pctAbrirCaixa.TabStop = false;
+            pctAbrirCaixa.Click += pctAbrirCaixa_Click;
             // 
             // gpbValorVendas
             // 
@@ -161,6 +162,7 @@
             btnRegistrarVenda.TextAlign = ContentAlignment.MiddleRight;
             btnRegistrarVenda.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnRegistrarVenda.UseVisualStyleBackColor = false;
+            btnRegistrarVenda.Click += btnRegistrarVenda_Click;
             // 
             // btnRegistrarPedido
             // 
@@ -178,6 +180,7 @@
             btnRegistrarPedido.TextAlign = ContentAlignment.MiddleRight;
             btnRegistrarPedido.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnRegistrarPedido.UseVisualStyleBackColor = false;
+            btnRegistrarPedido.Click += btnRegistrarPedido_Click;
             // 
             // btnCadastrarCliente
             // 
@@ -195,6 +198,7 @@
             btnCadastrarCliente.TextAlign = ContentAlignment.MiddleRight;
             btnCadastrarCliente.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnCadastrarCliente.UseVisualStyleBackColor = false;
+            btnCadastrarCliente.Click += btnCadastrarCliente_Click;
             // 
             // btnBuscaEstoque
             // 
@@ -212,6 +216,7 @@
             btnBuscaEstoque.TextAlign = ContentAlignment.MiddleRight;
             btnBuscaEstoque.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnBuscaEstoque.UseVisualStyleBackColor = false;
+            btnBuscaEstoque.Click += btnBuscaEstoque_Click;
             // 
             // lblRelatorio
             // 

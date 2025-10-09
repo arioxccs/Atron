@@ -47,6 +47,7 @@
             picVoltar.TabIndex = 0;
             picVoltar.TabStop = false;
             picVoltar.UseWaitCursor = true;
+            picVoltar.Click += picVoltar_Click;
             // 
             // txtPesquisa
             // 

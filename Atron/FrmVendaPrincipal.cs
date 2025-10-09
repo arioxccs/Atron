@@ -16,5 +16,11 @@ namespace Atron
         {
             InitializeComponent();
         }
+
+        private void FrmVendaPrincipal_Load(object sender, EventArgs e)
+        {
+            frmMenuAbrirCaixa frmMenuAbrirCaixa = new frmMenuAbrirCaixa();
+            frmMenuAbrirCaixa.Show();
+        }
     }
 }

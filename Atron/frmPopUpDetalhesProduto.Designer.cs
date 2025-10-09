@@ -161,6 +161,7 @@
             btnMudarProduto.TabIndex = 11;
             btnMudarProduto.Text = "Mudar Produto";
             btnMudarProduto.UseVisualStyleBackColor = false;
+            btnMudarProduto.Click += btnMudarProduto_Click;
             // 
             // btnVoltar
             // 
@@ -173,6 +174,7 @@
             btnVoltar.TabIndex = 10;
             btnVoltar.Text = "Voltar";
             btnVoltar.UseVisualStyleBackColor = false;
+            btnVoltar.Click += btnVoltar_Click;
             // 
             // frmPopUpDetalhesProduto
             // 

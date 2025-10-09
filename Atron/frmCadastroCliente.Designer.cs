@@ -30,29 +30,29 @@
         {
             pnlFundo = new Panel();
             panel1 = new Panel();
-            lblTitulo1 = new Label();
-            lblTitulo2 = new Label();
-            txtCodigo = new TextBox();
-            textBox1 = new TextBox();
-            maskedTextBox1 = new MaskedTextBox();
-            maskedTextBox2 = new MaskedTextBox();
-            maskedTextBox3 = new MaskedTextBox();
-            lblCpf = new Label();
-            lblTelefone = new Label();
-            label1 = new Label();
-            cmbData = new ComboBox();
-            txtEmail = new TextBox();
+            btnCancelar = new Button();
+            btnRegistrar = new Button();
+            txtComplemento = new TextBox();
+            label2 = new Label();
+            mktCEP = new MaskedTextBox();
+            cmbUF = new ComboBox();
+            txtCidade = new TextBox();
+            txtBairro = new TextBox();
             txtRua = new TextBox();
             txtNumero = new TextBox();
             lblEndereco = new Label();
-            txtBairro = new TextBox();
-            txtCidade = new TextBox();
-            cmbUF = new ComboBox();
-            mktCEP = new MaskedTextBox();
-            label2 = new Label();
-            txtComplemento = new TextBox();
-            btnRegistrar = new Button();
-            btnCancelar = new Button();
+            txtEmail = new TextBox();
+            cmbData = new ComboBox();
+            label1 = new Label();
+            lblTelefone = new Label();
+            lblCpf = new Label();
+            maskedTextBox3 = new MaskedTextBox();
+            maskedTextBox2 = new MaskedTextBox();
+            maskedTextBox1 = new MaskedTextBox();
+            textBox1 = new TextBox();
+            txtCodigo = new TextBox();
+            lblTitulo2 = new Label();
+            lblTitulo1 = new Label();
             pnlFundo.SuspendLayout();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -98,140 +98,101 @@
             panel1.Size = new Size(1128, 1355);
             panel1.TabIndex = 2;
             // 
-            // lblTitulo1
+            // btnCancelar
             // 
-            lblTitulo1.AutoSize = true;
-            lblTitulo1.Font = new Font("Bebas Neue", 33F, FontStyle.Regular, GraphicsUnit.Pixel);
-            lblTitulo1.ForeColor = Color.White;
-            lblTitulo1.Location = new Point(74, 29);
-            lblTitulo1.Name = "lblTitulo1";
-            lblTitulo1.Size = new Size(228, 43);
-            lblTitulo1.TabIndex = 1;
-            lblTitulo1.Text = "Registro de Cliente";
+            btnCancelar.BackColor = SystemColors.ControlLight;
+            btnCancelar.Font = new Font("Bebas Neue", 9F);
+            btnCancelar.ForeColor = Color.FromArgb(159, 0, 0);
+            btnCancelar.Location = new Point(47, 1280);
+            btnCancelar.Name = "btnCancelar";
+            btnCancelar.Size = new Size(122, 34);
+            btnCancelar.TabIndex = 37;
+            btnCancelar.Text = "Cancelar";
+            btnCancelar.UseVisualStyleBackColor = false;
+            btnCancelar.Click += btnCancelar_Click;
             // 
-            // lblTitulo2
+            // btnRegistrar
             // 
-            lblTitulo2.AutoSize = true;
-            lblTitulo2.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Pixel);
-            lblTitulo2.ForeColor = Color.FromArgb(121, 121, 121);
-            lblTitulo2.Location = new Point(47, 48);
-            lblTitulo2.Name = "lblTitulo2";
-            lblTitulo2.Size = new Size(183, 38);
-            lblTitulo2.TabIndex = 2;
-            lblTitulo2.Text = "dados do cliente";
+            btnRegistrar.BackColor = SystemColors.ControlLight;
+            btnRegistrar.Font = new Font("Bebas Neue", 17F);
+            btnRegistrar.ForeColor = Color.FromArgb(9, 186, 0);
+            btnRegistrar.Location = new Point(473, 1148);
+            btnRegistrar.Name = "btnRegistrar";
+            btnRegistrar.Size = new Size(497, 45);
+            btnRegistrar.TabIndex = 36;
+            btnRegistrar.Text = "registrar novo cliente";
+            btnRegistrar.UseVisualStyleBackColor = false;
+            btnRegistrar.Click += btnRegistrar_Click;
             // 
-            // txtCodigo
+            // txtComplemento
             // 
-            txtCodigo.BorderStyle = BorderStyle.FixedSingle;
-            txtCodigo.Font = new Font("Bebas Neue", 17F);
-            txtCodigo.ForeColor = Color.FromArgb(147, 147, 147);
-            txtCodigo.Location = new Point(47, 137);
-            txtCodigo.Name = "txtCodigo";
-            txtCodigo.Size = new Size(274, 44);
-            txtCodigo.TabIndex = 10;
-            txtCodigo.Text = "    CÓDIGO";
+            txtComplemento.BorderStyle = BorderStyle.FixedSingle;
+            txtComplemento.Font = new Font("Bebas Neue", 17F);
+            txtComplemento.ForeColor = Color.FromArgb(147, 147, 147);
+            txtComplemento.Location = new Point(47, 855);
+            txtComplemento.Multiline = true;
+            txtComplemento.Name = "txtComplemento";
+            txtComplemento.Size = new Size(1007, 114);
+            txtComplemento.TabIndex = 35;
+            txtComplemento.Text = "    complemento";
             // 
-            // textBox1
+            // label2
             // 
-            textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Font = new Font("Bebas Neue", 17F);
-            textBox1.ForeColor = Color.FromArgb(147, 147, 147);
-            textBox1.Location = new Point(347, 137);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(707, 44);
-            textBox1.TabIndex = 12;
-            textBox1.Text = "    Nome completo";
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Bebas Neue", 13F);
+            label2.ForeColor = Color.FromArgb(147, 147, 147);
+            label2.Location = new Point(824, 730);
+            label2.Name = "label2";
+            label2.Size = new Size(37, 29);
+            label2.TabIndex = 34;
+            label2.Text = "cpf";
             // 
-            // maskedTextBox1
+            // mktCEP
             // 
-            maskedTextBox1.BorderStyle = BorderStyle.FixedSingle;
-            maskedTextBox1.Font = new Font("Bebas Neue", 17F);
-            maskedTextBox1.ForeColor = Color.FromArgb(147, 147, 147);
-            maskedTextBox1.Location = new Point(47, 259);
-            maskedTextBox1.Mask = "000.000.000-00";
-            maskedTextBox1.Name = "maskedTextBox1";
-            maskedTextBox1.Size = new Size(309, 44);
-            maskedTextBox1.TabIndex = 18;
+            mktCEP.BorderStyle = BorderStyle.FixedSingle;
+            mktCEP.Font = new Font("Bebas Neue", 14F);
+            mktCEP.ForeColor = Color.FromArgb(147, 147, 147);
+            mktCEP.Location = new Point(824, 762);
+            mktCEP.Mask = "00000-000";
+            mktCEP.Name = "mktCEP";
+            mktCEP.Size = new Size(230, 38);
+            mktCEP.TabIndex = 33;
             // 
-            // maskedTextBox2
+            // cmbUF
             // 
-            maskedTextBox2.BorderStyle = BorderStyle.FixedSingle;
-            maskedTextBox2.Font = new Font("Bebas Neue", 17F);
-            maskedTextBox2.ForeColor = Color.FromArgb(147, 147, 147);
-            maskedTextBox2.Location = new Point(398, 259);
-            maskedTextBox2.Mask = "00 00000-0000";
-            maskedTextBox2.Name = "maskedTextBox2";
-            maskedTextBox2.Size = new Size(309, 44);
-            maskedTextBox2.TabIndex = 19;
+            cmbUF.Font = new Font("Bebas Neue", 16F);
+            cmbUF.ForeColor = Color.FromArgb(147, 147, 147);
+            cmbUF.FormattingEnabled = true;
+            cmbUF.Items.AddRange(new object[] { "AL; AM; AP; BA; ES; MA; MG; MS; MT; PE; PA;", " PB; PE; SC; SP; SE; TO; RS; RN; CE; GO; AC; DF;", "PR; PI;RO; RR" });
+            cmbUF.Location = new Point(718, 757);
+            cmbUF.Name = "cmbUF";
+            cmbUF.Size = new Size(88, 43);
+            cmbUF.TabIndex = 32;
+            cmbUF.Text = "    UF";
             // 
-            // maskedTextBox3
+            // txtCidade
             // 
-            maskedTextBox3.BorderStyle = BorderStyle.FixedSingle;
-            maskedTextBox3.Font = new Font("Bebas Neue", 17F);
-            maskedTextBox3.ForeColor = Color.FromArgb(147, 147, 147);
-            maskedTextBox3.Location = new Point(740, 259);
-            maskedTextBox3.Mask = "00.000.000-0";
-            maskedTextBox3.Name = "maskedTextBox3";
-            maskedTextBox3.Size = new Size(309, 44);
-            maskedTextBox3.TabIndex = 20;
+            txtCidade.BorderStyle = BorderStyle.FixedSingle;
+            txtCidade.Font = new Font("Bebas Neue", 17F);
+            txtCidade.ForeColor = Color.FromArgb(147, 147, 147);
+            txtCidade.Location = new Point(384, 756);
+            txtCidade.Name = "txtCidade";
+            txtCidade.Size = new Size(328, 44);
+            txtCidade.TabIndex = 30;
+            txtCidade.Text = "    Cidade";
+            txtCidade.TextChanged += textBox3_TextChanged;
             // 
-            // lblCpf
+            // txtBairro
             // 
-            lblCpf.AutoSize = true;
-            lblCpf.BackColor = Color.Transparent;
-            lblCpf.Font = new Font("Bebas Neue", 13F);
-            lblCpf.ForeColor = Color.FromArgb(147, 147, 147);
-            lblCpf.Location = new Point(47, 227);
-            lblCpf.Name = "lblCpf";
-            lblCpf.Size = new Size(37, 29);
-            lblCpf.TabIndex = 21;
-            lblCpf.Text = "cpf";
-            // 
-            // lblTelefone
-            // 
-            lblTelefone.AutoSize = true;
-            lblTelefone.BackColor = Color.Transparent;
-            lblTelefone.Font = new Font("Bebas Neue", 13F);
-            lblTelefone.ForeColor = Color.FromArgb(147, 147, 147);
-            lblTelefone.Location = new Point(398, 227);
-            lblTelefone.Name = "lblTelefone";
-            lblTelefone.Size = new Size(147, 29);
-            lblTelefone.TabIndex = 22;
-            lblTelefone.Text = "telefone/celular";
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Bebas Neue", 13F);
-            label1.ForeColor = Color.FromArgb(147, 147, 147);
-            label1.Location = new Point(740, 227);
-            label1.Name = "label1";
-            label1.Size = new Size(31, 29);
-            label1.TabIndex = 23;
-            label1.Text = "rg";
-            // 
-            // cmbData
-            // 
-            cmbData.Font = new Font("Bebas Neue", 16F);
-            cmbData.ForeColor = Color.FromArgb(147, 147, 147);
-            cmbData.FormattingEnabled = true;
-            cmbData.Location = new Point(47, 372);
-            cmbData.Name = "cmbData";
-            cmbData.Size = new Size(492, 43);
-            cmbData.TabIndex = 24;
-            cmbData.Text = "    dd/mm/aa";
-            // 
-            // txtEmail
-            // 
-            txtEmail.BorderStyle = BorderStyle.FixedSingle;
-            txtEmail.Font = new Font("Bebas Neue", 17F);
-            txtEmail.ForeColor = Color.FromArgb(147, 147, 147);
-            txtEmail.Location = new Point(47, 469);
-            txtEmail.Name = "txtEmail";
-            txtEmail.Size = new Size(1007, 44);
-            txtEmail.TabIndex = 25;
-            txtEmail.Text = "    email";
+            txtBairro.BorderStyle = BorderStyle.FixedSingle;
+            txtBairro.Font = new Font("Bebas Neue", 17F);
+            txtBairro.ForeColor = Color.FromArgb(147, 147, 147);
+            txtBairro.Location = new Point(47, 756);
+            txtBairro.Name = "txtBairro";
+            txtBairro.Size = new Size(328, 44);
+            txtBairro.TabIndex = 29;
+            txtBairro.Text = "    bairro";
             // 
             // txtRua
             // 
@@ -266,99 +227,140 @@
             lblEndereco.TabIndex = 26;
             lblEndereco.Text = "endereço";
             // 
-            // txtBairro
+            // txtEmail
             // 
-            txtBairro.BorderStyle = BorderStyle.FixedSingle;
-            txtBairro.Font = new Font("Bebas Neue", 17F);
-            txtBairro.ForeColor = Color.FromArgb(147, 147, 147);
-            txtBairro.Location = new Point(47, 756);
-            txtBairro.Name = "txtBairro";
-            txtBairro.Size = new Size(328, 44);
-            txtBairro.TabIndex = 29;
-            txtBairro.Text = "    bairro";
+            txtEmail.BorderStyle = BorderStyle.FixedSingle;
+            txtEmail.Font = new Font("Bebas Neue", 17F);
+            txtEmail.ForeColor = Color.FromArgb(147, 147, 147);
+            txtEmail.Location = new Point(47, 469);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(1007, 44);
+            txtEmail.TabIndex = 25;
+            txtEmail.Text = "    email";
             // 
-            // txtCidade
+            // cmbData
             // 
-            txtCidade.BorderStyle = BorderStyle.FixedSingle;
-            txtCidade.Font = new Font("Bebas Neue", 17F);
-            txtCidade.ForeColor = Color.FromArgb(147, 147, 147);
-            txtCidade.Location = new Point(384, 756);
-            txtCidade.Name = "txtCidade";
-            txtCidade.Size = new Size(328, 44);
-            txtCidade.TabIndex = 30;
-            txtCidade.Text = "    Cidade";
-            txtCidade.TextChanged += textBox3_TextChanged;
+            cmbData.Font = new Font("Bebas Neue", 16F);
+            cmbData.ForeColor = Color.FromArgb(147, 147, 147);
+            cmbData.FormattingEnabled = true;
+            cmbData.Location = new Point(47, 372);
+            cmbData.Name = "cmbData";
+            cmbData.Size = new Size(492, 43);
+            cmbData.TabIndex = 24;
+            cmbData.Text = "    dd/mm/aa";
             // 
-            // cmbUF
+            // label1
             // 
-            cmbUF.Font = new Font("Bebas Neue", 16F);
-            cmbUF.ForeColor = Color.FromArgb(147, 147, 147);
-            cmbUF.FormattingEnabled = true;
-            cmbUF.Items.AddRange(new object[] { "AL; AM; AP; BA; ES; MA; MG; MS; MT; PE; PA;", " PB; PE; SC; SP; SE; TO; RS; RN; CE; GO; AC; DF;", "PR; PI;RO; RR" });
-            cmbUF.Location = new Point(718, 757);
-            cmbUF.Name = "cmbUF";
-            cmbUF.Size = new Size(88, 43);
-            cmbUF.TabIndex = 32;
-            cmbUF.Text = "    UF";
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Bebas Neue", 13F);
+            label1.ForeColor = Color.FromArgb(147, 147, 147);
+            label1.Location = new Point(740, 227);
+            label1.Name = "label1";
+            label1.Size = new Size(31, 29);
+            label1.TabIndex = 23;
+            label1.Text = "rg";
             // 
-            // mktCEP
+            // lblTelefone
             // 
-            mktCEP.BorderStyle = BorderStyle.FixedSingle;
-            mktCEP.Font = new Font("Bebas Neue", 14F);
-            mktCEP.ForeColor = Color.FromArgb(147, 147, 147);
-            mktCEP.Location = new Point(824, 762);
-            mktCEP.Mask = "00000-000";
-            mktCEP.Name = "mktCEP";
-            mktCEP.Size = new Size(230, 38);
-            mktCEP.TabIndex = 33;
+            lblTelefone.AutoSize = true;
+            lblTelefone.BackColor = Color.Transparent;
+            lblTelefone.Font = new Font("Bebas Neue", 13F);
+            lblTelefone.ForeColor = Color.FromArgb(147, 147, 147);
+            lblTelefone.Location = new Point(398, 227);
+            lblTelefone.Name = "lblTelefone";
+            lblTelefone.Size = new Size(147, 29);
+            lblTelefone.TabIndex = 22;
+            lblTelefone.Text = "telefone/celular";
             // 
-            // label2
+            // lblCpf
             // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Bebas Neue", 13F);
-            label2.ForeColor = Color.FromArgb(147, 147, 147);
-            label2.Location = new Point(824, 730);
-            label2.Name = "label2";
-            label2.Size = new Size(37, 29);
-            label2.TabIndex = 34;
-            label2.Text = "cpf";
+            lblCpf.AutoSize = true;
+            lblCpf.BackColor = Color.Transparent;
+            lblCpf.Font = new Font("Bebas Neue", 13F);
+            lblCpf.ForeColor = Color.FromArgb(147, 147, 147);
+            lblCpf.Location = new Point(47, 227);
+            lblCpf.Name = "lblCpf";
+            lblCpf.Size = new Size(37, 29);
+            lblCpf.TabIndex = 21;
+            lblCpf.Text = "cpf";
             // 
-            // txtComplemento
+            // maskedTextBox3
             // 
-            txtComplemento.BorderStyle = BorderStyle.FixedSingle;
-            txtComplemento.Font = new Font("Bebas Neue", 17F);
-            txtComplemento.ForeColor = Color.FromArgb(147, 147, 147);
-            txtComplemento.Location = new Point(47, 855);
-            txtComplemento.Multiline = true;
-            txtComplemento.Name = "txtComplemento";
-            txtComplemento.Size = new Size(1007, 114);
-            txtComplemento.TabIndex = 35;
-            txtComplemento.Text = "    complemento";
+            maskedTextBox3.BorderStyle = BorderStyle.FixedSingle;
+            maskedTextBox3.Font = new Font("Bebas Neue", 17F);
+            maskedTextBox3.ForeColor = Color.FromArgb(147, 147, 147);
+            maskedTextBox3.Location = new Point(740, 259);
+            maskedTextBox3.Mask = "00.000.000-0";
+            maskedTextBox3.Name = "maskedTextBox3";
+            maskedTextBox3.Size = new Size(309, 44);
+            maskedTextBox3.TabIndex = 20;
             // 
-            // btnRegistrar
+            // maskedTextBox2
             // 
-            btnRegistrar.BackColor = SystemColors.ControlLight;
-            btnRegistrar.Font = new Font("Bebas Neue", 17F);
-            btnRegistrar.ForeColor = Color.FromArgb(9, 186, 0);
-            btnRegistrar.Location = new Point(473, 1148);
-            btnRegistrar.Name = "btnRegistrar";
-            btnRegistrar.Size = new Size(497, 45);
-            btnRegistrar.TabIndex = 36;
-            btnRegistrar.Text = "registrar novo cliente";
-            btnRegistrar.UseVisualStyleBackColor = false;
+            maskedTextBox2.BorderStyle = BorderStyle.FixedSingle;
+            maskedTextBox2.Font = new Font("Bebas Neue", 17F);
+            maskedTextBox2.ForeColor = Color.FromArgb(147, 147, 147);
+            maskedTextBox2.Location = new Point(398, 259);
+            maskedTextBox2.Mask = "00 00000-0000";
+            maskedTextBox2.Name = "maskedTextBox2";
+            maskedTextBox2.Size = new Size(309, 44);
+            maskedTextBox2.TabIndex = 19;
             // 
-            // btnCancelar
+            // maskedTextBox1
             // 
-            btnCancelar.BackColor = SystemColors.ControlLight;
-            btnCancelar.Font = new Font("Bebas Neue", 9F);
-            btnCancelar.ForeColor = Color.FromArgb(159, 0, 0);
-            btnCancelar.Location = new Point(47, 1280);
-            btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(122, 34);
-            btnCancelar.TabIndex = 37;
-            btnCancelar.Text = "Cancelar";
-            btnCancelar.UseVisualStyleBackColor = false;
+            maskedTextBox1.BorderStyle = BorderStyle.FixedSingle;
+            maskedTextBox1.Font = new Font("Bebas Neue", 17F);
+            maskedTextBox1.ForeColor = Color.FromArgb(147, 147, 147);
+            maskedTextBox1.Location = new Point(47, 259);
+            maskedTextBox1.Mask = "000.000.000-00";
+            maskedTextBox1.Name = "maskedTextBox1";
+            maskedTextBox1.Size = new Size(309, 44);
+            maskedTextBox1.TabIndex = 18;
+            // 
+            // textBox1
+            // 
+            textBox1.BorderStyle = BorderStyle.FixedSingle;
+            textBox1.Font = new Font("Bebas Neue", 17F);
+            textBox1.ForeColor = Color.FromArgb(147, 147, 147);
+            textBox1.Location = new Point(347, 137);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(707, 44);
+            textBox1.TabIndex = 12;
+            textBox1.Text = "    Nome completo";
+            // 
+            // txtCodigo
+            // 
+            txtCodigo.BorderStyle = BorderStyle.FixedSingle;
+            txtCodigo.Font = new Font("Bebas Neue", 17F);
+            txtCodigo.ForeColor = Color.FromArgb(147, 147, 147);
+            txtCodigo.Location = new Point(47, 137);
+            txtCodigo.Name = "txtCodigo";
+            txtCodigo.Size = new Size(274, 44);
+            txtCodigo.TabIndex = 10;
+            txtCodigo.Text = "    CÓDIGO";
+            // 
+            // lblTitulo2
+            // 
+            lblTitulo2.AutoSize = true;
+            lblTitulo2.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Pixel);
+            lblTitulo2.ForeColor = Color.FromArgb(121, 121, 121);
+            lblTitulo2.Location = new Point(47, 48);
+            lblTitulo2.Name = "lblTitulo2";
+            lblTitulo2.Size = new Size(183, 38);
+            lblTitulo2.TabIndex = 2;
+            lblTitulo2.Text = "dados do cliente";
+            // 
+            // lblTitulo1
+            // 
+            lblTitulo1.AutoSize = true;
+            lblTitulo1.Font = new Font("Bebas Neue", 33F, FontStyle.Regular, GraphicsUnit.Pixel);
+            lblTitulo1.ForeColor = Color.White;
+            lblTitulo1.Location = new Point(74, 29);
+            lblTitulo1.Name = "lblTitulo1";
+            lblTitulo1.Size = new Size(228, 43);
+            lblTitulo1.TabIndex = 1;
+            lblTitulo1.Text = "Registro de Cliente";
             // 
             // frmCadastroCliente
             // 

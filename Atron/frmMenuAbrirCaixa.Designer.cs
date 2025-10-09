@@ -122,6 +122,7 @@
             pctAbrirCaixa.SizeMode = PictureBoxSizeMode.Zoom;
             pctAbrirCaixa.TabIndex = 2;
             pctAbrirCaixa.TabStop = false;
+            pctAbrirCaixa.Click += pctAbrirCaixa_Click;
             // 
             // gpbValorVendas
             // 
@@ -472,7 +473,7 @@
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
-            tableLayoutPanel2.Size = new Size(1202, 493);
+            tableLayoutPanel2.Size = new Size(1219, 493);
             tableLayoutPanel2.TabIndex = 18;
             // 
             // lblCodigo5
@@ -484,7 +485,7 @@
             lblCodigo5.Location = new Point(3, 410);
             lblCodigo5.MinimumSize = new Size(114, 53);
             lblCodigo5.Name = "lblCodigo5";
-            lblCodigo5.Size = new Size(234, 83);
+            lblCodigo5.Size = new Size(237, 83);
             lblCodigo5.TabIndex = 44;
             lblCodigo5.Text = "XXXX";
             lblCodigo5.TextAlign = ContentAlignment.MiddleCenter;
@@ -495,10 +496,10 @@
             lblNomeCliente5.AutoSize = true;
             lblNomeCliente5.BackColor = Color.Transparent;
             lblNomeCliente5.Font = new Font("Lato", 18F);
-            lblNomeCliente5.Location = new Point(243, 410);
+            lblNomeCliente5.Location = new Point(246, 410);
             lblNomeCliente5.MinimumSize = new Size(114, 53);
             lblNomeCliente5.Name = "lblNomeCliente5";
-            lblNomeCliente5.Size = new Size(234, 83);
+            lblNomeCliente5.Size = new Size(237, 83);
             lblNomeCliente5.TabIndex = 45;
             lblNomeCliente5.Text = "XXXXXXXX";
             lblNomeCliente5.TextAlign = ContentAlignment.MiddleCenter;
@@ -509,10 +510,10 @@
             lblNomeProduto5.AutoSize = true;
             lblNomeProduto5.BackColor = Color.Transparent;
             lblNomeProduto5.Font = new Font("Lato", 18F);
-            lblNomeProduto5.Location = new Point(483, 410);
+            lblNomeProduto5.Location = new Point(489, 410);
             lblNomeProduto5.MinimumSize = new Size(114, 53);
             lblNomeProduto5.Name = "lblNomeProduto5";
-            lblNomeProduto5.Size = new Size(234, 83);
+            lblNomeProduto5.Size = new Size(237, 83);
             lblNomeProduto5.TabIndex = 46;
             lblNomeProduto5.Text = "XXXXXXXX";
             lblNomeProduto5.TextAlign = ContentAlignment.MiddleCenter;
@@ -523,10 +524,10 @@
             lblValorProduto5.AutoSize = true;
             lblValorProduto5.BackColor = Color.Transparent;
             lblValorProduto5.Font = new Font("Lato", 18F);
-            lblValorProduto5.Location = new Point(723, 410);
+            lblValorProduto5.Location = new Point(732, 410);
             lblValorProduto5.MinimumSize = new Size(114, 53);
             lblValorProduto5.Name = "lblValorProduto5";
-            lblValorProduto5.Size = new Size(234, 83);
+            lblValorProduto5.Size = new Size(237, 83);
             lblValorProduto5.TabIndex = 47;
             lblValorProduto5.Text = "XXXXXXXX";
             lblValorProduto5.TextAlign = ContentAlignment.MiddleCenter;
@@ -536,7 +537,7 @@
             lblHorario5.AutoSize = true;
             lblHorario5.BackColor = Color.Transparent;
             lblHorario5.Font = new Font("Lato", 18F);
-            lblHorario5.Location = new Point(963, 410);
+            lblHorario5.Location = new Point(975, 410);
             lblHorario5.MinimumSize = new Size(229, 73);
             lblHorario5.Name = "lblHorario5";
             lblHorario5.Size = new Size(229, 73);
@@ -553,7 +554,7 @@
             lblCodigo4.Location = new Point(3, 328);
             lblCodigo4.MinimumSize = new Size(114, 53);
             lblCodigo4.Name = "lblCodigo4";
-            lblCodigo4.Size = new Size(234, 82);
+            lblCodigo4.Size = new Size(237, 82);
             lblCodigo4.TabIndex = 39;
             lblCodigo4.Text = "XXXX";
             lblCodigo4.TextAlign = ContentAlignment.MiddleCenter;
@@ -564,10 +565,10 @@
             lblNomeCliente4.AutoSize = true;
             lblNomeCliente4.BackColor = Color.Transparent;
             lblNomeCliente4.Font = new Font("Lato", 18F);
-            lblNomeCliente4.Location = new Point(243, 328);
+            lblNomeCliente4.Location = new Point(246, 328);
             lblNomeCliente4.MinimumSize = new Size(114, 53);
             lblNomeCliente4.Name = "lblNomeCliente4";
-            lblNomeCliente4.Size = new Size(234, 82);
+            lblNomeCliente4.Size = new Size(237, 82);
             lblNomeCliente4.TabIndex = 40;
             lblNomeCliente4.Text = "XXXXXXXX";
             lblNomeCliente4.TextAlign = ContentAlignment.MiddleCenter;
@@ -578,10 +579,10 @@
             lblNomeProduto4.AutoSize = true;
             lblNomeProduto4.BackColor = Color.Transparent;
             lblNomeProduto4.Font = new Font("Lato", 18F);
-            lblNomeProduto4.Location = new Point(483, 328);
+            lblNomeProduto4.Location = new Point(489, 328);
             lblNomeProduto4.MinimumSize = new Size(114, 53);
             lblNomeProduto4.Name = "lblNomeProduto4";
-            lblNomeProduto4.Size = new Size(234, 82);
+            lblNomeProduto4.Size = new Size(237, 82);
             lblNomeProduto4.TabIndex = 41;
             lblNomeProduto4.Text = "XXXXXXXX";
             lblNomeProduto4.TextAlign = ContentAlignment.MiddleCenter;
@@ -592,10 +593,10 @@
             lblValorProduto4.AutoSize = true;
             lblValorProduto4.BackColor = Color.Transparent;
             lblValorProduto4.Font = new Font("Lato", 18F);
-            lblValorProduto4.Location = new Point(723, 328);
+            lblValorProduto4.Location = new Point(732, 328);
             lblValorProduto4.MinimumSize = new Size(114, 53);
             lblValorProduto4.Name = "lblValorProduto4";
-            lblValorProduto4.Size = new Size(234, 82);
+            lblValorProduto4.Size = new Size(237, 82);
             lblValorProduto4.TabIndex = 42;
             lblValorProduto4.Text = "XXXXXXXX";
             lblValorProduto4.TextAlign = ContentAlignment.MiddleCenter;
@@ -605,7 +606,7 @@
             lblHorario4.AutoSize = true;
             lblHorario4.BackColor = Color.Transparent;
             lblHorario4.Font = new Font("Lato", 18F);
-            lblHorario4.Location = new Point(963, 328);
+            lblHorario4.Location = new Point(975, 328);
             lblHorario4.MinimumSize = new Size(229, 73);
             lblHorario4.Name = "lblHorario4";
             lblHorario4.Size = new Size(229, 73);
@@ -622,7 +623,7 @@
             lblCodigo3.Location = new Point(3, 246);
             lblCodigo3.MinimumSize = new Size(114, 53);
             lblCodigo3.Name = "lblCodigo3";
-            lblCodigo3.Size = new Size(234, 82);
+            lblCodigo3.Size = new Size(237, 82);
             lblCodigo3.TabIndex = 34;
             lblCodigo3.Text = "XXXX";
             lblCodigo3.TextAlign = ContentAlignment.MiddleCenter;
@@ -633,10 +634,10 @@
             lblNomeCliente3.AutoSize = true;
             lblNomeCliente3.BackColor = Color.Transparent;
             lblNomeCliente3.Font = new Font("Lato", 18F);
-            lblNomeCliente3.Location = new Point(243, 246);
+            lblNomeCliente3.Location = new Point(246, 246);
             lblNomeCliente3.MinimumSize = new Size(114, 53);
             lblNomeCliente3.Name = "lblNomeCliente3";
-            lblNomeCliente3.Size = new Size(234, 82);
+            lblNomeCliente3.Size = new Size(237, 82);
             lblNomeCliente3.TabIndex = 35;
             lblNomeCliente3.Text = "XXXXXXXX";
             lblNomeCliente3.TextAlign = ContentAlignment.MiddleCenter;
@@ -647,10 +648,10 @@
             lblNomeProduto3.AutoSize = true;
             lblNomeProduto3.BackColor = Color.Transparent;
             lblNomeProduto3.Font = new Font("Lato", 18F);
-            lblNomeProduto3.Location = new Point(483, 246);
+            lblNomeProduto3.Location = new Point(489, 246);
             lblNomeProduto3.MinimumSize = new Size(114, 53);
             lblNomeProduto3.Name = "lblNomeProduto3";
-            lblNomeProduto3.Size = new Size(234, 82);
+            lblNomeProduto3.Size = new Size(237, 82);
             lblNomeProduto3.TabIndex = 36;
             lblNomeProduto3.Text = "XXXXXXXX";
             lblNomeProduto3.TextAlign = ContentAlignment.MiddleCenter;
@@ -661,10 +662,10 @@
             lblValorProduto3.AutoSize = true;
             lblValorProduto3.BackColor = Color.Transparent;
             lblValorProduto3.Font = new Font("Lato", 18F);
-            lblValorProduto3.Location = new Point(723, 246);
+            lblValorProduto3.Location = new Point(732, 246);
             lblValorProduto3.MinimumSize = new Size(114, 53);
             lblValorProduto3.Name = "lblValorProduto3";
-            lblValorProduto3.Size = new Size(234, 82);
+            lblValorProduto3.Size = new Size(237, 82);
             lblValorProduto3.TabIndex = 37;
             lblValorProduto3.Text = "XXXXXXXX";
             lblValorProduto3.TextAlign = ContentAlignment.MiddleCenter;
@@ -674,7 +675,7 @@
             lblHorario3.AutoSize = true;
             lblHorario3.BackColor = Color.Transparent;
             lblHorario3.Font = new Font("Lato", 18F);
-            lblHorario3.Location = new Point(963, 246);
+            lblHorario3.Location = new Point(975, 246);
             lblHorario3.MinimumSize = new Size(229, 73);
             lblHorario3.Name = "lblHorario3";
             lblHorario3.Size = new Size(229, 73);
@@ -691,7 +692,7 @@
             lblCodigo2.Location = new Point(3, 164);
             lblCodigo2.MinimumSize = new Size(114, 53);
             lblCodigo2.Name = "lblCodigo2";
-            lblCodigo2.Size = new Size(234, 82);
+            lblCodigo2.Size = new Size(237, 82);
             lblCodigo2.TabIndex = 29;
             lblCodigo2.Text = "1032";
             lblCodigo2.TextAlign = ContentAlignment.MiddleCenter;
@@ -702,10 +703,10 @@
             lblNomeCliente2.AutoSize = true;
             lblNomeCliente2.BackColor = Color.Transparent;
             lblNomeCliente2.Font = new Font("Lato", 18F);
-            lblNomeCliente2.Location = new Point(243, 164);
+            lblNomeCliente2.Location = new Point(246, 164);
             lblNomeCliente2.MinimumSize = new Size(114, 53);
             lblNomeCliente2.Name = "lblNomeCliente2";
-            lblNomeCliente2.Size = new Size(234, 82);
+            lblNomeCliente2.Size = new Size(237, 82);
             lblNomeCliente2.TabIndex = 30;
             lblNomeCliente2.Text = "Pessoa 2";
             lblNomeCliente2.TextAlign = ContentAlignment.MiddleCenter;
@@ -716,10 +717,10 @@
             lblNomeProduto2.AutoSize = true;
             lblNomeProduto2.BackColor = Color.Transparent;
             lblNomeProduto2.Font = new Font("Lato", 18F);
-            lblNomeProduto2.Location = new Point(483, 164);
+            lblNomeProduto2.Location = new Point(489, 164);
             lblNomeProduto2.MinimumSize = new Size(114, 53);
             lblNomeProduto2.Name = "lblNomeProduto2";
-            lblNomeProduto2.Size = new Size(234, 82);
+            lblNomeProduto2.Size = new Size(237, 82);
             lblNomeProduto2.TabIndex = 31;
             lblNomeProduto2.Text = "Produto A";
             lblNomeProduto2.TextAlign = ContentAlignment.MiddleCenter;
@@ -730,10 +731,10 @@
             lblValorProduto2.AutoSize = true;
             lblValorProduto2.BackColor = Color.Transparent;
             lblValorProduto2.Font = new Font("Lato", 18F);
-            lblValorProduto2.Location = new Point(723, 164);
+            lblValorProduto2.Location = new Point(732, 164);
             lblValorProduto2.MinimumSize = new Size(114, 53);
             lblValorProduto2.Name = "lblValorProduto2";
-            lblValorProduto2.Size = new Size(234, 82);
+            lblValorProduto2.Size = new Size(237, 82);
             lblValorProduto2.TabIndex = 32;
             lblValorProduto2.Text = "R$14,99";
             lblValorProduto2.TextAlign = ContentAlignment.MiddleCenter;
@@ -743,7 +744,7 @@
             lblHorario2.AutoSize = true;
             lblHorario2.BackColor = Color.Transparent;
             lblHorario2.Font = new Font("Lato", 18F);
-            lblHorario2.Location = new Point(963, 164);
+            lblHorario2.Location = new Point(975, 164);
             lblHorario2.MinimumSize = new Size(229, 73);
             lblHorario2.Name = "lblHorario2";
             lblHorario2.Size = new Size(229, 73);
@@ -760,7 +761,7 @@
             lblCodigo1.Location = new Point(3, 82);
             lblCodigo1.MinimumSize = new Size(114, 53);
             lblCodigo1.Name = "lblCodigo1";
-            lblCodigo1.Size = new Size(234, 82);
+            lblCodigo1.Size = new Size(237, 82);
             lblCodigo1.TabIndex = 24;
             lblCodigo1.Text = "1001";
             lblCodigo1.TextAlign = ContentAlignment.MiddleCenter;
@@ -771,10 +772,10 @@
             lblNomeCliente1.AutoSize = true;
             lblNomeCliente1.BackColor = Color.Transparent;
             lblNomeCliente1.Font = new Font("Lato", 18F);
-            lblNomeCliente1.Location = new Point(243, 82);
+            lblNomeCliente1.Location = new Point(246, 82);
             lblNomeCliente1.MinimumSize = new Size(114, 53);
             lblNomeCliente1.Name = "lblNomeCliente1";
-            lblNomeCliente1.Size = new Size(234, 82);
+            lblNomeCliente1.Size = new Size(237, 82);
             lblNomeCliente1.TabIndex = 25;
             lblNomeCliente1.Text = "Pessoa 1";
             lblNomeCliente1.TextAlign = ContentAlignment.MiddleCenter;
@@ -785,10 +786,10 @@
             lblNomeProduto1.AutoSize = true;
             lblNomeProduto1.BackColor = Color.Transparent;
             lblNomeProduto1.Font = new Font("Lato", 18F);
-            lblNomeProduto1.Location = new Point(483, 82);
+            lblNomeProduto1.Location = new Point(489, 82);
             lblNomeProduto1.MinimumSize = new Size(114, 53);
             lblNomeProduto1.Name = "lblNomeProduto1";
-            lblNomeProduto1.Size = new Size(234, 82);
+            lblNomeProduto1.Size = new Size(237, 82);
             lblNomeProduto1.TabIndex = 26;
             lblNomeProduto1.Text = "Produto A";
             lblNomeProduto1.TextAlign = ContentAlignment.MiddleCenter;
@@ -799,10 +800,10 @@
             lblValorProduto1.AutoSize = true;
             lblValorProduto1.BackColor = Color.Transparent;
             lblValorProduto1.Font = new Font("Lato", 18F);
-            lblValorProduto1.Location = new Point(723, 82);
+            lblValorProduto1.Location = new Point(732, 82);
             lblValorProduto1.MinimumSize = new Size(114, 53);
             lblValorProduto1.Name = "lblValorProduto1";
-            lblValorProduto1.Size = new Size(234, 82);
+            lblValorProduto1.Size = new Size(237, 82);
             lblValorProduto1.TabIndex = 27;
             lblValorProduto1.Text = "R$14,99";
             lblValorProduto1.TextAlign = ContentAlignment.MiddleCenter;
@@ -812,7 +813,7 @@
             lblHorario1.AutoSize = true;
             lblHorario1.BackColor = Color.Transparent;
             lblHorario1.Font = new Font("Lato", 18F);
-            lblHorario1.Location = new Point(963, 82);
+            lblHorario1.Location = new Point(975, 82);
             lblHorario1.MinimumSize = new Size(229, 73);
             lblHorario1.Name = "lblHorario1";
             lblHorario1.Size = new Size(229, 73);
@@ -826,10 +827,10 @@
             lblNomeCliente.AutoSize = true;
             lblNomeCliente.BackColor = Color.Transparent;
             lblNomeCliente.Font = new Font("Lato", 11.9999981F, FontStyle.Bold);
-            lblNomeCliente.Location = new Point(243, 0);
+            lblNomeCliente.Location = new Point(246, 0);
             lblNomeCliente.MinimumSize = new Size(114, 53);
             lblNomeCliente.Name = "lblNomeCliente";
-            lblNomeCliente.Size = new Size(234, 82);
+            lblNomeCliente.Size = new Size(237, 82);
             lblNomeCliente.TabIndex = 20;
             lblNomeCliente.Text = "Nome Cliente";
             lblNomeCliente.TextAlign = ContentAlignment.MiddleCenter;
@@ -840,10 +841,10 @@
             lblProduto.AutoSize = true;
             lblProduto.BackColor = Color.Transparent;
             lblProduto.Font = new Font("Lato", 11.9999981F, FontStyle.Bold);
-            lblProduto.Location = new Point(483, 0);
+            lblProduto.Location = new Point(489, 0);
             lblProduto.MinimumSize = new Size(114, 53);
             lblProduto.Name = "lblProduto";
-            lblProduto.Size = new Size(234, 82);
+            lblProduto.Size = new Size(237, 82);
             lblProduto.TabIndex = 21;
             lblProduto.Text = "Produto";
             lblProduto.TextAlign = ContentAlignment.MiddleCenter;
@@ -854,10 +855,10 @@
             lblValorProduto.AutoSize = true;
             lblValorProduto.BackColor = Color.Transparent;
             lblValorProduto.Font = new Font("Lato", 11.9999981F, FontStyle.Bold);
-            lblValorProduto.Location = new Point(723, 0);
+            lblValorProduto.Location = new Point(732, 0);
             lblValorProduto.MinimumSize = new Size(114, 53);
             lblValorProduto.Name = "lblValorProduto";
-            lblValorProduto.Size = new Size(234, 82);
+            lblValorProduto.Size = new Size(237, 82);
             lblValorProduto.TabIndex = 22;
             lblValorProduto.Text = "Valor";
             lblValorProduto.TextAlign = ContentAlignment.MiddleCenter;
@@ -867,7 +868,7 @@
             lblHorario.AutoSize = true;
             lblHorario.BackColor = Color.Transparent;
             lblHorario.Font = new Font("Lato", 11.9999981F, FontStyle.Bold);
-            lblHorario.Location = new Point(963, 0);
+            lblHorario.Location = new Point(975, 0);
             lblHorario.MinimumSize = new Size(229, 80);
             lblHorario.Name = "lblHorario";
             lblHorario.Size = new Size(229, 80);
@@ -884,7 +885,7 @@
             lblCodigo.Location = new Point(3, 0);
             lblCodigo.MinimumSize = new Size(114, 53);
             lblCodigo.Name = "lblCodigo";
-            lblCodigo.Size = new Size(234, 82);
+            lblCodigo.Size = new Size(237, 82);
             lblCodigo.TabIndex = 19;
             lblCodigo.Text = "Código";
             lblCodigo.TextAlign = ContentAlignment.MiddleCenter;

@@ -32,14 +32,14 @@
             txtBuscar = new TextBox();
             picVoltar = new PictureBox();
             pnlFundo = new Panel();
+            lblQtde1 = new Label();
+            lblCor1 = new Label();
+            lblCategoria1 = new Label();
+            lblMarca1 = new Label();
+            lblTamanho1 = new Label();
             lblNomeProduto1 = new Label();
             lblCodigo1 = new Label();
             picFotoProduto1 = new PictureBox();
-            lblTamanho1 = new Label();
-            lblMarca1 = new Label();
-            lblCategoria1 = new Label();
-            lblCor1 = new Label();
-            lblQtde1 = new Label();
             lblQtde2 = new Label();
             lblCor2 = new Label();
             lblCategoria2 = new Label();
@@ -120,6 +120,7 @@
             picVoltar.TabIndex = 2;
             picVoltar.TabStop = false;
             picVoltar.UseWaitCursor = true;
+            picVoltar.Click += picVoltar_Click;
             // 
             // pnlFundo
             // 
@@ -136,6 +137,62 @@
             pnlFundo.Name = "pnlFundo";
             pnlFundo.Size = new Size(1023, 160);
             pnlFundo.TabIndex = 4;
+            pnlFundo.Paint += pnlFundo_Paint;
+            // 
+            // lblQtde1
+            // 
+            lblQtde1.AutoSize = true;
+            lblQtde1.Font = new Font("Raleway", 9F, FontStyle.Bold | FontStyle.Italic);
+            lblQtde1.ForeColor = Color.FromArgb(14, 41, 184);
+            lblQtde1.Location = new Point(745, 114);
+            lblQtde1.Name = "lblQtde1";
+            lblQtde1.Size = new Size(109, 21);
+            lblQtde1.TabIndex = 10;
+            lblQtde1.Text = "Quantidade: 3";
+            // 
+            // lblCor1
+            // 
+            lblCor1.AutoSize = true;
+            lblCor1.Font = new Font("Raleway", 9F, FontStyle.Bold | FontStyle.Italic);
+            lblCor1.ForeColor = Color.FromArgb(14, 41, 184);
+            lblCor1.Location = new Point(746, 60);
+            lblCor1.Name = "lblCor1";
+            lblCor1.Size = new Size(74, 21);
+            lblCor1.TabIndex = 9;
+            lblCor1.Text = "Cor: Azul";
+            // 
+            // lblCategoria1
+            // 
+            lblCategoria1.AutoSize = true;
+            lblCategoria1.Font = new Font("Raleway", 9F, FontStyle.Bold | FontStyle.Italic);
+            lblCategoria1.ForeColor = Color.FromArgb(14, 41, 184);
+            lblCategoria1.Location = new Point(494, 114);
+            lblCategoria1.Name = "lblCategoria1";
+            lblCategoria1.Size = new Size(123, 21);
+            lblCategoria1.TabIndex = 8;
+            lblCategoria1.Text = "Categoria: Tenis";
+            // 
+            // lblMarca1
+            // 
+            lblMarca1.AutoSize = true;
+            lblMarca1.Font = new Font("Raleway", 9F, FontStyle.Bold | FontStyle.Italic);
+            lblMarca1.ForeColor = Color.FromArgb(14, 41, 184);
+            lblMarca1.Location = new Point(494, 60);
+            lblMarca1.Name = "lblMarca1";
+            lblMarca1.Size = new Size(93, 21);
+            lblMarca1.TabIndex = 7;
+            lblMarca1.Text = "Marca: Nike";
+            // 
+            // lblTamanho1
+            // 
+            lblTamanho1.AutoSize = true;
+            lblTamanho1.Font = new Font("Raleway", 9F, FontStyle.Bold | FontStyle.Italic);
+            lblTamanho1.ForeColor = Color.FromArgb(14, 41, 184);
+            lblTamanho1.Location = new Point(189, 114);
+            lblTamanho1.Name = "lblTamanho1";
+            lblTamanho1.Size = new Size(99, 21);
+            lblTamanho1.TabIndex = 6;
+            lblTamanho1.Text = "Tamanho: 43";
             // 
             // lblNomeProduto1
             // 
@@ -168,61 +225,6 @@
             picFotoProduto1.SizeMode = PictureBoxSizeMode.AutoSize;
             picFotoProduto1.TabIndex = 0;
             picFotoProduto1.TabStop = false;
-            // 
-            // lblTamanho1
-            // 
-            lblTamanho1.AutoSize = true;
-            lblTamanho1.Font = new Font("Raleway", 9F, FontStyle.Bold | FontStyle.Italic);
-            lblTamanho1.ForeColor = Color.FromArgb(14, 41, 184);
-            lblTamanho1.Location = new Point(189, 114);
-            lblTamanho1.Name = "lblTamanho1";
-            lblTamanho1.Size = new Size(99, 21);
-            lblTamanho1.TabIndex = 6;
-            lblTamanho1.Text = "Tamanho: 43";
-            // 
-            // lblMarca1
-            // 
-            lblMarca1.AutoSize = true;
-            lblMarca1.Font = new Font("Raleway", 9F, FontStyle.Bold | FontStyle.Italic);
-            lblMarca1.ForeColor = Color.FromArgb(14, 41, 184);
-            lblMarca1.Location = new Point(494, 60);
-            lblMarca1.Name = "lblMarca1";
-            lblMarca1.Size = new Size(93, 21);
-            lblMarca1.TabIndex = 7;
-            lblMarca1.Text = "Marca: Nike";
-            // 
-            // lblCategoria1
-            // 
-            lblCategoria1.AutoSize = true;
-            lblCategoria1.Font = new Font("Raleway", 9F, FontStyle.Bold | FontStyle.Italic);
-            lblCategoria1.ForeColor = Color.FromArgb(14, 41, 184);
-            lblCategoria1.Location = new Point(494, 114);
-            lblCategoria1.Name = "lblCategoria1";
-            lblCategoria1.Size = new Size(123, 21);
-            lblCategoria1.TabIndex = 8;
-            lblCategoria1.Text = "Categoria: Tenis";
-            // 
-            // lblCor1
-            // 
-            lblCor1.AutoSize = true;
-            lblCor1.Font = new Font("Raleway", 9F, FontStyle.Bold | FontStyle.Italic);
-            lblCor1.ForeColor = Color.FromArgb(14, 41, 184);
-            lblCor1.Location = new Point(746, 60);
-            lblCor1.Name = "lblCor1";
-            lblCor1.Size = new Size(74, 21);
-            lblCor1.TabIndex = 9;
-            lblCor1.Text = "Cor: Azul";
-            // 
-            // lblQtde1
-            // 
-            lblQtde1.AutoSize = true;
-            lblQtde1.Font = new Font("Raleway", 9F, FontStyle.Bold | FontStyle.Italic);
-            lblQtde1.ForeColor = Color.FromArgb(14, 41, 184);
-            lblQtde1.Location = new Point(745, 114);
-            lblQtde1.Name = "lblQtde1";
-            lblQtde1.Size = new Size(109, 21);
-            lblQtde1.TabIndex = 10;
-            lblQtde1.Text = "Quantidade: 3";
             // 
             // lblQtde2
             // 

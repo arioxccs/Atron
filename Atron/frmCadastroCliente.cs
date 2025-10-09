@@ -21,5 +21,18 @@ namespace Atron
         {
 
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+
+            frmMenuFecharCaixa frmMenuFecharCaixa = new frmMenuFecharCaixa();
+            frmMenuFecharCaixa.ShowDialog();
+        }
+
+        private void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            frmMenuFecharCaixa frmMenuFecharCaixa = new frmMenuFecharCaixa();
+            frmMenuFecharCaixa.ShowDialog();
+        }
     }
 }

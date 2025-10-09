@@ -59,6 +59,28 @@
             panel1.SuspendLayout();
             SuspendLayout();
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Pixel);
+            label1.ForeColor = Color.FromArgb(121, 121, 121);
+            label1.Location = new Point(27, 737);
+            label1.Name = "label1";
+            label1.Size = new Size(127, 38);
+            label1.TabIndex = 24;
+            label1.Text = "Cadastro 2";
+            // 
+            // lblTitulo2
+            // 
+            lblTitulo2.AutoSize = true;
+            lblTitulo2.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Pixel);
+            lblTitulo2.ForeColor = Color.FromArgb(121, 121, 121);
+            lblTitulo2.Location = new Point(27, 19);
+            lblTitulo2.Name = "lblTitulo2";
+            lblTitulo2.Size = new Size(186, 38);
+            lblTitulo2.TabIndex = 3;
+            lblTitulo2.Text = "BAIXA NO ESTOQUE";
+            // 
             // pnlFundo
             // 
             pnlFundo.BackColor = Color.FromArgb(9, 28, 128);
@@ -112,6 +134,7 @@
             btnCancelar.TabIndex = 26;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = false;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // btnConfirmar
             // 
@@ -124,17 +147,7 @@
             btnConfirmar.TabIndex = 25;
             btnConfirmar.Text = "Confirmar";
             btnConfirmar.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Pixel);
-            label1.ForeColor = Color.FromArgb(121, 121, 121);
-            label1.Location = new Point(27, 737);
-            label1.Name = "label1";
-            label1.Size = new Size(127, 38);
-            label1.TabIndex = 24;
-            label1.Text = "Cadastro 2";
+            btnConfirmar.Click += btnConfirmar_Click;
             // 
             // txtQtdeParcelas2
             // 
@@ -337,17 +350,6 @@
             cmbCliente.Size = new Size(707, 46);
             cmbCliente.TabIndex = 6;
             cmbCliente.Text = "    CLIENTE";
-            // 
-            // lblTitulo2
-            // 
-            lblTitulo2.AutoSize = true;
-            lblTitulo2.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Pixel);
-            lblTitulo2.ForeColor = Color.FromArgb(121, 121, 121);
-            lblTitulo2.Location = new Point(27, 19);
-            lblTitulo2.Name = "lblTitulo2";
-            lblTitulo2.Size = new Size(186, 38);
-            lblTitulo2.TabIndex = 3;
-            lblTitulo2.Text = "BAIXA NO ESTOQUE";
             // 
             // lblTitulo1
             // 

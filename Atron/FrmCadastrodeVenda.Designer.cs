@@ -103,6 +103,7 @@
             btnCancelar.TabIndex = 17;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = false;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // btnConfirmar
             // 
@@ -115,6 +116,7 @@
             btnConfirmar.TabIndex = 16;
             btnConfirmar.Text = "Confirmar";
             btnConfirmar.UseVisualStyleBackColor = false;
+            btnConfirmar.Click += btnConfirmar_Click;
             // 
             // llbAdicionarVenda
             // 
@@ -126,6 +128,7 @@
             llbAdicionarVenda.TabIndex = 15;
             llbAdicionarVenda.TabStop = true;
             llbAdicionarVenda.Text = "Adicionar outra venda";
+            llbAdicionarVenda.LinkClicked += llbAdicionarVenda_LinkClicked;
             // 
             // txtQtdeParcelas
             // 

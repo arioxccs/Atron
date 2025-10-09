@@ -26,5 +26,16 @@ namespace Atron
         {
 
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnMudarProduto_Click(object sender, EventArgs e)
+        {
+            FrmCadastrodeVenda frmCadastrodeVenda = new FrmCadastrodeVenda();
+            frmCadastrodeVenda.ShowDialog();
+        }
     }
 }

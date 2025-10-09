@@ -1,6 +1,6 @@
 ﻿namespace Atron
 {
-    partial class frmPopUpConfirmarCacelamento
+    partial class frmPopUpConfirmarCancelamento
     {
         /// <summary>
         /// Required designer variable.
@@ -53,6 +53,7 @@
             button1.TabIndex = 1;
             button1.Text = "Voltar";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -65,8 +66,9 @@
             button2.TabIndex = 2;
             button2.Text = "Cancelar venda";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
-            // frmPopUpConfirmarCacelamento
+            // frmPopUpConfirmarCancelamento
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -74,7 +76,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(lblTexto);
-            Name = "frmPopUpConfirmarCacelamento";
+            Name = "frmPopUpConfirmarCancelamento";
             Text = "frmPopUpConfirmarCacelamento";
             ResumeLayout(false);
             PerformLayout();

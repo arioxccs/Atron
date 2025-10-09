@@ -37,5 +37,11 @@ namespace Atron
             frmCadastro2Encomendas frmCadastro2Encomendas = new frmCadastro2Encomendas();
             frmCadastro2Encomendas.ShowDialog();
         }
+
+        private void btnConfirmar_Click(object sender, EventArgs e)
+        {
+            frmCarrinho frmCarrinho = new frmCarrinho();
+            frmCarrinho.ShowDialog();
+        }
     }
 }

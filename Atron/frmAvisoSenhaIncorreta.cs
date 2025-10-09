@@ -21,5 +21,10 @@ namespace Atron
         {
 
         }
+
+        private void picAviso_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

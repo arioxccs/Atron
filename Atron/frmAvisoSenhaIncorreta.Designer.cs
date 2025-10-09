@@ -43,6 +43,7 @@
             picAviso.SizeMode = PictureBoxSizeMode.StretchImage;
             picAviso.TabIndex = 0;
             picAviso.TabStop = false;
+            picAviso.Click += picAviso_Click;
             // 
             // lblTempo
             // 

@@ -16,5 +16,11 @@ namespace Atron
         {
             InitializeComponent();
         }
+
+        private void pctAbrirCaixa_Click(object sender, EventArgs e)
+        {
+            frmPopUpSenhaAbrirCaixa frmPopUpSenhaAbrirCaixa = new frmPopUpSenhaAbrirCaixa();
+            frmPopUpSenhaAbrirCaixa.Show();
+        }
     }
 }
