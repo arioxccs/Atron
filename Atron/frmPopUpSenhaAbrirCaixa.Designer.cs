@@ -1,6 +1,6 @@
 ﻿namespace Atron
 {
-    partial class frmTelaSenhaAbrirCaixa
+    partial class frmPopUpSenhaAbrirCaixa
     {
         /// <summary>
         /// Required designer variable.

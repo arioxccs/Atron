@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Atron
 {
-    public partial class frmTelaSenhaAbrirCaixa : Form
+    public partial class frmPopUpSenhaAbrirCaixa : Form
     {
-        public frmTelaSenhaAbrirCaixa()
+        public frmPopUpSenhaAbrirCaixa()
         {
             InitializeComponent();
         }
