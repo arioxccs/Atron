@@ -509,7 +509,7 @@
             button1.Name = "button1";
             button1.Size = new Size(415, 91);
             button1.TabIndex = 9;
-            button1.Text = "button1";
+            button1.Text = "Finalizar Venda";
             button1.UseVisualStyleBackColor = false;
             // 
             // btnCancelar
