@@ -50,7 +50,7 @@ namespace Atron
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            new FrmPopupProdutoEstoque().ShowDialog();
+            ew FrmPopupProdutoEstoque().ShowDialog();
         }
 
         private void btn_CadastrarProduto_Click(object sender, EventArgs e)
