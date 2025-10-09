@@ -16,5 +16,20 @@ namespace Atron
         {
             InitializeComponent();
         }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmHistoricodePedidos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
