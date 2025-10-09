@@ -28,55 +28,53 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lblTitulo = new Label();
-            flowLayoutPanel1 = new FlowLayoutPanel();
-            panel1 = new Panel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAvisoSenhaIncorreta));
+            picAviso = new PictureBox();
+            lblTempo = new Label();
+            ((System.ComponentModel.ISupportInitialize)picAviso).BeginInit();
             SuspendLayout();
             // 
-            // lblTitulo
+            // picAviso
             // 
-            lblTitulo.AutoSize = true;
-            lblTitulo.Font = new Font("Bebas Neue", 12F);
-            lblTitulo.Location = new Point(25, 9);
-            lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(306, 21);
-            lblTitulo.TabIndex = 0;
-            lblTitulo.Text = "Para prosseguir, a autenticação foi enviada ao superior.";
-            lblTitulo.Click += lblTitulo_Click;
+            picAviso.Image = (Image)resources.GetObject("picAviso.Image");
+            picAviso.Location = new Point(-17, -67);
+            picAviso.Name = "picAviso";
+            picAviso.Size = new Size(502, 283);
+            picAviso.SizeMode = PictureBoxSizeMode.StretchImage;
+            picAviso.TabIndex = 0;
+            picAviso.TabStop = false;
             // 
-            // flowLayoutPanel1
+            // lblTempo
             // 
-            flowLayoutPanel1.BackColor = Color.FromArgb(34, 95, 226);
-            flowLayoutPanel1.Location = new Point(12, 33);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(333, 35);
-            flowLayoutPanel1.TabIndex = 1;
-            // 
-            // panel1
-            // 
-            panel1.Location = new Point(12, 74);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(268, 38);
-            panel1.TabIndex = 2;
+            lblTempo.AutoSize = true;
+            lblTempo.BackColor = Color.FromArgb(30, 79, 119);
+            lblTempo.Font = new Font("Bebas Neue", 14F);
+            lblTempo.ForeColor = Color.White;
+            lblTempo.Location = new Point(120, 78);
+            lblTempo.Name = "lblTempo";
+            lblTempo.Size = new Size(224, 31);
+            lblTempo.TabIndex = 1;
+            lblTempo.Text = "tENTE NOVAMENTE EM 2 MIN";
             // 
             // frmAvisoSenhaIncorreta
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(panel1);
-            Controls.Add(flowLayoutPanel1);
-            Controls.Add(lblTitulo);
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(469, 121);
+            Controls.Add(lblTempo);
+            Controls.Add(picAviso);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "frmAvisoSenhaIncorreta";
             Text = "frmAvisoSenhaIncorreta";
+            ((System.ComponentModel.ISupportInitialize)picAviso).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label lblTitulo;
-        private FlowLayoutPanel flowLayoutPanel1;
-        private Panel panel1;
+        private PictureBox picAviso;
+        private Label lblTempo;
     }
 }
