@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Label lblTitulo2;
             pnlFundo = new Panel();
             panel1 = new Panel();
             btnCancelar = new Button();
@@ -47,17 +48,6 @@
             pnlFundo.SuspendLayout();
             panel1.SuspendLayout();
             SuspendLayout();
-            // 
-            // lblTitulo2
-            // 
-            lblTitulo2.AutoSize = true;
-            lblTitulo2.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Pixel);
-            lblTitulo2.ForeColor = Color.FromArgb(121, 121, 121);
-            lblTitulo2.Location = new Point(27, 19);
-            lblTitulo2.Name = "lblTitulo2";
-            lblTitulo2.Size = new Size(186, 38);
-            lblTitulo2.TabIndex = 3;
-            lblTitulo2.Text = "BAIXA NO ESTOQUE";
             // 
             // pnlFundo
             // 
@@ -125,6 +115,7 @@
             llbAdicionarVenda.TabIndex = 15;
             llbAdicionarVenda.TabStop = true;
             llbAdicionarVenda.Text = "Adicionar outra venda";
+            llbAdicionarVenda.LinkClicked += llbAdicionarVenda_LinkClicked;
             // 
             // txtQtdeParcelas
             // 
@@ -227,6 +218,17 @@
             cmbCliente.Size = new Size(707, 46);
             cmbCliente.TabIndex = 6;
             cmbCliente.Text = "    CLIENTE";
+            // 
+            // lblTitulo2
+            // 
+            lblTitulo2.AutoSize = true;
+            lblTitulo2.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Pixel);
+            lblTitulo2.ForeColor = Color.FromArgb(121, 121, 121);
+            lblTitulo2.Location = new Point(27, 19);
+            lblTitulo2.Name = "lblTitulo2";
+            lblTitulo2.Size = new Size(186, 38);
+            lblTitulo2.TabIndex = 3;
+            lblTitulo2.Text = "BAIXA NO ESTOQUE";
             // 
             // lblTitulo1
             // 

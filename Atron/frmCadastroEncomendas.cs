@@ -31,5 +31,11 @@ namespace Atron
         {
 
         }
+
+        private void llbAdicionarVenda_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            frmCadastro2Encomendas frmCadastro2Encomendas = new frmCadastro2Encomendas();
+            frmCadastro2Encomendas.ShowDialog();
+        }
     }
 }
