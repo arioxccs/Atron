@@ -21,5 +21,15 @@ namespace Atron
         {
 
         }
+
+        private void txtEntrada_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmCadastroEncomendas_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

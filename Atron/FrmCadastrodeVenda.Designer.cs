@@ -1,6 +1,6 @@
 ﻿namespace Atron
 {
-    partial class frmCadastroEncomendas
+    partial class FrmCadastrodeVenda
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Label lblTitulo2;
             pnlFundo = new Panel();
             panel1 = new Panel();
             btnCancelar = new Button();
@@ -48,26 +49,15 @@
             panel1.SuspendLayout();
             SuspendLayout();
             // 
-            // lblTitulo2
-            // 
-            lblTitulo2.AutoSize = true;
-            lblTitulo2.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Pixel);
-            lblTitulo2.ForeColor = Color.FromArgb(121, 121, 121);
-            lblTitulo2.Location = new Point(27, 19);
-            lblTitulo2.Name = "lblTitulo2";
-            lblTitulo2.Size = new Size(186, 38);
-            lblTitulo2.TabIndex = 3;
-            lblTitulo2.Text = "BAIXA NO ESTOQUE";
-            // 
             // pnlFundo
             // 
             pnlFundo.BackColor = Color.FromArgb(9, 28, 128);
             pnlFundo.Controls.Add(panel1);
             pnlFundo.Controls.Add(lblTitulo1);
-            pnlFundo.Location = new Point(114, 93);
+            pnlFundo.Location = new Point(-15, 69);
             pnlFundo.Name = "pnlFundo";
             pnlFundo.Size = new Size(1270, 916);
-            pnlFundo.TabIndex = 0;
+            pnlFundo.TabIndex = 1;
             // 
             // panel1
             // 
@@ -147,7 +137,6 @@
             txtEntrada.Size = new Size(309, 44);
             txtEntrada.TabIndex = 13;
             txtEntrada.Text = "    ENTRADA";
-            txtEntrada.TextChanged += txtEntrada_TextChanged;
             // 
             // txtValorTotal
             // 
@@ -187,7 +176,7 @@
             textBox1.BorderStyle = BorderStyle.FixedSingle;
             textBox1.Font = new Font("Bebas Neue", 17F);
             textBox1.ForeColor = Color.FromArgb(147, 147, 147);
-            textBox1.Location = new Point(808, 156);
+            textBox1.Location = new Point(808, 142);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(274, 44);
             textBox1.TabIndex = 9;
@@ -222,11 +211,22 @@
             cmbCliente.ForeColor = Color.FromArgb(147, 147, 147);
             cmbCliente.FormattingEnabled = true;
             cmbCliente.Items.AddRange(new object[] { "Cliente não encontrado, para cadastrar novo cliente clique aqui." });
-            cmbCliente.Location = new Point(80, 156);
+            cmbCliente.Location = new Point(80, 142);
             cmbCliente.Name = "cmbCliente";
             cmbCliente.Size = new Size(707, 46);
             cmbCliente.TabIndex = 6;
             cmbCliente.Text = "    CLIENTE";
+            // 
+            // lblTitulo2
+            // 
+            lblTitulo2.AutoSize = true;
+            lblTitulo2.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Pixel);
+            lblTitulo2.ForeColor = Color.FromArgb(121, 121, 121);
+            lblTitulo2.Location = new Point(27, 19);
+            lblTitulo2.Name = "lblTitulo2";
+            lblTitulo2.Size = new Size(186, 38);
+            lblTitulo2.TabIndex = 3;
+            lblTitulo2.Text = "BAIXA NO ESTOQUE";
             // 
             // lblTitulo1
             // 
@@ -239,15 +239,15 @@
             lblTitulo1.TabIndex = 1;
             lblTitulo1.Text = "CADASTRO DE VENDA - ENCOMENDA";
             // 
-            // frmCadastroEncomendas
+            // FrmCadastrodeVenda
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1481, 1055);
             Controls.Add(pnlFundo);
-            Name = "frmCadastroEncomendas";
-            Text = "frmCadastroEncomendas";
-            Load += frmCadastroEncomendas_Load;
+            Location = new Point(114, 93);
+            Name = "FrmCadastrodeVenda";
+            Text = "FrmCadastrodeVenda";
             pnlFundo.ResumeLayout(false);
             pnlFundo.PerformLayout();
             panel1.ResumeLayout(false);
@@ -258,20 +258,19 @@
         #endregion
 
         private Panel pnlFundo;
-        private Label lblTitulo1;
-        private Label lblTitulo2;
         private Panel panel1;
-        private ComboBox cmbData;
-        private ComboBox cmbProduto;
-        private ComboBox cmbCliente;
-        private TextBox txtQuantidade;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private TextBox txtQtdeParcelas;
-        private TextBox txtEntrada;
-        private TextBox txtValorTotal;
         private Button btnCancelar;
         private Button btnConfirmar;
         private LinkLabel llbAdicionarVenda;
+        private TextBox txtQtdeParcelas;
+        private TextBox txtEntrada;
+        private TextBox txtValorTotal;
+        private TextBox txtQuantidade;
+        private TextBox textBox2;
+        private TextBox textBox1;
+        private ComboBox cmbData;
+        private ComboBox cmbProduto;
+        private ComboBox cmbCliente;
+        private Label lblTitulo1;
     }
 }
