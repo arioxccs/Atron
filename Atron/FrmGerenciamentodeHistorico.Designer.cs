@@ -37,11 +37,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Arial Narrow", 26.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(255, 122, 0);
             label1.Location = new Point(65, 50);
             label1.Name = "label1";
-            label1.Size = new Size(411, 37);
+            label1.Size = new Size(490, 42);
             label1.TabIndex = 0;
             label1.Text = "GERENCIAMENTO DE HISTÓRICO";
             // 
@@ -67,7 +67,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1284, 1061);
+            ClientSize = new Size(1284, 881);
             Controls.Add(btnHistoricoEntradaSaida);
             Controls.Add(btnHistoricoPedidos);
             Controls.Add(label1);
