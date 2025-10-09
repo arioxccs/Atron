@@ -121,7 +121,7 @@
             lblHistoricoPedido.AutoSize = true;
             lblHistoricoPedido.Font = new Font("Arial", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblHistoricoPedido.ForeColor = Color.FromArgb(255, 122, 0);
-            lblHistoricoPedido.Location = new Point(352, 60);
+            lblHistoricoPedido.Location = new Point(402, 61);
             lblHistoricoPedido.Name = "lblHistoricoPedido";
             lblHistoricoPedido.Size = new Size(498, 45);
             lblHistoricoPedido.TabIndex = 0;
