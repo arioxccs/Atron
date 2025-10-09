@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace Atron
 {
-    public partial class FrmCadastrodeVenda : Form
+    public partial class frmCarrinho : Form
     {
-        public FrmCadastrodeVenda()
+        public frmCarrinho()
         {
             InitializeComponent();
         }
 
-        private void FrmCadastrodeVenda_Load(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblDescontos_Click(object sender, EventArgs e)
         {
 
         }

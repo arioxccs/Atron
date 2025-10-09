@@ -248,6 +248,7 @@
             Location = new Point(114, 93);
             Name = "FrmCadastrodeVenda";
             Text = "FrmCadastrodeVenda";
+            Load += FrmCadastrodeVenda_Load;
             pnlFundo.ResumeLayout(false);
             pnlFundo.PerformLayout();
             panel1.ResumeLayout(false);
