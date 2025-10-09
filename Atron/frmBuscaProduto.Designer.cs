@@ -29,66 +29,70 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmBuscaProduto));
-            pictureBox1 = new PictureBox();
-            textBox1 = new TextBox();
-            pictureBox2 = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            picVoltar = new PictureBox();
+            txtPesquisa = new TextBox();
+            picBuscar = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)picVoltar).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)picBuscar).BeginInit();
             SuspendLayout();
             // 
-            // pictureBox1
+            // picVoltar
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(0, 0);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(66, 66);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            pictureBox1.UseWaitCursor = true;
+            picVoltar.Image = (Image)resources.GetObject("picVoltar.Image");
+            picVoltar.Location = new Point(0, 0);
+            picVoltar.Margin = new Padding(3, 4, 3, 4);
+            picVoltar.Name = "picVoltar";
+            picVoltar.Size = new Size(75, 88);
+            picVoltar.SizeMode = PictureBoxSizeMode.StretchImage;
+            picVoltar.TabIndex = 0;
+            picVoltar.TabStop = false;
+            picVoltar.UseWaitCursor = true;
             // 
-            // textBox1
+            // txtPesquisa
             // 
-            textBox1.Font = new Font("Bebas Neue", 26F);
-            textBox1.ForeColor = Color.Gray;
-            textBox1.Location = new Point(122, 80);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(975, 53);
-            textBox1.TabIndex = 1;
-            textBox1.Text = "     Buscar Produto";
-            textBox1.TextChanged += textBox1_TextChanged;
+            txtPesquisa.Font = new Font("Bebas Neue", 26F);
+            txtPesquisa.ForeColor = Color.Gray;
+            txtPesquisa.Location = new Point(354, 107);
+            txtPesquisa.Margin = new Padding(3, 4, 3, 4);
+            txtPesquisa.Name = "txtPesquisa";
+            txtPesquisa.Size = new Size(899, 64);
+            txtPesquisa.TabIndex = 1;
+            txtPesquisa.Text = "     Buscar Produto";
+            txtPesquisa.TextChanged += textBox1_TextChanged;
             // 
-            // pictureBox2
+            // picBuscar
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(971, 513);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(293, 158);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 2;
-            pictureBox2.TabStop = false;
-            pictureBox2.Click += pictureBox2_Click;
+            picBuscar.Image = (Image)resources.GetObject("picBuscar.Image");
+            picBuscar.Location = new Point(1110, 684);
+            picBuscar.Margin = new Padding(3, 4, 3, 4);
+            picBuscar.Name = "picBuscar";
+            picBuscar.Size = new Size(335, 211);
+            picBuscar.SizeMode = PictureBoxSizeMode.StretchImage;
+            picBuscar.TabIndex = 2;
+            picBuscar.TabStop = false;
+            picBuscar.Click += pictureBox2_Click;
             // 
             // frmBuscaProduto
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1264, 661);
-            Controls.Add(pictureBox2);
-            Controls.Add(textBox1);
-            Controls.Add(pictureBox1);
+            ClientSize = new Size(1445, 881);
+            Controls.Add(picBuscar);
+            Controls.Add(txtPesquisa);
+            Controls.Add(picVoltar);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "frmBuscaProduto";
             Text = "frmBuscaProduto";
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picVoltar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)picBuscar).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private PictureBox pictureBox1;
-        private TextBox textBox1;
-        private PictureBox pictureBox2;
+        private PictureBox picVoltar;
+        private TextBox txtPesquisa;
+        private PictureBox picBuscar;
     }
 }
