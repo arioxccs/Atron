@@ -22,5 +22,15 @@ namespace Atron
             FrmPedidosEmFalta2 FrmPedidosEmFalta2 = new FrmPedidosEmFalta2();
             FrmPedidosEmFalta2.Show();
         }
+
+        private void lblMarca_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblBolaVolei_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
