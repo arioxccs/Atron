@@ -178,7 +178,7 @@
             label3.Size = new Size(26, 28);
             label3.TabIndex = 133;
             label3.Text = ">";
-            label3.Click += this.label3_Click;
+
             // 
             // label1
             // 
@@ -278,7 +278,6 @@
             lblNumPedido.Size = new Size(114, 15);
             lblNumPedido.TabIndex = 124;
             lblNumPedido.Text = "Número do Pedido:";
-            lblNumPedido.Click += this.lblNumPedido_Click;
             // 
             // txtNomeProduto
             // 

@@ -100,66 +100,66 @@
             // lblFornecedor
             // 
             lblFornecedor.AutoSize = true;
-            lblFornecedor.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblFornecedor.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblFornecedor.ForeColor = Color.FromArgb(42, 97, 141);
             lblFornecedor.Location = new Point(68, 99);
             lblFornecedor.Name = "lblFornecedor";
-            lblFornecedor.Size = new Size(71, 14);
+            lblFornecedor.Size = new Size(73, 15);
             lblFornecedor.TabIndex = 2;
             lblFornecedor.Text = "Fornecedor:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Roboto", 9F);
+            label2.Font = new Font("Microsoft Sans Serif", 9F);
             label2.ForeColor = Color.FromArgb(42, 97, 141);
             label2.Location = new Point(68, 193);
             label2.Name = "label2";
-            label2.Size = new Size(104, 14);
+            label2.Size = new Size(106, 15);
             label2.TabIndex = 3;
             label2.Text = "Data de Chegada:";
             // 
             // lblFormaPag
             // 
             lblFormaPag.AutoSize = true;
-            lblFormaPag.Font = new Font("Roboto", 9F);
+            lblFormaPag.Font = new Font("Microsoft Sans Serif", 9F);
             lblFormaPag.ForeColor = Color.FromArgb(42, 97, 141);
             lblFormaPag.Location = new Point(68, 239);
             lblFormaPag.Name = "lblFormaPag";
-            lblFormaPag.Size = new Size(129, 14);
+            lblFormaPag.Size = new Size(130, 15);
             lblFormaPag.TabIndex = 4;
             lblFormaPag.Text = "Forma de Pagamento:";
             // 
             // lblObs
             // 
             lblObs.AutoSize = true;
-            lblObs.Font = new Font("Roboto", 9F);
+            lblObs.Font = new Font("Microsoft Sans Serif", 9F);
             lblObs.ForeColor = Color.FromArgb(42, 97, 141);
             lblObs.Location = new Point(68, 288);
             lblObs.Name = "lblObs";
-            lblObs.Size = new Size(79, 14);
+            lblObs.Size = new Size(81, 15);
             lblObs.TabIndex = 5;
             lblObs.Text = "Observações:";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Font = new Font("Roboto", 9F);
+            label5.Font = new Font("Microsoft Sans Serif", 9F);
             label5.ForeColor = Color.FromArgb(42, 97, 141);
             label5.Location = new Point(437, 100);
             label5.Name = "label5";
-            label5.Size = new Size(55, 14);
+            label5.Size = new Size(56, 15);
             label5.TabIndex = 6;
             label5.Text = "Imagem:";
             // 
             // lblStatusPedido
             // 
             lblStatusPedido.AutoSize = true;
-            lblStatusPedido.Font = new Font("Roboto", 9F);
+            lblStatusPedido.Font = new Font("Microsoft Sans Serif", 9F);
             lblStatusPedido.ForeColor = Color.FromArgb(255, 122, 0);
             lblStatusPedido.Location = new Point(437, 161);
             lblStatusPedido.Name = "lblStatusPedido";
-            lblStatusPedido.Size = new Size(138, 14);
+            lblStatusPedido.Size = new Size(138, 15);
             lblStatusPedido.TabIndex = 7;
             lblStatusPedido.Text = "Status Inicial do Pedido:";
             lblStatusPedido.Click += label6_Click;
@@ -167,44 +167,44 @@
             // lblSolicitado
             // 
             lblSolicitado.AutoSize = true;
-            lblSolicitado.Font = new Font("Roboto", 9F);
+            lblSolicitado.Font = new Font("Microsoft Sans Serif", 9F);
             lblSolicitado.ForeColor = Color.FromArgb(42, 97, 141);
             lblSolicitado.Location = new Point(486, 195);
             lblSolicitado.Name = "lblSolicitado";
-            lblSolicitado.Size = new Size(61, 14);
+            lblSolicitado.Size = new Size(61, 15);
             lblSolicitado.TabIndex = 9;
             lblSolicitado.Text = "Solicitado";
             // 
             // lblSelecionarProdutos
             // 
             lblSelecionarProdutos.AutoSize = true;
-            lblSelecionarProdutos.Font = new Font("Roboto", 9F);
+            lblSelecionarProdutos.Font = new Font("Microsoft Sans Serif", 9F);
             lblSelecionarProdutos.ForeColor = Color.FromArgb(42, 97, 141);
             lblSelecionarProdutos.Location = new Point(68, 144);
             lblSelecionarProdutos.Name = "lblSelecionarProdutos";
-            lblSelecionarProdutos.Size = new Size(119, 14);
+            lblSelecionarProdutos.Size = new Size(121, 15);
             lblSelecionarProdutos.TabIndex = 10;
             lblSelecionarProdutos.Text = "Selecionar Produtos:";
             // 
             // lblCodFornecedor
             // 
             lblCodFornecedor.AutoSize = true;
-            lblCodFornecedor.Font = new Font("Roboto", 9F);
+            lblCodFornecedor.Font = new Font("Microsoft Sans Serif", 9F);
             lblCodFornecedor.ForeColor = Color.FromArgb(42, 97, 141);
             lblCodFornecedor.Location = new Point(299, 100);
             lblCodFornecedor.Name = "lblCodFornecedor";
-            lblCodFornecedor.Size = new Size(130, 14);
+            lblCodFornecedor.Size = new Size(132, 15);
             lblCodFornecedor.TabIndex = 11;
             lblCodFornecedor.Text = "Código do Fornecedor:";
             // 
             // lblAguardandoAprov
             // 
             lblAguardandoAprov.AutoSize = true;
-            lblAguardandoAprov.Font = new Font("Roboto", 9F);
+            lblAguardandoAprov.Font = new Font("Microsoft Sans Serif", 9F);
             lblAguardandoAprov.ForeColor = Color.FromArgb(42, 97, 141);
             lblAguardandoAprov.Location = new Point(486, 218);
             lblAguardandoAprov.Name = "lblAguardandoAprov";
-            lblAguardandoAprov.Size = new Size(136, 14);
+            lblAguardandoAprov.Size = new Size(134, 15);
             lblAguardandoAprov.TabIndex = 13;
             lblAguardandoAprov.Text = "Aguardando aprovação";
             // 
@@ -220,11 +220,11 @@
             // lblEmAndamento
             // 
             lblEmAndamento.AutoSize = true;
-            lblEmAndamento.Font = new Font("Roboto", 9F);
+            lblEmAndamento.Font = new Font("Microsoft Sans Serif", 9F);
             lblEmAndamento.ForeColor = Color.FromArgb(42, 97, 141);
             lblEmAndamento.Location = new Point(486, 265);
             lblEmAndamento.Name = "lblEmAndamento";
-            lblEmAndamento.Size = new Size(91, 14);
+            lblEmAndamento.Size = new Size(92, 15);
             lblEmAndamento.TabIndex = 15;
             lblEmAndamento.Text = "Em andamento";
             // 
@@ -240,11 +240,11 @@
             // lblAprovado
             // 
             lblAprovado.AutoSize = true;
-            lblAprovado.Font = new Font("Roboto", 9F);
+            lblAprovado.Font = new Font("Microsoft Sans Serif", 9F);
             lblAprovado.ForeColor = Color.FromArgb(42, 97, 141);
             lblAprovado.Location = new Point(486, 240);
             lblAprovado.Name = "lblAprovado";
-            lblAprovado.Size = new Size(60, 14);
+            lblAprovado.Size = new Size(58, 15);
             lblAprovado.TabIndex = 17;
             lblAprovado.Text = "Aprovado";
             // 
@@ -260,22 +260,22 @@
             // lblEntregue
             // 
             lblEntregue.AutoSize = true;
-            lblEntregue.Font = new Font("Roboto", 9F);
+            lblEntregue.Font = new Font("Microsoft Sans Serif", 9F);
             lblEntregue.ForeColor = Color.FromArgb(42, 97, 141);
             lblEntregue.Location = new Point(486, 288);
             lblEntregue.Name = "lblEntregue";
-            lblEntregue.Size = new Size(55, 14);
+            lblEntregue.Size = new Size(57, 15);
             lblEntregue.TabIndex = 19;
             lblEntregue.Text = "Entregue";
             // 
             // lblCancelado
             // 
             lblCancelado.AutoSize = true;
-            lblCancelado.Font = new Font("Roboto", 9F);
+            lblCancelado.Font = new Font("Microsoft Sans Serif", 9F);
             lblCancelado.ForeColor = Color.FromArgb(42, 97, 141);
             lblCancelado.Location = new Point(486, 312);
             lblCancelado.Name = "lblCancelado";
-            lblCancelado.Size = new Size(65, 14);
+            lblCancelado.Size = new Size(66, 15);
             lblCancelado.TabIndex = 21;
             lblCancelado.Text = "Cancelado";
             lblCancelado.Click += lblCancelado_Click;
@@ -528,6 +528,7 @@
             Controls.Add(lblFornecedor);
             Controls.Add(txtFornecedor);
             Controls.Add(lblRegistrarNovoPedido);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "frmRegistrarNovoPedido";
             Text = "frmRegistrarNovoPedido";
             WindowState = FormWindowState.Maximized;
