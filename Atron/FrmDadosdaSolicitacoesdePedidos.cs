@@ -36,5 +36,16 @@ namespace Atron
         {
 
         }
+
+        private void btnDados_Click(object sender, EventArgs e)
+        {
+            FrmDadosdaSolicitacaodePedidos2 FrmDadosdaSolicitacaodePedidos2 = new FrmDadosdaSolicitacaodePedidos2();
+            FrmDadosdaSolicitacaodePedidos2.Show();
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
