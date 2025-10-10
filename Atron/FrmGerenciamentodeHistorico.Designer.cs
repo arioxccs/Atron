@@ -37,40 +37,45 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Arial Narrow", 26.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Microsoft Sans Serif", 26.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(255, 122, 0);
-            label1.Location = new Point(74, 53);
+            label1.Location = new Point(85, 71);
             label1.Name = "label1";
-            label1.Size = new Size(490, 42);
+            label1.Size = new Size(765, 52);
             label1.TabIndex = 0;
             label1.Text = "GERENCIAMENTO DE HISTÓRICO";
             // 
             // btnHistoricoPedidos
             // 
             btnHistoricoPedidos.Image = (Image)resources.GetObject("btnHistoricoPedidos.Image");
-            btnHistoricoPedidos.Location = new Point(74, 117);
+            btnHistoricoPedidos.Location = new Point(85, 156);
+            btnHistoricoPedidos.Margin = new Padding(3, 4, 3, 4);
             btnHistoricoPedidos.Name = "btnHistoricoPedidos";
-            btnHistoricoPedidos.Size = new Size(455, 406);
+            btnHistoricoPedidos.Size = new Size(520, 541);
             btnHistoricoPedidos.TabIndex = 1;
             btnHistoricoPedidos.UseVisualStyleBackColor = true;
+            btnHistoricoPedidos.Click += btnHistoricoPedidos_Click;
             // 
             // btnHistoricoEntradaSaida
             // 
             btnHistoricoEntradaSaida.Image = (Image)resources.GetObject("btnHistoricoEntradaSaida.Image");
-            btnHistoricoEntradaSaida.Location = new Point(556, 117);
+            btnHistoricoEntradaSaida.Location = new Point(635, 156);
+            btnHistoricoEntradaSaida.Margin = new Padding(3, 4, 3, 4);
             btnHistoricoEntradaSaida.Name = "btnHistoricoEntradaSaida";
-            btnHistoricoEntradaSaida.Size = new Size(455, 406);
+            btnHistoricoEntradaSaida.Size = new Size(520, 541);
             btnHistoricoEntradaSaida.TabIndex = 2;
             btnHistoricoEntradaSaida.UseVisualStyleBackColor = true;
+            btnHistoricoEntradaSaida.Click += btnHistoricoEntradaSaida_Click;
             // 
             // FrmGerenciamentodeHistorico
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1284, 881);
+            ClientSize = new Size(1467, 1055);
             Controls.Add(btnHistoricoEntradaSaida);
             Controls.Add(btnHistoricoPedidos);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FrmGerenciamentodeHistorico";
             Text = "FrmGerenciamentodeHistorico";
             ResumeLayout(false);

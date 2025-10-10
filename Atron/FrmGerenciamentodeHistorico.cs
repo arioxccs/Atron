@@ -16,5 +16,17 @@ namespace Atron
         {
             InitializeComponent();
         }
+
+        private void btnHistoricoPedidos_Click(object sender, EventArgs e)
+        {
+            FrmHistoricodePedidos frmHistoricodePedidos = new FrmHistoricodePedidos();
+            frmHistoricodePedidos.Show();
+        }
+
+        private void btnHistoricoEntradaSaida_Click(object sender, EventArgs e)
+        {
+            FrmHistoricoEntradaeSaida frmHistoricoEntradaeSaida = new FrmHistoricoEntradaeSaida();  
+            frmHistoricoEntradaeSaida.Show();
+        }
     }
 }
