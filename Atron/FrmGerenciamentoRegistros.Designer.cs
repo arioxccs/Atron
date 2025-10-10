@@ -178,6 +178,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = SystemColors.Control;
             label2.Font = new Font("Microsoft Sans Serif", 24.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(255, 122, 0);
             label2.Location = new Point(13, 16);
