@@ -531,9 +531,9 @@
             Controls.Add(btNovoProduto);
             Controls.Add(btnNovoPedido);
             Controls.Add(lbl_GerenciamentodeRegistros);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "FrmGerenciamentoRegistros";
             Text = "FrmGerenciamentoRegistros";
-            Load += FrmGerenciamentoRegistros_Load;
             panel_entradaNoEstoque.ResumeLayout(false);
             panel_entradaNoEstoque.PerformLayout();
             panel1.ResumeLayout(false);
