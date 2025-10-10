@@ -52,11 +52,11 @@
             // lblTitulo2
             // 
             lblTitulo2.AutoSize = true;
-            lblTitulo2.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Pixel);
+            lblTitulo2.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Regular, GraphicsUnit.Pixel);
             lblTitulo2.ForeColor = Color.FromArgb(121, 121, 121);
             lblTitulo2.Location = new Point(27, 19);
             lblTitulo2.Name = "lblTitulo2";
-            lblTitulo2.Size = new Size(186, 38);
+            lblTitulo2.Size = new Size(310, 36);
             lblTitulo2.TabIndex = 3;
             lblTitulo2.Text = "BAIXA NO ESTOQUE";
             // 
@@ -95,7 +95,7 @@
             // btnCancelar
             // 
             btnCancelar.BackColor = SystemColors.ControlLight;
-            btnCancelar.Font = new Font("Bebas Neue", 13.8F);
+            btnCancelar.Font = new Font("Microsoft Sans Serif", 13.8F);
             btnCancelar.ForeColor = Color.FromArgb(159, 0, 0);
             btnCancelar.Location = new Point(590, 708);
             btnCancelar.Name = "btnCancelar";
@@ -103,11 +103,12 @@
             btnCancelar.TabIndex = 17;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = false;
+            btnCancelar.Click += btnCancelar_Click;
             // 
             // btnConfirmar
             // 
             btnConfirmar.BackColor = SystemColors.ControlLight;
-            btnConfirmar.Font = new Font("Bebas Neue", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnConfirmar.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnConfirmar.ForeColor = Color.FromArgb(9, 186, 0);
             btnConfirmar.Location = new Point(409, 708);
             btnConfirmar.Name = "btnConfirmar";
@@ -132,22 +133,22 @@
             // txtQtdeParcelas
             // 
             txtQtdeParcelas.BorderStyle = BorderStyle.FixedSingle;
-            txtQtdeParcelas.Font = new Font("Bebas Neue", 17F);
+            txtQtdeParcelas.Font = new Font("Microsoft Sans Serif", 17F);
             txtQtdeParcelas.ForeColor = Color.FromArgb(147, 147, 147);
             txtQtdeParcelas.Location = new Point(773, 580);
             txtQtdeParcelas.Name = "txtQtdeParcelas";
-            txtQtdeParcelas.Size = new Size(309, 44);
+            txtQtdeParcelas.Size = new Size(309, 40);
             txtQtdeParcelas.TabIndex = 14;
             txtQtdeParcelas.Text = "    QTDE PARCELAS";
             // 
             // txtEntrada
             // 
             txtEntrada.BorderStyle = BorderStyle.FixedSingle;
-            txtEntrada.Font = new Font("Bebas Neue", 17F);
+            txtEntrada.Font = new Font("Microsoft Sans Serif", 17F);
             txtEntrada.ForeColor = Color.FromArgb(147, 147, 147);
             txtEntrada.Location = new Point(427, 580);
             txtEntrada.Name = "txtEntrada";
-            txtEntrada.Size = new Size(309, 44);
+            txtEntrada.Size = new Size(309, 40);
             txtEntrada.TabIndex = 13;
             txtEntrada.Text = "    ENTRADA";
             txtEntrada.TextChanged += txtEntrada_TextChanged;
@@ -155,90 +156,90 @@
             // txtValorTotal
             // 
             txtValorTotal.BorderStyle = BorderStyle.FixedSingle;
-            txtValorTotal.Font = new Font("Bebas Neue", 17F);
+            txtValorTotal.Font = new Font("Microsoft Sans Serif", 17F);
             txtValorTotal.ForeColor = Color.FromArgb(147, 147, 147);
             txtValorTotal.Location = new Point(80, 580);
             txtValorTotal.Name = "txtValorTotal";
-            txtValorTotal.Size = new Size(309, 44);
+            txtValorTotal.Size = new Size(309, 40);
             txtValorTotal.TabIndex = 12;
             txtValorTotal.Text = "    VALOR TOTAL";
             // 
             // txtQuantidade
             // 
             txtQuantidade.BorderStyle = BorderStyle.FixedSingle;
-            txtQuantidade.Font = new Font("Bebas Neue", 17F);
+            txtQuantidade.Font = new Font("Microsoft Sans Serif", 17F);
             txtQuantidade.ForeColor = Color.FromArgb(147, 147, 147);
             txtQuantidade.Location = new Point(590, 440);
             txtQuantidade.Name = "txtQuantidade";
-            txtQuantidade.Size = new Size(492, 44);
+            txtQuantidade.Size = new Size(492, 40);
             txtQuantidade.TabIndex = 11;
             txtQuantidade.Text = "    QUANTIDADE";
             // 
             // textBox2
             // 
             textBox2.BorderStyle = BorderStyle.FixedSingle;
-            textBox2.Font = new Font("Bebas Neue", 17F);
+            textBox2.Font = new Font("Microsoft Sans Serif", 17F);
             textBox2.ForeColor = Color.FromArgb(147, 147, 147);
             textBox2.Location = new Point(808, 291);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(274, 44);
+            textBox2.Size = new Size(274, 40);
             textBox2.TabIndex = 10;
             textBox2.Text = "    CÓDIGO DO PRODUTO";
             // 
             // textBox1
             // 
             textBox1.BorderStyle = BorderStyle.FixedSingle;
-            textBox1.Font = new Font("Bebas Neue", 17F);
+            textBox1.Font = new Font("Microsoft Sans Serif", 17F);
             textBox1.ForeColor = Color.FromArgb(147, 147, 147);
             textBox1.Location = new Point(808, 156);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(274, 44);
+            textBox1.Size = new Size(274, 40);
             textBox1.TabIndex = 9;
             textBox1.Text = "    CÓDIGO DO CLIENTE";
             // 
             // cmbData
             // 
-            cmbData.Font = new Font("Bebas Neue", 16F);
+            cmbData.Font = new Font("Microsoft Sans Serif", 16F);
             cmbData.ForeColor = Color.FromArgb(147, 147, 147);
             cmbData.FormattingEnabled = true;
             cmbData.Location = new Point(80, 440);
             cmbData.Name = "cmbData";
-            cmbData.Size = new Size(492, 43);
+            cmbData.Size = new Size(492, 39);
             cmbData.TabIndex = 8;
             cmbData.Text = "    dd/mm/aa";
             // 
             // cmbProduto
             // 
-            cmbProduto.Font = new Font("Bebas Neue", 16F);
+            cmbProduto.Font = new Font("Microsoft Sans Serif", 16F);
             cmbProduto.ForeColor = Color.FromArgb(147, 147, 147);
             cmbProduto.FormattingEnabled = true;
             cmbProduto.Items.AddRange(new object[] { "Produto não encontrado, para cadastrar novo cliente clique aqui." });
             cmbProduto.Location = new Point(80, 291);
             cmbProduto.Name = "cmbProduto";
-            cmbProduto.Size = new Size(707, 43);
+            cmbProduto.Size = new Size(707, 39);
             cmbProduto.TabIndex = 7;
             cmbProduto.Text = "    PRODUTO";
             // 
             // cmbCliente
             // 
-            cmbCliente.Font = new Font("Bebas Neue", 18F);
+            cmbCliente.Font = new Font("Microsoft Sans Serif", 18F);
             cmbCliente.ForeColor = Color.FromArgb(147, 147, 147);
             cmbCliente.FormattingEnabled = true;
             cmbCliente.Items.AddRange(new object[] { "Cliente não encontrado, para cadastrar novo cliente clique aqui." });
             cmbCliente.Location = new Point(80, 156);
             cmbCliente.Name = "cmbCliente";
-            cmbCliente.Size = new Size(707, 46);
+            cmbCliente.Size = new Size(707, 44);
             cmbCliente.TabIndex = 6;
             cmbCliente.Text = "    CLIENTE";
             // 
             // lblTitulo1
             // 
             lblTitulo1.AutoSize = true;
-            lblTitulo1.Font = new Font("Bebas Neue", 33F, FontStyle.Regular, GraphicsUnit.Pixel);
+            lblTitulo1.Font = new Font("Microsoft Sans Serif", 33F, FontStyle.Regular, GraphicsUnit.Pixel);
             lblTitulo1.ForeColor = Color.White;
             lblTitulo1.Location = new Point(35, 25);
             lblTitulo1.Name = "lblTitulo1";
-            lblTitulo1.Size = new Size(362, 43);
+            lblTitulo1.Size = new Size(645, 39);
             lblTitulo1.TabIndex = 1;
             lblTitulo1.Text = "CADASTRO DE VENDA - ENCOMENDA";
             // 

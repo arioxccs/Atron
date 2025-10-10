@@ -43,5 +43,11 @@ namespace Atron
             frmCarrinho frmCarrinho = new frmCarrinho();
             frmCarrinho.ShowDialog();
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            frmPopUpConfirmarCancelamento frmPopUpConfirmarCancelamento = new frmPopUpConfirmarCancelamento();
+            frmPopUpConfirmarCancelamento.ShowDialog();
+        }
     }
 }
