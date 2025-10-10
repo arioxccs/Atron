@@ -90,6 +90,7 @@
             btn_PedidosMenuEstoque.Text = "Pedido";
             btn_PedidosMenuEstoque.TextImageRelation = TextImageRelation.ImageAboveText;
             btn_PedidosMenuEstoque.UseVisualStyleBackColor = false;
+            btn_PedidosMenuEstoque.Click += btn_PedidosMenuEstoque_Click;
             // 
             // btn_ConsultarMenuEstoque
             // 

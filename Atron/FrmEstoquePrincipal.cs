@@ -45,7 +45,8 @@ namespace Atron
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            ActiveButton(btn_HistoricoMenuEstoque);
+            FormShow(new FrmGerenciamentodeHistorico());
         }
 
         private void btn_RegistrarMenu_Click(object sender, EventArgs e)
@@ -73,6 +74,12 @@ namespace Atron
         {
             ActiveButton(btn_ConsultarMenuEstoque);
             FormShow(new frmGerenciamentoConsultas());
+        }
+
+        private void btn_PedidosMenuEstoque_Click(object sender, EventArgs e)
+        {
+            ActiveButton(btn_PedidosMenuEstoque);
+            FormShow(new FrmGerenciamentodePedidos());
         }
     }
 }
