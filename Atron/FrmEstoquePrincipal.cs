@@ -36,7 +36,7 @@ namespace Atron
         }
 
         private void ActiveButton(Button btnAtivo)
-        { 
+        {
             foreach (Control ctrl in panel_MenuEstoque.Controls)
                 ctrl.BackColor = Color.FromArgb(255, 179, 92);
 
@@ -60,6 +60,11 @@ namespace Atron
         }
 
         private void FrmEstoquePrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelEstoque_Paint(object sender, PaintEventArgs e)
         {
 
         }

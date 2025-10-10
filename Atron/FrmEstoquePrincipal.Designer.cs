@@ -161,6 +161,7 @@
             panelEstoque.Name = "panelEstoque";
             panelEstoque.Size = new Size(1312, 827);
             panelEstoque.TabIndex = 3;
+            panelEstoque.Paint += panelEstoque_Paint;
             // 
             // FrmEstoquePrincipal
             // 

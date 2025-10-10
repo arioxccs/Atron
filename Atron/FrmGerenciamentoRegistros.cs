@@ -46,5 +46,10 @@ namespace Atron
         {
 
         }
+
+        private void btnEntradaEstoque_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
