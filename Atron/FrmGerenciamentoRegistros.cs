@@ -20,8 +20,13 @@ namespace Atron
 
         private void button2_Click(object sender, EventArgs e)
         {
-            frmRegistrarNovoProduto frmRegistrarNovoProduto = new frmRegistrarNovoProduto();
-            frmRegistrarNovoProduto.Show();
+            frmRegistrarNovoProduto TelaAberta = new frmRegistrarNovoProduto();
+            FrmEstoquePrincipal frmPrincipal = (FrmEstoquePrincipal)this.ParentForm;
+            frmPrincipal.Controls["panelEstoque"].Controls.Clear();
+            TelaAberta.TopLevel = false;
+            frmPrincipal.Controls["panelEstoque"].Controls.Add(TelaAberta);
+            TelaAberta.Show();
+
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -41,8 +46,12 @@ namespace Atron
 
         private void button1_Click(object sender, EventArgs e)
         {
-            frmRegistrarNovoPedido frmRegistrarNovoPedido = new frmRegistrarNovoPedido();
-            frmRegistrarNovoPedido.Show();
+           frmRegistrarNovoPedido TelaAberta = new frmRegistrarNovoPedido();
+            FrmEstoquePrincipal frmPrincipal = (FrmEstoquePrincipal)this.ParentForm;
+            frmPrincipal.Controls["panelEstoque"].Controls.Clear();
+            TelaAberta.TopLevel = false;
+            frmPrincipal.Controls["panelEstoque"].Controls.Add(TelaAberta);
+            TelaAberta.Show();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -53,6 +62,12 @@ namespace Atron
 
         private void btnEntradaEstoque_Click(object sender, EventArgs e)
         {
+            frmRegistrarEntradaNoEstoque TelaAberta = new frmRegistrarEntradaNoEstoque();
+            FrmEstoquePrincipal frmPrincipal = (FrmEstoquePrincipal)this.ParentForm;
+            frmPrincipal.Controls["panelEstoque"].Controls.Clear();
+            TelaAberta.TopLevel = false;
+            frmPrincipal.Controls["panelEstoque"].Controls.Add(TelaAberta);
+            TelaAberta.Show();
 
         }
     }
