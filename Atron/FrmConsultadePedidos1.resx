@@ -121,7 +121,7 @@
   <data name="btnProcurar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAQUAAABcCAYAAABnYKAaAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAAPIpJREFUeF7dfQm4XlV19hFIQggiIFUZHKpoK2pti9ZWq8XW1vn/ra1YrYpacbYq
+        DgAACw4BQL7hQQAAPIpJREFUeF7dfQm4XlV19hFIQggiIFUZHKpoK2pti9ZWq8XW1vn/ra1YrYpacbYq
         joBIjMgkU8IMCYUwTwJhHgIJcwAZZZQQQoAM9yb35s7Td0+ftc9e+7z73Wuf77sB/7//f55nPXvvNbzr
         3evss3PO+b7vpihexKMsy5ewrpOD43j8/9NRliWrXtDRaa069evgeLFwXkxOjcem1DzHTfU5+1QPwGmL
         B7nZ9H//6KAgaJc+CtotHR9N8Xiw3Yp5CRTU8s35sR1tWg+NifzVBv45YTuO9UA9ttq3xhYmHsI7a6Mx
@@ -385,7 +385,7 @@
   <data name="btnPesquisar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACgAAAAqCAYAAADBNhlmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAABG5JREFUWEftWM1rJEUU33VXBGUXV/EDlBUVQY/iQZD1JCgLC4KQy7LoTfw4eRBP
+        DgAACw4BQL7hQQAABG5JREFUWEftWM1rJEUU33VXBGUXV/EDlBUVQY/iQZD1JCgLC4KQy7LoTfw4eRBP
         4nhQRPIHLAjqQUFzUXDJxWguMgaJEoKEyZpkmOz0ZHqmuyddXfVetZlMy+t0LclL9cz0dDZ68AePmUxe
         vfq9j3r9qk+c+B/HgCRJTpLQ92azea/rui96XuftIAje8zz31Var9czs7OwdfN0tR6VSuY2ItdvtR5VS
         Va11goiZQAIA6Sf9rTWJjnu93rRZy+0dKaampk6tra3dr7V2EWEAkEpKaoTskiNRFH1NdiqVymluuzQo
@@ -410,7 +410,7 @@
   <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACgAAAAqCAYAAADBNhlmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAABG5JREFUWEftWM1rJEUU33VXBGUXV/EDlBUVQY/iQZD1JCgLC4KQy7LoTfw4eRBP
+        DQAACw0B7QfALAAABG5JREFUWEftWM1rJEUU33VXBGUXV/EDlBUVQY/iQZD1JCgLC4KQy7LoTfw4eRBP
         4nhQRPIHLAjqQUFzUXDJxWguMgaJEoKEyZpkmOz0ZHqmuyddXfVetZlMy+t0LclL9cz0dDZ68AePmUxe
         vfq9j3r9qk+c+B/HgCRJTpLQ92azea/rui96XuftIAje8zz31Var9czs7OwdfN0tR6VSuY2ItdvtR5VS
         Va11goiZQAIA6Sf9rTWJjnu93rRZy+0dKaampk6tra3dr7V2EWEAkEpKaoTskiNRFH1NdiqVymluuzQo

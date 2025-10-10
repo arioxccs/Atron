@@ -32,16 +32,16 @@
             panel1 = new Panel();
             lblConsultadeProdutos = new Label();
             panel2 = new Panel();
-            lblBoladeBasquete = new Label();
-            lblCategoria = new Label();
-            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            lblQuantidade = new Label();
-            lblPreco = new Label();
-            lblCodProduto = new Label();
-            label5 = new Label();
-            lblMarca = new Label();
-            label4 = new Label();
             pictureBox1 = new PictureBox();
+            label4 = new Label();
+            lblMarca = new Label();
+            label5 = new Label();
+            lblCodProduto = new Label();
+            lblPreco = new Label();
+            lblQuantidade = new Label();
+            lblCategoria = new Label();
+            lblBoladeBasquete = new Label();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             btnVoltar = new Button();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -58,11 +58,11 @@
             // lblConsultadeProdutos
             // 
             lblConsultadeProdutos.AutoSize = true;
-            lblConsultadeProdutos.Font = new Font("Lato Black", 26.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
+            lblConsultadeProdutos.Font = new Font("Microsoft Sans Serif", 26.25F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
             lblConsultadeProdutos.ForeColor = Color.FromArgb(255, 122, 0);
             lblConsultadeProdutos.Location = new Point(428, 72);
             lblConsultadeProdutos.Name = "lblConsultadeProdutos";
-            lblConsultadeProdutos.Size = new Size(357, 42);
+            lblConsultadeProdutos.Size = new Size(369, 39);
             lblConsultadeProdutos.TabIndex = 43;
             lblConsultadeProdutos.Text = "Consulta de Produtos";
             // 
@@ -83,89 +83,15 @@
             panel2.Size = new Size(863, 353);
             panel2.TabIndex = 45;
             // 
-            // lblBoladeBasquete
+            // pictureBox1
             // 
-            lblBoladeBasquete.AutoSize = true;
-            lblBoladeBasquete.BackColor = Color.FromArgb(251, 251, 251);
-            lblBoladeBasquete.Font = new Font("Arial", 20.25F, FontStyle.Underline, GraphicsUnit.Point, 0);
-            lblBoladeBasquete.ForeColor = Color.FromArgb(42, 97, 141);
-            lblBoladeBasquete.Location = new Point(65, 43);
-            lblBoladeBasquete.Name = "lblBoladeBasquete";
-            lblBoladeBasquete.Size = new Size(229, 32);
-            lblBoladeBasquete.TabIndex = 66;
-            lblBoladeBasquete.Text = "Bola de Basquete";
-            // 
-            // lblCategoria
-            // 
-            lblCategoria.AutoSize = true;
-            lblCategoria.BackColor = Color.FromArgb(251, 251, 251);
-            lblCategoria.Font = new Font("Arial", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblCategoria.ForeColor = Color.Gray;
-            lblCategoria.Location = new Point(65, 116);
-            lblCategoria.Name = "lblCategoria";
-            lblCategoria.Size = new Size(192, 27);
-            lblCategoria.TabIndex = 67;
-            lblCategoria.Text = "• Categoria: Bola";
-            // 
-            // lblQuantidade
-            // 
-            lblQuantidade.AutoSize = true;
-            lblQuantidade.BackColor = Color.FromArgb(251, 251, 251);
-            lblQuantidade.Font = new Font("Arial", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblQuantidade.ForeColor = Color.Gray;
-            lblQuantidade.Location = new Point(65, 158);
-            lblQuantidade.Name = "lblQuantidade";
-            lblQuantidade.Size = new Size(193, 27);
-            lblQuantidade.TabIndex = 68;
-            lblQuantidade.Text = "• Quantidade: 34";
-            // 
-            // lblPreco
-            // 
-            lblPreco.AutoSize = true;
-            lblPreco.BackColor = Color.FromArgb(251, 251, 251);
-            lblPreco.Font = new Font("Arial", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblPreco.ForeColor = Color.Gray;
-            lblPreco.Location = new Point(65, 202);
-            lblPreco.Name = "lblPreco";
-            lblPreco.Size = new Size(205, 27);
-            lblPreco.TabIndex = 69;
-            lblPreco.Text = "• Preço: R$235,00";
-            // 
-            // lblCodProduto
-            // 
-            lblCodProduto.AutoSize = true;
-            lblCodProduto.BackColor = Color.FromArgb(251, 251, 251);
-            lblCodProduto.Font = new Font("Arial", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblCodProduto.ForeColor = Color.Gray;
-            lblCodProduto.Location = new Point(65, 249);
-            lblCodProduto.Name = "lblCodProduto";
-            lblCodProduto.Size = new Size(269, 27);
-            lblCodProduto.TabIndex = 70;
-            lblCodProduto.Text = "• Código do Produto: 43";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.BackColor = Color.FromArgb(251, 251, 251);
-            label5.Font = new Font("Arial", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.ForeColor = Color.Gray;
-            label5.Location = new Point(338, 116);
-            label5.Name = "label5";
-            label5.Size = new Size(281, 27);
-            label5.TabIndex = 71;
-            label5.Text = "• Fornecedor: Altro Estral";
-            // 
-            // lblMarca
-            // 
-            lblMarca.AutoSize = true;
-            lblMarca.BackColor = Color.FromArgb(251, 251, 251);
-            lblMarca.Font = new Font("Arial", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblMarca.ForeColor = Color.Gray;
-            lblMarca.Location = new Point(338, 168);
-            lblMarca.Name = "lblMarca";
-            lblMarca.Size = new Size(179, 27);
-            lblMarca.TabIndex = 71;
-            lblMarca.Text = "• Marca: Wilson";
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(659, 8);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(201, 187);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 73;
+            pictureBox1.TabStop = false;
             // 
             // label4
             // 
@@ -179,15 +105,89 @@
             label4.TabIndex = 72;
             label4.Text = "• Estoque dísponivel:23 produtos";
             // 
-            // pictureBox1
+            // lblMarca
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(659, 8);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(201, 187);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 73;
-            pictureBox1.TabStop = false;
+            lblMarca.AutoSize = true;
+            lblMarca.BackColor = Color.FromArgb(251, 251, 251);
+            lblMarca.Font = new Font("Arial", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblMarca.ForeColor = Color.Gray;
+            lblMarca.Location = new Point(338, 168);
+            lblMarca.Name = "lblMarca";
+            lblMarca.Size = new Size(179, 27);
+            lblMarca.TabIndex = 71;
+            lblMarca.Text = "• Marca: Wilson";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = Color.FromArgb(251, 251, 251);
+            label5.Font = new Font("Arial", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.Gray;
+            label5.Location = new Point(338, 116);
+            label5.Name = "label5";
+            label5.Size = new Size(281, 27);
+            label5.TabIndex = 71;
+            label5.Text = "• Fornecedor: Altro Estral";
+            // 
+            // lblCodProduto
+            // 
+            lblCodProduto.AutoSize = true;
+            lblCodProduto.BackColor = Color.FromArgb(251, 251, 251);
+            lblCodProduto.Font = new Font("Arial", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblCodProduto.ForeColor = Color.Gray;
+            lblCodProduto.Location = new Point(65, 249);
+            lblCodProduto.Name = "lblCodProduto";
+            lblCodProduto.Size = new Size(269, 27);
+            lblCodProduto.TabIndex = 70;
+            lblCodProduto.Text = "• Código do Produto: 43";
+            // 
+            // lblPreco
+            // 
+            lblPreco.AutoSize = true;
+            lblPreco.BackColor = Color.FromArgb(251, 251, 251);
+            lblPreco.Font = new Font("Arial", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblPreco.ForeColor = Color.Gray;
+            lblPreco.Location = new Point(65, 202);
+            lblPreco.Name = "lblPreco";
+            lblPreco.Size = new Size(205, 27);
+            lblPreco.TabIndex = 69;
+            lblPreco.Text = "• Preço: R$235,00";
+            // 
+            // lblQuantidade
+            // 
+            lblQuantidade.AutoSize = true;
+            lblQuantidade.BackColor = Color.FromArgb(251, 251, 251);
+            lblQuantidade.Font = new Font("Arial", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblQuantidade.ForeColor = Color.Gray;
+            lblQuantidade.Location = new Point(65, 158);
+            lblQuantidade.Name = "lblQuantidade";
+            lblQuantidade.Size = new Size(193, 27);
+            lblQuantidade.TabIndex = 68;
+            lblQuantidade.Text = "• Quantidade: 34";
+            // 
+            // lblCategoria
+            // 
+            lblCategoria.AutoSize = true;
+            lblCategoria.BackColor = Color.FromArgb(251, 251, 251);
+            lblCategoria.Font = new Font("Arial", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblCategoria.ForeColor = Color.Gray;
+            lblCategoria.Location = new Point(65, 116);
+            lblCategoria.Name = "lblCategoria";
+            lblCategoria.Size = new Size(192, 27);
+            lblCategoria.TabIndex = 67;
+            lblCategoria.Text = "• Categoria: Bola";
+            // 
+            // lblBoladeBasquete
+            // 
+            lblBoladeBasquete.AutoSize = true;
+            lblBoladeBasquete.BackColor = Color.FromArgb(251, 251, 251);
+            lblBoladeBasquete.Font = new Font("Arial", 20.25F, FontStyle.Underline, GraphicsUnit.Point, 0);
+            lblBoladeBasquete.ForeColor = Color.FromArgb(42, 97, 141);
+            lblBoladeBasquete.Location = new Point(65, 43);
+            lblBoladeBasquete.Name = "lblBoladeBasquete";
+            lblBoladeBasquete.Size = new Size(229, 32);
+            lblBoladeBasquete.TabIndex = 66;
+            lblBoladeBasquete.Text = "Bola de Basquete";
             // 
             // btnVoltar
             // 
@@ -200,17 +200,20 @@
             btnVoltar.TabIndex = 75;
             btnVoltar.Text = "Voltar à tela inicial";
             btnVoltar.UseVisualStyleBackColor = false;
+            btnVoltar.Click += btnVoltar_Click;
             // 
             // FrmConsultadeProdutos3
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1296, 788);
+            ClientSize = new Size(1312, 827);
             Controls.Add(btnVoltar);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Controls.Add(lblConsultadeProdutos);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "FrmConsultadeProdutos3";
+            StartPosition = FormStartPosition.CenterParent;
             Text = "FrmConsultadeProdutos3";
             WindowState = FormWindowState.Maximized;
             panel2.ResumeLayout(false);

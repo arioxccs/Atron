@@ -178,7 +178,6 @@
             label3.Size = new Size(26, 28);
             label3.TabIndex = 133;
             label3.Text = ">";
-
             // 
             // label1
             // 
@@ -294,7 +293,7 @@
             lblRegistrarNovoPedido.AutoSize = true;
             lblRegistrarNovoPedido.Font = new Font("Bebas Neue", 60F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblRegistrarNovoPedido.ForeColor = Color.FromArgb(255, 122, 0);
-            lblRegistrarNovoPedido.Location = new Point(251, -18);
+            lblRegistrarNovoPedido.Location = new Point(251, 7);
             lblRegistrarNovoPedido.Name = "lblRegistrarNovoPedido";
             lblRegistrarNovoPedido.Size = new Size(844, 104);
             lblRegistrarNovoPedido.TabIndex = 122;

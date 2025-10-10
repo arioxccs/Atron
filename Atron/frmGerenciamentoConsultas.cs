@@ -19,6 +19,12 @@ namespace Atron
 
         private void button1_Click(object sender, EventArgs e)
         {
+            FrmConsultadeProdutos2 TelaAberta = new FrmConsultadeProdutos2();
+            FrmEstoquePrincipal frmPrincipal = (FrmEstoquePrincipal)this.ParentForm;
+            frmPrincipal.Controls["panelEstoque"].Controls.Clear();
+            TelaAberta.TopLevel = false;
+            frmPrincipal.Controls["panelEstoque"].Controls.Add(TelaAberta);
+            TelaAberta.Show();
 
         }
 
@@ -29,6 +35,12 @@ namespace Atron
 
         private void button2_Click_1(object sender, EventArgs e)
         {
+            FrmConsultadePedidos1 TelaAberta = new FrmConsultadePedidos1();
+            FrmEstoquePrincipal frmPrincipal = (FrmEstoquePrincipal)this.ParentForm;
+            frmPrincipal.Controls["panelEstoque"].Controls.Clear();
+            TelaAberta.TopLevel = false;
+            frmPrincipal.Controls["panelEstoque"].Controls.Add(TelaAberta);
+            TelaAberta.Show();
 
         }
     }

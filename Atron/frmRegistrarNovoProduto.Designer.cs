@@ -157,66 +157,66 @@
             // lblCodProduto
             // 
             lblCodProduto.AutoSize = true;
-            lblCodProduto.Font = new Font("Roboto", 9F);
+            lblCodProduto.Font = new Font("Microsoft Sans Serif", 9F);
             lblCodProduto.ForeColor = Color.FromArgb(42, 97, 141);
             lblCodProduto.Location = new Point(420, 95);
             lblCodProduto.Name = "lblCodProduto";
-            lblCodProduto.Size = new Size(113, 14);
+            lblCodProduto.Size = new Size(112, 15);
             lblCodProduto.TabIndex = 52;
             lblCodProduto.Text = "Código do Produto:";
             // 
             // lblQuantidadeMínima
             // 
             lblQuantidadeMínima.AutoSize = true;
-            lblQuantidadeMínima.Font = new Font("Roboto", 9F);
+            lblQuantidadeMínima.Font = new Font("Microsoft Sans Serif", 9F);
             lblQuantidadeMínima.ForeColor = Color.FromArgb(42, 97, 141);
             lblQuantidadeMínima.Location = new Point(57, 140);
             lblQuantidadeMínima.Name = "lblQuantidadeMínima";
-            lblQuantidadeMínima.Size = new Size(117, 14);
+            lblQuantidadeMínima.Size = new Size(119, 15);
             lblQuantidadeMínima.TabIndex = 51;
             lblQuantidadeMínima.Text = "Quantidade Mínima:";
             // 
             // lblDescricao
             // 
             lblDescricao.AutoSize = true;
-            lblDescricao.Font = new Font("Roboto", 9F);
+            lblDescricao.Font = new Font("Microsoft Sans Serif", 9F);
             lblDescricao.ForeColor = Color.FromArgb(42, 97, 141);
             lblDescricao.Location = new Point(57, 232);
             lblDescricao.Name = "lblDescricao";
-            lblDescricao.Size = new Size(63, 14);
+            lblDescricao.Size = new Size(65, 15);
             lblDescricao.TabIndex = 47;
             lblDescricao.Text = "Descrição:";
             // 
             // lblCategoria
             // 
             lblCategoria.AutoSize = true;
-            lblCategoria.Font = new Font("Roboto", 9F);
+            lblCategoria.Font = new Font("Microsoft Sans Serif", 9F);
             lblCategoria.ForeColor = Color.FromArgb(42, 97, 141);
             lblCategoria.Location = new Point(57, 189);
             lblCategoria.Name = "lblCategoria";
-            lblCategoria.Size = new Size(63, 14);
+            lblCategoria.Size = new Size(63, 15);
             lblCategoria.TabIndex = 46;
             lblCategoria.Text = "Categoria:";
             // 
             // lblData
             // 
             lblData.AutoSize = true;
-            lblData.Font = new Font("Roboto", 9F);
+            lblData.Font = new Font("Microsoft Sans Serif", 9F);
             lblData.ForeColor = Color.FromArgb(42, 97, 141);
             lblData.Location = new Point(248, 189);
             lblData.Name = "lblData";
-            lblData.Size = new Size(36, 14);
+            lblData.Size = new Size(36, 15);
             lblData.TabIndex = 45;
             lblData.Text = "Data:";
             // 
             // lbNomedoProduto
             // 
             lbNomedoProduto.AutoSize = true;
-            lbNomedoProduto.Font = new Font("Roboto", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbNomedoProduto.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbNomedoProduto.ForeColor = Color.FromArgb(42, 97, 141);
             lbNomedoProduto.Location = new Point(57, 95);
             lbNomedoProduto.Name = "lbNomedoProduto";
-            lbNomedoProduto.Size = new Size(107, 14);
+            lbNomedoProduto.Size = new Size(107, 15);
             lbNomedoProduto.TabIndex = 44;
             lbNomedoProduto.Text = "Nome do Produto:";
             // 
@@ -254,22 +254,22 @@
             // lblMarca
             // 
             lblMarca.AutoSize = true;
-            lblMarca.Font = new Font("Roboto", 9F);
+            lblMarca.Font = new Font("Microsoft Sans Serif", 9F);
             lblMarca.ForeColor = Color.FromArgb(42, 97, 141);
             lblMarca.Location = new Point(248, 140);
             lblMarca.Name = "lblMarca";
-            lblMarca.Size = new Size(44, 14);
+            lblMarca.Size = new Size(45, 15);
             lblMarca.TabIndex = 76;
             lblMarca.Text = "Marca:";
             // 
             // lblFornecedor
             // 
             lblFornecedor.AutoSize = true;
-            lblFornecedor.Font = new Font("Roboto", 9F);
+            lblFornecedor.Font = new Font("Microsoft Sans Serif", 9F);
             lblFornecedor.ForeColor = Color.FromArgb(42, 97, 141);
             lblFornecedor.Location = new Point(420, 140);
             lblFornecedor.Name = "lblFornecedor";
-            lblFornecedor.Size = new Size(71, 14);
+            lblFornecedor.Size = new Size(73, 15);
             lblFornecedor.TabIndex = 77;
             lblFornecedor.Text = "Fornecedor:";
             // 
@@ -294,11 +294,11 @@
             // lblPrecoDaCompra
             // 
             lblPrecoDaCompra.AutoSize = true;
-            lblPrecoDaCompra.Font = new Font("Roboto", 9F);
+            lblPrecoDaCompra.Font = new Font("Microsoft Sans Serif", 9F);
             lblPrecoDaCompra.ForeColor = Color.FromArgb(42, 97, 141);
             lblPrecoDaCompra.Location = new Point(57, 275);
             lblPrecoDaCompra.Name = "lblPrecoDaCompra";
-            lblPrecoDaCompra.Size = new Size(105, 14);
+            lblPrecoDaCompra.Size = new Size(106, 15);
             lblPrecoDaCompra.TabIndex = 80;
             lblPrecoDaCompra.Text = "Preço da Compra:";
             // 
@@ -323,11 +323,11 @@
             // lblValorTotal
             // 
             lblValorTotal.AutoSize = true;
-            lblValorTotal.Font = new Font("Roboto", 9F);
+            lblValorTotal.Font = new Font("Microsoft Sans Serif", 9F);
             lblValorTotal.ForeColor = Color.FromArgb(42, 97, 141);
             lblValorTotal.Location = new Point(248, 275);
             lblValorTotal.Name = "lblValorTotal";
-            lblValorTotal.Size = new Size(69, 14);
+            lblValorTotal.Size = new Size(68, 15);
             lblValorTotal.TabIndex = 82;
             lblValorTotal.Text = "Valor Total:";
             // 
@@ -352,22 +352,22 @@
             // lblImagem
             // 
             lblImagem.AutoSize = true;
-            lblImagem.Font = new Font("Roboto", 9F);
+            lblImagem.Font = new Font("Microsoft Sans Serif", 9F);
             lblImagem.ForeColor = Color.FromArgb(42, 97, 141);
             lblImagem.Location = new Point(420, 189);
             lblImagem.Name = "lblImagem";
-            lblImagem.Size = new Size(55, 14);
+            lblImagem.Size = new Size(56, 15);
             lblImagem.TabIndex = 86;
             lblImagem.Text = "Imagem:";
             // 
             // lblTamanho
             // 
             lblTamanho.AutoSize = true;
-            lblTamanho.Font = new Font("Roboto", 9F);
+            lblTamanho.Font = new Font("Microsoft Sans Serif", 9F);
             lblTamanho.ForeColor = Color.FromArgb(42, 97, 141);
             lblTamanho.Location = new Point(420, 275);
             lblTamanho.Name = "lblTamanho";
-            lblTamanho.Size = new Size(62, 14);
+            lblTamanho.Size = new Size(63, 15);
             lblTamanho.TabIndex = 87;
             lblTamanho.Text = "Tamanho:";
             lblTamanho.Click += label2_Click;
@@ -418,6 +418,7 @@
             Controls.Add(lbNomedoProduto);
             Controls.Add(txtNomeProduto);
             Controls.Add(lblRegistrarNovoPedido);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "frmRegistrarNovoProduto";
             WindowState = FormWindowState.Maximized;
             Load += frmRegistrarNovoProduto_Load;

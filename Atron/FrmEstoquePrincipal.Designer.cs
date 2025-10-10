@@ -107,6 +107,7 @@
             btn_ConsultarMenuEstoque.Text = "Consultar";
             btn_ConsultarMenuEstoque.TextImageRelation = TextImageRelation.ImageAboveText;
             btn_ConsultarMenuEstoque.UseVisualStyleBackColor = false;
+            btn_ConsultarMenuEstoque.Click += btn_ConsultarMenuEstoque_Click;
             // 
             // btn_RegistrarMenuEstoque
             // 

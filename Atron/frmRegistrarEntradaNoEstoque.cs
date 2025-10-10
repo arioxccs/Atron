@@ -29,7 +29,12 @@ namespace Atron
 
         private void btnRegistrarEntradaNoEstoque_Click(object sender, EventArgs e)
         {
-
+            FrmGerenciamentoRegistros TelaAberta = new FrmGerenciamentoRegistros();
+            FrmEstoquePrincipal frmPrincipal = (FrmEstoquePrincipal)this.ParentForm;
+            frmPrincipal.Controls["panelEstoque"].Controls.Clear();
+            TelaAberta.TopLevel = false;
+            frmPrincipal.Controls["panelEstoque"].Controls.Add(TelaAberta);
+            TelaAberta.Show();
         }
 
         private void label1_Click(object sender, EventArgs e)
