@@ -32,9 +32,16 @@
             panel5 = new Panel();
             panel1 = new Panel();
             pictureBox9 = new PictureBox();
-            pictureBox6 = new PictureBox();
             panel2 = new Panel();
+            label40 = new Label();
+            label39 = new Label();
+            label38 = new Label();
+            label37 = new Label();
+            label36 = new Label();
+            label35 = new Label();
+            pictureBox21 = new PictureBox();
             label33 = new Label();
+            pictureBox6 = new PictureBox();
             label32 = new Label();
             label31 = new Label();
             label30 = new Label();
@@ -72,6 +79,8 @@
             pictureBox3 = new PictureBox();
             pictureBox2 = new PictureBox();
             panel3 = new Panel();
+            pictureBox20 = new PictureBox();
+            label34 = new Label();
             pictureBox7 = new PictureBox();
             pictureBox5 = new PictureBox();
             pictureBox4 = new PictureBox();
@@ -83,21 +92,13 @@
             lblIDPedido = new Label();
             lblData = new Label();
             lblHistoricoPedido = new Label();
-            label34 = new Label();
-            pictureBox20 = new PictureBox();
-            pictureBox21 = new PictureBox();
-            label35 = new Label();
-            label36 = new Label();
-            label37 = new Label();
-            label38 = new Label();
-            label39 = new Label();
-            label40 = new Label();
             button1 = new Button();
             pictureBox14 = new PictureBox();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox21).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
@@ -106,21 +107,19 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox21).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
             SuspendLayout();
             // 
             // panel5
             // 
-            panel5.Location = new Point(421, 55);
-            panel5.Margin = new Padding(3, 2, 3, 2);
+            panel5.Location = new Point(481, 73);
             panel5.Name = "panel5";
-            panel5.Size = new Size(438, 2);
+            panel5.Size = new Size(501, 3);
             panel5.TabIndex = 10;
             // 
             // panel1
@@ -128,33 +127,22 @@
             panel1.BackColor = Color.FromArgb(236, 247, 255);
             panel1.Controls.Add(pictureBox9);
             panel1.Controls.Add(panel2);
-            panel1.Location = new Point(112, 71);
+            panel1.Location = new Point(128, 95);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1003, 568);
+            panel1.Size = new Size(1146, 757);
             panel1.TabIndex = 9;
             // 
             // pictureBox9
             // 
             pictureBox9.BackColor = Color.White;
             pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(49, 153);
-            pictureBox9.Margin = new Padding(3, 2, 3, 2);
+            pictureBox9.Location = new Point(56, 204);
             pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(914, 8);
+            pictureBox9.Size = new Size(1045, 11);
             pictureBox9.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox9.TabIndex = 5;
             pictureBox9.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(412, 61);
-            pictureBox6.Margin = new Padding(3, 2, 3, 2);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(9, 433);
-            pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox6.TabIndex = 3;
-            pictureBox6.TabStop = false;
             // 
             // panel2
             // 
@@ -205,117 +193,192 @@
             panel2.Controls.Add(pictureBox3);
             panel2.Controls.Add(pictureBox2);
             panel2.Controls.Add(panel3);
-            panel2.Location = new Point(49, 31);
+            panel2.Location = new Point(56, 41);
+            panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(912, 496);
+            panel2.Size = new Size(1042, 661);
             panel2.TabIndex = 0;
             panel2.Paint += panel2_Paint;
+            // 
+            // label40
+            // 
+            label40.AutoSize = true;
+            label40.Location = new Point(510, 599);
+            label40.Name = "label40";
+            label40.Size = new Size(76, 20);
+            label40.TabIndex = 52;
+            label40.Text = "ENTRADA";
+            // 
+            // label39
+            // 
+            label39.AutoSize = true;
+            label39.Location = new Point(518, 497);
+            label39.Name = "label39";
+            label39.Size = new Size(52, 20);
+            label39.TabIndex = 51;
+            label39.Text = "SAÍDA";
+            // 
+            // label38
+            // 
+            label38.AutoSize = true;
+            label38.Location = new Point(511, 397);
+            label38.Name = "label38";
+            label38.Size = new Size(76, 20);
+            label38.TabIndex = 50;
+            label38.Text = "ENTRADA";
+            // 
+            // label37
+            // 
+            label37.AutoSize = true;
+            label37.Location = new Point(510, 299);
+            label37.Name = "label37";
+            label37.Size = new Size(76, 20);
+            label37.TabIndex = 49;
+            label37.Text = "ENTRADA";
+            // 
+            // label36
+            // 
+            label36.AutoSize = true;
+            label36.Location = new Point(518, 209);
+            label36.Name = "label36";
+            label36.Size = new Size(52, 20);
+            label36.TabIndex = 48;
+            label36.Text = "SAÍDA";
+            // 
+            // label35
+            // 
+            label35.AutoSize = true;
+            label35.Location = new Point(511, 115);
+            label35.Name = "label35";
+            label35.Size = new Size(76, 20);
+            label35.TabIndex = 47;
+            label35.Text = "ENTRADA";
+            // 
+            // pictureBox21
+            // 
+            pictureBox21.Image = (Image)resources.GetObject("pictureBox21.Image");
+            pictureBox21.Location = new Point(607, 81);
+            pictureBox21.Name = "pictureBox21";
+            pictureBox21.Size = new Size(10, 577);
+            pictureBox21.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox21.TabIndex = 46;
+            pictureBox21.TabStop = false;
             // 
             // label33
             // 
             label33.AutoSize = true;
-            label33.Location = new Point(781, 449);
+            label33.Location = new Point(893, 599);
             label33.Name = "label33";
-            label33.Size = new Size(59, 15);
+            label33.Size = new Size(77, 20);
             label33.TabIndex = 45;
             label33.Text = "R$2340,23";
+            // 
+            // pictureBox6
+            // 
+            pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
+            pictureBox6.Location = new Point(471, 81);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(10, 577);
+            pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox6.TabIndex = 3;
+            pictureBox6.TabStop = false;
             // 
             // label32
             // 
             label32.AutoSize = true;
-            label32.Location = new Point(781, 373);
+            label32.Location = new Point(893, 497);
             label32.Name = "label32";
-            label32.Size = new Size(59, 15);
+            label32.Size = new Size(77, 20);
             label32.TabIndex = 44;
             label32.Text = "R$2340,23";
             // 
             // label31
             // 
             label31.AutoSize = true;
-            label31.Location = new Point(788, 298);
+            label31.Location = new Point(901, 397);
             label31.Name = "label31";
-            label31.Size = new Size(59, 15);
+            label31.Size = new Size(77, 20);
             label31.TabIndex = 43;
             label31.Text = "R$2340,23";
             // 
             // label30
             // 
             label30.AutoSize = true;
-            label30.Location = new Point(788, 224);
+            label30.Location = new Point(901, 299);
             label30.Name = "label30";
-            label30.Size = new Size(59, 15);
+            label30.Size = new Size(77, 20);
             label30.TabIndex = 42;
             label30.Text = "R$2340,23";
             // 
             // label29
             // 
             label29.AutoSize = true;
-            label29.Location = new Point(788, 153);
+            label29.Location = new Point(901, 204);
             label29.Name = "label29";
-            label29.Size = new Size(59, 15);
+            label29.Size = new Size(77, 20);
             label29.TabIndex = 41;
             label29.Text = "R$2340,23";
             // 
             // label28
             // 
             label28.AutoSize = true;
-            label28.Location = new Point(788, 86);
+            label28.Location = new Point(901, 115);
             label28.Name = "label28";
-            label28.Size = new Size(59, 15);
+            label28.Size = new Size(77, 20);
             label28.TabIndex = 40;
             label28.Text = "R$2340,23";
             // 
             // label27
             // 
             label27.AutoSize = true;
-            label27.Location = new Point(617, 453);
+            label27.Location = new Point(705, 604);
             label27.Name = "label27";
-            label27.Size = new Size(19, 15);
+            label27.Size = new Size(25, 20);
             label27.TabIndex = 33;
             label27.Text = "21";
             // 
             // label26
             // 
             label26.AutoSize = true;
-            label26.Location = new Point(617, 373);
+            label26.Location = new Point(705, 497);
             label26.Name = "label26";
-            label26.Size = new Size(19, 15);
+            label26.Size = new Size(25, 20);
             label26.TabIndex = 32;
             label26.Text = "32";
             // 
             // label25
             // 
             label25.AutoSize = true;
-            label25.Location = new Point(617, 298);
+            label25.Location = new Point(705, 397);
             label25.Name = "label25";
-            label25.Size = new Size(19, 15);
+            label25.Size = new Size(25, 20);
             label25.TabIndex = 31;
             label25.Text = "51";
             // 
             // label24
             // 
             label24.AutoSize = true;
-            label24.Location = new Point(617, 224);
+            label24.Location = new Point(705, 299);
             label24.Name = "label24";
-            label24.Size = new Size(19, 15);
+            label24.Size = new Size(25, 20);
             label24.TabIndex = 30;
             label24.Text = "12";
             // 
             // label23
             // 
             label23.AutoSize = true;
-            label23.Location = new Point(617, 157);
+            label23.Location = new Point(705, 209);
             label23.Name = "label23";
-            label23.Size = new Size(19, 15);
+            label23.Size = new Size(25, 20);
             label23.TabIndex = 29;
             label23.Text = "23";
             // 
             // label22
             // 
             label22.AutoSize = true;
-            label22.Location = new Point(617, 89);
+            label22.Location = new Point(705, 119);
             label22.Name = "label22";
-            label22.Size = new Size(19, 15);
+            label22.Size = new Size(25, 20);
             label22.TabIndex = 28;
             label22.Text = "54";
             label22.Click += label22_Click;
@@ -323,162 +386,162 @@
             // label21
             // 
             label21.AutoSize = true;
-            label21.Location = new Point(297, 453);
+            label21.Location = new Point(339, 604);
             label21.Name = "label21";
-            label21.Size = new Size(89, 15);
+            label21.Size = new Size(114, 20);
             label21.TabIndex = 27;
             label21.Text = "Bola de Futebol";
             // 
             // label20
             // 
             label20.AutoSize = true;
-            label20.Location = new Point(297, 373);
+            label20.Location = new Point(339, 497);
             label20.Name = "label20";
-            label20.Size = new Size(66, 15);
+            label20.Size = new Size(83, 20);
             label20.TabIndex = 26;
             label20.Text = "Short Preto";
             // 
             // label19
             // 
             label19.AutoSize = true;
-            label19.Location = new Point(297, 298);
+            label19.Location = new Point(339, 397);
             label19.Name = "label19";
-            label19.Size = new Size(38, 15);
+            label19.Size = new Size(48, 20);
             label19.TabIndex = 25;
             label19.Text = "Meias";
             // 
             // label18
             // 
             label18.AutoSize = true;
-            label18.Location = new Point(297, 224);
+            label18.Location = new Point(339, 299);
             label18.Name = "label18";
-            label18.Size = new Size(74, 15);
+            label18.Size = new Size(97, 20);
             label18.TabIndex = 24;
             label18.Text = "Bola de Vôlei";
             // 
             // label17
             // 
             label17.AutoSize = true;
-            label17.Location = new Point(297, 153);
+            label17.Location = new Point(339, 204);
             label17.Name = "label17";
-            label17.Size = new Size(97, 15);
+            label17.Size = new Size(125, 20);
             label17.TabIndex = 23;
             label17.Text = "Bola de Basquete";
             // 
             // label16
             // 
             label16.AutoSize = true;
-            label16.Location = new Point(297, 86);
+            label16.Location = new Point(339, 115);
             label16.Name = "label16";
-            label16.Size = new Size(91, 15);
+            label16.Size = new Size(116, 20);
             label16.TabIndex = 22;
             label16.Text = "Tênis de Corrida";
             // 
             // label15
             // 
             label15.AutoSize = true;
-            label15.Location = new Point(187, 449);
+            label15.Location = new Point(214, 599);
             label15.Name = "label15";
-            label15.Size = new Size(37, 15);
+            label15.Size = new Size(49, 20);
             label15.TabIndex = 21;
             label15.Text = "12653";
             // 
             // label14
             // 
             label14.AutoSize = true;
-            label14.Location = new Point(187, 373);
+            label14.Location = new Point(214, 497);
             label14.Name = "label14";
-            label14.Size = new Size(37, 15);
+            label14.Size = new Size(49, 20);
             label14.TabIndex = 20;
             label14.Text = "10243";
             // 
             // label13
             // 
             label13.AutoSize = true;
-            label13.Location = new Point(187, 298);
+            label13.Location = new Point(214, 397);
             label13.Name = "label13";
-            label13.Size = new Size(37, 15);
+            label13.Size = new Size(49, 20);
             label13.TabIndex = 19;
             label13.Text = "12335";
             // 
             // label12
             // 
             label12.AutoSize = true;
-            label12.Location = new Point(187, 224);
+            label12.Location = new Point(214, 299);
             label12.Name = "label12";
-            label12.Size = new Size(37, 15);
+            label12.Size = new Size(49, 20);
             label12.TabIndex = 18;
             label12.Text = "14387";
             // 
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(187, 157);
+            label11.Location = new Point(214, 209);
             label11.Name = "label11";
-            label11.Size = new Size(37, 15);
+            label11.Size = new Size(49, 20);
             label11.TabIndex = 17;
             label11.Text = "11443";
             // 
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(187, 89);
+            label10.Location = new Point(214, 119);
             label10.Name = "label10";
-            label10.Size = new Size(37, 15);
+            label10.Size = new Size(49, 20);
             label10.TabIndex = 16;
             label10.Text = "12343";
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(35, 453);
+            label9.Location = new Point(40, 604);
             label9.Name = "label9";
-            label9.Size = new Size(65, 15);
+            label9.Size = new Size(85, 20);
             label9.TabIndex = 15;
             label9.Text = "29/01/2025";
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(35, 373);
+            label8.Location = new Point(40, 497);
             label8.Name = "label8";
-            label8.Size = new Size(65, 15);
+            label8.Size = new Size(85, 20);
             label8.TabIndex = 14;
             label8.Text = "23/03/2025";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(35, 298);
+            label7.Location = new Point(40, 397);
             label7.Name = "label7";
-            label7.Size = new Size(65, 15);
+            label7.Size = new Size(85, 20);
             label7.TabIndex = 13;
             label7.Text = "05/02/2025";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(35, 224);
+            label6.Location = new Point(40, 299);
             label6.Name = "label6";
-            label6.Size = new Size(65, 15);
+            label6.Size = new Size(85, 20);
             label6.TabIndex = 12;
             label6.Text = "11/04/2025";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(35, 157);
+            label5.Location = new Point(40, 209);
             label5.Name = "label5";
-            label5.Size = new Size(65, 15);
+            label5.Size = new Size(85, 20);
             label5.TabIndex = 11;
             label5.Text = "02/03/2025";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(35, 89);
+            label4.Location = new Point(40, 119);
             label4.Name = "label4";
-            label4.Size = new Size(65, 15);
+            label4.Size = new Size(85, 20);
             label4.TabIndex = 10;
             label4.Text = "10/04/2025";
             // 
@@ -486,10 +549,9 @@
             // 
             pictureBox13.BackColor = Color.White;
             pictureBox13.Image = (Image)resources.GetObject("pictureBox13.Image");
-            pictureBox13.Location = new Point(1, 412);
-            pictureBox13.Margin = new Padding(3, 2, 3, 2);
+            pictureBox13.Location = new Point(1, 549);
             pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(914, 8);
+            pictureBox13.Size = new Size(1045, 11);
             pictureBox13.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox13.TabIndex = 9;
             pictureBox13.TabStop = false;
@@ -498,10 +560,9 @@
             // 
             pictureBox12.BackColor = Color.White;
             pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
-            pictureBox12.Location = new Point(0, 337);
-            pictureBox12.Margin = new Padding(3, 2, 3, 2);
+            pictureBox12.Location = new Point(0, 449);
             pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(914, 8);
+            pictureBox12.Size = new Size(1045, 11);
             pictureBox12.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox12.TabIndex = 8;
             pictureBox12.TabStop = false;
@@ -510,10 +571,9 @@
             // 
             pictureBox11.BackColor = Color.White;
             pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
-            pictureBox11.Location = new Point(0, 266);
-            pictureBox11.Margin = new Padding(3, 2, 3, 2);
+            pictureBox11.Location = new Point(0, 355);
             pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(914, 8);
+            pictureBox11.Size = new Size(1045, 11);
             pictureBox11.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox11.TabIndex = 7;
             pictureBox11.TabStop = false;
@@ -522,10 +582,9 @@
             // 
             pictureBox10.BackColor = Color.White;
             pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
-            pictureBox10.Location = new Point(0, 194);
-            pictureBox10.Margin = new Padding(3, 2, 3, 2);
+            pictureBox10.Location = new Point(0, 259);
             pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(914, 8);
+            pictureBox10.Size = new Size(1045, 11);
             pictureBox10.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox10.TabIndex = 6;
             pictureBox10.TabStop = false;
@@ -533,10 +592,9 @@
             // pictureBox8
             // 
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(713, 62);
-            pictureBox8.Margin = new Padding(3, 2, 3, 2);
+            pictureBox8.Location = new Point(815, 83);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(9, 577);
+            pictureBox8.Size = new Size(10, 769);
             pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox8.TabIndex = 4;
             pictureBox8.TabStop = false;
@@ -544,10 +602,9 @@
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(272, 65);
-            pictureBox3.Margin = new Padding(3, 2, 3, 2);
+            pictureBox3.Location = new Point(311, 87);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(9, 514);
+            pictureBox3.Size = new Size(10, 685);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 3;
             pictureBox3.TabStop = false;
@@ -555,10 +612,9 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(136, 62);
-            pictureBox2.Margin = new Padding(3, 2, 3, 2);
+            pictureBox2.Location = new Point(155, 83);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(9, 577);
+            pictureBox2.Size = new Size(10, 769);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
@@ -579,17 +635,38 @@
             panel3.Controls.Add(lblIDPedido);
             panel3.Controls.Add(lblData);
             panel3.Location = new Point(1, 0);
+            panel3.Margin = new Padding(3, 4, 3, 4);
             panel3.Name = "panel3";
-            panel3.Size = new Size(911, 64);
+            panel3.Size = new Size(1041, 85);
             panel3.TabIndex = 0;
+            // 
+            // pictureBox20
+            // 
+            pictureBox20.Image = (Image)resources.GetObject("pictureBox20.Image");
+            pictureBox20.Location = new Point(606, -325);
+            pictureBox20.Name = "pictureBox20";
+            pictureBox20.Size = new Size(10, 769);
+            pictureBox20.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox20.TabIndex = 6;
+            pictureBox20.TabStop = false;
+            // 
+            // label34
+            // 
+            label34.AutoSize = true;
+            label34.Font = new Font("Segoe UI", 15.75F);
+            label34.ForeColor = Color.White;
+            label34.Location = new Point(510, 23);
+            label34.Name = "label34";
+            label34.Size = new Size(73, 37);
+            label34.TabIndex = 5;
+            label34.Text = "TIPO";
             // 
             // pictureBox7
             // 
             pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.Location = new Point(712, 0);
-            pictureBox7.Margin = new Padding(3, 2, 3, 2);
+            pictureBox7.Location = new Point(814, 0);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(9, 577);
+            pictureBox7.Size = new Size(10, 769);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox7.TabIndex = 3;
             pictureBox7.TabStop = false;
@@ -597,10 +674,9 @@
             // pictureBox5
             // 
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(271, 2);
-            pictureBox5.Margin = new Padding(3, 2, 3, 2);
+            pictureBox5.Location = new Point(310, 3);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(9, 577);
+            pictureBox5.Size = new Size(10, 769);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 4;
             pictureBox5.TabStop = false;
@@ -608,10 +684,9 @@
             // pictureBox4
             // 
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(411, 2);
-            pictureBox4.Margin = new Padding(3, 2, 3, 2);
+            pictureBox4.Location = new Point(470, 3);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(9, 577);
+            pictureBox4.Size = new Size(10, 769);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.TabIndex = 3;
             pictureBox4.TabStop = false;
@@ -619,10 +694,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(136, 1);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Location = new Point(155, 1);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(9, 577);
+            pictureBox1.Size = new Size(10, 769);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
@@ -630,7 +704,8 @@
             // panel4
             // 
             panel4.BackColor = Color.FromArgb(14, 41, 184);
-            panel4.Location = new Point(136, 0);
+            panel4.Location = new Point(155, 0);
+            panel4.Margin = new Padding(3, 4, 3, 4);
             panel4.Name = "panel4";
             panel4.Size = new Size(0, 0);
             panel4.TabIndex = 2;
@@ -641,9 +716,9 @@
             label3.Font = new Font("Segoe UI", 15.75F);
             label3.ForeColor = Color.White;
             label3.ImageAlign = ContentAlignment.TopLeft;
-            label3.Location = new Point(755, 17);
+            label3.Location = new Point(863, 23);
             label3.Name = "label3";
-            label3.Size = new Size(114, 30);
+            label3.Size = new Size(145, 37);
             label3.TabIndex = 4;
             label3.Text = "TOTAL (R$)";
             // 
@@ -652,9 +727,9 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 15.75F);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(563, 15);
+            label2.Location = new Point(643, 20);
             label2.Name = "label2";
-            label2.Size = new Size(143, 30);
+            label2.Size = new Size(181, 37);
             label2.TabIndex = 3;
             label2.Text = "QUANTIDADE";
             // 
@@ -663,9 +738,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15.75F);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(296, 17);
+            label1.Location = new Point(338, 23);
             label1.Name = "label1";
-            label1.Size = new Size(109, 30);
+            label1.Size = new Size(139, 37);
             label1.TabIndex = 2;
             label1.Text = "PRODUTO";
             // 
@@ -674,9 +749,9 @@
             lblIDPedido.AutoSize = true;
             lblIDPedido.Font = new Font("Segoe UI", 15.75F);
             lblIDPedido.ForeColor = Color.White;
-            lblIDPedido.Location = new Point(147, 17);
+            lblIDPedido.Location = new Point(168, 23);
             lblIDPedido.Name = "lblIDPedido";
-            lblIDPedido.Size = new Size(129, 30);
+            lblIDPedido.Size = new Size(162, 37);
             lblIDPedido.TabIndex = 1;
             lblIDPedido.Text = "ID - PEDIDO";
             // 
@@ -685,9 +760,9 @@
             lblData.AutoSize = true;
             lblData.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblData.ForeColor = Color.White;
-            lblData.Location = new Point(39, 15);
+            lblData.Location = new Point(45, 20);
             lblData.Name = "lblData";
-            lblData.Size = new Size(63, 30);
+            lblData.Size = new Size(79, 37);
             lblData.TabIndex = 0;
             lblData.Text = "DATA";
             // 
@@ -696,113 +771,29 @@
             lblHistoricoPedido.AutoSize = true;
             lblHistoricoPedido.Font = new Font("Arial", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblHistoricoPedido.ForeColor = Color.FromArgb(255, 122, 0);
-            lblHistoricoPedido.Location = new Point(376, 17);
+            lblHistoricoPedido.Location = new Point(430, 23);
             lblHistoricoPedido.Name = "lblHistoricoPedido";
-            lblHistoricoPedido.Size = new Size(537, 36);
+            lblHistoricoPedido.Size = new Size(678, 45);
             lblHistoricoPedido.TabIndex = 8;
             lblHistoricoPedido.Text = "HISTÓRICO DE ENTRADA E SAÍDA";
             lblHistoricoPedido.Click += lblHistoricoPedido_Click;
             // 
-            // label34
-            // 
-            label34.AutoSize = true;
-            label34.Font = new Font("Segoe UI", 15.75F);
-            label34.ForeColor = Color.White;
-            label34.Location = new Point(446, 17);
-            label34.Name = "label34";
-            label34.Size = new Size(58, 30);
-            label34.TabIndex = 5;
-            label34.Text = "TIPO";
-            // 
-            // pictureBox20
-            // 
-            pictureBox20.Image = (Image)resources.GetObject("pictureBox20.Image");
-            pictureBox20.Location = new Point(530, -244);
-            pictureBox20.Margin = new Padding(3, 2, 3, 2);
-            pictureBox20.Name = "pictureBox20";
-            pictureBox20.Size = new Size(9, 577);
-            pictureBox20.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox20.TabIndex = 6;
-            pictureBox20.TabStop = false;
-            // 
-            // pictureBox21
-            // 
-            pictureBox21.Image = (Image)resources.GetObject("pictureBox21.Image");
-            pictureBox21.Location = new Point(531, 61);
-            pictureBox21.Margin = new Padding(3, 2, 3, 2);
-            pictureBox21.Name = "pictureBox21";
-            pictureBox21.Size = new Size(9, 433);
-            pictureBox21.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox21.TabIndex = 46;
-            pictureBox21.TabStop = false;
-            // 
-            // label35
-            // 
-            label35.AutoSize = true;
-            label35.Location = new Point(447, 86);
-            label35.Name = "label35";
-            label35.Size = new Size(59, 15);
-            label35.TabIndex = 47;
-            label35.Text = "ENTRADA";
-            // 
-            // label36
-            // 
-            label36.AutoSize = true;
-            label36.Location = new Point(453, 157);
-            label36.Name = "label36";
-            label36.Size = new Size(40, 15);
-            label36.TabIndex = 48;
-            label36.Text = "SAÍDA";
-            // 
-            // label37
-            // 
-            label37.AutoSize = true;
-            label37.Location = new Point(446, 224);
-            label37.Name = "label37";
-            label37.Size = new Size(59, 15);
-            label37.TabIndex = 49;
-            label37.Text = "ENTRADA";
-            // 
-            // label38
-            // 
-            label38.AutoSize = true;
-            label38.Location = new Point(447, 298);
-            label38.Name = "label38";
-            label38.Size = new Size(59, 15);
-            label38.TabIndex = 50;
-            label38.Text = "ENTRADA";
-            // 
-            // label39
-            // 
-            label39.AutoSize = true;
-            label39.Location = new Point(453, 373);
-            label39.Name = "label39";
-            label39.Size = new Size(40, 15);
-            label39.TabIndex = 51;
-            label39.Text = "SAÍDA";
-            // 
-            // label40
-            // 
-            label40.AutoSize = true;
-            label40.Location = new Point(446, 449);
-            label40.Name = "label40";
-            label40.Size = new Size(59, 15);
-            label40.TabIndex = 52;
-            label40.Text = "ENTRADA";
-            // 
             // button1
             // 
             button1.Image = (Image)resources.GetObject("button1.Image");
-            button1.Location = new Point(433, 616);
+            button1.Location = new Point(495, 821);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(346, 86);
+            button1.Size = new Size(395, 115);
             button1.TabIndex = 11;
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // pictureBox14
             // 
             pictureBox14.Image = (Image)resources.GetObject("pictureBox14.Image");
-            pictureBox14.Location = new Point(874, 651);
+            pictureBox14.Location = new Point(999, 868);
+            pictureBox14.Margin = new Padding(3, 4, 3, 4);
             pictureBox14.Name = "pictureBox14";
             pictureBox14.Size = new Size(291, 51);
             pictureBox14.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -811,21 +802,23 @@
             // 
             // FrmHistoricoEntradaeSaida
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1184, 725);
+            ClientSize = new Size(1353, 967);
             Controls.Add(pictureBox14);
             Controls.Add(button1);
             Controls.Add(panel5);
             Controls.Add(panel1);
             Controls.Add(lblHistoricoPedido);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FrmHistoricoEntradaeSaida";
             Text = "FrmHistoricoEntradaeSaida";
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox21).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
@@ -835,12 +828,11 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox20).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox20).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox21).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
             ResumeLayout(false);
             PerformLayout();

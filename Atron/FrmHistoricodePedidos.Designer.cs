@@ -34,6 +34,36 @@
             pictureBox9 = new PictureBox();
             pictureBox6 = new PictureBox();
             panel2 = new Panel();
+            label33 = new Label();
+            label32 = new Label();
+            label31 = new Label();
+            label30 = new Label();
+            label29 = new Label();
+            label28 = new Label();
+            pictureBox19 = new PictureBox();
+            pictureBox18 = new PictureBox();
+            pictureBox17 = new PictureBox();
+            pictureBox16 = new PictureBox();
+            pictureBox15 = new PictureBox();
+            pictureBox14 = new PictureBox();
+            label27 = new Label();
+            label26 = new Label();
+            label25 = new Label();
+            label24 = new Label();
+            label23 = new Label();
+            label22 = new Label();
+            label21 = new Label();
+            label20 = new Label();
+            label19 = new Label();
+            label18 = new Label();
+            label17 = new Label();
+            label16 = new Label();
+            label15 = new Label();
+            label14 = new Label();
+            label13 = new Label();
+            label12 = new Label();
+            label11 = new Label();
+            label10 = new Label();
             label9 = new Label();
             label8 = new Label();
             label7 = new Label();
@@ -58,36 +88,6 @@
             label1 = new Label();
             lblIDPedido = new Label();
             lblData = new Label();
-            label10 = new Label();
-            label11 = new Label();
-            label12 = new Label();
-            label13 = new Label();
-            label14 = new Label();
-            label15 = new Label();
-            label16 = new Label();
-            label17 = new Label();
-            label18 = new Label();
-            label19 = new Label();
-            label20 = new Label();
-            label21 = new Label();
-            label22 = new Label();
-            label23 = new Label();
-            label24 = new Label();
-            label25 = new Label();
-            label26 = new Label();
-            label27 = new Label();
-            pictureBox14 = new PictureBox();
-            pictureBox15 = new PictureBox();
-            pictureBox16 = new PictureBox();
-            pictureBox17 = new PictureBox();
-            pictureBox18 = new PictureBox();
-            pictureBox19 = new PictureBox();
-            label28 = new Label();
-            label29 = new Label();
-            label30 = new Label();
-            label31 = new Label();
-            label32 = new Label();
-            label33 = new Label();
             button1 = new Button();
             panel5 = new Panel();
             pictureBox20 = new PictureBox();
@@ -95,6 +95,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
@@ -107,12 +113,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
             SuspendLayout();
             // 
@@ -212,6 +212,283 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(1042, 661);
             panel2.TabIndex = 0;
+            // 
+            // label33
+            // 
+            label33.AutoSize = true;
+            label33.Location = new Point(893, 599);
+            label33.Name = "label33";
+            label33.Size = new Size(77, 20);
+            label33.TabIndex = 45;
+            label33.Text = "R$2340,23";
+            // 
+            // label32
+            // 
+            label32.AutoSize = true;
+            label32.Location = new Point(893, 497);
+            label32.Name = "label32";
+            label32.Size = new Size(77, 20);
+            label32.TabIndex = 44;
+            label32.Text = "R$2340,23";
+            // 
+            // label31
+            // 
+            label31.AutoSize = true;
+            label31.Location = new Point(900, 398);
+            label31.Name = "label31";
+            label31.Size = new Size(77, 20);
+            label31.TabIndex = 43;
+            label31.Text = "R$2340,23";
+            // 
+            // label30
+            // 
+            label30.AutoSize = true;
+            label30.Location = new Point(900, 298);
+            label30.Name = "label30";
+            label30.Size = new Size(77, 20);
+            label30.TabIndex = 42;
+            label30.Text = "R$2340,23";
+            // 
+            // label29
+            // 
+            label29.AutoSize = true;
+            label29.Location = new Point(900, 204);
+            label29.Name = "label29";
+            label29.Size = new Size(77, 20);
+            label29.TabIndex = 41;
+            label29.Text = "R$2340,23";
+            // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Location = new Point(900, 114);
+            label28.Name = "label28";
+            label28.Size = new Size(77, 20);
+            label28.TabIndex = 40;
+            label28.Text = "R$2340,23";
+            // 
+            // pictureBox19
+            // 
+            pictureBox19.Image = (Image)resources.GetObject("pictureBox19.Image");
+            pictureBox19.Location = new Point(645, 497);
+            pictureBox19.Name = "pictureBox19";
+            pictureBox19.Size = new Size(15, 15);
+            pictureBox19.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox19.TabIndex = 39;
+            pictureBox19.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            pictureBox18.Image = (Image)resources.GetObject("pictureBox18.Image");
+            pictureBox18.Location = new Point(645, 604);
+            pictureBox18.Name = "pictureBox18";
+            pictureBox18.Size = new Size(15, 15);
+            pictureBox18.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox18.TabIndex = 38;
+            pictureBox18.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            pictureBox17.Image = (Image)resources.GetObject("pictureBox17.Image");
+            pictureBox17.Location = new Point(645, 403);
+            pictureBox17.Name = "pictureBox17";
+            pictureBox17.Size = new Size(15, 15);
+            pictureBox17.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox17.TabIndex = 37;
+            pictureBox17.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            pictureBox16.Image = (Image)resources.GetObject("pictureBox16.Image");
+            pictureBox16.Location = new Point(645, 303);
+            pictureBox16.Name = "pictureBox16";
+            pictureBox16.Size = new Size(15, 15);
+            pictureBox16.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox16.TabIndex = 36;
+            pictureBox16.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
+            pictureBox15.Location = new Point(645, 209);
+            pictureBox15.Name = "pictureBox15";
+            pictureBox15.Size = new Size(15, 15);
+            pictureBox15.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox15.TabIndex = 35;
+            pictureBox15.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            pictureBox14.Image = (Image)resources.GetObject("pictureBox14.Image");
+            pictureBox14.Location = new Point(645, 119);
+            pictureBox14.Name = "pictureBox14";
+            pictureBox14.Size = new Size(15, 15);
+            pictureBox14.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox14.TabIndex = 34;
+            pictureBox14.TabStop = false;
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Location = new Point(679, 604);
+            label27.Name = "label27";
+            label27.Size = new Size(92, 20);
+            label27.TabIndex = 33;
+            label27.Text = "CONCLUÍDO";
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.Location = new Point(679, 497);
+            label26.Name = "label26";
+            label26.Size = new Size(95, 20);
+            label26.TabIndex = 32;
+            label26.Text = "CANCELADO";
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Location = new Point(679, 398);
+            label25.Name = "label25";
+            label25.Size = new Size(92, 20);
+            label25.TabIndex = 31;
+            label25.Text = "CONCLUÍDO";
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Location = new Point(679, 298);
+            label24.Name = "label24";
+            label24.Size = new Size(92, 20);
+            label24.TabIndex = 30;
+            label24.Text = "CONCLUÍDO";
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Location = new Point(679, 209);
+            label23.Name = "label23";
+            label23.Size = new Size(92, 20);
+            label23.TabIndex = 29;
+            label23.Text = "CONCLUÍDO";
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Location = new Point(679, 119);
+            label22.Name = "label22";
+            label22.Size = new Size(95, 20);
+            label22.TabIndex = 28;
+            label22.Text = "CANCELADO";
+            label22.Click += label22_Click;
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Location = new Point(446, 604);
+            label21.Name = "label21";
+            label21.Size = new Size(94, 20);
+            label21.TabIndex = 27;
+            label21.Text = "Alpha Sports";
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Location = new Point(421, 497);
+            label20.Name = "label20";
+            label20.Size = new Size(154, 20);
+            label20.TabIndex = 26;
+            label20.Text = "Borges Equipamentos";
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(446, 398);
+            label19.Name = "label19";
+            label19.Size = new Size(106, 20);
+            label19.TabIndex = 25;
+            label19.Text = "Esportivo Silva";
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Location = new Point(446, 298);
+            label18.Name = "label18";
+            label18.Size = new Size(94, 20);
+            label18.TabIndex = 24;
+            label18.Text = "Alpha Sports";
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Location = new Point(421, 209);
+            label17.Name = "label17";
+            label17.Size = new Size(154, 20);
+            label17.TabIndex = 23;
+            label17.Text = "Borges Equipamentos";
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Location = new Point(446, 119);
+            label16.Name = "label16";
+            label16.Size = new Size(106, 20);
+            label16.TabIndex = 22;
+            label16.Text = "Esportivo Silva";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Location = new Point(243, 604);
+            label15.Name = "label15";
+            label15.Size = new Size(49, 20);
+            label15.TabIndex = 21;
+            label15.Text = "12653";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Location = new Point(243, 497);
+            label14.Name = "label14";
+            label14.Size = new Size(49, 20);
+            label14.TabIndex = 20;
+            label14.Text = "10243";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(243, 398);
+            label13.Name = "label13";
+            label13.Size = new Size(49, 20);
+            label13.TabIndex = 19;
+            label13.Text = "12335";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(243, 298);
+            label12.Name = "label12";
+            label12.Size = new Size(49, 20);
+            label12.TabIndex = 18;
+            label12.Text = "14387";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(243, 209);
+            label11.Name = "label11";
+            label11.Size = new Size(49, 20);
+            label11.TabIndex = 17;
+            label11.Text = "11443";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(243, 119);
+            label10.Name = "label10";
+            label10.Size = new Size(49, 20);
+            label10.TabIndex = 16;
+            label10.Text = "12343";
             // 
             // label9
             // 
@@ -467,283 +744,6 @@
             lblData.TabIndex = 0;
             lblData.Text = "DATA";
             // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Location = new Point(243, 119);
-            label10.Name = "label10";
-            label10.Size = new Size(49, 20);
-            label10.TabIndex = 16;
-            label10.Text = "12343";
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Location = new Point(243, 209);
-            label11.Name = "label11";
-            label11.Size = new Size(49, 20);
-            label11.TabIndex = 17;
-            label11.Text = "11443";
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Location = new Point(243, 298);
-            label12.Name = "label12";
-            label12.Size = new Size(49, 20);
-            label12.TabIndex = 18;
-            label12.Text = "14387";
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Location = new Point(243, 398);
-            label13.Name = "label13";
-            label13.Size = new Size(49, 20);
-            label13.TabIndex = 19;
-            label13.Text = "12335";
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Location = new Point(243, 497);
-            label14.Name = "label14";
-            label14.Size = new Size(49, 20);
-            label14.TabIndex = 20;
-            label14.Text = "10243";
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.Location = new Point(243, 604);
-            label15.Name = "label15";
-            label15.Size = new Size(49, 20);
-            label15.TabIndex = 21;
-            label15.Text = "12653";
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.Location = new Point(446, 119);
-            label16.Name = "label16";
-            label16.Size = new Size(106, 20);
-            label16.TabIndex = 22;
-            label16.Text = "Esportivo Silva";
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Location = new Point(421, 209);
-            label17.Name = "label17";
-            label17.Size = new Size(154, 20);
-            label17.TabIndex = 23;
-            label17.Text = "Borges Equipamentos";
-            // 
-            // label18
-            // 
-            label18.AutoSize = true;
-            label18.Location = new Point(446, 298);
-            label18.Name = "label18";
-            label18.Size = new Size(94, 20);
-            label18.TabIndex = 24;
-            label18.Text = "Alpha Sports";
-            // 
-            // label19
-            // 
-            label19.AutoSize = true;
-            label19.Location = new Point(446, 398);
-            label19.Name = "label19";
-            label19.Size = new Size(106, 20);
-            label19.TabIndex = 25;
-            label19.Text = "Esportivo Silva";
-            // 
-            // label20
-            // 
-            label20.AutoSize = true;
-            label20.Location = new Point(421, 497);
-            label20.Name = "label20";
-            label20.Size = new Size(154, 20);
-            label20.TabIndex = 26;
-            label20.Text = "Borges Equipamentos";
-            // 
-            // label21
-            // 
-            label21.AutoSize = true;
-            label21.Location = new Point(446, 604);
-            label21.Name = "label21";
-            label21.Size = new Size(94, 20);
-            label21.TabIndex = 27;
-            label21.Text = "Alpha Sports";
-            // 
-            // label22
-            // 
-            label22.AutoSize = true;
-            label22.Location = new Point(679, 119);
-            label22.Name = "label22";
-            label22.Size = new Size(95, 20);
-            label22.TabIndex = 28;
-            label22.Text = "CANCELADO";
-            label22.Click += label22_Click;
-            // 
-            // label23
-            // 
-            label23.AutoSize = true;
-            label23.Location = new Point(679, 209);
-            label23.Name = "label23";
-            label23.Size = new Size(92, 20);
-            label23.TabIndex = 29;
-            label23.Text = "CONCLUÍDO";
-            // 
-            // label24
-            // 
-            label24.AutoSize = true;
-            label24.Location = new Point(679, 298);
-            label24.Name = "label24";
-            label24.Size = new Size(92, 20);
-            label24.TabIndex = 30;
-            label24.Text = "CONCLUÍDO";
-            // 
-            // label25
-            // 
-            label25.AutoSize = true;
-            label25.Location = new Point(679, 398);
-            label25.Name = "label25";
-            label25.Size = new Size(92, 20);
-            label25.TabIndex = 31;
-            label25.Text = "CONCLUÍDO";
-            // 
-            // label26
-            // 
-            label26.AutoSize = true;
-            label26.Location = new Point(679, 497);
-            label26.Name = "label26";
-            label26.Size = new Size(95, 20);
-            label26.TabIndex = 32;
-            label26.Text = "CANCELADO";
-            // 
-            // label27
-            // 
-            label27.AutoSize = true;
-            label27.Location = new Point(679, 604);
-            label27.Name = "label27";
-            label27.Size = new Size(92, 20);
-            label27.TabIndex = 33;
-            label27.Text = "CONCLUÍDO";
-            // 
-            // pictureBox14
-            // 
-            pictureBox14.Image = (Image)resources.GetObject("pictureBox14.Image");
-            pictureBox14.Location = new Point(645, 119);
-            pictureBox14.Name = "pictureBox14";
-            pictureBox14.Size = new Size(15, 15);
-            pictureBox14.SizeMode = PictureBoxSizeMode.AutoSize;
-            pictureBox14.TabIndex = 34;
-            pictureBox14.TabStop = false;
-            // 
-            // pictureBox15
-            // 
-            pictureBox15.Image = (Image)resources.GetObject("pictureBox15.Image");
-            pictureBox15.Location = new Point(645, 209);
-            pictureBox15.Name = "pictureBox15";
-            pictureBox15.Size = new Size(15, 15);
-            pictureBox15.SizeMode = PictureBoxSizeMode.AutoSize;
-            pictureBox15.TabIndex = 35;
-            pictureBox15.TabStop = false;
-            // 
-            // pictureBox16
-            // 
-            pictureBox16.Image = (Image)resources.GetObject("pictureBox16.Image");
-            pictureBox16.Location = new Point(645, 303);
-            pictureBox16.Name = "pictureBox16";
-            pictureBox16.Size = new Size(15, 15);
-            pictureBox16.SizeMode = PictureBoxSizeMode.AutoSize;
-            pictureBox16.TabIndex = 36;
-            pictureBox16.TabStop = false;
-            // 
-            // pictureBox17
-            // 
-            pictureBox17.Image = (Image)resources.GetObject("pictureBox17.Image");
-            pictureBox17.Location = new Point(645, 403);
-            pictureBox17.Name = "pictureBox17";
-            pictureBox17.Size = new Size(15, 15);
-            pictureBox17.SizeMode = PictureBoxSizeMode.AutoSize;
-            pictureBox17.TabIndex = 37;
-            pictureBox17.TabStop = false;
-            // 
-            // pictureBox18
-            // 
-            pictureBox18.Image = (Image)resources.GetObject("pictureBox18.Image");
-            pictureBox18.Location = new Point(645, 604);
-            pictureBox18.Name = "pictureBox18";
-            pictureBox18.Size = new Size(15, 15);
-            pictureBox18.SizeMode = PictureBoxSizeMode.AutoSize;
-            pictureBox18.TabIndex = 38;
-            pictureBox18.TabStop = false;
-            // 
-            // pictureBox19
-            // 
-            pictureBox19.Image = (Image)resources.GetObject("pictureBox19.Image");
-            pictureBox19.Location = new Point(645, 497);
-            pictureBox19.Name = "pictureBox19";
-            pictureBox19.Size = new Size(15, 15);
-            pictureBox19.SizeMode = PictureBoxSizeMode.AutoSize;
-            pictureBox19.TabIndex = 39;
-            pictureBox19.TabStop = false;
-            // 
-            // label28
-            // 
-            label28.AutoSize = true;
-            label28.Location = new Point(900, 114);
-            label28.Name = "label28";
-            label28.Size = new Size(77, 20);
-            label28.TabIndex = 40;
-            label28.Text = "R$2340,23";
-            // 
-            // label29
-            // 
-            label29.AutoSize = true;
-            label29.Location = new Point(900, 204);
-            label29.Name = "label29";
-            label29.Size = new Size(77, 20);
-            label29.TabIndex = 41;
-            label29.Text = "R$2340,23";
-            // 
-            // label30
-            // 
-            label30.AutoSize = true;
-            label30.Location = new Point(900, 298);
-            label30.Name = "label30";
-            label30.Size = new Size(77, 20);
-            label30.TabIndex = 42;
-            label30.Text = "R$2340,23";
-            // 
-            // label31
-            // 
-            label31.AutoSize = true;
-            label31.Location = new Point(900, 398);
-            label31.Name = "label31";
-            label31.Size = new Size(77, 20);
-            label31.TabIndex = 43;
-            label31.Text = "R$2340,23";
-            // 
-            // label32
-            // 
-            label32.AutoSize = true;
-            label32.Location = new Point(893, 497);
-            label32.Name = "label32";
-            label32.Size = new Size(77, 20);
-            label32.TabIndex = 44;
-            label32.Text = "R$2340,23";
-            // 
-            // label33
-            // 
-            label33.AutoSize = true;
-            label33.Location = new Point(893, 599);
-            label33.Name = "label33";
-            label33.Size = new Size(77, 20);
-            label33.TabIndex = 45;
-            label33.Text = "R$2340,23";
-            // 
             // button1
             // 
             button1.Image = (Image)resources.GetObject("button1.Image");
@@ -752,6 +752,7 @@
             button1.Size = new Size(353, 92);
             button1.TabIndex = 6;
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // panel5
             // 
@@ -789,6 +790,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
@@ -802,12 +809,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox15).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox19).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).EndInit();
             ResumeLayout(false);
             PerformLayout();
