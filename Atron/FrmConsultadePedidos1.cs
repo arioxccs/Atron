@@ -21,5 +21,16 @@ namespace Atron
         {
 
         }
+
+        private void btnProcurar_Click(object sender, EventArgs e)
+        {
+            FrmConsultadePedidos2 TelaAberta = new FrmConsultadePedidos2();
+            FrmEstoquePrincipal frmPrincipal = (FrmEstoquePrincipal)this.ParentForm;
+            frmPrincipal.Controls["panelEstoque"].Controls.Clear();
+            TelaAberta.TopLevel = false;
+            frmPrincipal.Controls["panelEstoque"].Controls.Add(TelaAberta);
+            TelaAberta.Show();
+
+        }
     }
 }

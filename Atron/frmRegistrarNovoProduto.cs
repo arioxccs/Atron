@@ -39,7 +39,12 @@ namespace Atron
 
         private void btnRegistraProduto_Click(object sender, EventArgs e)
         {
-           
+            FrmGerenciamentoRegistros TelaAberta = new FrmGerenciamentoRegistros();
+            FrmEstoquePrincipal frmPrincipal = (FrmEstoquePrincipal)this.ParentForm;
+            frmPrincipal.Controls["panelEstoque"].Controls.Clear();
+            TelaAberta.TopLevel = false;
+            frmPrincipal.Controls["panelEstoque"].Controls.Add(TelaAberta);
+            TelaAberta.Show();
         }
 
         private void frmRegistrarNovoProduto_Load(object sender, EventArgs e)

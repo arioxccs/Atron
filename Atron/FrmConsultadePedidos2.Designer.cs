@@ -40,10 +40,9 @@
             // 
             // panel1
             // 
-            panel1.Location = new Point(367, 145);
-            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Location = new Point(321, 109);
             panel1.Name = "panel1";
-            panel1.Size = new Size(700, 2);
+            panel1.Size = new Size(612, 2);
             panel1.TabIndex = 76;
             // 
             // lblConsultadeProdutos
@@ -51,18 +50,19 @@
             lblConsultadeProdutos.AutoSize = true;
             lblConsultadeProdutos.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
             lblConsultadeProdutos.ForeColor = Color.FromArgb(255, 122, 0);
-            lblConsultadeProdutos.Location = new Point(437, 41);
+            lblConsultadeProdutos.Location = new Point(382, 31);
             lblConsultadeProdutos.Name = "lblConsultadeProdutos";
-            lblConsultadeProdutos.Size = new Size(597, 69);
+            lblConsultadeProdutos.Size = new Size(487, 55);
             lblConsultadeProdutos.TabIndex = 75;
             lblConsultadeProdutos.Text = "Consulta de Pedidos";
             // 
             // btnResultPesquisa
             // 
             btnResultPesquisa.BackColor = Color.FromArgb(255, 200, 130);
-            btnResultPesquisa.Location = new Point(180, 250);
+            btnResultPesquisa.Location = new Point(158, 188);
+            btnResultPesquisa.Margin = new Padding(3, 2, 3, 2);
             btnResultPesquisa.Name = "btnResultPesquisa";
-            btnResultPesquisa.Size = new Size(961, 177);
+            btnResultPesquisa.Size = new Size(841, 133);
             btnResultPesquisa.TabIndex = 77;
             btnResultPesquisa.UseVisualStyleBackColor = false;
             // 
@@ -72,9 +72,9 @@
             label1.BackColor = Color.FromArgb(255, 200, 130);
             label1.Font = new Font("Arial Narrow", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(42, 97, 141);
-            label1.Location = new Point(233, 355);
+            label1.Location = new Point(204, 266);
             label1.Name = "label1";
-            label1.Size = new Size(264, 35);
+            label1.Size = new Size(208, 29);
             label1.TabIndex = 79;
             label1.Text = "Número do Pedido: 32";
             // 
@@ -84,9 +84,9 @@
             lblPedido.BackColor = Color.FromArgb(255, 200, 130);
             lblPedido.Font = new Font("Arial", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblPedido.ForeColor = Color.FromArgb(42, 97, 141);
-            lblPedido.Location = new Point(224, 287);
+            lblPedido.Location = new Point(196, 215);
             lblPedido.Name = "lblPedido";
-            lblPedido.Size = new Size(348, 35);
+            lblPedido.Size = new Size(283, 27);
             lblPedido.TabIndex = 78;
             lblPedido.Text = "Pedido - Kit De Basquete";
             // 
@@ -96,9 +96,9 @@
             label2.BackColor = Color.FromArgb(255, 200, 130);
             label2.Font = new Font("Arial Narrow", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(42, 97, 141);
-            label2.Location = new Point(224, 614);
+            label2.Location = new Point(196, 460);
             label2.Name = "label2";
-            label2.Size = new Size(264, 35);
+            label2.Size = new Size(208, 29);
             label2.TabIndex = 82;
             label2.Text = "Número do Pedido: 32";
             // 
@@ -108,26 +108,27 @@
             label3.BackColor = Color.FromArgb(255, 200, 130);
             label3.Font = new Font("Arial", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.FromArgb(42, 97, 141);
-            label3.Location = new Point(224, 535);
+            label3.Location = new Point(196, 401);
             label3.Name = "label3";
-            label3.Size = new Size(348, 35);
+            label3.Size = new Size(283, 27);
             label3.TabIndex = 81;
             label3.Text = "Pedido - Kit De Basquete";
             // 
             // button1
             // 
             button1.BackColor = Color.FromArgb(255, 200, 130);
-            button1.Location = new Point(180, 503);
+            button1.Location = new Point(158, 377);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(961, 177);
+            button1.Size = new Size(841, 133);
             button1.TabIndex = 80;
             button1.UseVisualStyleBackColor = false;
             // 
             // FrmConsultadePedidos2
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1481, 1051);
+            ClientSize = new Size(1312, 827);
             Controls.Add(label2);
             Controls.Add(label3);
             Controls.Add(button1);
@@ -136,6 +137,8 @@
             Controls.Add(btnResultPesquisa);
             Controls.Add(panel1);
             Controls.Add(lblConsultadeProdutos);
+            FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "FrmConsultadePedidos2";
             Text = "FrmConsultadePedidos2";
             WindowState = FormWindowState.Maximized;
