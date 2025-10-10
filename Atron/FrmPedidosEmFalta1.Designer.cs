@@ -164,6 +164,7 @@
             btnMeia.TabIndex = 7;
             btnMeia.TextAlign = ContentAlignment.TopLeft;
             btnMeia.UseVisualStyleBackColor = false;
+            btnMeia.Click += btnMeia_Click;
             // 
             // ptbAlerta
             // 

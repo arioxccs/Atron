@@ -280,6 +280,7 @@
             btnBolaVolei.TabIndex = 7;
             btnBolaVolei.TextAlign = ContentAlignment.TopLeft;
             btnBolaVolei.UseVisualStyleBackColor = false;
+            btnBolaVolei.Click += btnBolaVolei_Click;
             // 
             // panel4
             // 

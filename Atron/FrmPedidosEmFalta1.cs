@@ -16,5 +16,11 @@ namespace Atron
         {
             InitializeComponent();
         }
+
+        private void btnMeia_Click(object sender, EventArgs e)
+        {
+            FrmPedidosEmFalta2 FrmPedidosEmFalta2 = new FrmPedidosEmFalta2();
+            FrmPedidosEmFalta2.Show();
+        }
     }
 }

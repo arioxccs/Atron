@@ -121,7 +121,7 @@
   <data name="pic_ProdutoPop.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIQAAACECAYAAABRRIOnAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAAHRNJREFUeF7t3XmMZUUVBnBFxV1x32UUF1yiY9yNKCpGiSCTGDXREFz+QeJCiBEl
+        EQAACxEBf2RfkQAAHRNJREFUeF7t3XmMZUUVBnBFxV1x32UUF1yiY9yNKCpGiSCTGDXREFz+QeJCiBEl
         LkQ0LjEOEpGIfwwogprAkAgaNXEhGnALioq7o0EFl4giLuByrV/1+5ryTTfT3fNev3tf90lOqm4t9953
         v6/OOVV3eTeZZ+m6bkvRbUWPLbq96M6iXyq6a6TLSeq11Udf+7CvraPdb0qfpQAFfKDtKHpp0WmLYzjW
         y4pukmTWUkDYbwQGUK4uOnX597//PcotKSwKa+KctoxOc1OmKeVCIwErwJRPTf773/9WJX/729+6D3/4
@@ -251,7 +251,7 @@
   <data name="ptbAlerta.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EgAACxIB0t1+/AAABjpJREFUaEPtWFlMlFcUHqxJk1pbjbbPdjNNo21tn9onXkobqya1YlsjSWMTn8qD
+        EQAACxEBf2RfkQAABjpJREFUaEPtWFlMlFcUHqxJk1pbjbbPdjNNo21tn9onXkobqya1YlsjSWMTn8qD
         GWoh8YGytahp7CLggyBESWPSUCsk0k41oIQdIS6ggCHQIexbkHWG6fcdzh1/ZRhmBhxo2i+58///Peee
         891zz93G9j/+pYjQpy0qKmpNamrqW06nc1dvb+/OpKSkbZGRkU+rmPDqLjeESGJi4uobN2584XK5qmdm
         ZiY8Hs+0ljHW3bp16wA6sFparADyQuDatWtrQTAfxQPSfMjT+q7Iv3DhwlppudzkQSYCJZesfBD1uN1u
@@ -284,7 +284,7 @@
   <data name="btnOk.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFsAAABbCAYAAAAcNvmZAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAAIoxJREFUeF7tfYl7VuWZd/6Clqm1Y1tnTK1TVzSuIFJFBNllV3YiIMiasLohmyLW
+        DwAACw8BkvkDpQAAIoxJREFUeF7tfYl7VuWZd/6Clqm1Y1tnTK1TVzSuIFJFBNllV3YiIMiasLohmyLW
         fVSKSytoZ66v3zVVOp32cwEJi+zLCyRAEpaXhJCEsAQBRRbP8/3u7TnPefOi6Lh25lzX77r3330/9zk5
         eRMEc75rV+FclzvpD67Lfa+7gvvecHMnzXPzoacZbzg36fXITXrDRSwB8k963aUQK6L8iaibMNe1KJx7
         PFcp//eyC8ttRAuaOO/TuRPnRfWAmzj3U0dykoJ9ggh5gR7GEn6OoTY9cW40f+Lc0/n/Y5dPC8bTN3XC

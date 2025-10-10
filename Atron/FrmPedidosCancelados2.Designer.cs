@@ -33,18 +33,18 @@
             pnliNHA = new Panel();
             lblDadosdoCancelamentoDoPedido = new Label();
             panel1 = new Panel();
-            button1 = new Button();
+            panel2 = new Panel();
+            label7 = new Label();
             label1 = new Label();
-            pictureBox1 = new PictureBox();
             label15 = new Label();
-            label14 = new Label();
+            pictureBox1 = new PictureBox();
             label13 = new Label();
-            lblDataCancel = new Label();
             label11 = new Label();
+            lblDataCancel = new Label();
             label10 = new Label();
+            label14 = new Label();
             label9 = new Label();
             label8 = new Label();
-            label7 = new Label();
             lblCor = new Label();
             lblFornecedor = new Label();
             lblMarca = new Label();
@@ -52,12 +52,12 @@
             lblProduto = new Label();
             lblNumPedido = new Label();
             lblRaquete = new Label();
-            panel2 = new Panel();
+            button1 = new Button();
             button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // pictureBox2
@@ -69,6 +69,7 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 24;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // pnliNHA
             // 
@@ -113,13 +114,25 @@
             panel1.TabIndex = 21;
             panel1.Paint += panel1_Paint;
             // 
-            // button1
+            // panel2
             // 
-            button1.Location = new Point(880, 479);
-            button1.Name = "button1";
-            button1.Size = new Size(30, 32);
-            button1.TabIndex = 3;
-            button1.UseVisualStyleBackColor = true;
+            panel2.BackColor = Color.FromArgb(208, 223, 255);
+            panel2.Controls.Add(label7);
+            panel2.Controls.Add(label1);
+            panel2.Location = new Point(64, 222);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(406, 77);
+            panel2.TabIndex = 25;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.ForeColor = Color.FromArgb(99, 131, 157);
+            label7.Location = new Point(14, 17);
+            label7.Name = "label7";
+            label7.Size = new Size(145, 15);
+            label7.TabIndex = 7;
+            label7.Text = "Motivo do Cancelamento:";
             // 
             // label1
             // 
@@ -132,16 +145,6 @@
             label1.TabIndex = 17;
             label1.Text = "Erro no pedido, falta de produto no fornecedor, desistência...";
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(624, 16);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(157, 142);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 16;
-            pictureBox1.TabStop = false;
-            // 
             // label15
             // 
             label15.AutoSize = true;
@@ -152,17 +155,15 @@
             label15.TabIndex = 15;
             label15.Text = "02/03/25";
             // 
-            // label14
+            // pictureBox1
             // 
-            label14.AutoSize = true;
-            label14.Font = new Font("Segoe UI", 11.25F);
-            label14.ForeColor = Color.FromArgb(30, 79, 119);
-            label14.Location = new Point(239, 310);
-            label14.Name = "label14";
-            label14.Size = new Size(142, 20);
-            label14.TabIndex = 14;
-            label14.Text = "Data da Solicitação:";
-            label14.TextAlign = ContentAlignment.TopRight;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(624, 16);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(157, 142);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 16;
+            pictureBox1.TabStop = false;
             // 
             // label13
             // 
@@ -173,17 +174,6 @@
             label13.Size = new Size(69, 20);
             label13.TabIndex = 13;
             label13.Text = "20/03/25";
-            // 
-            // lblDataCancel
-            // 
-            lblDataCancel.AutoSize = true;
-            lblDataCancel.Font = new Font("Segoe UI", 11.25F);
-            lblDataCancel.ForeColor = Color.FromArgb(30, 79, 119);
-            lblDataCancel.Location = new Point(418, 310);
-            lblDataCancel.Name = "lblDataCancel";
-            lblDataCancel.Size = new Size(168, 20);
-            lblDataCancel.TabIndex = 12;
-            lblDataCancel.Text = "Data de Cancelamento: ";
             // 
             // label11
             // 
@@ -196,6 +186,17 @@
             label11.TabIndex = 11;
             label11.Text = "Quantidade Atual: 3 produtos";
             // 
+            // lblDataCancel
+            // 
+            lblDataCancel.AutoSize = true;
+            lblDataCancel.Font = new Font("Segoe UI", 11.25F);
+            lblDataCancel.ForeColor = Color.FromArgb(30, 79, 119);
+            lblDataCancel.Location = new Point(418, 310);
+            lblDataCancel.Name = "lblDataCancel";
+            lblDataCancel.Size = new Size(168, 20);
+            lblDataCancel.TabIndex = 12;
+            lblDataCancel.Text = "Data de Cancelamento: ";
+            // 
             // label10
             // 
             label10.AutoSize = true;
@@ -206,6 +207,18 @@
             label10.Size = new Size(244, 20);
             label10.TabIndex = 10;
             label10.Text = "Quantidade Solicitada: 40 produtos";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 11.25F);
+            label14.ForeColor = Color.FromArgb(30, 79, 119);
+            label14.Location = new Point(239, 310);
+            label14.Name = "label14";
+            label14.Size = new Size(142, 20);
+            label14.TabIndex = 14;
+            label14.Text = "Data da Solicitação:";
+            label14.TextAlign = ContentAlignment.TopRight;
             // 
             // label9
             // 
@@ -228,16 +241,6 @@
             label8.Size = new Size(158, 40);
             label8.TabIndex = 8;
             label8.Text = "Pedido solicitado por: \nMaria Clara";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.ForeColor = Color.FromArgb(99, 131, 157);
-            label7.Location = new Point(14, 17);
-            label7.Name = "label7";
-            label7.Size = new Size(145, 15);
-            label7.TabIndex = 7;
-            label7.Text = "Motivo do Cancelamento:";
             // 
             // lblCor
             // 
@@ -317,15 +320,13 @@
             lblRaquete.Text = "Raquete de Tênis";
             lblRaquete.Click += lblMeiaCanoAlto_Click;
             // 
-            // panel2
+            // button1
             // 
-            panel2.BackColor = Color.FromArgb(208, 223, 255);
-            panel2.Controls.Add(label7);
-            panel2.Controls.Add(label1);
-            panel2.Location = new Point(64, 222);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(406, 77);
-            panel2.TabIndex = 25;
+            button1.Location = new Point(880, 479);
+            button1.Name = "button1";
+            button1.Size = new Size(30, 32);
+            button1.TabIndex = 3;
+            button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -355,9 +356,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
