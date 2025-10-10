@@ -40,13 +40,13 @@ namespace Atron
 
         private void btnPedidosemFalta_Click(object sender, EventArgs e)
         {
-            FrmPedidosEmFalta1 FrmPedidosEmFalta1 = new FrmPedidosEmFalta1;
+            FrmPedidosEmFalta1 FrmPedidosEmFalta1 = new FrmPedidosEmFalta1();
             FrmPedidosEmFalta1.Show();
         }
 
         private void btnDadosSolicitacoes_Click(object sender, EventArgs e)
         {
-            FrmDadosdaSolicitacoesdePedidos FrmDadosdaSolicitacoesdePedidos = new FrmDadosdaSolicitacoesdePedidos;
+            FrmDadosdaSolicitacoesdePedidos FrmDadosdaSolicitacoesdePedidos = new FrmDadosdaSolicitacoesdePedidos();
             FrmDadosdaSolicitacoesdePedidos.Show();
         }
 

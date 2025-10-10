@@ -139,9 +139,10 @@
             panel2.Controls.Add(pictureBox2);
             panel2.Controls.Add(label5);
             panel2.Controls.Add(btnTenis);
-            panel2.Location = new Point(28, 196);
+            panel2.Location = new Point(32, 261);
+            panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(334, 107);
+            panel2.Size = new Size(382, 143);
             panel2.TabIndex = 10;
             // 
             // lblNomeTenis
@@ -150,9 +151,9 @@
             lblNomeTenis.BackColor = Color.White;
             lblNomeTenis.Font = new Font("Lato Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblNomeTenis.ForeColor = Color.FromArgb(255, 122, 0);
-            lblNomeTenis.Location = new Point(21, 19);
+            lblNomeTenis.Location = new Point(24, 25);
             lblNomeTenis.Name = "lblNomeTenis";
-            lblNomeTenis.Size = new Size(104, 23);
+            lblNomeTenis.Size = new Size(135, 29);
             lblNomeTenis.TabIndex = 10;
             lblNomeTenis.Text = "Precision 7";
             // 
@@ -161,9 +162,9 @@
             label4.AutoSize = true;
             label4.BackColor = Color.White;
             label4.ForeColor = Color.FromArgb(255, 122, 0);
-            label4.Location = new Point(21, 67);
+            label4.Location = new Point(24, 89);
             label4.Name = "label4";
-            label4.Size = new Size(87, 15);
+            label4.Size = new Size(110, 20);
             label4.TabIndex = 9;
             label4.Text = "Quantidade: 10";
             // 
@@ -171,9 +172,10 @@
             // 
             pictureBox2.BackColor = Color.White;
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(222, 3);
+            pictureBox2.Location = new Point(254, 4);
+            pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(109, 101);
+            pictureBox2.Size = new Size(125, 135);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 8;
             pictureBox2.TabStop = false;
@@ -183,9 +185,9 @@
             label5.AutoSize = true;
             label5.BackColor = Color.White;
             label5.ForeColor = Color.FromArgb(255, 122, 0);
-            label5.Location = new Point(21, 52);
+            label5.Location = new Point(24, 69);
             label5.Name = "label5";
-            label5.Size = new Size(70, 15);
+            label5.Size = new Size(87, 20);
             label5.TabIndex = 0;
             label5.Text = "Marca: Nike";
             // 
@@ -194,9 +196,10 @@
             btnTenis.BackColor = Color.White;
             btnTenis.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnTenis.ForeColor = Color.FromArgb(255, 122, 0);
-            btnTenis.Location = new Point(3, 3);
+            btnTenis.Location = new Point(3, 4);
+            btnTenis.Margin = new Padding(3, 4, 3, 4);
             btnTenis.Name = "btnTenis";
-            btnTenis.Size = new Size(328, 101);
+            btnTenis.Size = new Size(375, 135);
             btnTenis.TabIndex = 7;
             btnTenis.TextAlign = ContentAlignment.TopLeft;
             btnTenis.UseVisualStyleBackColor = false;
@@ -206,9 +209,9 @@
             label1.AutoSize = true;
             label1.Font = new Font("Lato Black", 11.9999981F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.FromArgb(255, 122, 0);
-            label1.Location = new Point(28, 19);
+            label1.Location = new Point(32, 25);
             label1.Name = "label1";
-            label1.Size = new Size(232, 19);
+            label1.Size = new Size(293, 24);
             label1.TabIndex = 9;
             label1.Text = "Pedidos de Compras Recentes:";
             // 
@@ -219,9 +222,10 @@
             panel1.Controls.Add(ptbBolaVolei);
             panel1.Controls.Add(lblMarca);
             panel1.Controls.Add(btnBolaVolei);
-            panel1.Location = new Point(28, 62);
+            panel1.Location = new Point(32, 83);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(334, 107);
+            panel1.Size = new Size(382, 143);
             panel1.TabIndex = 8;
             // 
             // lblBolaVolei
@@ -230,9 +234,9 @@
             lblBolaVolei.BackColor = Color.White;
             lblBolaVolei.Font = new Font("Lato Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblBolaVolei.ForeColor = Color.FromArgb(255, 122, 0);
-            lblBolaVolei.Location = new Point(21, 19);
+            lblBolaVolei.Location = new Point(24, 25);
             lblBolaVolei.Name = "lblBolaVolei";
-            lblBolaVolei.Size = new Size(121, 23);
+            lblBolaVolei.Size = new Size(157, 29);
             lblBolaVolei.TabIndex = 10;
             lblBolaVolei.Text = "Bola de Vôlei";
             // 
@@ -241,9 +245,9 @@
             lblQuant.AutoSize = true;
             lblQuant.BackColor = Color.White;
             lblQuant.ForeColor = Color.FromArgb(255, 122, 0);
-            lblQuant.Location = new Point(21, 67);
+            lblQuant.Location = new Point(24, 89);
             lblQuant.Name = "lblQuant";
-            lblQuant.Size = new Size(87, 15);
+            lblQuant.Size = new Size(110, 20);
             lblQuant.TabIndex = 9;
             lblQuant.Text = "Quantidade: 20";
             // 
@@ -251,9 +255,10 @@
             // 
             ptbBolaVolei.BackColor = Color.White;
             ptbBolaVolei.Image = (Image)resources.GetObject("ptbBolaVolei.Image");
-            ptbBolaVolei.Location = new Point(222, 3);
+            ptbBolaVolei.Location = new Point(254, 4);
+            ptbBolaVolei.Margin = new Padding(3, 4, 3, 4);
             ptbBolaVolei.Name = "ptbBolaVolei";
-            ptbBolaVolei.Size = new Size(108, 96);
+            ptbBolaVolei.Size = new Size(123, 128);
             ptbBolaVolei.SizeMode = PictureBoxSizeMode.Zoom;
             ptbBolaVolei.TabIndex = 8;
             ptbBolaVolei.TabStop = false;
@@ -263,9 +268,9 @@
             lblMarca.AutoSize = true;
             lblMarca.BackColor = Color.White;
             lblMarca.ForeColor = Color.FromArgb(255, 122, 0);
-            lblMarca.Location = new Point(21, 52);
+            lblMarca.Location = new Point(24, 69);
             lblMarca.Name = "lblMarca";
-            lblMarca.Size = new Size(83, 15);
+            lblMarca.Size = new Size(103, 20);
             lblMarca.TabIndex = 0;
             lblMarca.Text = "Marca: Mikasa";
             // 
@@ -274,9 +279,10 @@
             btnBolaVolei.BackColor = Color.White;
             btnBolaVolei.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnBolaVolei.ForeColor = Color.FromArgb(255, 122, 0);
-            btnBolaVolei.Location = new Point(3, 3);
+            btnBolaVolei.Location = new Point(3, 4);
+            btnBolaVolei.Margin = new Padding(3, 4, 3, 4);
             btnBolaVolei.Name = "btnBolaVolei";
-            btnBolaVolei.Size = new Size(328, 101);
+            btnBolaVolei.Size = new Size(375, 135);
             btnBolaVolei.TabIndex = 7;
             btnBolaVolei.TextAlign = ContentAlignment.TopLeft;
             btnBolaVolei.UseVisualStyleBackColor = false;
@@ -289,9 +295,10 @@
             panel4.Controls.Add(ptbCamiseta);
             panel4.Controls.Add(label11);
             panel4.Controls.Add(btnCamiseta);
-            panel4.Location = new Point(28, 457);
+            panel4.Location = new Point(32, 609);
+            panel4.Margin = new Padding(3, 4, 3, 4);
             panel4.Name = "panel4";
-            panel4.Size = new Size(334, 107);
+            panel4.Size = new Size(382, 143);
             panel4.TabIndex = 12;
             // 
             // lblNomeCamiseta
@@ -300,9 +307,9 @@
             lblNomeCamiseta.BackColor = Color.White;
             lblNomeCamiseta.Font = new Font("Lato Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblNomeCamiseta.ForeColor = Color.FromArgb(255, 122, 0);
-            lblNomeCamiseta.Location = new Point(21, 19);
+            lblNomeCamiseta.Location = new Point(24, 25);
             lblNomeCamiseta.Name = "lblNomeCamiseta";
-            lblNomeCamiseta.Size = new Size(141, 23);
+            lblNomeCamiseta.Size = new Size(183, 29);
             lblNomeCamiseta.TabIndex = 10;
             lblNomeCamiseta.Text = "Camiseta Preta";
             // 
@@ -311,9 +318,9 @@
             label10.AutoSize = true;
             label10.BackColor = Color.White;
             label10.ForeColor = Color.FromArgb(255, 122, 0);
-            label10.Location = new Point(21, 67);
+            label10.Location = new Point(24, 89);
             label10.Name = "label10";
-            label10.Size = new Size(87, 15);
+            label10.Size = new Size(110, 20);
             label10.TabIndex = 9;
             label10.Text = "Quantidade: 34";
             // 
@@ -321,9 +328,10 @@
             // 
             ptbCamiseta.BackColor = Color.White;
             ptbCamiseta.Image = (Image)resources.GetObject("ptbCamiseta.Image");
-            ptbCamiseta.Location = new Point(222, 3);
+            ptbCamiseta.Location = new Point(254, 4);
+            ptbCamiseta.Margin = new Padding(3, 4, 3, 4);
             ptbCamiseta.Name = "ptbCamiseta";
-            ptbCamiseta.Size = new Size(109, 100);
+            ptbCamiseta.Size = new Size(125, 133);
             ptbCamiseta.SizeMode = PictureBoxSizeMode.Zoom;
             ptbCamiseta.TabIndex = 8;
             ptbCamiseta.TabStop = false;
@@ -333,9 +341,9 @@
             label11.AutoSize = true;
             label11.BackColor = Color.White;
             label11.ForeColor = Color.FromArgb(255, 122, 0);
-            label11.Location = new Point(21, 52);
+            label11.Location = new Point(24, 69);
             label11.Name = "label11";
-            label11.Size = new Size(82, 15);
+            label11.Size = new Size(103, 20);
             label11.TabIndex = 0;
             label11.Text = "Marca: Adidas";
             // 
@@ -344,9 +352,10 @@
             btnCamiseta.BackColor = Color.White;
             btnCamiseta.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnCamiseta.ForeColor = Color.FromArgb(255, 122, 0);
-            btnCamiseta.Location = new Point(3, 3);
+            btnCamiseta.Location = new Point(3, 4);
+            btnCamiseta.Margin = new Padding(3, 4, 3, 4);
             btnCamiseta.Name = "btnCamiseta";
-            btnCamiseta.Size = new Size(328, 101);
+            btnCamiseta.Size = new Size(375, 135);
             btnCamiseta.TabIndex = 7;
             btnCamiseta.TextAlign = ContentAlignment.TopLeft;
             btnCamiseta.UseVisualStyleBackColor = false;
@@ -358,9 +367,10 @@
             panel3.Controls.Add(ptbBolaBasq);
             panel3.Controls.Add(label8);
             panel3.Controls.Add(btnBolaBasquete);
-            panel3.Location = new Point(28, 323);
+            panel3.Location = new Point(32, 431);
+            panel3.Margin = new Padding(3, 4, 3, 4);
             panel3.Name = "panel3";
-            panel3.Size = new Size(334, 107);
+            panel3.Size = new Size(382, 143);
             panel3.TabIndex = 11;
             // 
             // lblNomeBolaBasq
@@ -369,9 +379,9 @@
             lblNomeBolaBasq.BackColor = Color.White;
             lblNomeBolaBasq.Font = new Font("Lato Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblNomeBolaBasq.ForeColor = Color.FromArgb(255, 122, 0);
-            lblNomeBolaBasq.Location = new Point(21, 19);
+            lblNomeBolaBasq.Location = new Point(24, 25);
             lblNomeBolaBasq.Name = "lblNomeBolaBasq";
-            lblNomeBolaBasq.Size = new Size(157, 23);
+            lblNomeBolaBasq.Size = new Size(204, 29);
             lblNomeBolaBasq.TabIndex = 10;
             lblNomeBolaBasq.Text = "Bola de Basquete";
             // 
@@ -380,9 +390,9 @@
             label7.AutoSize = true;
             label7.BackColor = Color.White;
             label7.ForeColor = Color.FromArgb(255, 122, 0);
-            label7.Location = new Point(21, 67);
+            label7.Location = new Point(24, 89);
             label7.Name = "label7";
-            label7.Size = new Size(87, 15);
+            label7.Size = new Size(110, 20);
             label7.TabIndex = 9;
             label7.Text = "Quantidade: 15";
             // 
@@ -390,9 +400,10 @@
             // 
             ptbBolaBasq.BackColor = Color.White;
             ptbBolaBasq.Image = (Image)resources.GetObject("ptbBolaBasq.Image");
-            ptbBolaBasq.Location = new Point(222, 3);
+            ptbBolaBasq.Location = new Point(254, 4);
+            ptbBolaBasq.Margin = new Padding(3, 4, 3, 4);
             ptbBolaBasq.Name = "ptbBolaBasq";
-            ptbBolaBasq.Size = new Size(109, 101);
+            ptbBolaBasq.Size = new Size(125, 135);
             ptbBolaBasq.SizeMode = PictureBoxSizeMode.Zoom;
             ptbBolaBasq.TabIndex = 8;
             ptbBolaBasq.TabStop = false;
@@ -402,9 +413,9 @@
             label8.AutoSize = true;
             label8.BackColor = Color.White;
             label8.ForeColor = Color.FromArgb(255, 122, 0);
-            label8.Location = new Point(21, 52);
+            label8.Location = new Point(24, 69);
             label8.Name = "label8";
-            label8.Size = new Size(82, 15);
+            label8.Size = new Size(102, 20);
             label8.TabIndex = 0;
             label8.Text = "Marca: Wilson";
             // 
@@ -413,9 +424,10 @@
             btnBolaBasquete.BackColor = Color.White;
             btnBolaBasquete.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnBolaBasquete.ForeColor = Color.FromArgb(255, 122, 0);
-            btnBolaBasquete.Location = new Point(3, 3);
+            btnBolaBasquete.Location = new Point(3, 4);
+            btnBolaBasquete.Margin = new Padding(3, 4, 3, 4);
             btnBolaBasquete.Name = "btnBolaBasquete";
-            btnBolaBasquete.Size = new Size(328, 101);
+            btnBolaBasquete.Size = new Size(375, 135);
             btnBolaBasquete.TabIndex = 7;
             btnBolaBasquete.TextAlign = ContentAlignment.TopLeft;
             btnBolaBasquete.UseVisualStyleBackColor = false;
@@ -424,11 +436,13 @@
             // 
             btnVoltar.BackColor = Color.White;
             btnVoltar.Image = (Image)resources.GetObject("btnVoltar.Image");
-            btnVoltar.Location = new Point(28, 624);
+            btnVoltar.Location = new Point(32, 832);
+            btnVoltar.Margin = new Padding(3, 4, 3, 4);
             btnVoltar.Name = "btnVoltar";
-            btnVoltar.Size = new Size(185, 68);
+            btnVoltar.Size = new Size(211, 91);
             btnVoltar.TabIndex = 13;
             btnVoltar.UseVisualStyleBackColor = false;
+            btnVoltar.Click += btnVoltar_Click;
             // 
             // panel7
             // 
@@ -437,9 +451,10 @@
             panel7.Controls.Add(pictureBox4);
             panel7.Controls.Add(label16);
             panel7.Controls.Add(button3);
-            panel7.Location = new Point(415, 457);
+            panel7.Location = new Point(474, 609);
+            panel7.Margin = new Padding(3, 4, 3, 4);
             panel7.Name = "panel7";
-            panel7.Size = new Size(334, 107);
+            panel7.Size = new Size(382, 143);
             panel7.TabIndex = 17;
             // 
             // label14
@@ -448,9 +463,9 @@
             label14.BackColor = Color.White;
             label14.Font = new Font("Lato Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label14.ForeColor = Color.FromArgb(255, 122, 0);
-            label14.Location = new Point(21, 19);
+            label14.Location = new Point(24, 25);
             label14.Name = "label14";
-            label14.Size = new Size(141, 23);
+            label14.Size = new Size(183, 29);
             label14.TabIndex = 10;
             label14.Text = "Camiseta Preta";
             // 
@@ -459,9 +474,9 @@
             label15.AutoSize = true;
             label15.BackColor = Color.White;
             label15.ForeColor = Color.FromArgb(255, 122, 0);
-            label15.Location = new Point(21, 67);
+            label15.Location = new Point(24, 89);
             label15.Name = "label15";
-            label15.Size = new Size(87, 15);
+            label15.Size = new Size(110, 20);
             label15.TabIndex = 9;
             label15.Text = "Quantidade: 34";
             // 
@@ -469,9 +484,10 @@
             // 
             pictureBox4.BackColor = Color.White;
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(222, 3);
+            pictureBox4.Location = new Point(254, 4);
+            pictureBox4.Margin = new Padding(3, 4, 3, 4);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(109, 100);
+            pictureBox4.Size = new Size(125, 133);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.TabIndex = 8;
             pictureBox4.TabStop = false;
@@ -481,9 +497,9 @@
             label16.AutoSize = true;
             label16.BackColor = Color.White;
             label16.ForeColor = Color.FromArgb(255, 122, 0);
-            label16.Location = new Point(21, 52);
+            label16.Location = new Point(24, 69);
             label16.Name = "label16";
-            label16.Size = new Size(82, 15);
+            label16.Size = new Size(103, 20);
             label16.TabIndex = 0;
             label16.Text = "Marca: Adidas";
             // 
@@ -492,9 +508,10 @@
             button3.BackColor = Color.White;
             button3.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button3.ForeColor = Color.FromArgb(255, 122, 0);
-            button3.Location = new Point(3, 3);
+            button3.Location = new Point(3, 4);
+            button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
-            button3.Size = new Size(328, 101);
+            button3.Size = new Size(375, 135);
             button3.TabIndex = 7;
             button3.TextAlign = ContentAlignment.TopLeft;
             button3.UseVisualStyleBackColor = false;
@@ -506,9 +523,10 @@
             panel8.Controls.Add(pictureBox5);
             panel8.Controls.Add(label19);
             panel8.Controls.Add(button4);
-            panel8.Location = new Point(415, 323);
+            panel8.Location = new Point(474, 431);
+            panel8.Margin = new Padding(3, 4, 3, 4);
             panel8.Name = "panel8";
-            panel8.Size = new Size(334, 107);
+            panel8.Size = new Size(382, 143);
             panel8.TabIndex = 16;
             // 
             // label17
@@ -517,9 +535,9 @@
             label17.BackColor = Color.White;
             label17.Font = new Font("Lato Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label17.ForeColor = Color.FromArgb(255, 122, 0);
-            label17.Location = new Point(21, 19);
+            label17.Location = new Point(24, 25);
             label17.Name = "label17";
-            label17.Size = new Size(157, 23);
+            label17.Size = new Size(204, 29);
             label17.TabIndex = 10;
             label17.Text = "Bola de Basquete";
             // 
@@ -528,9 +546,9 @@
             label18.AutoSize = true;
             label18.BackColor = Color.White;
             label18.ForeColor = Color.FromArgb(255, 122, 0);
-            label18.Location = new Point(21, 67);
+            label18.Location = new Point(24, 89);
             label18.Name = "label18";
-            label18.Size = new Size(87, 15);
+            label18.Size = new Size(110, 20);
             label18.TabIndex = 9;
             label18.Text = "Quantidade: 15";
             // 
@@ -538,9 +556,10 @@
             // 
             pictureBox5.BackColor = Color.White;
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
-            pictureBox5.Location = new Point(222, 3);
+            pictureBox5.Location = new Point(254, 4);
+            pictureBox5.Margin = new Padding(3, 4, 3, 4);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(109, 101);
+            pictureBox5.Size = new Size(125, 135);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 8;
             pictureBox5.TabStop = false;
@@ -550,9 +569,9 @@
             label19.AutoSize = true;
             label19.BackColor = Color.White;
             label19.ForeColor = Color.FromArgb(255, 122, 0);
-            label19.Location = new Point(21, 52);
+            label19.Location = new Point(24, 69);
             label19.Name = "label19";
-            label19.Size = new Size(82, 15);
+            label19.Size = new Size(102, 20);
             label19.TabIndex = 0;
             label19.Text = "Marca: Wilson";
             // 
@@ -561,9 +580,10 @@
             button4.BackColor = Color.White;
             button4.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button4.ForeColor = Color.FromArgb(255, 122, 0);
-            button4.Location = new Point(3, 3);
+            button4.Location = new Point(3, 4);
+            button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
-            button4.Size = new Size(328, 101);
+            button4.Size = new Size(375, 135);
             button4.TabIndex = 7;
             button4.TextAlign = ContentAlignment.TopLeft;
             button4.UseVisualStyleBackColor = false;
@@ -575,9 +595,10 @@
             panel9.Controls.Add(pictureBox6);
             panel9.Controls.Add(label22);
             panel9.Controls.Add(button5);
-            panel9.Location = new Point(789, 457);
+            panel9.Location = new Point(902, 609);
+            panel9.Margin = new Padding(3, 4, 3, 4);
             panel9.Name = "panel9";
-            panel9.Size = new Size(334, 107);
+            panel9.Size = new Size(382, 143);
             panel9.TabIndex = 19;
             // 
             // label20
@@ -586,9 +607,9 @@
             label20.BackColor = Color.White;
             label20.Font = new Font("Lato Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label20.ForeColor = Color.FromArgb(255, 122, 0);
-            label20.Location = new Point(21, 19);
+            label20.Location = new Point(24, 25);
             label20.Name = "label20";
-            label20.Size = new Size(141, 23);
+            label20.Size = new Size(183, 29);
             label20.TabIndex = 10;
             label20.Text = "Camiseta Preta";
             // 
@@ -597,9 +618,9 @@
             label21.AutoSize = true;
             label21.BackColor = Color.White;
             label21.ForeColor = Color.FromArgb(255, 122, 0);
-            label21.Location = new Point(21, 67);
+            label21.Location = new Point(24, 89);
             label21.Name = "label21";
-            label21.Size = new Size(87, 15);
+            label21.Size = new Size(110, 20);
             label21.TabIndex = 9;
             label21.Text = "Quantidade: 34";
             // 
@@ -607,9 +628,10 @@
             // 
             pictureBox6.BackColor = Color.White;
             pictureBox6.Image = (Image)resources.GetObject("pictureBox6.Image");
-            pictureBox6.Location = new Point(222, 3);
+            pictureBox6.Location = new Point(254, 4);
+            pictureBox6.Margin = new Padding(3, 4, 3, 4);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(109, 100);
+            pictureBox6.Size = new Size(125, 133);
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox6.TabIndex = 8;
             pictureBox6.TabStop = false;
@@ -619,9 +641,9 @@
             label22.AutoSize = true;
             label22.BackColor = Color.White;
             label22.ForeColor = Color.FromArgb(255, 122, 0);
-            label22.Location = new Point(21, 52);
+            label22.Location = new Point(24, 69);
             label22.Name = "label22";
-            label22.Size = new Size(82, 15);
+            label22.Size = new Size(103, 20);
             label22.TabIndex = 0;
             label22.Text = "Marca: Adidas";
             // 
@@ -630,9 +652,10 @@
             button5.BackColor = Color.White;
             button5.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button5.ForeColor = Color.FromArgb(255, 122, 0);
-            button5.Location = new Point(3, 3);
+            button5.Location = new Point(3, 4);
+            button5.Margin = new Padding(3, 4, 3, 4);
             button5.Name = "button5";
-            button5.Size = new Size(328, 101);
+            button5.Size = new Size(375, 135);
             button5.TabIndex = 7;
             button5.TextAlign = ContentAlignment.TopLeft;
             button5.UseVisualStyleBackColor = false;
@@ -644,9 +667,10 @@
             panel10.Controls.Add(pictureBox7);
             panel10.Controls.Add(label25);
             panel10.Controls.Add(button6);
-            panel10.Location = new Point(789, 323);
+            panel10.Location = new Point(902, 431);
+            panel10.Margin = new Padding(3, 4, 3, 4);
             panel10.Name = "panel10";
-            panel10.Size = new Size(334, 107);
+            panel10.Size = new Size(382, 143);
             panel10.TabIndex = 18;
             // 
             // label23
@@ -655,9 +679,9 @@
             label23.BackColor = Color.White;
             label23.Font = new Font("Lato Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label23.ForeColor = Color.FromArgb(255, 122, 0);
-            label23.Location = new Point(21, 19);
+            label23.Location = new Point(24, 25);
             label23.Name = "label23";
-            label23.Size = new Size(157, 23);
+            label23.Size = new Size(204, 29);
             label23.TabIndex = 10;
             label23.Text = "Bola de Basquete";
             // 
@@ -666,9 +690,9 @@
             label24.AutoSize = true;
             label24.BackColor = Color.White;
             label24.ForeColor = Color.FromArgb(255, 122, 0);
-            label24.Location = new Point(21, 67);
+            label24.Location = new Point(24, 89);
             label24.Name = "label24";
-            label24.Size = new Size(87, 15);
+            label24.Size = new Size(110, 20);
             label24.TabIndex = 9;
             label24.Text = "Quantidade: 15";
             // 
@@ -676,9 +700,10 @@
             // 
             pictureBox7.BackColor = Color.White;
             pictureBox7.Image = (Image)resources.GetObject("pictureBox7.Image");
-            pictureBox7.Location = new Point(222, 3);
+            pictureBox7.Location = new Point(254, 4);
+            pictureBox7.Margin = new Padding(3, 4, 3, 4);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(109, 101);
+            pictureBox7.Size = new Size(125, 135);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox7.TabIndex = 8;
             pictureBox7.TabStop = false;
@@ -688,9 +713,9 @@
             label25.AutoSize = true;
             label25.BackColor = Color.White;
             label25.ForeColor = Color.FromArgb(255, 122, 0);
-            label25.Location = new Point(21, 52);
+            label25.Location = new Point(24, 69);
             label25.Name = "label25";
-            label25.Size = new Size(82, 15);
+            label25.Size = new Size(102, 20);
             label25.TabIndex = 0;
             label25.Text = "Marca: Wilson";
             // 
@@ -699,9 +724,10 @@
             button6.BackColor = Color.White;
             button6.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button6.ForeColor = Color.FromArgb(255, 122, 0);
-            button6.Location = new Point(3, 3);
+            button6.Location = new Point(3, 4);
+            button6.Margin = new Padding(3, 4, 3, 4);
             button6.Name = "button6";
-            button6.Size = new Size(328, 101);
+            button6.Size = new Size(375, 135);
             button6.TabIndex = 7;
             button6.TextAlign = ContentAlignment.TopLeft;
             button6.UseVisualStyleBackColor = false;
@@ -711,9 +737,10 @@
             button2.BackColor = Color.White;
             button2.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button2.ForeColor = Color.FromArgb(255, 122, 0);
-            button2.Location = new Point(3, 3);
+            button2.Location = new Point(3, 4);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(328, 101);
+            button2.Size = new Size(375, 135);
             button2.TabIndex = 7;
             button2.TextAlign = ContentAlignment.TopLeft;
             button2.UseVisualStyleBackColor = false;
@@ -723,9 +750,9 @@
             label13.AutoSize = true;
             label13.BackColor = Color.White;
             label13.ForeColor = Color.FromArgb(255, 122, 0);
-            label13.Location = new Point(21, 52);
+            label13.Location = new Point(24, 69);
             label13.Name = "label13";
-            label13.Size = new Size(83, 15);
+            label13.Size = new Size(103, 20);
             label13.TabIndex = 0;
             label13.Text = "Marca: Mikasa";
             // 
@@ -733,9 +760,10 @@
             // 
             pictureBox3.BackColor = Color.White;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(222, 3);
+            pictureBox3.Location = new Point(254, 4);
+            pictureBox3.Margin = new Padding(3, 4, 3, 4);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(108, 96);
+            pictureBox3.Size = new Size(123, 128);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 8;
             pictureBox3.TabStop = false;
@@ -745,9 +773,9 @@
             label12.AutoSize = true;
             label12.BackColor = Color.White;
             label12.ForeColor = Color.FromArgb(255, 122, 0);
-            label12.Location = new Point(21, 67);
+            label12.Location = new Point(24, 89);
             label12.Name = "label12";
-            label12.Size = new Size(87, 15);
+            label12.Size = new Size(110, 20);
             label12.TabIndex = 9;
             label12.Text = "Quantidade: 20";
             // 
@@ -757,9 +785,9 @@
             label9.BackColor = Color.White;
             label9.Font = new Font("Lato Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label9.ForeColor = Color.FromArgb(255, 122, 0);
-            label9.Location = new Point(21, 19);
+            label9.Location = new Point(24, 25);
             label9.Name = "label9";
-            label9.Size = new Size(121, 23);
+            label9.Size = new Size(157, 29);
             label9.TabIndex = 10;
             label9.Text = "Bola de Vôlei";
             // 
@@ -770,9 +798,10 @@
             panel6.Controls.Add(pictureBox3);
             panel6.Controls.Add(label13);
             panel6.Controls.Add(button2);
-            panel6.Location = new Point(415, 62);
+            panel6.Location = new Point(474, 83);
+            panel6.Margin = new Padding(3, 4, 3, 4);
             panel6.Name = "panel6";
-            panel6.Size = new Size(334, 107);
+            panel6.Size = new Size(382, 143);
             panel6.TabIndex = 14;
             // 
             // button1
@@ -780,9 +809,10 @@
             button1.BackColor = Color.White;
             button1.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.FromArgb(255, 122, 0);
-            button1.Location = new Point(3, 3);
+            button1.Location = new Point(3, 4);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(328, 101);
+            button1.Size = new Size(375, 135);
             button1.TabIndex = 7;
             button1.TextAlign = ContentAlignment.TopLeft;
             button1.UseVisualStyleBackColor = false;
@@ -792,9 +822,9 @@
             label6.AutoSize = true;
             label6.BackColor = Color.White;
             label6.ForeColor = Color.FromArgb(255, 122, 0);
-            label6.Location = new Point(21, 52);
+            label6.Location = new Point(24, 69);
             label6.Name = "label6";
-            label6.Size = new Size(70, 15);
+            label6.Size = new Size(87, 20);
             label6.TabIndex = 0;
             label6.Text = "Marca: Nike";
             // 
@@ -802,9 +832,10 @@
             // 
             pictureBox1.BackColor = Color.White;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(222, 3);
+            pictureBox1.Location = new Point(254, 4);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(109, 101);
+            pictureBox1.Size = new Size(125, 135);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
@@ -814,9 +845,9 @@
             label3.AutoSize = true;
             label3.BackColor = Color.White;
             label3.ForeColor = Color.FromArgb(255, 122, 0);
-            label3.Location = new Point(21, 67);
+            label3.Location = new Point(24, 89);
             label3.Name = "label3";
-            label3.Size = new Size(87, 15);
+            label3.Size = new Size(110, 20);
             label3.TabIndex = 9;
             label3.Text = "Quantidade: 10";
             // 
@@ -826,9 +857,9 @@
             label2.BackColor = Color.White;
             label2.Font = new Font("Lato Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(255, 122, 0);
-            label2.Location = new Point(21, 19);
+            label2.Location = new Point(24, 25);
             label2.Name = "label2";
-            label2.Size = new Size(104, 23);
+            label2.Size = new Size(135, 29);
             label2.TabIndex = 10;
             label2.Text = "Precision 7";
             // 
@@ -839,9 +870,10 @@
             panel5.Controls.Add(pictureBox1);
             panel5.Controls.Add(label6);
             panel5.Controls.Add(button1);
-            panel5.Location = new Point(415, 196);
+            panel5.Location = new Point(474, 261);
+            panel5.Margin = new Padding(3, 4, 3, 4);
             panel5.Name = "panel5";
-            panel5.Size = new Size(334, 107);
+            panel5.Size = new Size(382, 143);
             panel5.TabIndex = 15;
             // 
             // panel11
@@ -851,9 +883,10 @@
             panel11.Controls.Add(pictureBox8);
             panel11.Controls.Add(label28);
             panel11.Controls.Add(button7);
-            panel11.Location = new Point(789, 196);
+            panel11.Location = new Point(902, 261);
+            panel11.Margin = new Padding(3, 4, 3, 4);
             panel11.Name = "panel11";
-            panel11.Size = new Size(334, 107);
+            panel11.Size = new Size(382, 143);
             panel11.TabIndex = 21;
             // 
             // label26
@@ -862,9 +895,9 @@
             label26.BackColor = Color.White;
             label26.Font = new Font("Lato Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label26.ForeColor = Color.FromArgb(255, 122, 0);
-            label26.Location = new Point(21, 19);
+            label26.Location = new Point(24, 25);
             label26.Name = "label26";
-            label26.Size = new Size(104, 23);
+            label26.Size = new Size(135, 29);
             label26.TabIndex = 10;
             label26.Text = "Precision 7";
             // 
@@ -873,9 +906,9 @@
             label27.AutoSize = true;
             label27.BackColor = Color.White;
             label27.ForeColor = Color.FromArgb(255, 122, 0);
-            label27.Location = new Point(21, 67);
+            label27.Location = new Point(24, 89);
             label27.Name = "label27";
-            label27.Size = new Size(87, 15);
+            label27.Size = new Size(110, 20);
             label27.TabIndex = 9;
             label27.Text = "Quantidade: 10";
             // 
@@ -883,9 +916,10 @@
             // 
             pictureBox8.BackColor = Color.White;
             pictureBox8.Image = (Image)resources.GetObject("pictureBox8.Image");
-            pictureBox8.Location = new Point(222, 3);
+            pictureBox8.Location = new Point(254, 4);
+            pictureBox8.Margin = new Padding(3, 4, 3, 4);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(109, 101);
+            pictureBox8.Size = new Size(125, 135);
             pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox8.TabIndex = 8;
             pictureBox8.TabStop = false;
@@ -895,9 +929,9 @@
             label28.AutoSize = true;
             label28.BackColor = Color.White;
             label28.ForeColor = Color.FromArgb(255, 122, 0);
-            label28.Location = new Point(21, 52);
+            label28.Location = new Point(24, 69);
             label28.Name = "label28";
-            label28.Size = new Size(70, 15);
+            label28.Size = new Size(87, 20);
             label28.TabIndex = 0;
             label28.Text = "Marca: Nike";
             // 
@@ -906,9 +940,10 @@
             button7.BackColor = Color.White;
             button7.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button7.ForeColor = Color.FromArgb(255, 122, 0);
-            button7.Location = new Point(3, 3);
+            button7.Location = new Point(3, 4);
+            button7.Margin = new Padding(3, 4, 3, 4);
             button7.Name = "button7";
-            button7.Size = new Size(328, 101);
+            button7.Size = new Size(375, 135);
             button7.TabIndex = 7;
             button7.TextAlign = ContentAlignment.TopLeft;
             button7.UseVisualStyleBackColor = false;
@@ -920,9 +955,10 @@
             panel12.Controls.Add(pictureBox9);
             panel12.Controls.Add(label31);
             panel12.Controls.Add(button8);
-            panel12.Location = new Point(789, 62);
+            panel12.Location = new Point(902, 83);
+            panel12.Margin = new Padding(3, 4, 3, 4);
             panel12.Name = "panel12";
-            panel12.Size = new Size(334, 107);
+            panel12.Size = new Size(382, 143);
             panel12.TabIndex = 20;
             // 
             // label29
@@ -931,9 +967,9 @@
             label29.BackColor = Color.White;
             label29.Font = new Font("Lato Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label29.ForeColor = Color.FromArgb(255, 122, 0);
-            label29.Location = new Point(21, 19);
+            label29.Location = new Point(24, 25);
             label29.Name = "label29";
-            label29.Size = new Size(121, 23);
+            label29.Size = new Size(157, 29);
             label29.TabIndex = 10;
             label29.Text = "Bola de Vôlei";
             // 
@@ -942,9 +978,9 @@
             label30.AutoSize = true;
             label30.BackColor = Color.White;
             label30.ForeColor = Color.FromArgb(255, 122, 0);
-            label30.Location = new Point(21, 67);
+            label30.Location = new Point(24, 89);
             label30.Name = "label30";
-            label30.Size = new Size(87, 15);
+            label30.Size = new Size(110, 20);
             label30.TabIndex = 9;
             label30.Text = "Quantidade: 20";
             // 
@@ -952,9 +988,10 @@
             // 
             pictureBox9.BackColor = Color.White;
             pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(222, 3);
+            pictureBox9.Location = new Point(254, 4);
+            pictureBox9.Margin = new Padding(3, 4, 3, 4);
             pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(108, 96);
+            pictureBox9.Size = new Size(123, 128);
             pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox9.TabIndex = 8;
             pictureBox9.TabStop = false;
@@ -964,9 +1001,9 @@
             label31.AutoSize = true;
             label31.BackColor = Color.White;
             label31.ForeColor = Color.FromArgb(255, 122, 0);
-            label31.Location = new Point(21, 52);
+            label31.Location = new Point(24, 69);
             label31.Name = "label31";
-            label31.Size = new Size(83, 15);
+            label31.Size = new Size(103, 20);
             label31.TabIndex = 0;
             label31.Text = "Marca: Mikasa";
             // 
@@ -975,9 +1012,10 @@
             button8.BackColor = Color.White;
             button8.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button8.ForeColor = Color.FromArgb(255, 122, 0);
-            button8.Location = new Point(3, 3);
+            button8.Location = new Point(3, 4);
+            button8.Margin = new Padding(3, 4, 3, 4);
             button8.Name = "button8";
-            button8.Size = new Size(328, 101);
+            button8.Size = new Size(375, 135);
             button8.TabIndex = 7;
             button8.TextAlign = ContentAlignment.TopLeft;
             button8.UseVisualStyleBackColor = false;
@@ -985,9 +1023,10 @@
             // textBox1
             // 
             textBox1.ForeColor = Color.Silver;
-            textBox1.Location = new Point(1032, 15);
+            textBox1.Location = new Point(1179, 20);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(220, 23);
+            textBox1.Size = new Size(251, 27);
             textBox1.TabIndex = 22;
             textBox1.Text = "Pesquisar Produto";
             // 
@@ -995,9 +1034,10 @@
             // 
             pictureBox10.BackColor = Color.White;
             pictureBox10.Image = (Image)resources.GetObject("pictureBox10.Image");
-            pictureBox10.Location = new Point(1227, 15);
+            pictureBox10.Location = new Point(1402, 20);
+            pictureBox10.Margin = new Padding(3, 4, 3, 4);
             pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(25, 22);
+            pictureBox10.Size = new Size(29, 29);
             pictureBox10.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox10.TabIndex = 23;
             pictureBox10.TabStop = false;
@@ -1005,9 +1045,9 @@
             // 
             // FrmPedidosAtuais1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1284, 749);
+            ClientSize = new Size(1467, 999);
             Controls.Add(pictureBox10);
             Controls.Add(textBox1);
             Controls.Add(panel11);
@@ -1024,6 +1064,7 @@
             Controls.Add(panel2);
             Controls.Add(label1);
             Controls.Add(panel1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FrmPedidosAtuais1";
             Text = "FrmPedidosAtuais1";
             panel2.ResumeLayout(false);

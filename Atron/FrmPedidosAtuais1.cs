@@ -27,5 +27,10 @@ namespace Atron
             FrmPedidosAtuais2 FrmPedidosAtuais2 = new FrmPedidosAtuais2();
             FrmPedidosAtuais2.Show();
         }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
