@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace Atron
 {
-    public partial class FrmVendaPrincipal : Form
+    public partial class frmMenuAbrirCaixa : Form
     {
-        public FrmVendaPrincipal()
+        public frmMenuAbrirCaixa()
         {
             InitializeComponent();
         }
 
-        private void FrmVendaPrincipal_Load(object sender, EventArgs e)
+        private void pctAbrirCaixa_Click(object sender, EventArgs e)
         {
-            frmMenuAbrirCaixa frmMenuAbrirCaixa = new frmMenuAbrirCaixa();
-            frmMenuAbrirCaixa.Show();
+            frmPopUpSenhaAbrirCaixa frmPopUpSenhaAbrirCaixa = new frmPopUpSenhaAbrirCaixa();
+            frmPopUpSenhaAbrirCaixa.Show();
         }
     }
 }

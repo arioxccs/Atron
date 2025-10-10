@@ -10,17 +10,21 @@ using System.Windows.Forms;
 
 namespace Atron
 {
-    public partial class FrmVendaPrincipal : Form
+    public partial class frmAvisoSenhaIncorreta : Form
     {
-        public FrmVendaPrincipal()
+        public frmAvisoSenhaIncorreta()
         {
             InitializeComponent();
         }
 
-        private void FrmVendaPrincipal_Load(object sender, EventArgs e)
+        private void lblTitulo_Click(object sender, EventArgs e)
         {
-            frmMenuAbrirCaixa frmMenuAbrirCaixa = new frmMenuAbrirCaixa();
-            frmMenuAbrirCaixa.Show();
+
+        }
+
+        private void picAviso_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
