@@ -36,8 +36,8 @@
             lbl_QtdeTpop = new Label();
             lbl_MarcaPop = new Label();
             panel1 = new Panel();
-            lbl_PopUpNomeProduto = new Label();
             ptbAlerta = new PictureBox();
+            lbl_PopUpNomeProduto = new Label();
             lblInfNome = new Label();
             lblNomeProduto = new Label();
             lblInfQuantMin = new Label();
@@ -127,6 +127,15 @@
             panel1.Size = new Size(868, 97);
             panel1.TabIndex = 34;
             // 
+            // ptbAlerta
+            // 
+            ptbAlerta.Image = (Image)resources.GetObject("ptbAlerta.Image");
+            ptbAlerta.Location = new Point(292, 24);
+            ptbAlerta.Name = "ptbAlerta";
+            ptbAlerta.Size = new Size(47, 49);
+            ptbAlerta.TabIndex = 1;
+            ptbAlerta.TabStop = false;
+            // 
             // lbl_PopUpNomeProduto
             // 
             lbl_PopUpNomeProduto.AutoSize = true;
@@ -137,15 +146,6 @@
             lbl_PopUpNomeProduto.Size = new Size(180, 52);
             lbl_PopUpNomeProduto.TabIndex = 0;
             lbl_PopUpNomeProduto.Text = "Produto";
-            // 
-            // ptbAlerta
-            // 
-            ptbAlerta.Image = (Image)resources.GetObject("ptbAlerta.Image");
-            ptbAlerta.Location = new Point(292, 24);
-            ptbAlerta.Name = "ptbAlerta";
-            ptbAlerta.Size = new Size(47, 49);
-            ptbAlerta.TabIndex = 1;
-            ptbAlerta.TabStop = false;
             // 
             // lblInfNome
             // 
@@ -243,6 +243,7 @@
             btnOk.Size = new Size(106, 108);
             btnOk.TabIndex = 52;
             btnOk.UseVisualStyleBackColor = true;
+            btnOk.Click += btnOk_Click;
             // 
             // FrmPedidosEmFalta2
             // 

@@ -21,5 +21,11 @@ namespace Atron
         {
 
         }
+
+        private void btnBolaVolei_Click(object sender, EventArgs e)
+        {
+            FrmPedidosAtuais2 FrmPedidosAtuais2 = new FrmPedidosAtuais2();
+            FrmPedidosAtuais2.Show();
+        }
     }
 }

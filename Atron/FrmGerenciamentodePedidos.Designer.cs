@@ -36,11 +36,11 @@
             btnPedidosCancelados = new Button();
             label1 = new Label();
             panel1 = new Panel();
-            btnBolaVolei = new Button();
-            lblMarca = new Label();
-            ptbBolaVolei = new PictureBox();
-            lblQuant = new Label();
             lblBolaVolei = new Label();
+            lblQuant = new Label();
+            ptbBolaVolei = new PictureBox();
+            lblMarca = new Label();
+            btnBolaVolei = new Button();
             panel2 = new Panel();
             lblNomeTenis = new Label();
             label4 = new Label();
@@ -88,6 +88,7 @@
             btnPedidosemFalta.Size = new Size(414, 241);
             btnPedidosemFalta.TabIndex = 1;
             btnPedidosemFalta.UseVisualStyleBackColor = true;
+            btnPedidosemFalta.Click += btnPedidosemFalta_Click;
             // 
             // btnPedidosAtuais
             // 
@@ -97,6 +98,7 @@
             btnPedidosAtuais.Size = new Size(430, 241);
             btnPedidosAtuais.TabIndex = 2;
             btnPedidosAtuais.UseVisualStyleBackColor = true;
+            btnPedidosAtuais.Click += btnPedidosAtuais_Click;
             // 
             // btnDadosSolicitacoes
             // 
@@ -106,6 +108,7 @@
             btnDadosSolicitacoes.Size = new Size(430, 241);
             btnDadosSolicitacoes.TabIndex = 3;
             btnDadosSolicitacoes.UseVisualStyleBackColor = true;
+            btnDadosSolicitacoes.Click += btnDadosSolicitacoes_Click;
             // 
             // btnPedidosCancelados
             // 
@@ -115,6 +118,7 @@
             btnPedidosCancelados.Size = new Size(414, 241);
             btnPedidosCancelados.TabIndex = 4;
             btnPedidosCancelados.UseVisualStyleBackColor = true;
+            btnPedidosCancelados.Click += btnPedidosCancelados_Click;
             // 
             // label1
             // 
@@ -139,39 +143,17 @@
             panel1.Size = new Size(334, 107);
             panel1.TabIndex = 5;
             // 
-            // btnBolaVolei
+            // lblBolaVolei
             // 
-            btnBolaVolei.BackColor = Color.White;
-            btnBolaVolei.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnBolaVolei.ForeColor = Color.FromArgb(255, 122, 0);
-            btnBolaVolei.Location = new Point(3, 3);
-            btnBolaVolei.Name = "btnBolaVolei";
-            btnBolaVolei.Size = new Size(328, 101);
-            btnBolaVolei.TabIndex = 7;
-            btnBolaVolei.TextAlign = ContentAlignment.TopLeft;
-            btnBolaVolei.UseVisualStyleBackColor = false;
-            // 
-            // lblMarca
-            // 
-            lblMarca.AutoSize = true;
-            lblMarca.BackColor = Color.White;
-            lblMarca.ForeColor = Color.FromArgb(255, 122, 0);
-            lblMarca.Location = new Point(21, 52);
-            lblMarca.Name = "lblMarca";
-            lblMarca.Size = new Size(83, 15);
-            lblMarca.TabIndex = 0;
-            lblMarca.Text = "Marca: Mikasa";
-            // 
-            // ptbBolaVolei
-            // 
-            ptbBolaVolei.BackColor = Color.White;
-            ptbBolaVolei.Image = (Image)resources.GetObject("ptbBolaVolei.Image");
-            ptbBolaVolei.Location = new Point(222, 3);
-            ptbBolaVolei.Name = "ptbBolaVolei";
-            ptbBolaVolei.Size = new Size(108, 96);
-            ptbBolaVolei.SizeMode = PictureBoxSizeMode.Zoom;
-            ptbBolaVolei.TabIndex = 8;
-            ptbBolaVolei.TabStop = false;
+            lblBolaVolei.AutoSize = true;
+            lblBolaVolei.BackColor = Color.White;
+            lblBolaVolei.Font = new Font("Lato Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblBolaVolei.ForeColor = Color.FromArgb(255, 122, 0);
+            lblBolaVolei.Location = new Point(21, 19);
+            lblBolaVolei.Name = "lblBolaVolei";
+            lblBolaVolei.Size = new Size(121, 23);
+            lblBolaVolei.TabIndex = 10;
+            lblBolaVolei.Text = "Bola de Vôlei";
             // 
             // lblQuant
             // 
@@ -184,17 +166,40 @@
             lblQuant.TabIndex = 9;
             lblQuant.Text = "Quantidade: 20";
             // 
-            // lblBolaVolei
+            // ptbBolaVolei
             // 
-            lblBolaVolei.AutoSize = true;
-            lblBolaVolei.BackColor = Color.White;
-            lblBolaVolei.Font = new Font("Lato Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblBolaVolei.ForeColor = Color.FromArgb(255, 122, 0);
-            lblBolaVolei.Location = new Point(21, 19);
-            lblBolaVolei.Name = "lblBolaVolei";
-            lblBolaVolei.Size = new Size(121, 23);
-            lblBolaVolei.TabIndex = 10;
-            lblBolaVolei.Text = "Bola de Vôlei";
+            ptbBolaVolei.BackColor = Color.White;
+            ptbBolaVolei.Image = (Image)resources.GetObject("ptbBolaVolei.Image");
+            ptbBolaVolei.Location = new Point(222, 3);
+            ptbBolaVolei.Name = "ptbBolaVolei";
+            ptbBolaVolei.Size = new Size(108, 96);
+            ptbBolaVolei.SizeMode = PictureBoxSizeMode.Zoom;
+            ptbBolaVolei.TabIndex = 8;
+            ptbBolaVolei.TabStop = false;
+            // 
+            // lblMarca
+            // 
+            lblMarca.AutoSize = true;
+            lblMarca.BackColor = Color.White;
+            lblMarca.ForeColor = Color.FromArgb(255, 122, 0);
+            lblMarca.Location = new Point(21, 52);
+            lblMarca.Name = "lblMarca";
+            lblMarca.Size = new Size(83, 15);
+            lblMarca.TabIndex = 0;
+            lblMarca.Text = "Marca: Mikasa";
+            // 
+            // btnBolaVolei
+            // 
+            btnBolaVolei.BackColor = Color.White;
+            btnBolaVolei.Font = new Font("Arial", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnBolaVolei.ForeColor = Color.FromArgb(255, 122, 0);
+            btnBolaVolei.Location = new Point(3, 3);
+            btnBolaVolei.Name = "btnBolaVolei";
+            btnBolaVolei.Size = new Size(328, 101);
+            btnBolaVolei.TabIndex = 7;
+            btnBolaVolei.TextAlign = ContentAlignment.TopLeft;
+            btnBolaVolei.UseVisualStyleBackColor = false;
+            btnBolaVolei.Click += btnBolaVolei_Click;
             // 
             // panel2
             // 

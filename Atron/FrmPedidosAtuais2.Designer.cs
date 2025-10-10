@@ -268,6 +268,7 @@
             btnOk.Size = new Size(106, 108);
             btnOk.TabIndex = 38;
             btnOk.UseVisualStyleBackColor = true;
+            btnOk.Click += btnOk_Click;
             // 
             // FrmPedidosAtuais2
             // 
