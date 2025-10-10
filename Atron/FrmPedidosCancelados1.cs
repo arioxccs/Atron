@@ -26,5 +26,11 @@ namespace Atron
         {
 
         }
+
+        private void btnDados_Click(object sender, EventArgs e)
+        {
+            FrmPedidosCancelados2 FrmPedidosCancelados2 = new FrmPedidosCancelados2();
+            FrmPedidosCancelados2.Show();
+        }
     }
 }

@@ -31,5 +31,11 @@ namespace Atron
         {
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmPedidosCancelados3 FrmPedidosCancelados3 = new FrmPedidosCancelados3();  
+            FrmPedidosCancelados3.Show();
+        }
     }
 }
