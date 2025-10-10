@@ -22,5 +22,10 @@ namespace Atron
             frmMenuAbrirCaixa frmMenuAbrirCaixa = new frmMenuAbrirCaixa();
             frmMenuAbrirCaixa.Show();
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

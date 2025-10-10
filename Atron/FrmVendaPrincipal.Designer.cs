@@ -41,9 +41,8 @@
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.InitialImage = (Image)resources.GetObject("pictureBox2.InitialImage");
             pictureBox2.Location = new Point(0, 0);
-            pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(1627, 85);
+            pictureBox2.Size = new Size(1424, 64);
             pictureBox2.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox2.TabIndex = 5;
             pictureBox2.TabStop = false;
@@ -51,20 +50,19 @@
             // panel1
             // 
             panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(0, 85);
-            panel1.Margin = new Padding(3, 4, 3, 4);
+            panel1.Location = new Point(0, 64);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1627, 970);
+            panel1.Size = new Size(1424, 727);
             panel1.TabIndex = 6;
+            panel1.Paint += panel1_Paint;
             // 
             // FrmVendaPrincipal
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1627, 1055);
+            ClientSize = new Size(1424, 791);
             Controls.Add(panel1);
             Controls.Add(pictureBox2);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "FrmVendaPrincipal";
             Text = "FrmVendaPrincipal";
             Load += FrmVendaPrincipal_Load;
