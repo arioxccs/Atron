@@ -29,31 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGerenciamentoConsultas));
-            button2 = new Button();
             button1 = new Button();
             lbl_GerenciamentodeConsulta = new Label();
             pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
             panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.FromArgb(189, 255, 153);
-            button2.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.ForeColor = Color.White;
-            button2.ImageAlign = ContentAlignment.BottomRight;
-            button2.Location = new Point(476, 168);
-            button2.Name = "button2";
-            button2.Size = new Size(385, 285);
-            button2.TabIndex = 5;
-            button2.Text = "CONSULTA DE PEDIDOS";
-            button2.TextAlign = ContentAlignment.TopLeft;
-            button2.TextImageRelation = TextImageRelation.TextBeforeImage;
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click_1;
             // 
             // button1
             // 
@@ -94,18 +75,6 @@
             pictureBox1.TabIndex = 6;
             pictureBox1.TabStop = false;
             // 
-            // pictureBox2
-            // 
-            pictureBox2.BackColor = Color.FromArgb(189, 255, 153);
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(658, 308);
-            pictureBox2.Margin = new Padding(3, 2, 3, 2);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(186, 138);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 7;
-            pictureBox2.TabStop = false;
-            // 
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(224, 224, 224);
@@ -120,9 +89,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1312, 827);
             Controls.Add(panel1);
-            Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
-            Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(lbl_GerenciamentodeConsulta);
             FormBorderStyle = FormBorderStyle.None;
@@ -130,18 +97,14 @@
             Name = "frmGerenciamentoConsultas";
             Text = " ";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Button button2;
         private Button button1;
         private Label lbl_GerenciamentodeConsulta;
         private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
         private Panel panel1;
     }
 }
