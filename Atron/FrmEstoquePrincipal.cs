@@ -79,7 +79,6 @@ namespace Atron
         private void btn_PedidosMenuEstoque_Click(object sender, EventArgs e)
         {
             ActiveButton(btn_PedidosMenuEstoque);
-            FormShow(new FrmGerenciamentodePedidos());
         }
     }
 }

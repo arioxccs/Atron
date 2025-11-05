@@ -35,7 +35,7 @@ namespace Atron
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            FrmConsultadePedidos1 TelaAberta = new FrmConsultadePedidos1();
+            FrmGerenciamentoRegistros TelaAberta = new FrmGerenciamentoRegistros();
             FrmEstoquePrincipal frmPrincipal = (FrmEstoquePrincipal)this.ParentForm;
             frmPrincipal.Controls["panelEstoque"].Controls.Clear();
             TelaAberta.TopLevel = false;

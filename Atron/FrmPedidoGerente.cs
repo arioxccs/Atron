@@ -29,7 +29,7 @@ namespace Atron
 
         private void btn_PedidoReativacao_Click(object sender, EventArgs e)
         {
-            new FrmPedidoReativacaoGerente().ShowDialog();
+            
         }
 
         private void btn_Pedido_Click(object sender, EventArgs e)
@@ -39,7 +39,7 @@ namespace Atron
 
         private void btn_PedidoCancelado_Click(object sender, EventArgs e)
         {
-            new FrmPedidosCanceladosGerente().ShowDialog();
+           
         }
     }
 }

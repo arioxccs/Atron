@@ -46,18 +46,12 @@ namespace Atron
 
         private void button1_Click(object sender, EventArgs e)
         {
-           frmRegistrarNovoPedido TelaAberta = new frmRegistrarNovoPedido();
-            FrmEstoquePrincipal frmPrincipal = (FrmEstoquePrincipal)this.ParentForm;
-            frmPrincipal.Controls["panelEstoque"].Controls.Clear();
-            TelaAberta.TopLevel = false;
-            frmPrincipal.Controls["panelEstoque"].Controls.Add(TelaAberta);
-            TelaAberta.Show();
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-            frmRegistrarNovoPedido frmRegistrarNovoPedido = new frmRegistrarNovoPedido();
-            frmRegistrarNovoPedido.Show();
+            
         }
 
         private void btnEntradaEstoque_Click(object sender, EventArgs e)

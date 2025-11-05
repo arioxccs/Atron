@@ -34,8 +34,7 @@ namespace Atron
 
         private void btnMudarProduto_Click(object sender, EventArgs e)
         {
-            FrmCadastrodeVenda frmCadastrodeVenda = new FrmCadastrodeVenda();
-            frmCadastrodeVenda.ShowDialog();
+            
         }
     }
 }

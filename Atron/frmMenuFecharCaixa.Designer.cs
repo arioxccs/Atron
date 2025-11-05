@@ -894,7 +894,6 @@
             Controls.Add(lblTitulo);
             Name = "frmMenuFecharCaixa";
             Text = "frmMenuFecharCaixa";
-            Load += frmMenuFecharCaixa_Load_1;
             ((System.ComponentModel.ISupportInitialize)pctAbrirCaixa).EndInit();
             gpbValorVendas.ResumeLayout(false);
             gpbValorVendas.PerformLayout();

@@ -17,26 +17,24 @@ namespace Atron
             InitializeComponent();
         }
 
-        private void frmMenuFecharCaixa_Load(object sender, EventArgs e)
+        private void FrmMenuFecharCaixa_Load(object sender, EventArgs e)
         {
 
         }
 
-        private void frmMenuFecharCaixa_Load_1(object sender, EventArgs e)
+        private void FrmMenuFecharCaixa_Load_1(object sender, EventArgs e)
         {
 
         }
 
         private void btnRegistrarVenda_Click(object sender, EventArgs e)
         {
-            FrmCadastrodeVenda frmCadastrodeVenda = new FrmCadastrodeVenda();
-            frmCadastrodeVenda.ShowDialog();
+           
         }
 
         private void btnRegistrarPedido_Click(object sender, EventArgs e)
         {
-            frmCadastroEncomendas frmCadastroEncomendas = new frmCadastroEncomendas();
-            frmCadastroEncomendas.ShowDialog();
+            
         }
 
         private void btnCadastrarCliente_Click(object sender, EventArgs e)

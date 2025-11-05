@@ -29,12 +29,7 @@ namespace Atron
 
         private void btn_GerarRelatorio_Click(object sender, EventArgs e)
         {
-            FrmSelecionarRelatorioGerente TelaAberta = new FrmSelecionarRelatorioGerente();
-            FrmGerentePrincipal frmPrincipal = (FrmGerentePrincipal)this.ParentForm;
-            frmPrincipal.Controls["panel2"].Controls.Clear();
-            TelaAberta.TopLevel = false;
-            frmPrincipal.Controls["panel2"].Controls.Add(TelaAberta);
-            TelaAberta.Show();
+            
         }
 
         private void lbl_NivelMaximo_Click(object sender, EventArgs e)
@@ -75,7 +70,7 @@ namespace Atron
 
         private void btn_EntradaEstoque_Click(object sender, EventArgs e)
         {
-            FrmEntradaEstoqueGerente TelaAberta = new FrmEntradaEstoqueGerente();
+            FrmEstoqueGerente TelaAberta = new FrmEstoqueGerente();
             FrmGerentePrincipal frmPrincipal = (FrmGerentePrincipal)this.ParentForm;
             frmPrincipal.Controls["panel2"].Controls.Clear();
             TelaAberta.TopLevel = false;
