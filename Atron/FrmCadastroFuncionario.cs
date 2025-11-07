@@ -44,7 +44,7 @@ namespace Atron
         {
 
         }
-
+        // Método para salvar o funcionário no banco de dados
         private void btn_SalvarFuncionario_Click(object sender, EventArgs e)
         {
             //Uso de um try-catch para fazer a verificação de possíveis erros de conexão com o BD(Caso precise de ajuda me perguntar)
@@ -52,34 +52,34 @@ namespace Atron
             {
                 using (MySqlConnection connection = Connection.GetConnection())
                 {
-                    //Inicia a query(consulta) que adiciona os doados no BD
+                    //Inicia a consulta que adiciona os doados no BD
                     connection.Open();
-                    string query = "INSERT INTO funcionarios (Nome, Cpf, Rg, Data_Nascimento, Endereco, Contato, Funcao,Salario, Forma_de_Pgto, Horas_Mensais) " +
+                    string consulta = "INSERT INTO funcionarios (Nome, Cpf, Rg, Data_Nascimento, Endereco, Contato, Funcao,Salario, Forma_de_Pgto, Horas_Mensais) " +
                                   "VALUES (@Nome, @Cpf, @Rg, @Data_Nascimento, @Endereco, @Contato, @Funcao, @Salario, @Forma_de_Pgto, @Horas_Mensais)";
 
-                    using (MySqlCommand cmd = new MySqlCommand(query, connection))
+                    using (MySqlCommand comando = new MySqlCommand(consulta, connection))
                     {
                         //Campos de texto
-                        cmd.Parameters.AddWithValue("@Nome", txt_NomeFuncionario.Text);
-                        cmd.Parameters.AddWithValue("@Cpf", txt_CPF.Text);
-                        cmd.Parameters.AddWithValue("@Rg", txt_RG.Text);
-                        
-                        cmd.Parameters.AddWithValue("@Endereco", txt_Endereco.Text);
-                        cmd.Parameters.AddWithValue("@Contato", txt_Contato.Text);
-                        cmd.Parameters.AddWithValue("@Funcao", txt_Funcao.Text);
-                        
-                        cmd.Parameters.AddWithValue("@Forma_de_Pgto", txt_Pagamento.Text);
-                        
+                        comando.Parameters.AddWithValue("@Nome", txt_NomeFuncionario.Text);
+                        comando.Parameters.AddWithValue("@Cpf", txt_CPF.Text);
+                        comando.Parameters.AddWithValue("@Rg", txt_RG.Text);
 
-                        
+                        comando.Parameters.AddWithValue("@Endereco", txt_Endereco.Text);
+                        comando.Parameters.AddWithValue("@Contato", txt_Contato.Text);
+                        comando.Parameters.AddWithValue("@Funcao", txt_Funcao.Text);
+
+                        comando.Parameters.AddWithValue("@Forma_de_Pgto", txt_Pagamento.Text);
+
+
+
                         //Campos de data
-                        cmd.Parameters.AddWithValue("@Data_Nascimento", dtp_Nascimento.Value);
+                        comando.Parameters.AddWithValue("@Data_Nascimento", dtp_Nascimento.Value);
 
                         //Campos numéricos(e suas conversões)
-                        cmd.Parameters.AddWithValue("@Salario", Convert.ToDecimal(txt_Salario.Text));
-                        cmd.Parameters.AddWithValue("@Horas_Mensais", Convert.ToInt32(txt_Horas.Text));
+                        comando.Parameters.AddWithValue("@Salario", Convert.ToDecimal(txt_Salario.Text));
+                        comando.Parameters.AddWithValue("@Horas_Mensais", Convert.ToInt32(txt_Horas.Text));
 
-                        cmd.ExecuteNonQuery();
+                        comando.ExecuteNonQuery();
                     }
 
                     MessageBox.Show("Funcionário cadastrado com sucesso!");

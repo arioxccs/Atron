@@ -124,45 +124,45 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Microsoft Sans Serif", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
             label1.Location = new Point(166, 526);
             label1.Name = "label1";
-            label1.Size = new Size(47, 33);
+            label1.Size = new Size(44, 31);
             label1.TabIndex = 31;
             label1.Text = "11";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.White;
             label2.Location = new Point(62, 518);
             label2.Name = "label2";
             label2.RightToLeft = RightToLeft.No;
-            label2.Size = new Size(110, 52);
+            label2.Size = new Size(146, 46);
             label2.TabIndex = 30;
             label2.Text = "Senha:";
             // 
             // lbl_CodFuncionario
             // 
             lbl_CodFuncionario.AutoSize = true;
-            lbl_CodFuncionario.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_CodFuncionario.Font = new Font("Microsoft Sans Serif", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_CodFuncionario.ForeColor = Color.White;
             lbl_CodFuncionario.Location = new Point(170, 473);
             lbl_CodFuncionario.Name = "lbl_CodFuncionario";
-            lbl_CodFuncionario.Size = new Size(47, 33);
+            lbl_CodFuncionario.Size = new Size(44, 31);
             lbl_CodFuncionario.TabIndex = 29;
             lbl_CodFuncionario.Text = "00";
             // 
             // lbl_Cod
             // 
             lbl_Cod.AutoSize = true;
-            lbl_Cod.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_Cod.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_Cod.ForeColor = Color.White;
             lbl_Cod.Location = new Point(62, 466);
             lbl_Cod.Name = "lbl_Cod";
-            lbl_Cod.Size = new Size(117, 52);
+            lbl_Cod.Size = new Size(159, 46);
             lbl_Cod.TabIndex = 28;
             lbl_Cod.Text = "Código:";
             // 
@@ -180,133 +180,133 @@
             // lbl_HorasMensaisR
             // 
             lbl_HorasMensaisR.AutoSize = true;
-            lbl_HorasMensaisR.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_HorasMensaisR.Font = new Font("Microsoft Sans Serif", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_HorasMensaisR.ForeColor = Color.White;
             lbl_HorasMensaisR.Location = new Point(1010, 412);
             lbl_HorasMensaisR.Name = "lbl_HorasMensaisR";
-            lbl_HorasMensaisR.Size = new Size(67, 33);
+            lbl_HorasMensaisR.Size = new Size(64, 31);
             lbl_HorasMensaisR.TabIndex = 26;
             lbl_HorasMensaisR.Text = "20H";
             // 
             // lbl_HorasMensaisT
             // 
             lbl_HorasMensaisT.AutoSize = true;
-            lbl_HorasMensaisT.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_HorasMensaisT.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_HorasMensaisT.ForeColor = Color.White;
             lbl_HorasMensaisT.Location = new Point(795, 401);
             lbl_HorasMensaisT.Name = "lbl_HorasMensaisT";
-            lbl_HorasMensaisT.Size = new Size(224, 52);
+            lbl_HorasMensaisT.Size = new Size(297, 46);
             lbl_HorasMensaisT.TabIndex = 25;
             lbl_HorasMensaisT.Text = "Horas Mensais:";
             // 
             // lbl_FormaPagamentoR
             // 
             lbl_FormaPagamentoR.AutoSize = true;
-            lbl_FormaPagamentoR.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_FormaPagamentoR.Font = new Font("Microsoft Sans Serif", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_FormaPagamentoR.ForeColor = Color.White;
             lbl_FormaPagamentoR.Location = new Point(967, 355);
             lbl_FormaPagamentoR.Name = "lbl_FormaPagamentoR";
-            lbl_FormaPagamentoR.Size = new Size(93, 33);
+            lbl_FormaPagamentoR.Size = new Size(91, 31);
             lbl_FormaPagamentoR.TabIndex = 24;
             lbl_FormaPagamentoR.Text = "Boleto";
             // 
             // lbl_FormaPagamentoT
             // 
             lbl_FormaPagamentoT.AutoSize = true;
-            lbl_FormaPagamentoT.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_FormaPagamentoT.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_FormaPagamentoT.ForeColor = Color.White;
             lbl_FormaPagamentoT.Location = new Point(795, 349);
             lbl_FormaPagamentoT.Name = "lbl_FormaPagamentoT";
-            lbl_FormaPagamentoT.Size = new Size(177, 52);
+            lbl_FormaPagamentoT.Size = new Size(235, 46);
             lbl_FormaPagamentoT.TabIndex = 23;
             lbl_FormaPagamentoT.Text = "Pagamento:";
             // 
             // lbl_SalarioR
             // 
             lbl_SalarioR.AutoSize = true;
-            lbl_SalarioR.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_SalarioR.Font = new Font("Microsoft Sans Serif", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_SalarioR.ForeColor = Color.White;
             lbl_SalarioR.Location = new Point(924, 300);
             lbl_SalarioR.Name = "lbl_SalarioR";
-            lbl_SalarioR.Size = new Size(112, 33);
+            lbl_SalarioR.Size = new Size(109, 31);
             lbl_SalarioR.TabIndex = 22;
             lbl_SalarioR.Text = "R$1000";
             // 
             // lbl_SalarioT
             // 
             lbl_SalarioT.AutoSize = true;
-            lbl_SalarioT.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_SalarioT.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_SalarioT.ForeColor = Color.White;
             lbl_SalarioT.Location = new Point(795, 292);
             lbl_SalarioT.Name = "lbl_SalarioT";
-            lbl_SalarioT.Size = new Size(131, 52);
+            lbl_SalarioT.Size = new Size(156, 46);
             lbl_SalarioT.TabIndex = 21;
             lbl_SalarioT.Text = "Salário:";
             // 
             // lbl_DataAdmissaoR
             // 
             lbl_DataAdmissaoR.AutoSize = true;
-            lbl_DataAdmissaoR.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_DataAdmissaoR.Font = new Font("Microsoft Sans Serif", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_DataAdmissaoR.ForeColor = Color.White;
             lbl_DataAdmissaoR.Location = new Point(940, 248);
             lbl_DataAdmissaoR.Name = "lbl_DataAdmissaoR";
-            lbl_DataAdmissaoR.Size = new Size(163, 33);
+            lbl_DataAdmissaoR.Size = new Size(150, 31);
             lbl_DataAdmissaoR.TabIndex = 20;
             lbl_DataAdmissaoR.Text = "01/01/2025";
             // 
             // lbl_DataAdmissão
             // 
             lbl_DataAdmissão.AutoSize = true;
-            lbl_DataAdmissão.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_DataAdmissão.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_DataAdmissão.ForeColor = Color.White;
             lbl_DataAdmissão.Location = new Point(795, 240);
             lbl_DataAdmissão.Name = "lbl_DataAdmissão";
-            lbl_DataAdmissão.Size = new Size(154, 52);
+            lbl_DataAdmissão.Size = new Size(207, 46);
             lbl_DataAdmissão.TabIndex = 19;
             lbl_DataAdmissão.Text = "Admissão:";
             // 
             // lbl_StatusR
             // 
             lbl_StatusR.AutoSize = true;
-            lbl_StatusR.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_StatusR.Font = new Font("Microsoft Sans Serif", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_StatusR.ForeColor = Color.White;
             lbl_StatusR.Location = new Point(903, 188);
             lbl_StatusR.Name = "lbl_StatusR";
             lbl_StatusR.RightToLeft = RightToLeft.No;
-            lbl_StatusR.Size = new Size(79, 33);
+            lbl_StatusR.Size = new Size(75, 31);
             lbl_StatusR.TabIndex = 18;
             lbl_StatusR.Text = "Ativo";
             // 
             // lbl_StatusT
             // 
             lbl_StatusT.AutoSize = true;
-            lbl_StatusT.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_StatusT.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_StatusT.ForeColor = Color.White;
             lbl_StatusT.Location = new Point(795, 182);
             lbl_StatusT.Name = "lbl_StatusT";
-            lbl_StatusT.Size = new Size(118, 52);
+            lbl_StatusT.Size = new Size(144, 46);
             lbl_StatusT.TabIndex = 17;
             lbl_StatusT.Text = "Status:";
             // 
             // lbl_FuncaoR
             // 
             lbl_FuncaoR.AutoSize = true;
-            lbl_FuncaoR.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_FuncaoR.Font = new Font("Microsoft Sans Serif", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_FuncaoR.ForeColor = Color.White;
             lbl_FuncaoR.Location = new Point(913, 135);
             lbl_FuncaoR.Name = "lbl_FuncaoR";
-            lbl_FuncaoR.Size = new Size(130, 33);
+            lbl_FuncaoR.Size = new Size(131, 31);
             lbl_FuncaoR.TabIndex = 16;
             lbl_FuncaoR.Text = "Vendedor";
             // 
             // lbl_FuncaoT
             // 
             lbl_FuncaoT.AutoSize = true;
-            lbl_FuncaoT.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_FuncaoT.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_FuncaoT.ForeColor = Color.White;
             lbl_FuncaoT.Location = new Point(795, 130);
             lbl_FuncaoT.Name = "lbl_FuncaoT";
-            lbl_FuncaoT.Size = new Size(124, 52);
+            lbl_FuncaoT.Size = new Size(165, 46);
             lbl_FuncaoT.TabIndex = 15;
             lbl_FuncaoT.Text = "Função:";
             // 
@@ -322,132 +322,132 @@
             // lbl_ContatoR
             // 
             lbl_ContatoR.AutoSize = true;
-            lbl_ContatoR.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_ContatoR.Font = new Font("Microsoft Sans Serif", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_ContatoR.ForeColor = Color.White;
             lbl_ContatoR.Location = new Point(447, 398);
             lbl_ContatoR.Name = "lbl_ContatoR";
-            lbl_ContatoR.Size = new Size(205, 33);
+            lbl_ContatoR.Size = new Size(198, 31);
             lbl_ContatoR.TabIndex = 13;
             lbl_ContatoR.Text = "(00) 00000-000";
             // 
             // lbl_ContatoT
             // 
             lbl_ContatoT.AutoSize = true;
-            lbl_ContatoT.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_ContatoT.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_ContatoT.ForeColor = Color.White;
             lbl_ContatoT.Location = new Point(318, 390);
             lbl_ContatoT.Name = "lbl_ContatoT";
-            lbl_ContatoT.Size = new Size(136, 52);
+            lbl_ContatoT.Size = new Size(172, 46);
             lbl_ContatoT.TabIndex = 12;
             lbl_ContatoT.Text = "Contato:";
             // 
             // lbl_EnderecoR
             // 
             lbl_EnderecoR.AutoSize = true;
-            lbl_EnderecoR.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_EnderecoR.Font = new Font("Microsoft Sans Serif", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_EnderecoR.ForeColor = Color.White;
             lbl_EnderecoR.Location = new Point(461, 349);
             lbl_EnderecoR.Name = "lbl_EnderecoR";
-            lbl_EnderecoR.Size = new Size(274, 33);
+            lbl_EnderecoR.Size = new Size(285, 31);
             lbl_EnderecoR.TabIndex = 11;
             lbl_EnderecoR.Text = "Rua da palmeiras, 123";
             // 
             // lbl_EnderecoT
             // 
             lbl_EnderecoT.AutoSize = true;
-            lbl_EnderecoT.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_EnderecoT.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_EnderecoT.ForeColor = Color.White;
             lbl_EnderecoT.Location = new Point(318, 338);
             lbl_EnderecoT.Name = "lbl_EnderecoT";
-            lbl_EnderecoT.Size = new Size(155, 52);
+            lbl_EnderecoT.Size = new Size(203, 46);
             lbl_EnderecoT.TabIndex = 10;
             lbl_EnderecoT.Text = "Endereço:";
             // 
             // lbl_NascimentoR
             // 
             lbl_NascimentoR.AutoSize = true;
-            lbl_NascimentoR.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_NascimentoR.Font = new Font("Microsoft Sans Serif", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_NascimentoR.ForeColor = Color.White;
-            lbl_NascimentoR.Location = new Point(498, 289);
+            lbl_NascimentoR.Location = new Point(557, 294);
             lbl_NascimentoR.Name = "lbl_NascimentoR";
-            lbl_NascimentoR.Size = new Size(163, 33);
+            lbl_NascimentoR.Size = new Size(150, 31);
             lbl_NascimentoR.TabIndex = 9;
             lbl_NascimentoR.Text = "01/01/2000";
             // 
             // lbl_NascimentoT
             // 
             lbl_NascimentoT.AutoSize = true;
-            lbl_NascimentoT.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_NascimentoT.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_NascimentoT.ForeColor = Color.White;
             lbl_NascimentoT.Location = new Point(318, 283);
             lbl_NascimentoT.Name = "lbl_NascimentoT";
-            lbl_NascimentoT.Size = new Size(186, 52);
+            lbl_NascimentoT.Size = new Size(243, 46);
             lbl_NascimentoT.TabIndex = 8;
             lbl_NascimentoT.Text = "Nascimento:";
             // 
             // lbl_RGR
             // 
             lbl_RGR.AutoSize = true;
-            lbl_RGR.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_RGR.Font = new Font("Microsoft Sans Serif", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_RGR.ForeColor = Color.White;
             lbl_RGR.Location = new Point(368, 240);
             lbl_RGR.Name = "lbl_RGR";
-            lbl_RGR.Size = new Size(180, 33);
+            lbl_RGR.Size = new Size(174, 31);
             lbl_RGR.TabIndex = 7;
             lbl_RGR.Text = "12.345.678-9";
             // 
             // lbl_RGT
             // 
             lbl_RGT.AutoSize = true;
-            lbl_RGT.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_RGT.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_RGT.ForeColor = Color.White;
             lbl_RGT.Location = new Point(318, 234);
             lbl_RGT.Name = "lbl_RGT";
-            lbl_RGT.Size = new Size(62, 52);
+            lbl_RGT.Size = new Size(91, 46);
             lbl_RGT.TabIndex = 6;
             lbl_RGT.Text = "RG:";
             // 
             // lbl_CPFR
             // 
             lbl_CPFR.AutoSize = true;
-            lbl_CPFR.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_CPFR.Font = new Font("Microsoft Sans Serif", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_CPFR.ForeColor = Color.White;
             lbl_CPFR.Location = new Point(384, 188);
             lbl_CPFR.Name = "lbl_CPFR";
-            lbl_CPFR.Size = new Size(212, 33);
+            lbl_CPFR.Size = new Size(204, 31);
             lbl_CPFR.TabIndex = 5;
             lbl_CPFR.Text = "123.456.789-00";
             // 
             // lbl_CPFT
             // 
             lbl_CPFT.AutoSize = true;
-            lbl_CPFT.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_CPFT.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_CPFT.ForeColor = Color.White;
             lbl_CPFT.Location = new Point(318, 182);
             lbl_CPFT.Name = "lbl_CPFT";
-            lbl_CPFT.Size = new Size(74, 52);
+            lbl_CPFT.Size = new Size(111, 46);
             lbl_CPFT.TabIndex = 4;
             lbl_CPFT.Text = "CPF:";
             // 
             // lbl_NomeFuncionarioR
             // 
             lbl_NomeFuncionarioR.AutoSize = true;
-            lbl_NomeFuncionarioR.Font = new Font("Lato", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_NomeFuncionarioR.Font = new Font("Microsoft Sans Serif", 20.2499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_NomeFuncionarioR.ForeColor = Color.White;
             lbl_NomeFuncionarioR.Location = new Point(409, 135);
             lbl_NomeFuncionarioR.Name = "lbl_NomeFuncionarioR";
-            lbl_NomeFuncionarioR.Size = new Size(86, 33);
+            lbl_NomeFuncionarioR.Size = new Size(86, 31);
             lbl_NomeFuncionarioR.TabIndex = 3;
             lbl_NomeFuncionarioR.Text = "Nome";
             // 
             // lbl_NomeFuncionarioT
             // 
             lbl_NomeFuncionarioT.AutoSize = true;
-            lbl_NomeFuncionarioT.Font = new Font("Bebas Neue", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lbl_NomeFuncionarioT.Font = new Font("Microsoft Sans Serif", 30F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lbl_NomeFuncionarioT.ForeColor = Color.White;
             lbl_NomeFuncionarioT.Location = new Point(318, 130);
             lbl_NomeFuncionarioT.Name = "lbl_NomeFuncionarioT";
-            lbl_NomeFuncionarioT.Size = new Size(100, 52);
+            lbl_NomeFuncionarioT.Size = new Size(138, 46);
             lbl_NomeFuncionarioT.TabIndex = 2;
             lbl_NomeFuncionarioT.Text = "Nome:";
             // 
