@@ -143,7 +143,7 @@
             txtComplemento.Name = "txtComplemento";
             txtComplemento.Size = new Size(1007, 114);
             txtComplemento.TabIndex = 35;
-            txtComplemento.Text = "    complemento";
+            txtComplemento.Text = "    Complemento";
             // 
             // lblCep
             // 
@@ -201,7 +201,7 @@
             txtBairro.Name = "txtBairro";
             txtBairro.Size = new Size(328, 40);
             txtBairro.TabIndex = 29;
-            txtBairro.Text = "    bairro";
+            txtBairro.Text = "    Bairro";
             // 
             // txtRua
             // 
@@ -232,9 +232,9 @@
             lblEndereco.ForeColor = Color.FromArgb(121, 121, 121);
             lblEndereco.Location = new Point(47, 570);
             lblEndereco.Name = "lblEndereco";
-            lblEndereco.Size = new Size(139, 36);
+            lblEndereco.Size = new Size(183, 36);
             lblEndereco.TabIndex = 26;
-            lblEndereco.Text = "endereço";
+            lblEndereco.Text = "ENDEREÇO";
             // 
             // txtEmail
             // 
@@ -245,7 +245,7 @@
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(1007, 40);
             txtEmail.TabIndex = 25;
-            txtEmail.Text = "    email";
+            txtEmail.Text = "    Email";
             // 
             // label1
             // 
@@ -345,9 +345,10 @@
             lblTitulo2.ForeColor = Color.FromArgb(121, 121, 121);
             lblTitulo2.Location = new Point(47, 48);
             lblTitulo2.Name = "lblTitulo2";
-            lblTitulo2.Size = new Size(233, 36);
+            lblTitulo2.Size = new Size(305, 36);
             lblTitulo2.TabIndex = 2;
-            lblTitulo2.Text = "dados do cliente";
+            lblTitulo2.Text = "DADOS DO CLIENTE";
+            lblTitulo2.Click += lblTitulo2_Click;
             // 
             // lblTitulo1
             // 

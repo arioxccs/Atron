@@ -63,8 +63,8 @@ namespace Atron
 
                         //Campos de data
                         comando.Parameters.AddWithValue("@Data_Nascimento", dtpData.Value);
- 
-                       comando.ExecuteNonQuery();
+
+                        comando.ExecuteNonQuery();
                     }
 
                     MessageBox.Show("Cliente cadastrado com sucesso!");
@@ -79,5 +79,9 @@ namespace Atron
 
         }
 
+        private void lblTitulo2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
