@@ -22,5 +22,10 @@ namespace Atron
             frmPopUpSenhaAbrirCaixa frmPopUpSenhaAbrirCaixa = new frmPopUpSenhaAbrirCaixa();
             frmPopUpSenhaAbrirCaixa.Show();
         }
+
+        private void lblCodigo1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

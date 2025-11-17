@@ -29,12 +29,12 @@ namespace Atron
 
         private void btnRegistrarVenda_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void btnRegistrarPedido_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btnCadastrarCliente_Click(object sender, EventArgs e)
@@ -53,6 +53,16 @@ namespace Atron
         {
             frmPopUpSenhaFecharCaixa frmPopUpSenhaFecharCaixa = new frmPopUpSenhaFecharCaixa();
             frmPopUpSenhaFecharCaixa.Show();
+        }
+
+        private void lblTituloHistorico_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblHorario5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

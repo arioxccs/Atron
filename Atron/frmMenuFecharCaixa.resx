@@ -453,34 +453,6 @@
         AABJRU5ErkJggg==
 </value>
   </data>
-  <data name="btnRegistrarPedido.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
   <data name="btnCadastrarCliente.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACOEfKtAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
