@@ -74,12 +74,18 @@ namespace Atron
             catch (Exception ex)
             {
                 MessageBox.Show("Erro ao cadastrar o cliente: " + ex.Message);
-            };
+            }
+            ;
 
 
         }
 
         private void lblTitulo2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpData_ValueChanged(object sender, EventArgs e)
         {
 
         }
