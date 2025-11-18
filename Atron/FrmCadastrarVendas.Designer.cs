@@ -464,6 +464,7 @@
             btnAddOutraVenda.TabIndex = 60;
             btnAddOutraVenda.Text = "Adicionar outra venda";
             btnAddOutraVenda.UseVisualStyleBackColor = true;
+            btnAddOutraVenda.Click += btnAddOutraVenda_Click;
             // 
             // btnCancela
             // 
@@ -478,6 +479,7 @@
             btnCancela.Text = "CANCELAR";
             btnCancela.TextAlign = ContentAlignment.MiddleLeft;
             btnCancela.UseVisualStyleBackColor = false;
+            btnCancela.Click += btnCancela_Click;
             // 
             // btnCadastrar
             // 

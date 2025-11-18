@@ -92,5 +92,19 @@ namespace Atron
 
 
         }
+
+        private void btnCancela_Click(object sender, EventArgs e)
+        {
+            frmMenuFecharCaixa frmMenuFecharCaixa = new frmMenuFecharCaixa();
+            frmMenuFecharCaixa.ShowDialog();
+
+
+        }
+
+        private void btnAddOutraVenda_Click(object sender, EventArgs e)
+        {
+           
+
+        }
     }
 }
