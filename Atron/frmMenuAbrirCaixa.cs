@@ -22,5 +22,10 @@ namespace Atron
             frmPopUpSenhaAbrirCaixa frmPopUpSenhaAbrirCaixa = new frmPopUpSenhaAbrirCaixa();
             frmPopUpSenhaAbrirCaixa.Show();
         }
+
+        private void frmMenuAbrirCaixa_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
