@@ -29,7 +29,8 @@ namespace Atron
 
         private void btnRegistrarVenda_Click(object sender, EventArgs e)
         {
-
+            FrmCadastrarVendas frmCadastrarVendas = new FrmCadastrarVendas();
+            frmCadastrarVendas.ShowDialog();
         }
 
         private void btnRegistrarPedido_Click(object sender, EventArgs e)
