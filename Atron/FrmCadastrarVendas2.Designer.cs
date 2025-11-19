@@ -67,9 +67,9 @@
             lblCadastrodeVenda2.ForeColor = Color.White;
             lblCadastrodeVenda2.Location = new Point(47, 31);
             lblCadastrodeVenda2.Name = "lblCadastrodeVenda2";
-            lblCadastrodeVenda2.Size = new Size(406, 38);
+            lblCadastrodeVenda2.Size = new Size(388, 38);
             lblCadastrodeVenda2.TabIndex = 2;
-            lblCadastrodeVenda2.Text = "CADASTRO DE VENDA 2";
+            lblCadastrodeVenda2.Text = "CADASTRO DE VENDA ";
             lblCadastrodeVenda2.Click += lblCadastrodeVenda_Click;
             // 
             // panel3
@@ -105,6 +105,7 @@
             btnAddOutraVenda.TabIndex = 60;
             btnAddOutraVenda.Text = "Adicionar outra venda";
             btnAddOutraVenda.UseVisualStyleBackColor = true;
+            btnAddOutraVenda.Click += btnAddOutraVenda_Click;
             // 
             // btnCancela
             // 
@@ -119,6 +120,7 @@
             btnCancela.Text = "CANCELAR";
             btnCancela.TextAlign = ContentAlignment.MiddleLeft;
             btnCancela.UseVisualStyleBackColor = false;
+            btnCancela.Click += btnCancela_Click;
             // 
             // btnCadastrar
             // 
@@ -133,6 +135,7 @@
             btnCadastrar.Text = "CADASTRAR";
             btnCadastrar.TextAlign = ContentAlignment.MiddleLeft;
             btnCadastrar.UseVisualStyleBackColor = false;
+            btnCadastrar.Click += btnCadastrar_Click;
             // 
             // txtQtdeParcelas
             // 
@@ -264,7 +267,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1142, 784);
+            ClientSize = new Size(1142, 749);
             Controls.Add(panel2);
             Controls.Add(label3);
             Name = "FrmCadastrarVendas2";

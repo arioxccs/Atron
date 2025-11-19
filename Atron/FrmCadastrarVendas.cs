@@ -86,7 +86,7 @@ namespace Atron
                     MessageBox.Show("Erro ao cadastrar a venda: " + ex.Message);
                 }
                 ;
-
+               
 
             }
 
@@ -95,16 +95,16 @@ namespace Atron
 
         private void btnCancela_Click(object sender, EventArgs e)
         {
-            frmMenuFecharCaixa frmMenuFecharCaixa = new frmMenuFecharCaixa();
-            frmMenuFecharCaixa.ShowDialog();
+            this.Close();
 
 
         }
 
         private void btnAddOutraVenda_Click(object sender, EventArgs e)
         {
-           
-
+           FrmCadastrarVendas2 frmCadastrarVendas2 = new FrmCadastrarVendas2();
+            frmCadastrarVendas2.ShowDialog();
+                this.Close();
         }
     }
 }
