@@ -81,6 +81,41 @@ namespace Atron
             FrmCadastrarVendas frmCadastrarVendas = new FrmCadastrarVendas();
             frmCadastrarVendas.ShowDialog();
         }
+
+        private void FrmCadastrarVendas2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbxCliente_SelectedIndexChanged(object sender, EventArgs e)
+        { 
+         
+        
+            try
+            {
+                string query = "SELECT idCliente, Nome FROM Cliente";
+
+                MySqlConnection con = new MySqlConnection("server=localhost;database=SEUBANCO;user=root;password=SUASENHA;");
+                MySqlCommand cmd = new MySqlCommand(query, con);
+
+                con.Open();
+                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+                con.Close();
+
+                cbxCliente.DataSource = dt;
+                cbxCliente.DisplayMember = "Nome";      // O que aparece na lista
+                cbxCliente.ValueMember = "idCliente";   // Valor interno (ID)
+                cbxCliente.SelectedIndex = -1;          // Começa sem seleção
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao carregar clientes: " + ex.Message);
+            }
+        }
     }
-}
+
+    }
+
 

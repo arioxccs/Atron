@@ -39,12 +39,12 @@
             txtQtd = new TextBox();
             dtpData = new DateTimePicker();
             txtCodProduto = new TextBox();
-            txtProduto = new TextBox();
             txtValorTotal = new TextBox();
-            txtCliente = new TextBox();
             txtCodCliente = new TextBox();
             lblBaixanoEstoque = new Label();
             label3 = new Label();
+            cbxCliente = new ComboBox();
+            cbxProduto = new ComboBox();
             panel2.SuspendLayout();
             panel3.SuspendLayout();
             SuspendLayout();
@@ -75,6 +75,8 @@
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(238, 238, 238);
+            panel3.Controls.Add(cbxProduto);
+            panel3.Controls.Add(cbxCliente);
             panel3.Controls.Add(btnAddOutraVenda);
             panel3.Controls.Add(btnCancela);
             panel3.Controls.Add(btnCadastrar);
@@ -83,9 +85,7 @@
             panel3.Controls.Add(txtQtd);
             panel3.Controls.Add(dtpData);
             panel3.Controls.Add(txtCodProduto);
-            panel3.Controls.Add(txtProduto);
             panel3.Controls.Add(txtValorTotal);
-            panel3.Controls.Add(txtCliente);
             panel3.Controls.Add(txtCodCliente);
             panel3.Controls.Add(lblBaixanoEstoque);
             panel3.Location = new Point(47, 88);
@@ -193,18 +193,6 @@
             txtCodProduto.TabIndex = 54;
             txtCodProduto.Text = "CÓDIGO DO PRODUTO:";
             // 
-            // txtProduto
-            // 
-            txtProduto.BorderStyle = BorderStyle.FixedSingle;
-            txtProduto.Font = new Font("Microsoft Sans Serif", 17F);
-            txtProduto.ForeColor = Color.FromArgb(147, 147, 147);
-            txtProduto.Location = new Point(66, 188);
-            txtProduto.Margin = new Padding(3, 2, 3, 2);
-            txtProduto.Name = "txtProduto";
-            txtProduto.Size = new Size(578, 33);
-            txtProduto.TabIndex = 53;
-            txtProduto.Text = "PRODUTO";
-            // 
             // txtValorTotal
             // 
             txtValorTotal.BorderStyle = BorderStyle.FixedSingle;
@@ -216,18 +204,6 @@
             txtValorTotal.Size = new Size(278, 33);
             txtValorTotal.TabIndex = 47;
             txtValorTotal.Text = "VALOR TOTAL";
-            // 
-            // txtCliente
-            // 
-            txtCliente.BorderStyle = BorderStyle.FixedSingle;
-            txtCliente.Font = new Font("Microsoft Sans Serif", 17F);
-            txtCliente.ForeColor = Color.FromArgb(147, 147, 147);
-            txtCliente.Location = new Point(66, 107);
-            txtCliente.Margin = new Padding(3, 2, 3, 2);
-            txtCliente.Name = "txtCliente";
-            txtCliente.Size = new Size(578, 33);
-            txtCliente.TabIndex = 36;
-            txtCliente.Text = "CLIENTE";
             // 
             // txtCodCliente
             // 
@@ -263,6 +239,29 @@
             label3.TabIndex = 7;
             label3.Text = "Registro de Cliente";
             // 
+            // cbxCliente
+            // 
+            cbxCliente.Font = new Font("Segoe UI", 14F);
+            cbxCliente.ForeColor = Color.Gray;
+            cbxCliente.FormattingEnabled = true;
+            cbxCliente.Location = new Point(60, 107);
+            cbxCliente.Name = "cbxCliente";
+            cbxCliente.Size = new Size(592, 33);
+            cbxCliente.TabIndex = 4;
+            cbxCliente.Text = "CLIENTE";
+            cbxCliente.SelectedIndexChanged += cbxCliente_SelectedIndexChanged;
+            // 
+            // cbxProduto
+            // 
+            cbxProduto.Font = new Font("Segoe UI", 14F);
+            cbxProduto.ForeColor = Color.Gray;
+            cbxProduto.FormattingEnabled = true;
+            cbxProduto.Location = new Point(60, 188);
+            cbxProduto.Name = "cbxProduto";
+            cbxProduto.Size = new Size(592, 33);
+            cbxProduto.TabIndex = 61;
+            cbxProduto.Text = "PRODUTO";
+            // 
             // FrmCadastrarVendas2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -272,6 +271,7 @@
             Controls.Add(label3);
             Name = "FrmCadastrarVendas2";
             Text = "FrmCadastrarVendas2";
+            Load += FrmCadastrarVendas2_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             panel3.ResumeLayout(false);
@@ -293,11 +293,11 @@
         private TextBox txtQtd;
         private DateTimePicker dtpData;
         private TextBox txtCodProduto;
-        private TextBox txtProduto;
         private TextBox txtValorTotal;
-        private TextBox txtCliente;
         private TextBox txtCodCliente;
         private Label lblBaixanoEstoque;
         private Label label3;
+        private ComboBox cbxProduto;
+        private ComboBox cbxCliente;
     }
 }

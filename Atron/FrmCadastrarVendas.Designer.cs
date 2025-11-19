@@ -65,11 +65,11 @@
             txtQtd = new TextBox();
             dtpData = new DateTimePicker();
             txtCodProduto = new TextBox();
-            txtProduto = new TextBox();
             txtValorTotal = new TextBox();
-            txtCliente = new TextBox();
             txtCodCliente = new TextBox();
             lblBaixanoEstoque = new Label();
+            comboBox1 = new ComboBox();
+            comboBox2 = new ComboBox();
             pnlFundo.SuspendLayout();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
@@ -434,6 +434,8 @@
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(238, 238, 238);
+            panel3.Controls.Add(comboBox2);
+            panel3.Controls.Add(comboBox1);
             panel3.Controls.Add(btnAddOutraVenda);
             panel3.Controls.Add(btnCancela);
             panel3.Controls.Add(btnCadastrar);
@@ -442,9 +444,7 @@
             panel3.Controls.Add(txtQtd);
             panel3.Controls.Add(dtpData);
             panel3.Controls.Add(txtCodProduto);
-            panel3.Controls.Add(txtProduto);
             panel3.Controls.Add(txtValorTotal);
-            panel3.Controls.Add(txtCliente);
             panel3.Controls.Add(txtCodCliente);
             panel3.Controls.Add(lblBaixanoEstoque);
             panel3.Location = new Point(47, 88);
@@ -552,18 +552,6 @@
             txtCodProduto.TabIndex = 54;
             txtCodProduto.Text = "CÓDIGO DO PRODUTO:";
             // 
-            // txtProduto
-            // 
-            txtProduto.BorderStyle = BorderStyle.FixedSingle;
-            txtProduto.Font = new Font("Microsoft Sans Serif", 17F);
-            txtProduto.ForeColor = Color.FromArgb(147, 147, 147);
-            txtProduto.Location = new Point(66, 188);
-            txtProduto.Margin = new Padding(3, 2, 3, 2);
-            txtProduto.Name = "txtProduto";
-            txtProduto.Size = new Size(578, 33);
-            txtProduto.TabIndex = 53;
-            txtProduto.Text = "PRODUTO";
-            // 
             // txtValorTotal
             // 
             txtValorTotal.BorderStyle = BorderStyle.FixedSingle;
@@ -575,18 +563,6 @@
             txtValorTotal.Size = new Size(278, 33);
             txtValorTotal.TabIndex = 47;
             txtValorTotal.Text = "VALOR TOTAL";
-            // 
-            // txtCliente
-            // 
-            txtCliente.BorderStyle = BorderStyle.FixedSingle;
-            txtCliente.Font = new Font("Microsoft Sans Serif", 17F);
-            txtCliente.ForeColor = Color.FromArgb(147, 147, 147);
-            txtCliente.Location = new Point(66, 107);
-            txtCliente.Margin = new Padding(3, 2, 3, 2);
-            txtCliente.Name = "txtCliente";
-            txtCliente.Size = new Size(578, 33);
-            txtCliente.TabIndex = 36;
-            txtCliente.Text = "CLIENTE";
             // 
             // txtCodCliente
             // 
@@ -613,12 +589,34 @@
             lblBaixanoEstoque.Text = "BAIXA NO ESTOQUE";
             lblBaixanoEstoque.Click += lblBaixanoEstoque_Click;
             // 
+            // comboBox1
+            // 
+            comboBox1.Font = new Font("Segoe UI", 14F);
+            comboBox1.ForeColor = Color.Gray;
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(65, 107);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(579, 33);
+            comboBox1.TabIndex = 61;
+            comboBox1.Text = "CLIENTE";
+            // 
+            // comboBox2
+            // 
+            comboBox2.Font = new Font("Segoe UI", 14F);
+            comboBox2.ForeColor = Color.Gray;
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(65, 188);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(579, 33);
+            comboBox2.TabIndex = 62;
+            comboBox2.Text = "PRODUTO";
+            // 
             // FrmCadastrarVendas
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
-            ClientSize = new Size(1328, 791);
+            ClientSize = new Size(1328, 749);
             Controls.Add(panel2);
             Controls.Add(label3);
             Controls.Add(pnlFundo);
@@ -671,10 +669,8 @@
         private Label lblCadastrodeVenda;
         private Label lblBaixanoEstoque;
         private TextBox txtValorTotal;
-        private TextBox txtCliente;
         private TextBox txtCodCliente;
         private TextBox txtCodProduto;
-        private TextBox txtProduto;
         private DateTimePicker dtpData;
         private TextBox txtQtd;
         private TextBox txtQtdeParcelas;
@@ -682,5 +678,7 @@
         private Button btnCadastrar;
         private Button btnCancela;
         private Button btnAddOutraVenda;
+        private ComboBox comboBox2;
+        private ComboBox comboBox1;
     }
 }
